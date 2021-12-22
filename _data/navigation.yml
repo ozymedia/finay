@@ -1,4 +1,14 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
+- name: Isolation extérieure
+  link: /
+- name: Ravalement de façade
+  link: /
+- name: Toiture zinguerie
+  link: /
+- name: L'entreprise
+  link: /
+- name: Actualités
+  link: /
+- name: Contact
+  link: /

@@ -1,9 +1,13 @@
 #nav {
-  position: absolute;
-  top: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: inline-block;
+  display: flex;
+  max-width: 1024px;
+  justify-content: flex-start;
+  //width: 100%;
+  //position: absolute;
+  //top: 15px;
+  //left: 50%;
+  //transform: translateX(-50%);
+  //display: inline-block;
   border: 2px solid #EBECF1;
   border-radius: 30px;
   animation: slide-in 1s ease-out;
@@ -12,9 +16,10 @@
 ul {
   position: relative;
   display: flex;
-  flex: 1 1 auto;
+  //justify-content: flex-start;
+  //flex: 1 1 auto;
   margin: 0;
-  padding: 0 30px;
+  padding: 0 0;
   list-style-type: none;
   li:not(:last-child) {
     margin-right: 40px;
@@ -25,9 +30,9 @@ ul {
     padding: 10px;
     transition: background 0.2s;
     a {
-      color: #2375D8;
+      color: $black;
       text-decoration: none;
-      text-transform: uppercase;
+      //text-transform: uppercase;
       transition: color 0.2s;
     }
     ul {
@@ -37,7 +42,7 @@ ul {
       display: block;
       margin: 12px -12px;
       padding: 0;
-      background: #FFA91B;
+      background: white;
       border: 2px solid #F7C833;
       border-right: 2px solid #F89329;
       border-bottom: 2px solid #F89329;
@@ -48,25 +53,25 @@ ul {
         width: calc(100% - 20px);
         line-height: 1.7;
         a {
-          color: #2375D8;
+          color: $black;
         }
       }
     }
     &:hover {
-      background: #EC4138;
+      background-color: white;
       border: 2px solid #F05749;
       border-right: 2px solid #E02A21;
       border-bottom: 2px solid #E02A21;
       a {
-        color: #F9F8FD;
+        color: $black;
       }
       ul {
         visibility: visible;
         opacity: 1;
-        box-shadow: 0px 3px 5px 2px #EBECF1;
+        box-shadow: 0px 3px 5px 2px white;
         li {
           a {
-            color: #F9F8FD;
+            color: $black;
           }
         }
       }
@@ -74,17 +79,4 @@ ul {
   }
 }
 
-@keyframes slide-in {
-  0% {
-    top: -50px;
-  }
-  40% {
-    top: 20px;
-  }
-  70% {
-    top: 10px;
-  }
-  100% {
-    top: 15px;
-  }
-}
+

@@ -1,5 +1,6 @@
 * {}
-html {}
+html {
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -19,4 +20,7 @@ h2 {}
 h3 {}
 .current {
   color: green;
+}
+li, p {
+  font-family: 'ABeeZee', sans-serif;
 }
