@@ -17,6 +17,7 @@
   top: 0;
   left: -30%;
   background-color: red;
+  transition: left 0.3s;
   ul {
     display: flex;
     flex-direction: column;
