@@ -1,11 +1,13 @@
-<nav id="nav" class="large">
-  <ul>
-  {% for item in site.data.navigation %}
-    <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
-  {% endfor %}
-  </ul>
-  <a id="btn-nav" class="" href="#"><img src="/assets/images/burger-bar.png" alt="" width="30"></a>
-</nav>
+<div id="nav">
+  <nav class="large">
+    <ul>
+    {% for item in site.data.navigation %}
+      <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+    {% endfor %}
+    </ul>
+    <a id="btn-nav" class="" href="#"><img src="/assets/images/burger-bar.png" alt="" width="30"></a>
+  </nav>
+</div>
 <aside id="side-menu" class="">
   <ul>
   {% for item in site.data.navigation %}
