@@ -1,6 +1,7 @@
 <div id="nav">
   <nav class="large">
     <ul>
+      <li><img src="/assets/images/icones/finay-logo.png" width="" class="logo" alt="logo Finay entreprise d'isolation extérieure"></li>
     {% for item in site.data.navigation %}
       <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
     {% endfor %}
@@ -10,6 +11,7 @@
 </div>
 <aside id="side-menu" class="">
   <ul>
+    <li><img src="/assets/images/icones/finay-logo.png" width="" class="logo" alt="logo Finay entreprise d'isolation extérieure"></li>
   {% for item in site.data.navigation %}
     <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
   {% endfor %}
