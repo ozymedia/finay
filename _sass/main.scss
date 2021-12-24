@@ -1,17 +1,23 @@
 * {}
 html {
   height: 100%;
+  box-sizing: content-box;
+  width: 100%;
 }
 body {
   height: 100%;
   margin: 0px;
   padding: 0px;
+  box-sizing: content-box;
+  width: 100%;
 }
 main {
   width: 100%;
   //max-width: 1140px;
   margin: auto;
   min-height: 100vh;
+  box-sizing: content-box;
+  width: 100%;
 }
 nav { margin: auto; }
 article {

@@ -5,7 +5,11 @@
   position: -webkit-sticky;
   top: 0; /* required */
   font-size: 0.9em;
+  box-sizing: content-box;
+  width: 100%;
   nav {
+    box-sizing: content-box;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,14 +20,17 @@
       li { margin-right: 5px; }
     }
   }
+  &.reduce {
+    font-size: 0.7em;
+  }
 }
 #side-menu {
   height: 100%;
-  width: 30%;
+  width: 40%;
   position: fixed;
   z-index: 10;
   top: 0;
-  left: -30%;
+  left: -40%;
   background-color: white;
   transition: left 0.3s;
   ul {
