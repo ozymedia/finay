@@ -16,8 +16,8 @@ main {
 nav { margin: auto; }
 article {
 }
-.large { max-width: 1140px; margin: auto; }
-.inside { max-width: 1024px; margin: auto; }
+.large { max-width: 1140px; margin: auto; width: 1140px;}
+.inside { max-width: 1024px; margin: auto; width: 1024px; }
 h1 { color: red; }
 h2 {}
 h3 {}
