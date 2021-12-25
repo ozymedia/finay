@@ -18,7 +18,11 @@
     ul {
       display: flex;
       align-items: center;
-      li { margin-right: 5px; }
+      li {
+        margin-right: 5px;
+        color: white;
+        a { color: white; }
+      }
     }
   }
   &.reduce {

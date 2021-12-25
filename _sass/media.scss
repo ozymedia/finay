@@ -12,6 +12,7 @@
     &.white {
       background-color: white;
       font-size: 0.8em;
+      a { color: $black; }
       transition: all 0.3s ease-out;
       .logo {
         width: 120px;
@@ -31,6 +32,7 @@
     &.white {
       background-color: white;
       font-size: 0.8em;
+      a { color: $black; }
       transition: all 0.3s ease-out;
       .logo {
         width: 120px;
