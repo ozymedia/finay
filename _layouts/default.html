@@ -4,16 +4,30 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
   </head>
   <body>
+
     <header>
       {% include navigation.html %}
+      <div class="banner" style="background-image: linear-gradient(rgba(31, 90, 138, 0.55),rgba(31, 90, 138, 0.55)), url(../assets/images/banner.png);">
+        <div class="inside">
+          <p class="slogan">Isolez votre maison<br>
+            Faites des économies d'énergie
+          </p>
+          <a class="btn" href="#">Contact & Devis</a>
+        </div>
+      </div>
     </header>
+
     <main>
       <article>
-        {{ content }}
+        <section class="inside">
+          {{ content }}
+        </section>
       </article>
     </main>
     {% include footer.html %}
   </body>
+  <script src="assets/js/nav.js"></script>
 </html>
