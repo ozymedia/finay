@@ -10,6 +10,7 @@ button.addEventListener('click', (event) => {
 window.addEventListener("scroll", (event) => {
   if (window.pageYOffset >= 5) {
     nav.classList.add("white");
+    nav.style.position = "fixed";
   } else {
     nav.classList.remove("white");
   }

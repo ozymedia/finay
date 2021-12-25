@@ -1,12 +1,12 @@
 #nav {
-  border: solid 1px;
-  background-color: white;
+  background-color: transparent;
   position: sticky;
   position: -webkit-sticky;
   top: 0; /* required */
   font-size: 0.9em;
   box-sizing: content-box;
   width: 100%;
+  position: absolute;
   //transition: all 0.3s ease-out;
   nav {
     box-sizing: content-box;
@@ -28,6 +28,7 @@
     //background-color: red;
     //font-size: 0.8em;
     //transition: all 0.3s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     .logo {
       //width: 120px;
       //transition: all 0.3s ease-out;
