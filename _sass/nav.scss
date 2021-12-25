@@ -26,20 +26,23 @@
 }
 #side-menu {
   height: 100%;
-  width: 40%;
+  width: 45%;
   position: fixed;
   z-index: 10;
   top: 0;
-  left: -40%;
+  left: -45%;
   background-color: white;
   transition: left 0.3s;
-  padding: 0.5em 0px;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  visibility: hidden;
   ul {
     display: flex;
     flex-direction: column;
   }
   &.open {
     left: 0;
+    visibility: visible;
   }
 }
 .logo { width: 140px; }

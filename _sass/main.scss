@@ -22,8 +22,8 @@ main {
 nav { margin: auto; }
 article {
 }
-.large { max-width: 1140px; margin: auto; width: 1140px;}
-.inside { max-width: 1024px; margin: auto; width: 1024px; }
+.large { max-width: 1140px; margin: auto; width: 100%;}
+.inside { max-width: 1024px; margin: auto; width: 100%; }
 h1 { color: red; }
 h2 {}
 h3 {}
