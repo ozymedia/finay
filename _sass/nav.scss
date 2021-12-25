@@ -7,6 +7,7 @@
   font-size: 0.9em;
   box-sizing: content-box;
   width: 100%;
+  //transition: all 0.3s ease-out;
   nav {
     box-sizing: content-box;
     width: 100%;
@@ -22,6 +23,18 @@
   }
   &.reduce {
     font-size: 0.7em;
+  }
+  &.white {
+    //background-color: red;
+    //font-size: 0.8em;
+    //transition: all 0.3s ease-out;
+    .logo {
+      //width: 120px;
+      //transition: all 0.3s ease-out;
+    }
+  }
+  .logo {
+    //transition: all 0.3s ease-out;
   }
 }
 #side-menu {

@@ -7,4 +7,11 @@ button.addEventListener('click', (event) => {
   console.log(button);
   sidenav.classList.toggle("open");
 });
+window.addEventListener("scroll", (event) => {
+  if (window.pageYOffset >= 5) {
+    nav.classList.add("white");
+  } else {
+    nav.classList.remove("white");
+  }
+});
 
