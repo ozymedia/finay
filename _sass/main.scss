@@ -24,12 +24,12 @@ article {
 }
 .large { max-width: 1140px; margin: auto; width: 100%;}
 .inside { max-width: 1024px; margin: auto; width: 100%; }
-h1 { color: red; }
-h2 {}
-h3 {}
+section { min-height: 400px; border: solid 1px; }
+h1, h2, h3, li { font-family: 'ABeeZee', sans-serif; }
+h2 { text-align: center; }
 .current {
   color: green;
 }
-li, p {
-  font-family: 'ABeeZee', sans-serif;
+p {
+  font-family: 'Asap', sans-serif;
 }
