@@ -34,12 +34,17 @@
     //transition: all 0.3s ease-out;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     .logo {
+      filter: none;
+      //content:url('/assets/images/icones/finay-logo.png');
+      //width: 50px;
       //width: 120px;
       //transition: all 0.3s ease-out;
     }
   }
   .logo {
-    //transition: all 0.3s ease-out;
+    filter: brightness(0) invert(1);
+    //content:url('/assets/images/icones/finay-logo-white.png');
+    //width: 50px;
   }
 }
 #side-menu {
