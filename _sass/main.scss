@@ -51,6 +51,7 @@ p {
       object-fit: cover;
     }
     div {
+      transition: max-height 1s ease-out;
       //transition: height 1s ease-out;
       h3 { text-align: center; }
       p { visibility: hidden; }
@@ -67,7 +68,7 @@ p {
         border: solid 1px red;
         background-color: white;
         border-radius: 5px;
-        //transition: height 1s ease-out;
+        transition: height 1s ease-out;
         p { visibility: visible;}
       }
     }
