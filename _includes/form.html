@@ -1,20 +1,30 @@
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
+<form id="form" name="contact" method="POST" data-netlify="true">
+  <div class="long">
+    <p><label><input type="text" name="lastname" required="true" placeholder="Nom*" /></label></p>
+    <p><label><input type="text" name="firstname" required="true" placeholder="Prénom*" /></label></p>
+  </div>
+  <div class="long">
+    <p><label><input type="email" name="email" required="true" placeholder="Email*" /></label></p>
+    <p><label><input type="tel" name="tel" required="true" placeholder="Tel*"></label></p>
+  </div>
+  <div>
+    <p><label><input type="text" name="adresse" required="true" placeholder="Adresse*"></label></p>
+  </div>
+  <div class="long">
+    <p><label for=""><input type="text" required="true" placeholder="Code Postal*"></label></p>
+    <p><label for=""><input type="text" required="true" placeholder="Ville*"></label></p>
+  </div>
+  <div>
+    <p>
+      <label for=""><input type="text" required="true" placeholder="Objet*"></label>
+    </p>
+  </div>
+  <div>
+    <p>
+      <label for=""><textarea type="text" placeholder="Message" rows="3"></textarea></label>
+    </p>
+  </div>
+  <div id="button">
+    <button type="submit" class="btn">Envoyer</button>
+  </div>
 </form>

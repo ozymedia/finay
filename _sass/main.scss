@@ -1,4 +1,6 @@
-* {}
+* {
+  box-sizing: border-box;
+}
 html {
   height: 100%;
   box-sizing: content-box;
@@ -31,7 +33,7 @@ h2 { text-align: center; }
   color: green;
 }
 p {
-  font-family: 'Asap', sans-serif;
+  font-family: 'Avenir', sans-serif;
 }
 .grid {
   display: grid;

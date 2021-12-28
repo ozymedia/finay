@@ -1,10 +1,14 @@
 <div id="nav">
   <nav class="">
     <ul class="inside">
-      <a href="/"><img src="/assets/images/icones/finay-logo.png" width="" class="logo" alt="logo Finay entreprise d'isolation extérieure"></a>
-    {% for item in site.data.navigation %}
-      <li><a href="{{ item.link }}">{{ item.name }}</a></li>
-    {% endfor %}
+      {% if page.url == "/" %}
+        <a href="/"><h1><img src="/assets/images/icones/finay-logo.png" width="" class="logo" alt="Finay | Entreprise d'isolation extérieure et façade en Alsace"></h1></a>
+      {% else %}
+        <a href="/"><img src="/assets/images/icones/finay-logo.png" width="" class="logo" alt="Logo Finay Entreprise d'isolation extérieure et façade en Alsace"></a>
+      {% endif %}
+      {% for item in site.data.navigation %}
+        <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+      {% endfor %}
     </ul>
     <a id="btn-nav" class="" href="#"><img src="/assets/images/burger-bar.png" alt="" width="30"></a>
   </nav>
