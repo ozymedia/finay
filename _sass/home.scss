@@ -1,0 +1,21 @@
+#presentation {
+  display: flex;
+  width: 100%;
+  .text-left {
+    background-color: $yellow;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2em;
+    p {
+      font-family: 'ABeeZee', sans-serif;
+      font-size: 1.3em;
+      text-align: left;
+      max-width: 400px;
+    }
+  }
+  img {
+    width: 50%;
+  }
+}

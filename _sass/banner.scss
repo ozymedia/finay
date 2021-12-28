@@ -1,7 +1,9 @@
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  //padding: 175px 0;
+  padding: 10em 0;
+  //height: 500px;
   //background: rgba(31, 90, 138, 0.55);
   //background-image: url(../assets/images/banner.png);
   .slogan {
@@ -9,5 +11,6 @@
     font-size: 2em;
     letter-spacing: 15%;
     line-height: 50px;
+    font-family: 'ABeeZee', sans-serif;
   }
 }

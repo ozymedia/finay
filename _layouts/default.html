@@ -12,24 +12,30 @@
 
     <header>
       {% include navigation.html %}
-      <div class="banner" style="background-image: linear-gradient(rgba(31, 90, 138, 0.55),rgba(31, 90, 138, 0.55)), url(../assets/images/banner.png);">
-        <div class="inside">
-          <p class="slogan">Isolez votre maison<br>
-            Faites des économies d'énergie
-          </p>
-          <a class="btn" href="#">Contact & Devis</a>
+      {% if page.url == "/" %}
+        <div class="banner" style="background-image: linear-gradient(rgba(31, 90, 138, 0.55),rgba(31, 90, 138, 0.55)), url(../assets/images/banner.png);">
+          <div class="inside">
+            <p class="slogan">Isolez votre maison<br>
+              Faites des économies d'énergie
+            </p>
+            <a class="btn" href="#">Contact & Devis</a>
+          </div>
         </div>
-      </div>
+      {% else %}
+        <div class="banner" style="background-image: linear-gradient(rgba(31, 90, 138, 0.55),rgba(31, 90, 138, 0.55)), url(../assets/images/banner.png);">
+          <div class="inside">
+            <h1>{{page.titre}}</h1>
+          </div>
+        </div>
+      {% endif %}
     </header>
 
     <main>
       <article>
-        <section class="inside">
-          {{ content }}
-        </section>
+        {{ content }}
       </article>
     </main>
     {% include footer.html %}
   </body>
-  <script src="assets/js/nav.js"></script>
+  <script src="/assets/js/nav.js"></script>
 </html>
