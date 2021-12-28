@@ -98,6 +98,17 @@
   .inside {
     padding: 10px;
   }
+  #presentation {
+    flex-direction: column-reverse;
+    margin: 0 !important;
+    .text-left {
+      width: 100% !important;
+      padding: 0 !important;
+      padding: 1em !important;
+      p { text-align: center !important; }
+    }
+    img { width: 100% !important; }
+  }
 }
 
 /*------------------------------------------
