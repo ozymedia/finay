@@ -2,6 +2,5 @@
 layout: page
 titre: Votre demande a été envoyée
 title: Demande envoyée | Finay
-permalink: /envoi-contact/
 ---
 Votre demande a été envoyée
