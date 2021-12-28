@@ -8,6 +8,8 @@
   .long {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    p { max-width: 45%; }
     p:first-of-type {
       margin-right: 1em;
     }
