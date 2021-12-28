@@ -1,11 +1,25 @@
 footer {
   padding-top: 3em;
   padding-bottom: 3em;
-  background-color: $blue;
-  color: white;
+  color: black;
+  font-size: 0.8em;
   //padding-bottom: 135px;
   //padding-top: 135px;
   max-width: 100%;
   width: 100%;
   font-family: 'ABeeZee', sans-serif;
+  .logo-footer {
+    width: 140px;
+    margin-bottom: 0.5em;
+  }
+  .coordonnees {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mentions {
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-between;
+    a { color: black; text-decoration: none; }
+  }
 }
