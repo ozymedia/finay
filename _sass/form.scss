@@ -11,10 +11,17 @@
   }
   p { min-width: 240px;
     label { font-family: 'ABeeZee', sans-serif; }
-    input { width: 100%; }
+    input, textarea { width: 100%; border: none; border-color: transparent; }
   }
   #button {
     display: flex;
     justify-content: flex-end;
+  }
+  input::placeholder, textarea::placeholder {
+    color: white;
+    //border: transparent;
+    background-color: $blue;
+    //border: none !important;
+    //border-color: transparent;
   }
 }
