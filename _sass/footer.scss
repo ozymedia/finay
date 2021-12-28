@@ -8,6 +8,7 @@ footer {
   max-width: 100%;
   width: 100%;
   font-family: 'ABeeZee', sans-serif;
+  a { text-decoration: none; color: black; }
   .logo-footer {
     width: 140px;
     margin-bottom: 0.5em;
@@ -15,6 +16,14 @@ footer {
   .coordonnees {
     display: flex;
     justify-content: space-between;
+  }
+  .certifications {
+    display: flex;
+    img {
+      height: 70px;
+      width: auto;
+      padding-right: 1em;
+    }
   }
   .mentions {
     margin-top: 3em;
