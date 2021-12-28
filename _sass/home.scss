@@ -27,11 +27,12 @@
   h2, p { text-align: left; font-family: 'ABeeZee', sans-serif; }
   p { font-size: 1.2em; }
   .certifications-home {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    img { padding: 1em; }
+    img { padding: 1em; max-width: 100%; }
   }
   .certifications-texte {
     padding-left: 4em;
@@ -40,7 +41,7 @@
 #form-home {
   div {
     position: relative;
-    img { width: 70%;}
+    img { width: 70%; }
     #form {
       padding: 25px;
       position: absolute;
