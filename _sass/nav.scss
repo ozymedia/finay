@@ -19,7 +19,7 @@
     ul {
       display: flex;
       align-items: center;
-      &.inside { padding: 0 !important; }
+      &.inside { padding: 0 !important; margin: 0 !important; }
       li {
         margin-right: 5px;
         color: white;

@@ -1,4 +1,4 @@
-<form id="form" name="contact" method="POST" data-netlify="true">
+<form id="form" name="contact" action="/success" method="POST" data-netlify="true">
   <div class="long">
     <p><label><input type="text" name="lastname" required="true" placeholder="Nom*" /></label></p>
     <p><label><input type="text" name="firstname" required="true" placeholder="Prénom*" /></label></p>
@@ -11,19 +11,26 @@
     <p><label><input type="text" name="adresse" required="true" placeholder="Adresse*"></label></p>
   </div>
   <div class="long">
-    <p><label for=""><input type="text" required="true" placeholder="Code Postal*"></label></p>
-    <p><label for=""><input type="text" required="true" placeholder="Ville*"></label></p>
+    <p><label for=""><input type="text" name="code postal" required="true" placeholder="Code Postal*"></label></p>
+    <p><label for=""><input type="text" name="ville" required="true" placeholder="Ville*"></label></p>
   </div>
   <div>
     <p>
-      <label for=""><input type="text" required="true" placeholder="Objet*"></label>
+      <label for=""><input type="text" name="objet" required="true" placeholder="Objet*"></label>
     </p>
   </div>
   <div>
     <p>
-      <label for=""><textarea type="text" placeholder="Message" rows="3"></textarea></label>
+      <label for=""><textarea type="text" name="message" placeholder="Message" rows="3"></textarea></label>
     </p>
   </div>
+  <div class="checkbox">
+    <label for="">
+      <input type="checkbox" name="terms" value="J'accepte que mes données soient transmises dans le cadre de ma demande" required="true">
+      J'accepte que mes données soient transmises dans le cadre de ma demande*
+    </label>
+  </div>
+  <div data-netlify-recaptcha="true"></div>
   <div id="button">
     <button type="submit" class="btn">Envoyer</button>
   </div>

@@ -109,6 +109,33 @@
     }
     img { width: 100% !important; }
   }
+  #certifications {
+    flex-direction: column-reverse;
+    .certifications-texte {
+      padding-left: 0px !important;
+      width: 100%;
+      h2 { text-align: center; }
+    }
+    .certifications-home {
+      padding: 0;
+      width: 100%;
+    }
+  }
+  #form-home {
+    width: 100%;
+    div {
+      position: relative;
+      img { width: 100%; }
+      #form {
+        padding: 25px;
+        width: 100%;
+        position: inherit;
+        //right: 0px;
+        //bottom: -40px;
+        p { margin-bottom: 5px; }
+      }
+    }
+  }
 }
 
 /*------------------------------------------
