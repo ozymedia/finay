@@ -1,4 +1,4 @@
-<form id="form" name="contact" action="/success" method="POST" data-netlify="true">
+<form id="form" name="contact" action="/success" method="POST" data-netlify="true" netlify-honeypot="bot-field">
   <div class="long">
     <p><label><input type="text" name="lastname" required="true" placeholder="Nom*" /></label></p>
     <p><label><input type="text" name="firstname" required="true" placeholder="Prénom*" /></label></p>
@@ -26,11 +26,10 @@
   </div>
   <div class="checkbox">
     <label for="">
-      <input type="checkbox" name="terms" value="J'accepte que mes données soient transmises dans le cadre de ma demande" required="true">
+      <input type="checkbox" name="RGPD" value="J'accepte que mes données soient transmises dans le cadre de ma demande" required="true">
       J'accepte que mes données soient transmises dans le cadre de ma demande*
     </label>
   </div>
-  <div data-netlify-recaptcha="true"></div>
   <div id="button">
     <button type="submit" class="btn">Envoyer</button>
   </div>
