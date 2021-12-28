@@ -19,6 +19,7 @@
     ul {
       display: flex;
       align-items: center;
+      &.inside { padding: 0 !important; }
       li {
         margin-right: 5px;
         color: white;
@@ -47,14 +48,15 @@
     //content:url('/assets/images/icones/finay-logo-white.png');
     //width: 50px;
   }
+  h1 { margin: 0; }
 }
 #side-menu {
   height: 100%;
-  width: 45%;
+  width: 60%;
   position: fixed;
   z-index: 10;
   top: 0;
-  left: -45%;
+  left: -60%;
   background-color: white;
   transition: left 0.3s;
   padding-top: 0.5em;
@@ -68,6 +70,7 @@
     left: 0;
     visibility: visible;
   }
+  h1 { margin: 0; }
 }
 .logo { width: 140px; }
 #nav2 {

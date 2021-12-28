@@ -92,6 +92,12 @@
     width: 100px;
     filter: none;
   }
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .inside {
+    padding: 10px;
+  }
 }
 
 /*------------------------------------------
