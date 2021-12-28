@@ -5,13 +5,12 @@ title: Isolation Extérieure | Finay
 titre: Isolation Extérieure
 permalink: /isolation-extérieure/
 ---
-## ert
 L'isolation Thermique par l'Extérieur ou I.T.E. est une méthode d'isolation par l'extérieur des murs appelée également "mur manteau".
 
 Depuis 50 ans, l'ITE a fait ses preuves en Allemagne, en Suisse ou encore dans les pays Scandinaves.
 
 
-**En France**, avec la mise en place de la nouvelle réglementation thermique 2012 et le besoin de rénovation thermique, le marché de l'ITE connaît une forte croissance.
+En France, avec la mise en place de la nouvelle réglementation thermique 2012 et le besoin de rénovation thermique, le marché de l'ITE connaît une forte croissance.
 
 Plus d'inertie pour plus de confort : L'isolation extérieure permet de bénéficier de l'inertie de vos murs l'été pour amortir l'arrivée du front de chaleur. L'hiver, vos murs sont dans votre volume chauffé et rayonne donc à une température plus élevée pour un meilleur confort thermique.
 
