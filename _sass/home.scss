@@ -29,8 +29,12 @@
   .certifications-home {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     img { padding: 1em; }
+  }
+  .certifications-texte {
+    padding-left: 4em;
   }
 }
 #form-home {
