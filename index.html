@@ -61,6 +61,18 @@ Soucieux de la qualité et de la longévité de notre travail, nous recherchons 
 </section>
 <section class="inside">
   <h2>Nos clients témoignent</h2>
+  <div class="reviews"></div>
+  {% assign reviews = site.reviews | where: "published",true %}
+  {% for review in reviews  %}
+  <div class="review">
+    <div class="review-author-abbr"></div>
+    <div class="review-content">
+      <h3 class="review-author">{{ review.author }}</h3>
+      <span class="stars"></span>
+      <p class="review-text">{{ review.content }}</p>
+    </div>
+  </div>
+  {% endfor %}
 </section>
 <section class="inside" id="form-home">
   <h2>Nous contacter</h2>

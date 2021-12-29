@@ -1,0 +1,11 @@
+.reviews {
+  .review {
+    border: solid 1px black;
+    .review-author-abbr {}
+    .review-content {
+      .review-author {}
+      .stars {}
+      .review-text {}
+    }
+  }
+}
