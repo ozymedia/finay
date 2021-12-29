@@ -1,7 +1,17 @@
 ---
 layout: page
-titre: Ravalement de façade
+titre: Ravalement des façades
 title: Ravalement de façade | Finay
 permalink: /ravalement-de-façade/
 ---
-Finay - Ravalement de façade
+Dans le domaine du bâtiment, le ravalement est la mise en état des façades d'un bien immobilier. On parle ici d'une opération qui a pour but de remettre les façades dans un état neuf.
+
+
+
+Principe du ravalement : Il peut être effectué aussi bien sur les murs extérieurs que sur des dispositifs de fermeture ( portes, volets, fenêtres), ou de protection ( portail, balcons, etc...). Ce type de travail nécessite des étapes indispensables telles que le nettoyage, le décapage, la réparation et enfin l'embellissement. En résumé, le ravalement est une rénovation en profondeur destinée à redonner un aspect neuf, mais sans dénaturer le travail d'origine qui a pu souffrir des affres du temps.
+
+
+
+Différentes méthodes : Selon l'état de votre bien immobilier, les matériaux utilisés pour la réalisation d'un ravalement de façade peuvent varier. En effet, les matériaux utilisés dans le neuf ne sont pas forcément les mêmes que ceux utilisés dans la rénovation. Cette règle s'applique également pour les matériaux, les produits utilisés dans le traitement , par exemple, du béton ne sont pas les mêmes que ceux utilisés pour de la brique.
+
+Pour en savoir plus, nous vous invitons à nous contacter afin de vous proposer une étude gratuite.
