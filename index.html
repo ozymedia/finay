@@ -61,11 +61,6 @@ Soucieux de la qualité et de la longévité de notre travail, nous recherchons 
 </section>
 <section class="inside">
   <h2>Nos clients témoignent</h2>
-  {% assign num = 4 %}
-{% assign range = (1..num) %}
-{% for i in range %}
-  {{ i }}
-{% endfor %}
   <div id="reviews">
     {% assign reviews = site.reviews | where: "published",true %}
     {% for review in reviews  %}
