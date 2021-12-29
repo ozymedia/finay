@@ -1,8 +1,10 @@
 #reviews {
+  display: flex;
+  flex-wrap: wrap;
   .review {
     border: solid 1px black;
     display: flex;
-    width: 30%;
+    width: 40%;
     .review-author-abbr {
       display: flex;
       width: 50px;
