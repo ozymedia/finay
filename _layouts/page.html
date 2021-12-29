@@ -31,6 +31,24 @@
             <a class="btn" href="#">Contact & Devis</a>
           </div>
         </div>
+      {% elsif page.url == "/isolation-extérieure/" %}
+        <div class="banner" style="background-image: linear-gradient(rgba(31, 90, 138, 0.55),rgba(31, 90, 138, 0.55)), url(https://as2.ftcdn.net/v2/jpg/01/75/45/95/1000_F_175459527_PfrVzwp6JgSItS618To9uXbWIIeRloJ1.jpg);">
+          <div class="inside">
+            <h1>{{page.titre}}</h1>
+          </div>
+        </div>
+      {% elsif page.url == "/ravalement-de-façade/" %}
+        <div class="banner" style="background-image: linear-gradient(rgba(31, 90, 138, 0.55),rgba(31, 90, 138, 0.55)), url(https://as1.ftcdn.net/v2/jpg/00/41/31/24/1000_F_41312485_9QAo7aR786QUjdAAspZqg8czYIjztnit.jpg);">
+          <div class="inside">
+            <h1>{{page.titre}}</h1>
+          </div>
+        </div>
+      {% elsif page.url == "/toiture-zinguerie/" %}
+        <div class="banner" style="background-image: linear-gradient(rgba(31, 90, 138, 0.55),rgba(31, 90, 138, 0.55)), url(https://as2.ftcdn.net/v2/jpg/03/79/71/45/1000_F_379714536_B4cJ6begM9jlwYDjc8tpQ7n7JpxG9WeA.jpg);">
+          <div class="inside">
+            <h1>{{page.titre}}</h1>
+          </div>
+        </div>
       {% else %}
         <div class="banner" style="background-image: linear-gradient(rgba(31, 90, 138, 0.55),rgba(31, 90, 138, 0.55)), url(../assets/images/banner.png);">
           <div class="inside">
