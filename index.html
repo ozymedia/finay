@@ -61,6 +61,11 @@ Soucieux de la qualité et de la longévité de notre travail, nous recherchons 
 </section>
 <section class="inside">
   <h2>Nos clients témoignent</h2>
+  {% assign num = 4 %}
+{% assign range = (1..num) %}
+{% for i in range %}
+  {{ i }}
+{% endfor %}
   <div id="reviews">
     {% assign reviews = site.reviews | where: "published",true %}
     {% for review in reviews  %}
@@ -68,7 +73,13 @@ Soucieux de la qualité et de la longévité de notre travail, nous recherchons 
       <div class="review-author-abbr"><p>{{ review.author | slice: 0 | capitalize }}</p></div>
       <div class="review-content">
         <h3 class="review-author">{{ review.author | capitalize }}</h3>
-        <span class="stars"></span>
+        <span class="stars">
+          {% assign num = review.note %}
+          {% assign range = (1..num) %}
+          {% for i in range %}
+            <img src="../assets/images/icones/star-yellow.jpg" width="20">
+          {% endfor %}
+        </span>
         <div class="review-text">{{ review.content }}</div>
       </div>
     </div>
