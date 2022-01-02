@@ -1,9 +1,22 @@
 <div class="glider-contain">
   <div class="glider">
-    <div>your content here</div>
-    <div>your content here</div>
-    <div>your content here</div>
-    <div>your content here</div>
+    {% assign reviews = site.reviews | where: "published",true %}
+    {% for review in reviews  %}
+    <div class="review">
+      <div class="review-author-abbr"><p>{{ review.author | slice: 0 | capitalize }}</p></div>
+      <div class="review-content">
+        <h3 class="review-author">{{ review.author | capitalize }}</h3>
+        <span class="stars">
+          {% assign num = review.note %}
+          {% assign range = (1..num) %}
+          {% for i in range %}
+            <img src="../assets/images/icones/star-yellow.jpg" width="20">
+          {% endfor %}
+        </span>
+        <div class="review-text">{{ review.content }}</div>
+      </div>
+    </div>
+    {% endfor %}
   </div>
 
   <button aria-label="Previous" class="glider-prev">«</button>
