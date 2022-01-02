@@ -1,0 +1,26 @@
+.slider {
+  border: solid 1px;
+  .frame {
+    //width: 880px;
+
+    position: relative;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    .slides {
+                display: inline-block;
+            }
+
+            li {
+                position: relative;
+                display: inline-block;
+
+                /**
+                 * (optional) if the content inside the slide element has a defined size.
+                 */
+                width: 880px;
+                border: solid 1px;
+            }
+  }
+}

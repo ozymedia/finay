@@ -14,6 +14,8 @@
     <!-- For styles with static names... -->
     <link href="{{ 'assets/css/styles.css' | relative_url }}" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -46,6 +48,16 @@
       </article>
     </main>
     {% include footer.html %}
+    <script>
+        new Glider(document.querySelector('.glider'), {
+  slidesToShow: 2,
+  dots: '#dots',
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  }
+});
+    </script>
   </body>
   <script src="/assets/js/nav.js"></script>
 </html>
