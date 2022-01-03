@@ -1,15 +1,17 @@
 /*Set dimensions of all images*/
 .gallery-img {
-  width: 250px;
+  width: 25%;
   height: 450px;
   transition-property: width;
   transition-duration: 0.5s;
+  filter: grayscale(100%);
   object-fit: cover;
+  cursor: pointer;
   &:hover {
-    opacity: 0.5;
-    width: 30%;
+    width: 40%;
     transition-property: width;
     transition-duration: 0.5s;
+    filter: none;
   }
 }
 
