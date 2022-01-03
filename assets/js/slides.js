@@ -26,7 +26,6 @@ prev.addEventListener('click', () => {
   console.log(index);
   index--;
   console.log(index);
-  console.log(index);
   next.classList.remove('hide');
   if (index === 0) {
     prev.classList.remove('show');
