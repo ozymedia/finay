@@ -4,8 +4,7 @@
    <i class="fas fa-arrow-circle-left" id="prevbutton"></i>
    <!--Container used to position images left to right-->
    <div class="carousel-slide">
-     <!--Cloning last image for continuity-->
-     <img src="https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 id="lastClone" class="gallery-img">
+    <img src="https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 id="lastClone" class="gallery-img">
      <img src="https://images.pexels.com/photos/572487/pexels-photo-572487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="gallery-img">
      <img src="https://images.pexels.com/photos/1382394/pexels-photo-1382394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="gallery-img">
      <img src="https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="gallery-img">
@@ -16,3 +15,11 @@
     </div>
   </div>
 <script src="/assets/js/slides.js"></script>
+
+<!--
+{% for image in site.static_files %}
+  {% if image.path contains 'images/realisations' %}
+      <img src="../{{ site.baseurl }}{{ image.path }}" alt="image" class="gallery-img" />
+  {% endif %}
+{% endfor %}
+-->
