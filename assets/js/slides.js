@@ -1,34 +1,55 @@
-const prev  = document.querySelector('.prev');
-const next = document.querySelector('.next');
+// SETUP
 
-const track = document.querySelector('.track');
+// Sets variables to return inner div and images
+const carouselSlide = document.querySelector('.carousel-slide');
+const carouselImages = document.querySelectorAll('.carousel-slide img');
 
-let carouselWidth = document.querySelector('.carousel-container').offsetWidth;
+// Sets variables to return buttons
+const prevBtn = document.querySelector('#prevbutton');
+const nextBtn = document.querySelector('#nextbutton');
 
-window.addEventListener('resize', () => {
-  carouselWidth = document.querySelector('.carousel-container').offsetWidth;
-})
+// Creates a counter to track which image we are on
+let counter = 1;
+// Selects initial width of image so prog knows how much to slide left or right
+const size = carouselImages[0].offsetWidth;
+// Moves carousel back to start with first image instead of clone
+carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
-let index = 0;
+// FUNCTIONS
 
-next.addEventListener('click', () => {
-  index++;
-  console.log(index);
-  prev.classList.add('show');
-  track.style.transform = `translateX(-${(index * carouselWidth)/4}px)`;
+// Add a function to track next button clicks
+nextBtn.addEventListener('click', function () {
+  // If user reaches end of carousel, stop execution
+  if (counter >= carouselImages.length -1) return;
+  carouselSlide.style.transition = 'transform 0.4s ease-in-out';
+  // Add 1 to the counter
+  counter++;
+  // Move carousel
+  carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+});
 
-  if (track.offsetWidth - ((index * carouselWidth)/4) < carouselWidth) {
-    next.classList.add('hide');
+//create function to look for PREV button clicks
+prevBtn.addEventListener('click',() => {
+  if (counter <= 0) return;
+  carouselSlide.style.transition = 'transform 0.4s ease-in-out';
+  counter--;
+  carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+});
+
+// This function is triggered after transformation
+carouselSlide.addEventListener('transitionend', () => {
+  if (carouselImages[counter].id === 'lastClone') {
+    // Removes transition effect and translates back to original picture
+    carouselSlide.style.transition = 'none';
+    // -2 because we have duplicate and first image
+    counter = carouselImages.length -2 ;
+    carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
   }
-})
-
-prev.addEventListener('click', () => {
-  console.log(index);
-  index--;
-  console.log(index);
-  next.classList.remove('hide');
-  if (index === 0) {
-    prev.classList.remove('show');
+  if (carouselImages[counter].id === 'firstClone') {
+    //removes transition effect and translates back to original picture
+    carouselSlide.style.transition = 'none';
+    //-2 because we have duplicate and first
+    counter = carouselImages.length - counter;
+    carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
   }
-  track.style.transform = `translateX(-${(index * carouselWidth)/4}px)`;
-})
+});
