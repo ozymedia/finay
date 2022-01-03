@@ -13,19 +13,23 @@ let index = 0;
 
 next.addEventListener('click', () => {
   index++;
+  console.log(index);
   prev.classList.add('show');
-  track.style.transform = `translateX(-${index * carouselWidth}px)`;
+  track.style.transform = `translateX(-${(index * carouselWidth)/4}px)`;
 
-  if (track.offsetWidth - (index * carouselWidth) < carouselWidth) {
+  if (track.offsetWidth - ((index * carouselWidth)/4) < carouselWidth) {
     next.classList.add('hide');
   }
 })
 
 prev.addEventListener('click', () => {
+  console.log(index);
   index--;
+  console.log(index);
+  console.log(index);
   next.classList.remove('hide');
   if (index === 0) {
     prev.classList.remove('show');
   }
-  track.style.transform = `translateX(-${index * carouselWidth}px)`;
+  track.style.transform = `translateX(-${(index * carouselWidth)/4}px)`;
 })
