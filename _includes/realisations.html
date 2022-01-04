@@ -16,10 +16,22 @@
   </div>
 <script src="/assets/js/slides.js"></script>
 
-<!--
-{% for image in site.static_files %}
+<hr>
+<ul>
+  <img src="/assets/images/{{ site.data.gallerie[0].img }}" id="lastClone" class="gallery-img">
+  <img src="/assets/images/{{ site.data.gallerie[2].img }}" id="lastClone" class="gallery-img">
+{% for chantier in site.data.gallerie %}
+  <li>
+      {{ chantier }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<!-- {% for image in site.static_files %}
   {% if image.path contains 'images/realisations' %}
       <img src="../{{ site.baseurl }}{{ image.path }}" alt="image" class="gallery-img" />
+    }
   {% endif %}
 {% endfor %}
 -->
+
