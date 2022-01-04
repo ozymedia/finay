@@ -21,7 +21,7 @@
 
   {% for chantier in site.data.gallerie %}
     {% if chantier.index == 1 %}
-      <img src="/assets/images/{{ site.data.gallerie[1].img }}" id="lastClone" class="gallery-img">
+      <img src="/assets/images/{{ site.data.gallerie.first.img }}" id="lastClone" class="gallery-img">
     {% elsif chantier.index != 1 or chantier.index != chantier.size %}
       <img src="/assets/images/{{ chantier.img }}" class="gallery-img">
     {% elsif chantier.index == site.data.gallerie.size %}
