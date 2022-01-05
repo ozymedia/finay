@@ -22,4 +22,15 @@
   <button aria-label="Previous" class="glider-prev">«</button>
   <button aria-label="Next" class="glider-next">»</button>
   <div role="tablist" class="dots"></div>
-</div
+</div>
+
+<script>
+        new Glider(document.querySelector('.glider'), {
+  slidesToShow: 2,
+  dots: '#dots',
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  }
+});
+</script>
