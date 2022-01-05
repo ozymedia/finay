@@ -6,3 +6,10 @@
     }
   }
 }
+
+@media all and (max-width: 480px) {
+  .glider-contain {
+    .glider-prev { left: 10px; }
+    .glider-next { right: 10px; }
+  }
+}
