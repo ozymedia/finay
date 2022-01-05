@@ -8,7 +8,7 @@
   object-fit: cover;
   cursor: pointer;
   &:hover {
-    width: 40%;
+    width: 400px;
     transition-property: width;
     transition-duration: 0.5s;
     filter: none;
@@ -45,9 +45,10 @@
   font-size: 30px;
   cursor: pointer;
   text-shadow: 2px 2px rgba(0,0,0,0.2);
-  width: 50px;
-  height: 50px;
-  border: solid 1px red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //border: solid 1px red;
 }
 
 #nextbutton {
@@ -60,7 +61,8 @@
   font-size: 30px;
   cursor: pointer;
   text-shadow: 2px 2px rgba(0,0,0,0.2);
-  width: 50px;
-  height: 50px;
-  border: solid 1px red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //border: solid 1px red;
 }

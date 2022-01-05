@@ -1,8 +1,8 @@
-<!--Container used to offset buttons-->
+<!--
  <div class="carousel-container">
    <i class="fas fa-arrow-circle-right" id="nextbutton"></i>
    <i class="fas fa-arrow-circle-left" id="prevbutton"></i>
-   <!--Container used to position images left to right-->
+
    <div class="carousel-slide">
     <img src="https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 id="lastClone" class="gallery-img">
      <img src="https://images.pexels.com/photos/572487/pexels-photo-572487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="gallery-img">
@@ -14,21 +14,25 @@
      <img src="https://images.pexels.com/photos/572487/pexels-photo-572487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" id="firstClone" class="gallery-img">
     </div>
   </div>
+-->
+<div class="carousel-container">
+  <i class="fas fa-arrow-circle-right" id="nextbutton"><img src="/assets/images/icones/arrow-right.png" alt=""></i>
+  <i class="fas fa-arrow-circle-left" id="prevbutton"><img src="/assets/images/icones/arrow-left.png" alt=""></i>
+  <div class="carousel-slide">
+
+    {% for chantier in site.data.gallerie %}
+      {% if chantier.index == 0 %}
+        <img src="/assets/images/{{ site.data.gallerie.first.img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" id="lastClone" class="gallery-img">
+      {% elsif chantier.index != 1 or chantier.index != chantier.size %}
+        <img src="/assets/images/{{ chantier.img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="gallery-img">
+      {% elsif chantier.index == site.data.gallerie.size %}
+        <img src="/assets/images/{{ site.data.gallerie[19].img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" id="firstClone" class="gallery-img">
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
 <script src="/assets/js/slides.js"></script>
-
-<hr>
-<ul>
-
-  {% for chantier in site.data.gallerie %}
-    {% if chantier.index == 1 %}
-      <img src="/assets/images/{{ site.data.gallerie.first.img }}" id="lastClone" class="gallery-img">
-    {% elsif chantier.index != 1 or chantier.index != chantier.size %}
-      <img src="/assets/images/{{ chantier.img }}" class="gallery-img">
-    {% elsif chantier.index == site.data.gallerie.size %}
-      <img src="/assets/images/{{ site.data.gallerie[19].img }}" id="firstClone" class="gallery-img">
-    {% endif %}
-  {% endfor %}
-</ul>
 <!-- {% for image in site.static_files %}
   {% if image.path contains 'images/realisations' %}
       <img src="../{{ site.baseurl }}{{ image.path }}" alt="image" class="gallery-img" />

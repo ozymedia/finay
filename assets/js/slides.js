@@ -11,7 +11,7 @@ const nextBtn = document.querySelector('#nextbutton');
 // Creates a counter to track which image we are on
 let counter = 1;
 // Selects initial width of image so prog knows how much to slide left or right
-const size = carouselImages[0].clientWidth;
+const size = 250;
 // Moves carousel back to start with first image instead of clone
 carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
