@@ -53,8 +53,19 @@ Soucieux de la qualité et de la longévité de notre travail, nous recherchons 
     </p>
   </div>
 </section>
-<section class="inside">
-  <h2>Nos actualités & conseils</h2>
+<section class="actus">
+  <img src="https://as2.ftcdn.net/v2/jpg/01/92/07/87/1000_F_192078733_5vyQgb1JW1c7Xm2IKkRvhr62CZjvYaoT.jpg" alt="">
+  <div>
+    <h2>Nos actualités & conseils</h2>
+    <ul class="posts">
+      {% for post in site.posts | limit: 3 %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }} <img src="/assets/images/icones/min-arrow.png"></a>
+        </li>
+      {% endfor %}
+      <a href="#">Lire les autres actualités</a>
+    </ul>
+  </div>
 </section>
 <section class="">
   <h2>Nos réalisations</h2>
