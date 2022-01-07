@@ -58,4 +58,12 @@
     }
   }
 }
+@media all and (max-width: 480px) {
+  .actus {
+    flex-direction: column;
+    div:first-of-type, img { width: 100%; }
+    div:first-of-type { padding-bottom: 1em; }
+    li { line-height: 25px !important; }
+  }
+}
 
