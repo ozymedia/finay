@@ -6,44 +6,55 @@
     background-color: $blue;
     color: white;
     padding-left: 1em;
-  }
-  h2 {
-    text-align: left;
-    margin: 0;
-    margin-top: 1.2em;
-    margin-bottom: 1.2em;
-  }
-}
-.posts {
-  display: flex;
-  flex-direction: column;
-  a {
-      color: white;
-      font-family: "Avenir";
-      text-decoration: none;
-      opacity: 0.8;
-    }
-  li {
-    padding: 0;
-    line-height: 40px;
-    a {
+    div {
+      height: 100%;
+      width: 100%;
       display: flex;
-      align-items: center;
-    }
-    img {
-      width: 30px;
-      margin-left: 1em;
-      opacity: 0.7;
-    }
-    a:hover {
-      opacity: 1;
-      color: white;
-      img {
-        opacity: 1;
-        margin-left: 1.6em;
-        transition-property: margin-left;
-        transition-duration: 0.4s;
+      flex-direction: column;
+      //justify-content: space-between;
+      h2 {
+        text-align: left;
+        margin: 0;
+        margin-top: 1.2em;
+        margin-bottom: 1.2em;
+      }
+      .posts {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: space-between;
+        a {
+            color: white;
+            font-family: "Avenir";
+            text-decoration: none;
+            opacity: 0.8;
+          }
+        li {
+          padding: 0;
+          line-height: 40px;
+          margin-bottom: 0.8em;
+          a {
+            display: flex;
+            align-items: center;
+          }
+          img {
+            width: 30px;
+            margin-left: 1em;
+            opacity: 0.7;
+          }
+          a:hover {
+            opacity: 1;
+            color: white;
+            img {
+              opacity: 1;
+              margin-left: 1.6em;
+              transition-property: margin-left;
+              transition-duration: 0.4s;
+            }
+          }
+        }
       }
     }
   }
 }
+
