@@ -1,0 +1,17 @@
+.societe {
+  h2 {
+    text-align: left;
+  }
+}
+.engagements {
+  div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+    img {
+      width: 4em;
+      margin-right: 20px;
+    }
+    p { font-size: 1.1em; }
+  }
+}
