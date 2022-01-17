@@ -15,3 +15,17 @@
     p { font-size: 1.1em; }
   }
 }
+.societe-presentation {
+  display: flex;
+  img { max-width: 50%; }
+  div {
+    h2 { text-align: left; }
+    margin-left: 2em;
+    max-width: 40%;
+    line-height: 30px;
+    letter-spacing: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
