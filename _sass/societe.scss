@@ -18,7 +18,8 @@
 }
 .societe-presentation {
   display: flex;
-  img { max-width: 50%; z-index:2 }
+  margin-top: 3em;
+  .firme { z-index:2; margin-top: 20px; }
   div {
     h2 { text-align: left; font-weight: normal; }
     margin-left: 2em;
@@ -33,7 +34,12 @@
   .hachures {
     position: absolute;
     z-index: 1;
-    left: 40%;
+    left: 30%;
+    margin: 0;
+    //width: 500px;
+    height: 420px;
+    //border: solid 1px;
+    border-radius: 5px;
   }
 }
 .coordinates {
