@@ -18,7 +18,7 @@
 }
 .societe-presentation {
   display: flex;
-  img { max-width: 50%; }
+  img { max-width: 50%; z-index:2 }
   div {
     h2 { text-align: left; font-weight: normal; }
     margin-left: 2em;
@@ -28,6 +28,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  position: relative;
+  .hachures {
+    position: absolute;
+    z-index: 1;
+    left: 40%;
   }
 }
 .coordinates {
