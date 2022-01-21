@@ -1,0 +1,72 @@
+.societe {
+  h2 {
+    text-align: left;
+    font-weight: normal;
+  }
+  p {
+    font-family: 'Avenir', sans-serif !important;
+    line-height: 30px;
+    font-size: 1em !important;
+  }
+}
+.engagements {
+  div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+    img {
+      width: 4em;
+      margin-right: 20px;
+    }
+    p { font-size: 1.1em; }
+  }
+}
+.societe-presentation {
+  display: flex;
+  margin-top: 3em;
+  .firme { z-index:2; margin-top: 20px; }
+  div {
+    h2 { text-align: left; font-weight: normal; }
+    margin-left: 2em;
+    max-width: 40%;
+    line-height: 30px;
+    letter-spacing: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  position: relative;
+  .hachures {
+    position: absolute;
+    z-index: 1;
+    left: 30%;
+    margin: 0;
+    //width: 500px;
+    height: 420px;
+    //border: solid 1px;
+    border-radius: 5px;
+  }
+}
+.coordinates {
+  display: flex;
+  justify-content: space-between;
+  div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    img { width: 8em; }
+    h2 { text-align: left; margin-top: 0; font-weight: normal; margin-bottom: 2em; }
+    p {
+      font-family: "ABeeZee";
+      line-height: 1.7em;
+    }
+  }
+  .map {
+    width: 600px;
+    img { width: 100%; border-radius: 5px; }
+  }
+  .picto.facebook {
+    width: 2em;
+    height: auto;
+    object-fit: fill;
+  }
+}
