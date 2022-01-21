@@ -3,6 +3,11 @@
     text-align: left;
     font-weight: normal;
   }
+  p {
+    font-family: 'Avenir', sans-serif !important;
+    line-height: 30px;
+    font-size: 1em !important;
+  }
 }
 .engagements {
   div {
@@ -58,5 +63,10 @@
   .map {
     width: 600px;
     img { width: 100%; border-radius: 5px; }
+  }
+  .picto.facebook {
+    width: 2em;
+    height: auto;
+    object-fit: fill;
   }
 }
