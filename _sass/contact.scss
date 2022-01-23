@@ -36,5 +36,24 @@ body {
     }
   }
 }
+@media all and (max-width: 480px) {
+  #contact-options {
+    right: initial;
+    left: initial;
+    width: 100%;
+    display: flex;
+    top: auto !important;
+    bottom: 0;
+    padding: 5px 5px 0px 5px !important;
+    border-bottom: solid 0px white !important;
+    border-left: solid 1px white;
+    .boutons {
+      width: 100%;
+      display: flex;
+      border-radius: 5px 5px 0px 0px !important;
+      a {width: 100%;}
+    }
+  }
+}
 
 
