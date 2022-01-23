@@ -8,7 +8,7 @@ body {
     padding: 5px 0px 5px 5px;
     position: fixed;
     right: 0px;
-    top: 10%;
+    top: 20%;
     z-index: 10;
     .boutons {
       background-color: $blue;
@@ -24,6 +24,7 @@ body {
         padding: 0.5em;
         padding-top: 1em;
         padding-bottom: 1em;
+        font-size: 0.8em;
         img {
           width: 2em;
         }
