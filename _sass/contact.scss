@@ -1,0 +1,59 @@
+body {
+  position: relative;
+  #contact-options {
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    border-left: solid 1px white;
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px 0px 5px 5px;
+    position: fixed;
+    right: 0px;
+    top: 20%;
+    z-index: 10;
+    .boutons {
+      background-color: $blue;
+      border-radius: 5px 0px 0px 5px;
+      box-shadow: 0px 0px 20px 2px rgba(255, 255, 255, 0.5);
+      a {
+        text-decoration: none;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 0.8em;
+        img {
+          width: 2em;
+        }
+        p {
+          margin: 0px;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
+@media all and (max-width: 480px) {
+  #contact-options {
+    right: initial;
+    left: initial;
+    width: 100%;
+    display: flex;
+    top: auto !important;
+    bottom: 0;
+    padding: 5px 5px 0px 5px !important;
+    border-bottom: solid 0px white !important;
+    border-left: solid 1px white;
+    .boutons {
+      width: 100%;
+      display: flex;
+      border-radius: 5px 5px 0px 0px !important;
+      a {width: 100%;}
+    }
+  }
+}
+
+
