@@ -7,7 +7,15 @@ permalink: /simulateur-aide/
 <section class="inside">
   <h2>Simulateur MaPrimeRénov'</h2>
 <form action="" id="simulateur-prime-renov">
-  <input type="text" name="anciennete" placeholder="anciennete">
+  <label for="">Ancienneté du logement
+    <input type="text" name="anciennete" placeholder="anciennete">
+  </label>
+  <label for="">Nombre de personnes composant le ménage
+    <input type="number">
+  </label>
+  <label>Revenus annuels
+    <input type="number" name="revenus" placeholder="revenus annuels" id="revenus">
+  </label>
   <div id="button">
     <button type="submit" class="btn">Envoyer</button>
   </div>
@@ -15,3 +23,27 @@ permalink: /simulateur-aide/
 </section>
 
 <script src="/assets/js/simulateur.js"></script>
+
+<!--
+Durée d'occupation 8 mois min
+Logement de plus de 15 ans
+Propriétaire bailleur / propriétaire résident ?
+
+Types de travaux concernés:
+isolation (toit, sol, murs)
+
+Maison ou appartement ?
+Année de construction
+Surface habitable
+
+Habite en ïle de france
+
+Revenu fiscal
+
+Nombre de personnes composant le ménage
+Rose : Isolation des murs par l'extérieur : 15€/m2
+Bleu : Isolation des murs par l'extérieur : 75€/m2
+Jaune : Isolation des murs par l'extérieur : 60€/m2
+Violet : Isolation des murs par l'extérieur : 40€/m2
+
+-->
