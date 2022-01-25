@@ -47,7 +47,7 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
   bareme[people];
   let entries = Object.keys(bareme[people]);
   let result = entries.filter(key => revenus < key)[0];
-  let color = bareme[people][result];
+  let color = bareme[people][result] || "rose";
   console.log(color);
   document.getElementById("results").querySelector("#color").innerText = color;
   return color;
