@@ -14,9 +14,9 @@ const bareme = {
   },
   3 :{
     26844 : "bleu",
-    43411 : "jaune",
+    33411 : "jaune",
     51592 : "violet",
-    51592 : "rose" // >51592
+    //51592 : "rose" // >51592
   },
   4 :{
     31359 : "bleu",
@@ -46,7 +46,7 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
   if (people < 5) {
   bareme[people];
   let entries = Object.keys(bareme[people]);
-  let result = entries.filter(key => key < revenus).slice(-1);
+  let result = entries.filter(key => revenus < key)[0];
   let color = bareme[people][result];
   console.log(color);
   document.getElementById("results").querySelector("#color").innerText = color;
