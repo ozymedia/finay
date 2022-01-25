@@ -59,3 +59,12 @@
     //border: none !important;
     //border-color: transparent;
 }
+#simulateur-prime-renov {
+  display: flex;
+  flex-direction: column;
+  label {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+}
