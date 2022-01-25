@@ -39,13 +39,18 @@ const suppColors = {
 }
 
 document.getElementById("simulateur-prime-renov").addEventListener('submit', (event) => {
+  event.preventDefault();
   // do something on submit of a form
   let people = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#people").querySelector("input").value);
   let revenus = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#revenus").querySelector("input").value);
   if (people < 5) {
   bareme[people];
-  let keys = Object.keys(bareme[people]);
-  debugger;
+  let entries = Object.keys(bareme[people]);
+  let result = entries.filter(key => key < revenus).slice(-1);
+  let color = bareme[people][result];
+  console.log(color);
+  document.getElementById("results").querySelector("#color").innerText = color;
+  return color;
   }
   else if (people > 5) {
     people = people - 5;
@@ -54,5 +59,7 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
   else {
     debugger;
   }
+  debugger;
+  document.getElementById("results").querySelector("#color").innerText = color;
 });
 

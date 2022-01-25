@@ -6,20 +6,24 @@ permalink: /simulateur-aide/
 ---
 <section class="inside">
   <h2>Simulateur MaPrimeRénov'</h2>
-<form action="" id="simulateur-prime-renov">
-  <label for="">Ancienneté du logement
-    <input type="text" name="anciennete" placeholder="anciennete">
-  </label>
-  <label for="" id="people">Nombre de personnes composant le ménage
-    <input type="number" min="1" max="10">
-  </label>
-  <label id="revenus">Revenus annuels
-    <input type="number" name="revenus" placeholder="revenus annuels" id="revenus">
-  </label>
-  <div id="button">
-    <button type="submit" class="btn">Envoyer</button>
-  </div>
+  <form action="" id="simulateur-prime-renov">
+    <label for="">Ancienneté du logement
+      <input type="text" name="anciennete" placeholder="anciennete">
+    </label>
+    <label for="" id="people">Nombre de personnes composant le ménage
+      <input type="number" min="1" max="10">
+    </label>
+    <label id="revenus">Revenus annuels
+      <input type="number" name="revenus" placeholder="revenus annuels" id="revenus">
+    </label>
+    <div id="button">
+      <button type="submit" class="btn">Envoyer</button>
+    </div>
 </form>
+</section>
+
+<section class="inside" id="results">
+  <p id="color"></p>
 </section>
 
 <script src="/assets/js/simulateur.js"></script>
