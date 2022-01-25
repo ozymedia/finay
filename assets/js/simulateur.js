@@ -31,3 +31,21 @@ const bareme = {
     69081 : "rose" // >69081
   }
 }
+const suppColors = {
+  "bleu" : 4526,
+  "jaune" : 5797,
+  "violet" : 8744,
+  "rose" : 8744
+}
+
+if (people < 5) {
+  bareme[people];
+  let keys = Object.keys(bareme[people]);
+
+}
+else if (people > 5) {
+  people = people - 5;
+}
+else {
+
+}
