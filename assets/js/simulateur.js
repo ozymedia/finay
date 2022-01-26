@@ -37,19 +37,30 @@ const suppColors = {
   "violet" : 8744,
   "rose" : 8744
 }
+const isolationExt = {
+  "bleu" : 75,
+  "jaune" : 60,
+  "violet" : 40,
+  "rose" : 15,
+  "plafon" : 150
+}
 
 document.getElementById("simulateur-prime-renov").addEventListener('submit', (event) => {
   event.preventDefault();
   // do something on submit of a form
   let people = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#people").querySelector("input").value);
   let revenus = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#revenus").querySelector("input").value);
+  let surface = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#surface").querySelector("input").value);
   if (people < 5) {
   bareme[people];
   let entries = Object.keys(bareme[people]);
   let result = entries.filter(key => revenus <= key)[0];
   let color = bareme[people][result] || "rose";
+  let aides = isolationExt[color] * surface;
   console.log(color);
   document.getElementById("results").querySelector("#color").innerText = color;
+  document.getElementById("results").querySelector("#aides").innerText = `${aides} €`;
+
   return color;
   }
   else if (people > 5) {
