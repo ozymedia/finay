@@ -54,26 +54,26 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
   let people = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#people").querySelector("input").value);
   let revenus = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#revenus").querySelector("input").value);
   let surface = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#surface").querySelector("input").value);
-  if (people < 5) {
-  bareme[people];
-  let entries = Object.keys(bareme[people]);
-  let result = entries.filter(key => revenus <= key)[0];
-  let color = bareme[people][result] || "rose";
-  let aides = isolationExt[color] * surface;
-  console.log(color);
-  document.getElementById("results").querySelector("#color").innerText = color;
-  document.getElementById("results").querySelector("#aides").innerText = `${aides} €`;
+  let occupation = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#duree").querySelector("input").value);
 
-  return color;
+  if (people < 5) {
+    bareme[people];
+    let entries = Object.keys(bareme[people]);
+    let result = entries.filter(key => revenus <= key)[0];
+    let color = bareme[people][result] || "rose";
+    let aides = isolationExt[color] * surface;
+    console.log(color);
+    if (travaux === 'no' || residence === 'no' || anciennete < 15 || duree < 8) {
+      document.getElementById("results").querySelector("#aides").innerText = "Vous n'êtes pas exigible à MaPrimeRénov'";
+    }
+    else {
+      document.getElementById("results").querySelector("#color").innerText = color;
+      document.getElementById("results").querySelector("#aides").innerText = `${aides} €`;
+    }
+
+    return color;
   }
-  else if (people > 5) {
-    people = people - 5;
-    debugger;
-  }
-  else {
-    debugger;
-  }
-  debugger;
-  document.getElementById("results").querySelector("#color").innerText = color;
+  else if (people > 5) {}
+  else {}
 });
 
