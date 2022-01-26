@@ -49,8 +49,8 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
   event.preventDefault();
   // do something on submit of a form
   let travaux = Array.from(document.querySelectorAll(".type-travaux input")).filter(item => item.checked === true)[0].value;
-
   let residence = Array.from(document.querySelectorAll(".residence input")).filter(item => item.checked === true)[0].value;
+  let anciennete = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#anciennete").querySelector("input").value);
   let people = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#people").querySelector("input").value);
   let revenus = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#revenus").querySelector("input").value);
   let surface = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#surface").querySelector("input").value);
