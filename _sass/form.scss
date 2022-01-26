@@ -62,9 +62,17 @@
 #simulateur-prime-renov {
   display: flex;
   flex-direction: column;
-  label {
+  width: 50%;
+  margin: auto;
+  border: solid 1px;
+  div {
     display: flex;
-    width: 50%;
+    flex-wrap: wrap;
+    p { width: 100%;}
+    label {
+    display: inline-block;
     justify-content: space-between;
+      font-family: 'ABeeZee';
+    }
   }
 }
