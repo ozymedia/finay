@@ -1,0 +1,101 @@
+---
+layout: custom
+titre: Simulateur d'aide
+title: Simulateur des aides dont vous avez droit | Finay
+permalink: /simulateur-aide/
+---
+<section class="inside">
+  <h2>Simulateur MaPrimeRénov' 2022</h2>
+  <p>Ce simulateur vous aide à estimer vos droits et vos aides dans la demande de <strong>travaux d'isolation par l'extérieur</strong>.<br>
+    Les simulations concernent les <b>résidences principales</b> <b>hors Ile-de-France</b> qui sont construites depuis <b>au moins 15 ans</b>, que vous occupez au moins <b>8 mois</b> dans l'année.
+  </p>
+  <form action="" id="simulateur-prime-renov">
+    <div>
+      <p>Ma demande concerne bien des travaux d'isolation par l'extérieur ?</p>
+      <label class="type-travaux">
+        <input type="radio" name="choice-travaux" value="yes">
+        Oui
+      </label>
+      <label class="type-travaux">
+        <input type="radio" name="choice-travaux" value="no">
+        Non
+      </label>
+    </div>
+    <div>
+      <p>Ancienneté du logement</p>
+      <label for="" id="anciennete">
+        <input type="number" name="anciennete" placeholder="nombre d'années">
+      </label>
+    </div>
+    <div>
+      <p>Nombre de personnes composant le ménage</p>
+      <label for="" id="people">
+        <input type="number" min="1" max="10">
+      </label>
+    </div>
+    <div>
+      <p>Revenus annuels</p>
+      <label id="revenus">
+        <input type="number" name="revenus" placeholder="revenus annuels">
+      </label>
+    </div>
+    <div>
+      <p>Cette demande concerne votre résidence principale ?</p>
+      <label class="residence">
+        <input type="radio" name="choice-residence" value="yes">
+        Oui
+      </label>
+      <label class="residence">
+        <input type="radio" name="choice-residence" value="no">
+        Non
+      </label>
+    </div>
+    <div>
+      <p>Durée annuelle d'occupation du logement</p>
+      <label id="duree">
+        <input type="number" min="0" max="12" name="duree" placeholder="nombre de mois">
+      </label>
+    </div>
+    <div>
+      <p>Surface en m2 des façades extérieures</p>
+      <label for="" id="surface">
+        <input type="number" name="surface" placeholder="surface en m2">
+      </label>
+    </div>
+    <div id="button">
+      <button type="submit" class="btn">Envoyer</button>
+    </div>
+</form>
+
+<div id="results" class="inside">
+  <p id="color"></p>
+  <p id="aides"></p>
+</div>
+
+</section>
+
+<script src="/assets/js/simulateur.js"></script>
+
+<!--
+Durée d'occupation 8 mois min
+Logement de plus de 15 ans
+Propriétaire bailleur / propriétaire résident ?
+
+Types de travaux concernés:
+isolation (toit, sol, murs)
+
+Maison ou appartement ?
+Année de construction
+Surface habitable
+
+Habite en ïle de france
+
+Revenu fiscal
+
+Nombre de personnes composant le ménage
+Rose : Isolation des murs par l'extérieur : 15€/m2
+Bleu : Isolation des murs par l'extérieur : 75€/m2
+Jaune : Isolation des murs par l'extérieur : 60€/m2
+Violet : Isolation des murs par l'extérieur : 40€/m2
+
+-->

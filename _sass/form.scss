@@ -59,3 +59,20 @@
     //border: none !important;
     //border-color: transparent;
 }
+#simulateur-prime-renov {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  border: solid 1px;
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    p { width: 100%; margin-bottom: 0;}
+    label {
+    display: inline-block;
+    justify-content: space-between;
+      font-family: 'ABeeZee';
+    }
+  }
+}
