@@ -23,7 +23,13 @@
       li {
         margin-right: 5px;
         color: white;
+        padding: 10px 5px;
         a { color: white; }
+      }
+      li:last-child {
+        border: solid 1.5px $yellow;
+        padding: 5px;
+        border-radius: 3px;
       }
     }
   }
@@ -102,7 +108,7 @@ ul {
   li {
     //border: 2px solid transparent;
     border-radius: 5px;
-    padding: 10px 5px;
+    padding: 10px;
     transition: background 0.2s;
     a {
       color: $black;
