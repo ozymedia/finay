@@ -68,7 +68,7 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
     }
     else {
       document.getElementById("results").querySelector("#color").innerText = color;
-      document.getElementById("results").querySelector("#aides").innerText = `${aides} €`;
+      document.getElementById("results").querySelector("#aides").innerText = `Vous avez droit à ${aides} € d'aide de MaPrimeRénov'`;
     }
 
     return color;
