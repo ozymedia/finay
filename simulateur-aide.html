@@ -24,7 +24,7 @@ permalink: /simulateur-aide/
     <div>
       <p>Ancienneté du logement</p>
       <label for="" id="anciennete">
-        <input type="text" name="anciennete" placeholder="nombre d'années">
+        <input type="number" name="anciennete" placeholder="nombre d'années">
       </label>
     </div>
     <div>
@@ -53,7 +53,7 @@ permalink: /simulateur-aide/
     <div>
       <p>Durée annuelle d'occupation du logement</p>
       <label id="duree">
-        <input type="number" name="duree" placeholder="nombre de mois">
+        <input type="number" min="0" max="12" name="duree" placeholder="nombre de mois">
       </label>
     </div>
     <div>
@@ -67,7 +67,7 @@ permalink: /simulateur-aide/
     </div>
 </form>
 
-<div id="results">
+<div id="results" class="inside">
   <p id="color"></p>
   <p id="aides"></p>
 </div>

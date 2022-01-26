@@ -63,7 +63,7 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
     let color = bareme[people][result] || "rose";
     let aides = isolationExt[color] * surface;
     console.log(color);
-    if (travaux === 'no' || residence === 'no' || anciennete < 15 || duree < 8) {
+    if (travaux === 'no' || residence === 'no' || anciennete < 15 || occupation < 8) {
       document.getElementById("results").querySelector("#aides").innerText = "Vous n'êtes pas exigible à MaPrimeRénov'";
     }
     else {
