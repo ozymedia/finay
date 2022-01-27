@@ -44,7 +44,7 @@ const isolationExt = {
   "rose" : 15,
   "plafon" : 150
 }
-const paris = [75,77,78,91,92,93,94,95]
+const paris = ["75","77","78","91","92","93","94","95"]
 
 document.getElementById("simulateur-prime-renov").addEventListener('submit', (event) => {
   event.preventDefault();
@@ -56,6 +56,8 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
   let revenus = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#revenus").querySelector("input").value);
   let surface = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#surface").querySelector("input").value);
   let occupation = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#duree").querySelector("input").value);
+  let zipcode = document.getElementById("simulateur-prime-renov").querySelector("label#zipcode").querySelector("input").value;
+  let localite = "";
 
   if (people < 5) {
     bareme[people];
@@ -63,8 +65,14 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
     let result = entries.filter(key => revenus <= key)[0];
     let color = bareme[people][result] || "rose";
     let aides = isolationExt[color] * surface;
+    if (paris.includes(zipcode.substring(0,2))) {
+      localite = "paris";
+    }
+    else {
+      localite = zipcode;
+    }
     console.log(color);
-    if (travaux === 'no' || residence === 'no' || anciennete < 15 || occupation < 8) {
+    if (travaux === 'no' || residence === 'no' || anciennete < 15 || occupation < 8 || localite === "paris") {
       document.getElementById("results").querySelector("#aides").innerText = "Vous n'êtes pas exigible à MaPrimeRénov'";
     }
     else {
