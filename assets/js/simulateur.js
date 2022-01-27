@@ -44,6 +44,7 @@ const isolationExt = {
   "rose" : 15,
   "plafon" : 150
 }
+const paris = [75,77,78,91,92,93,94,95]
 
 document.getElementById("simulateur-prime-renov").addEventListener('submit', (event) => {
   event.preventDefault();
