@@ -72,7 +72,11 @@
     label {
     display: inline-block;
     justify-content: space-between;
-      font-family: 'ABeeZee';
+    font-family: 'ABeeZee';
+    width: 100%;
+    input {
+      &[type=text], &[type=number] { width: 50%; }
+    }
     }
   }
 }
