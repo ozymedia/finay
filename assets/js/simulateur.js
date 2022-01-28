@@ -31,6 +31,38 @@ const bareme = {
     //69081 : "rose" // >69081
   }
 }
+const baremeParis = {
+  1 :{
+    21123 : "bleu",
+    25714 : "jaune",
+    38184 : "violet",
+    //38184 : "rose" // >29149
+  },
+  2 :{
+    31003 : "bleu",
+    37739 : "jaune",
+    56130 : "violet",
+    //56130 : "rose" // >42848
+  },
+  3 :{
+    37232 : "bleu",
+    45326 : "jaune",
+    67585 : "violet",
+    //67585 : "rose" // >51592
+  },
+  4 :{
+    43472 : "bleu",
+    52925 : "jaune",
+    79041 : "violet",
+    //79041 : "rose" // >60336
+  },
+  5 :{
+    49736 : "bleu",
+    60546 : "jaune",
+    90496 : "violet",
+    //90496 : "rose" // >69081
+  }
+}
 const suppColors = {
   "bleu" : 4526,
   "jaune" : 5797,
@@ -44,6 +76,7 @@ const isolationExt = {
   "rose" : 15,
   "plafon" : 150
 }
+const paris = ["75","77","78","91","92","93","94","95"]
 
 document.getElementById("simulateur-prime-renov").addEventListener('submit', (event) => {
   event.preventDefault();
@@ -55,13 +88,30 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
   let revenus = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#revenus").querySelector("input").value);
   let surface = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#surface").querySelector("input").value);
   let occupation = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#duree").querySelector("input").value);
+  let zipcode = document.getElementById("simulateur-prime-renov").querySelector("label#zipcode").querySelector("input").value;
+  let localite = "";
+  let entries = "";
+  let result = "";
+  let color = "";
 
-  if (people < 5) {
-    bareme[people];
-    let entries = Object.keys(bareme[people]);
-    let result = entries.filter(key => revenus <= key)[0];
-    let color = bareme[people][result] || "rose";
+    //bareme[people];
+    if (paris.includes(zipcode.substring(0,2))) {
+      localite = "paris";
+      entries = Object.keys(baremeParis[people]);
+      result = entries.filter(key => revenus <= key)[0];
+      color = baremeParis[people][result] || "rose";
+    }
+    else {
+      localite = zipcode;
+      entries = Object.keys(bareme[people]);
+      result = entries.filter(key => revenus <= key)[0];
+      color = bareme[people][result] || "rose";
+    }
+    //let entries = Object.keys(bareme[people]);
+    //let result = entries.filter(key => revenus <= key)[0];
+    //let color = bareme[people][result] || "rose";
     let aides = isolationExt[color] * surface;
+    console.log(localite);
     console.log(color);
     if (travaux === 'no' || residence === 'no' || anciennete < 15 || occupation < 8) {
       document.getElementById("results").querySelector("#aides").innerText = "Vous n'êtes pas exigible à MaPrimeRénov'";
@@ -73,7 +123,5 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
 
     return color;
   }
-  else if (people > 5) {}
-  else {}
-});
+);
 

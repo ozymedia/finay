@@ -7,7 +7,7 @@ permalink: /simulateur-aide/
 <section class="inside">
   <h2>Simulateur MaPrimeRénov' 2022</h2>
   <p>Ce simulateur vous aide à estimer vos droits et vos aides dans la demande de <strong>travaux d'isolation par l'extérieur</strong>.<br>
-    Les simulations concernent les <b>résidences principales</b> <b>hors Ile-de-France</b> qui sont construites depuis <b>au moins 15 ans</b>, que vous occupez au moins <b>8 mois</b> dans l'année.
+    Les simulations concernent les <b>résidences principales</b> qui sont construites depuis <b>au moins 15 ans</b>, que vous occupez au moins <b>8 mois</b> dans l'année.
   </p>
   <form action="" id="simulateur-prime-renov">
     <div>
@@ -22,6 +22,12 @@ permalink: /simulateur-aide/
       </label>
     </div>
     <div>
+      <p>Code postal
+      <label id="zipcode">
+        <input id="zip" type="text" name="zip" pattern="[0-9]{5}" maxlength="5" minlength="5">
+      </label>
+    </div>
+    <div>
       <p>Ancienneté du logement</p>
       <label for="" id="anciennete">
         <input type="number" name="anciennete" placeholder="nombre d'années">
@@ -30,7 +36,7 @@ permalink: /simulateur-aide/
     <div>
       <p>Nombre de personnes composant le ménage</p>
       <label for="" id="people">
-        <input type="number" min="1" max="10">
+        <input type="number" min="1" max="5">
       </label>
     </div>
     <div>
