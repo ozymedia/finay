@@ -135,3 +135,5 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
   }
 );
 
+Array.from(document.querySelectorAll('input[type=radio]')).forEach((element) => {
+})

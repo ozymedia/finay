@@ -75,20 +75,29 @@
     div {
       display: flex;
       flex-wrap: wrap;
-      p { width: 100%; margin-bottom: 0;}
+      p { width: 100%; margin-bottom: 0; font-size: 0.9em; }
       label {
       display: inline-block;
       justify-content: space-between;
       font-family: 'ABeeZee';
       width: 100%;
       input {
-        &[type=text], &[type=number] { width: 100%; }
+        &[type=text], &[type=number] {
+          width: 100%;
+          line-height: 1em;
+          font-size: 0.8em;
+          padding: 5px;
+          font-family: "Avenir";
+          border: solid 1px lightgrey;
+          border-radius: 3px;
+        }
       }
       }
     }
     div.long {
       width: 100%; display: flex;
-      div { width: 50%;}
+      justify-content: space-between;
+      div { width: 48%; margin-top: 0.5em; margin-bottom: 0.5em; }
     }
     #button {
       justify-content: end;
@@ -116,6 +125,10 @@
     }
     .radio input[type="radio"]:checked {
       box-shadow: 0 0 0 3px orange;
+    }
+    .radio.checked {
+      background-color: $blue;
+      color: white;
     }
   }
   .faq {
@@ -164,6 +177,12 @@
 @media all and (max-width: 480px) {
   #simulateur {
     flex-direction: column;
+    #simulateur-prime-renov {
+      div.long {
+        flex-direction: column;
+        div { width: 100%; }
+      }
+    }
     .faq { width: 100%; margin-top: 1em; }
   }
   #results {
