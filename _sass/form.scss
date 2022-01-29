@@ -95,6 +95,9 @@
       justify-content: end;
       margin-top: 1em;
     }
+    input[type="radio"]:checked {
+      box-shadow: 0 0 0 3px orange;
+    }
   }
   .faq {
     width: 40%;
