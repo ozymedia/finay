@@ -61,11 +61,12 @@
 }
 #simulateur {
   display: flex;
+  justify-content: space-between;
   #simulateur-prime-renov {
     display: flex;
     flex-direction: column;
-    width: 60%;
-    margin: auto;
+    width: 100%;
+    margin-right: 5px;
     border: solid 1px lightgrey;
     padding: 1em;
     border-radius: 5px;
@@ -86,5 +87,17 @@
   }
   .faq {
     width: 40%;
+    font-family: "ABeeZee";
+    //border: solid 1px;
+    details {
+      border: solid lightgrey 1px;
+      border-radius: 3px;
+      padding: 0.5em;
+      summary {
+      }
+    }
   }
+}
+#results {
+  background-color: yellow;
 }
