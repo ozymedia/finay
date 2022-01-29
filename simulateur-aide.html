@@ -24,14 +24,35 @@ permalink: /simulateur-aide/
           Non
         </label>
       </div>
+
       <div>
-        <p>Code postal</p>
-        <label id="zipcode">
-          <input id="zip" type="text" name="zip" pattern="[0-9]{5}" maxlength="5" minlength="5">
+        <p>Cette demande concerne votre résidence principale ?</p>
+        <label class="residence">
+          <input type="radio" name="choice-residence" value="yes">
+          Oui
+        </label>
+        <label class="residence">
+          <input type="radio" name="choice-residence" value="no">
+          Non
         </label>
       </div>
 
-      <div>
+      <div class="long">
+        <div>
+          <p>Nombre de personnes composant le ménage</p>
+          <label for="" id="people">
+            <input type="number" min="1" max="5">
+          </label>
+        </div>
+        <div>
+          <p>Revenus annuels</p>
+          <label id="revenus">
+            <input type="number" name="revenus" placeholder="revenus annuels">
+          </label>
+        </div>
+      </div>
+
+      <div class="long">
         <div>
           <p>Ancienneté du logement</p>
           <label for="" id="anciennete">
@@ -46,35 +67,21 @@ permalink: /simulateur-aide/
         </div>
       </div>
 
-      <div>
-        <p>Nombre de personnes composant le ménage</p>
-        <label for="" id="people">
-          <input type="number" min="1" max="5">
-        </label>
+      <div class="long">
+        <div>
+          <p>Code postal</p>
+          <label id="zipcode">
+            <input id="zip" type="text" name="zip" pattern="[0-9]{5}" maxlength="5" minlength="5">
+          </label>
+        </div>
+        <div>
+          <p>Surface en m2 des façades extérieures</p>
+          <label for="" id="surface">
+            <input type="number" name="surface" placeholder="surface en m2">
+          </label>
+        </div>
       </div>
-      <div>
-        <p>Revenus annuels</p>
-        <label id="revenus">
-          <input type="number" name="revenus" placeholder="revenus annuels">
-        </label>
-      </div>
-      <div>
-        <p>Cette demande concerne votre résidence principale ?</p>
-        <label class="residence">
-          <input type="radio" name="choice-residence" value="yes">
-          Oui
-        </label>
-        <label class="residence">
-          <input type="radio" name="choice-residence" value="no">
-          Non
-        </label>
-      </div>
-      <div>
-        <p>Surface en m2 des façades extérieures</p>
-        <label for="" id="surface">
-          <input type="number" name="surface" placeholder="surface en m2">
-        </label>
-      </div>
+
       <div id="button">
         <button type="submit" class="btn">Simuler</button>
       </div>

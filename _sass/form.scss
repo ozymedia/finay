@@ -81,9 +81,13 @@
       font-family: 'ABeeZee';
       width: 100%;
       input {
-        &[type=text], &[type=number] { width: 50%; }
+        &[type=text], &[type=number] { width: 100%; }
       }
       }
+    }
+    div.long {
+      width: 100%; display: flex;
+      div { width: 50%;}
     }
   }
   .faq {
