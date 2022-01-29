@@ -97,9 +97,15 @@
     }
     .radios {
       display: flex;
+      width: 100%;
       label {
         width: auto;
         border: solid 1px;
+        min-width: 20%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
     .radio input[type="radio"] {
