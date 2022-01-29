@@ -91,6 +91,10 @@
       width: 100%; display: flex;
       div { width: 50%;}
     }
+    #button {
+      justify-content: end;
+      margin-top: 1em;
+    }
   }
   .faq {
     width: 40%;
