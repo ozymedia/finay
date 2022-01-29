@@ -117,7 +117,7 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
       document.getElementById("results").querySelector("#aides").innerText = "Vous n'êtes pas exigible à MaPrimeRénov'";
     }
     else {
-      document.getElementById("results").querySelector("#color").innerText = color;
+      document.getElementById("results").querySelector("#color").innerText = color.replace(/^\w/, (c) => c.toUpperCase());
       document.getElementById("results").querySelector("#aides").innerText = `Vous avez droit à ${aides} € d'aide avec MaPrimeRénov'`;
     }
 

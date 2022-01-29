@@ -30,12 +30,22 @@ permalink: /simulateur-aide/
           <input id="zip" type="text" name="zip" pattern="[0-9]{5}" maxlength="5" minlength="5">
         </label>
       </div>
+
       <div>
-        <p>Ancienneté du logement</p>
-        <label for="" id="anciennete">
-          <input type="number" name="anciennete" placeholder="nombre d'années">
-        </label>
+        <div>
+          <p>Ancienneté du logement</p>
+          <label for="" id="anciennete">
+            <input type="number" name="anciennete" placeholder="nombre d'années">
+          </label>
+        </div>
+        <div>
+          <p>Durée annuelle d'occupation du logement</p>
+          <label id="duree">
+            <input type="number" min="0" max="12" name="duree" placeholder="nombre de mois">
+          </label>
+        </div>
       </div>
+
       <div>
         <p>Nombre de personnes composant le ménage</p>
         <label for="" id="people">
@@ -57,12 +67,6 @@ permalink: /simulateur-aide/
         <label class="residence">
           <input type="radio" name="choice-residence" value="no">
           Non
-        </label>
-      </div>
-      <div>
-        <p>Durée annuelle d'occupation du logement</p>
-        <label id="duree">
-          <input type="number" min="0" max="12" name="duree" placeholder="nombre de mois">
         </label>
       </div>
       <div>
