@@ -120,8 +120,9 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
     }
     else {
       pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-${color}.png`;
-      document.getElementById("results").querySelector("#color").innerText = "Vous êtes éligible à MaPrimeRénov " + color.replace(/^\w/, (c) => c.toUpperCase());
-      document.getElementById("results").querySelector("#aides").innerText = `Vous avez droit à ${aides} € d'aide avec MaPrimeRénov'`;
+      color = color.replace(/^\w/, (c) => c.toUpperCase());
+      document.getElementById("results").querySelector("#color").innerHTML = `Vous êtes éligible à <span>MaPrimeRénov ${color}</span>`;
+      document.getElementById("results").querySelector("#aides").innerText = `Vous avez droit à ${aides} € d'aides avec MaPrimeRénov'`;
     }
 
     document.querySelector('#scroll-to').scrollIntoView({
