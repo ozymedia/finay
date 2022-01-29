@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
 #form {
   font-family: 'ABeeZee', sans-serif;
   padding: 35px;
@@ -59,26 +60,113 @@
     //border: none !important;
     //border-color: transparent;
 }
-#simulateur-prime-renov {
+#simulateur {
   display: flex;
-  flex-direction: column;
-  width: 60%;
-  margin: auto;
-  border: solid 1px lightgrey;
-  padding: 1em;
-  border-radius: 5px;
-  div {
+  justify-content: space-between;
+  #simulateur-prime-renov {
     display: flex;
-    flex-wrap: wrap;
-    p { width: 100%; margin-bottom: 0;}
-    label {
-    display: inline-block;
-    justify-content: space-between;
-    font-family: 'ABeeZee';
+    flex-direction: column;
     width: 100%;
-    input {
-      &[type=text], &[type=number] { width: 50%; }
+    margin-right: 3px;
+    border: solid 1px lightgrey;
+    padding: 1em;
+    border-radius: 5px;
+    p { margin: 0; }
+    div {
+      display: flex;
+      flex-wrap: wrap;
+      p { width: 100%; margin-bottom: 0;}
+      label {
+      display: inline-block;
+      justify-content: space-between;
+      font-family: 'ABeeZee';
+      width: 100%;
+      input {
+        &[type=text], &[type=number] { width: 100%; }
+      }
+      }
     }
+    div.long {
+      width: 100%; display: flex;
+      div { width: 50%;}
     }
+    #button {
+      justify-content: end;
+      margin-top: 1em;
+    }
+    .radios {
+      display: flex;
+      width: 100%;
+      label {
+        width: auto;
+        border: solid 1px;
+        min-width: 20%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .radio input[type="radio"] {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      -o-appearance: none;
+      appearance: none;
+    }
+    .radio input[type="radio"]:checked {
+      box-shadow: 0 0 0 3px orange;
+    }
+  }
+  .faq {
+    width: 40%;
+    font-family: "ABeeZee";
+    //border: solid 1px;
+    details {
+      border: solid lightgrey 1px;
+      border-radius: 3px;
+      padding: 0.5em;
+      margin-bottom: 3px;
+      cursor: pointer;
+      summary {
+        list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+      }
+    }
+  }
+}
+#results {
+  display: flex;
+  border: solid lightgrey 1px;
+  border-radius: 3px;
+  margin-top: 0;
+  margin-top: 3em;
+  p { margin: 0; margin-top: 0.8em; }
+  div {
+    width: 100%;
+  }
+  #prime-color {
+    display: flex;
+    flex-direction: column;
+    img { margin: auto;}
+    p { font-family: "ABeeZee"; text-align: center; }
+    #color  {
+      span {
+        &.Jaune {color: $yellow;}
+        &.Violet {color: $purple;}
+        &.Bleu {color: $lightblue;}
+        &.Rose {color: $rose;}
+      }
+    }
+  }
+  & > div { padding: 1em; }
+}
+
+@media all and (max-width: 480px) {
+  #simulateur {
+    flex-direction: column;
+    .faq { width: 100%; margin-top: 1em; }
+  }
+  #results {
+    flex-direction: column-reverse;
   }
 }
