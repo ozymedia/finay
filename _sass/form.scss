@@ -113,4 +113,9 @@
     width: 100%;
     border: solid 1px;
   }
+  #prime-color {
+    display: flex;
+    flex-direction: column;
+    img { margin: auto;}
+  }
 }
