@@ -172,6 +172,14 @@
     }
   }
   & > div { padding: 1em; }
+  .presentation {
+    font-size: 0.9em;
+  }
+  .verification {
+    font-size: 0.8em;
+    a {color: $blue;}
+    margin-bottom: 1em;
+  }
 }
 
 @media all and (max-width: 480px) {
