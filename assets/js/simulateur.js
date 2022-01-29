@@ -124,6 +124,10 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
       document.getElementById("results").querySelector("#aides").innerText = `Vous avez droit à ${aides} € d'aide avec MaPrimeRénov'`;
     }
 
+    document.querySelector('#results').scrollIntoView({
+      behavior: 'smooth'
+    });
+
     return color;
   }
 );
