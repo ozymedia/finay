@@ -126,6 +126,14 @@
     flex-direction: column;
     img { margin: auto;}
     p { font-family: "ABeeZee"; text-align: center; }
+    #color:  {
+      span {
+        &.jaune {color: $yellow;}
+        &.violet {color: $purple;}
+        &.bleu {color: $lightblue;}
+        &.rose {color: $rose;}
+      }
+    }
   }
   & > div { padding: 1em; }
 }
