@@ -13,6 +13,21 @@ permalink: /simulateur-aide/
   <div id="simulateur">
 
     <form action="" id="simulateur-prime-renov">
+
+      <div>
+        <p>Cette demande concerne votre résidence principale ?</p>
+        <div class="radios">
+          <label class="proprietaire radio">
+            <input type="radio" name="choice-proprietaire" value="proprietaire">
+            <span>Propriétaire<br>(occupant ou bailleur)</span>
+          </label>
+          <label class="proprietaire radio">
+            <input type="radio" name="choice-proprietaire" value="coproprietaire">
+            <span>Copropriétaire<br>(occupant ou bailleur)</span>
+          </label>
+        </div>
+      </div>
+
       <div>
         <p>Ma demande concerne bien des travaux d'isolation par l'extérieur ?</p>
         <div class="radios">
@@ -79,7 +94,7 @@ permalink: /simulateur-aide/
           </label>
         </div>
         <div>
-          <p>Surface en m2 des façades extérieures</p>
+          <p>Surface en m<sup>2</sup> des façades extérieures</p>
           <label for="" id="surface">
             <input type="number" name="surface" placeholder="surface en m2">
           </label>
@@ -109,10 +124,15 @@ permalink: /simulateur-aide/
   <div id="scroll-to"></div>
   <div id="results" class="inside">
     <div class="">
-      <p>Vérifier que Finay est bien une entreprise avec une certification RGE vous permettant de béneficier de la prime lors de vos travaux<br> <a href="https://france-renov.gouv.fr/fr/trouvez-un-professionnel" target="_blank">Cliquez ici !</p>
-      <p>Contacter Finay directement
-        <a href="/contact/" class="btn">Contacter Finay</a>
+      <div class="presentation">
+        <img src="/assets/images/icones/finay-logo.png" alt="" class="" width="150">
+        <p>Finay, entreprise spécialisée dans l'isolation extérieure vous accompagne dans vos démarches pour que vous puissiez bénéficier de l'ensemble des aides de l'Etat dans la nénovation et l'amélioration des performances énergétiques de votre logement.</p>
+      </div>
+      <p class="verification">Vérifier que Finay est bien une entreprise avec une certification RGE vous permettant de béneficier de la prime lors de vos travaux.<br> <a href="https://france-renov.gouv.fr/fr/trouvez-un-professionnel" target="_blank" class="link">Cliquez ici !</a>
       </p>
+      <div>
+        <a href="/contact/" class="btn">Contacter Finay</a>
+      </div>
     </div>
     <div id="prime-color">
       <img src="../assets/images/icones/pictos-entreprise/prime-neutre.png" width="150">
@@ -121,7 +141,131 @@ permalink: /simulateur-aide/
     </div>
   </div>
 
+</section>
+<section class="inside overflow">
 
+<table cellspacing="0">
+    <thead>
+        <tr>
+          <th colspan="5">Barème de couleurs MaPrimeRénov' en France (hors Ile-de-France)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Nombre de
+personnes composant
+le ménage (foyer fiscal)</td>
+            <td class="bleu">Revenus annuels pour être éligible à MaPrimeRénov' Bleu</td>
+            <td class="jaune">Revenus annuels pour être éligible à MaPrimeRénov' Jaune</td>
+            <td class="violet">Revenus annuels pour être éligible à MaPrimeRénov' Violet</td>
+            <td class="rose">Revenus annuels pour être éiigible à MaPrimeRénov' Rose</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td class="bleu">jusqu'à 15 262 €</td>
+          <td class="jaune">jusqu'à 19 565 €</td>
+          <td class="violet">jusqu'à 29 148 €</td>
+          <td class="rose">> 29 148 €</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="bleu">jusqu'à 22 320 €</td>
+          <td class="jaune">jusqu'à 28 614 €</td>
+          <td class="violet">jusqu'à 42 848 €</td>
+          <td class="rose">> 42 848 €</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="bleu">jusqu'à 26 844 €</td>
+          <td class="jaune">jusqu'à 34 411 €</td>
+          <td class="violet">jusqu'à 51 592 €</td>
+          <td class="rose">> 51 592 €</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td class="bleu">jusqu'à 31 359 €</td>
+          <td class="jaune">jusqu'à 40 201 €</td>
+          <td class="violet">jusqu'à 60 336 €</td>
+          <td class="rose">> 60 336 €</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td class="bleu">jusqu'à 35 894 €</td>
+          <td class="jaune">jusqu'à 46 015 €</td>
+          <td class="violet">jusqu'à 69 081 €</td>
+          <td class="rose">  > 69 081 €</td>
+        </tr>
+        <tr>
+          <td>Par personne supplémentaire</td>
+          <td class="bleu">+ 4 526 €</td>
+          <td class="jaune">+ 5 797 €</td>
+          <td class="violet">+ 8 744 €</td>
+          <td class="rose">+ 8 744 €</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+
+<table cellspacing="0">
+    <thead>
+        <tr>
+          <th colspan="5">Barème de couleurs MaPrimeRénov' en Ile-de-France</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Nombre de
+personnes composant
+le ménage (foyer fiscal)</td>
+            <td class="bleu">Revenus annuels pour être éligible à MaPrimeRénov' Bleu</td>
+            <td class="jaune">Revenus annuels pour être éligible à MaPrimeRénov' Jaune</td>
+            <td class="violet">Revenus annuels pour être éligible à MaPrimeRénov' Violet</td>
+            <td class="rose">Revenus annuels pour être éiigible à MaPrimeRénov' Rose</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td class="bleu">jusqu'à 21 123 €</td>
+          <td class="jaune">jusqu'à 25 714 €</td>
+          <td class="violet">jusqu'à 38 184 €</td>
+          <td class="rose">> 38 184 €</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="bleu">jusqu'à 31 003 €</td>
+          <td class="jaune">jusqu'à 37 739 €</td>
+          <td class="violet">jusqu'à 56 130 €</td>
+          <td class="rose">> 56 130 €</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="bleu">jusqu'à 37 232 €  </td>
+          <td class="jaune">jusqu'à 45 326 €</td>
+          <td class="violet">jusqu'à 67 585 €</td>
+          <td class="rose">> 67 585 €</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td class="bleu">jusqu'à 43 472 €</td>
+          <td class="jaune">jusqu'à 52 925 €</td>
+          <td class="violet">jusqu'à 79 041 €</td>
+          <td class="rose">> 79 041 €</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td class="bleu">jusqu'à 49 736 €</td>
+          <td class="jaune">jusqu'à 60 546 €</td>
+          <td class="violet">jusqu'à 90 496 €</td>
+          <td class="rose">> 90 496 €</td>
+        </tr>
+        <tr>
+          <td>Par personne supplémentaire</td>
+          <td class="bleu">+ 6 253 €</td>
+          <td class="jaune">+ 7 613 €</td>
+          <td class="violet">+ 11 455 €</td>
+          <td class="rose">+ 11 455 €</td>
+        </tr>
+    </tbody>
+</table>
 
 </section>
 

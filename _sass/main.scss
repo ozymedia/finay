@@ -100,3 +100,17 @@ p {
 .left {
   text-align: left;
 }
+.overflow {
+  //overflow: scroll;
+  overflow-x: auto;
+}
+thead, th, tr, td {
+  border: solid 1px;
+  font-family: "Avenir";
+}
+table {
+  .bleu {background-color: $lightblue;}
+  .jaune { background-color: $yellow;}
+  .violet { background-color: $purple;}
+  .rose {background-color: $rose;}
+}

@@ -115,7 +115,9 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
     console.log(localite);
     console.log(color);
     if (travaux === 'no' || residence === 'no' || anciennete < 15 || occupation < 8) {
-      document.getElementById("results").querySelector("#aides").innerText = "Vous n'êtes pas exigible à MaPrimeRénov'";
+      document.getElementById("results").querySelector("#color").innerHTML = "";
+      document.getElementById("results").querySelector("#aides").innerText = "";
+      document.getElementById("results").querySelector("#aides").innerText = "Vous n'êtes pas éligible à MaPrimeRénov'";
       pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-neutre.png`;
     }
     else {
@@ -133,3 +135,5 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
   }
 );
 
+Array.from(document.querySelectorAll('input[type=radio]')).forEach((element) => {
+})
