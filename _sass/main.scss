@@ -139,4 +139,11 @@ table > tbody > tr:not(:first-child) {
 tr td:first-of-type {
   border-left: solid 1px;
 }
+.source {
+  margin: 0;
+  font-size: 0.6em;
+  color: lightgrey;
+  font-weight: 500;
+  margin-top: 5px;
+}
 
