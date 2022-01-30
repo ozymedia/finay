@@ -100,6 +100,10 @@ p {
 .left {
   text-align: left;
 }
+.overflow {
+  //overflow: scroll;
+  overflow-x: auto;
+}
 thead, th, tr, td {
   border: solid 1px;
   font-family: "Avenir";
