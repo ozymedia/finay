@@ -101,16 +101,42 @@ p {
   text-align: left;
 }
 .overflow {
-  //overflow: scroll;
   overflow-x: auto;
 }
 thead, th, tr, td {
-  border: solid 1px;
-  font-family: "Avenir";
+  //border: solid 1px;
+  text-align: center;
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+  //font-family: "Avenir";
 }
-table {
+table > tbody > tr > td {
+  padding: 5px;
+}
+th {
+  font-family: "ABeeZee"; line-height: 2.5em;
+  border-top: solid 1px black; //
+  border-left: solid 1px black; //
+  border-bottom: solid 1px black; //
+  border-right: solid 1px black;
+  background-color: $blue;
+  color: white;
+}
+table > tbody > tr:first-of-type {
+  font-family: "Avenir";
+  font-size: 0.9em;
+  text-align: center;
   .bleu {background-color: $lightblue;}
   .jaune { background-color: $yellow;}
   .violet { background-color: $purple;}
   .rose {background-color: $rose;}
+  font-weight: 500;
 }
+table > tbody > tr:not(:first-child) {
+  font-size: 0.9em;
+  font-family: "Avenir";
+}
+tr td:first-of-type {
+  border-left: solid 1px;
+}
+
