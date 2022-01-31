@@ -1,6 +1,6 @@
 ---
 layout: custom
-titre: Simulateur d'aide
+titre: Simulateurs d'aides
 title: Simulateur des aides dont vous avez droit | Finay
 permalink: /simulateur-aide/
 ---
@@ -29,15 +29,15 @@ permalink: /simulateur-aide/
       </div>
 
       <div>
-        <p>Ma demande concerne bien des travaux d'isolation par l'extérieur ?</p>
+        <p>Ma demande concerne des travaux portant sur :</p>
         <div class="radios">
           <label class="type-travaux radio">
             <input type="radio" name="choice-travaux" value="yes">
-            <span>Oui</span>
+            <span>Isolation extérieure</span>
           </label>
           <label class="type-travaux radio">
             <input type="radio" name="choice-travaux" value="no">
-            <span>Non</span>
+            <span>Chauffage</span>
           </label>
         </div>
       </div>
@@ -64,24 +64,9 @@ permalink: /simulateur-aide/
           </label>
         </div>
         <div>
-          <p>Revenus annuels</p>
+          <p>Montant total des revenus fiscaux du foyer (en €)</p>
           <label id="revenus">
-            <input type="number" name="revenus" placeholder="revenus annuels">
-          </label>
-        </div>
-      </div>
-
-      <div class="long">
-        <div>
-          <p>Ancienneté du logement</p>
-          <label for="" id="anciennete">
-            <input type="number" name="anciennete" placeholder="nombre d'années">
-          </label>
-        </div>
-        <div>
-          <p>Durée annuelle d'occupation du logement</p>
-          <label id="duree">
-            <input type="number" min="0" max="12" name="duree" placeholder="nombre de mois">
+            <input type="number" name="revenus" placeholder="ex: 26563">
           </label>
         </div>
       </div>
@@ -91,12 +76,6 @@ permalink: /simulateur-aide/
           <p>Code postal</p>
           <label id="zipcode">
             <input id="zip" type="text" name="zip" pattern="[0-9]{5}" maxlength="5" minlength="5">
-          </label>
-        </div>
-        <div>
-          <p>Surface en m<sup>2</sup> des façades extérieures</p>
-          <label for="" id="surface">
-            <input type="number" name="surface" placeholder="surface en m2">
           </label>
         </div>
       </div>
@@ -109,7 +88,7 @@ permalink: /simulateur-aide/
     <div class="faq">
       <details>
         <summary>Où trouver mes revenus annuels ?</summary>
-          <p>Something small enough to escape casual notice.</p>
+          <p>Le montant total de vos revenus fiscaux correspond à la somme de tous les revenus fiscaux de votre foyer. Ces revenus se trouvent sur vos derniers avis d'imposition.</p>
       </details>
       <details>
         <summary>Qui sont les personnes qui composent mon ménage ?</summary>
@@ -158,7 +137,7 @@ le ménage (foyer fiscal)</td>
             <td class="bleu">Revenus annuels pour être éligible à MaPrimeRénov' Bleu</td>
             <td class="jaune">Revenus annuels pour être éligible à MaPrimeRénov' Jaune</td>
             <td class="violet">Revenus annuels pour être éligible à MaPrimeRénov' Violet</td>
-            <td class="rose">Revenus annuels pour être éiligible à MaPrimeRénov' Rose</td>
+            <td class="rose">Revenus annuels pour être éligible à MaPrimeRénov' Rose</td>
         </tr>
         <tr>
           <td>1</td>
@@ -221,7 +200,7 @@ le ménage (foyer fiscal)</td>
             <td class="bleu">Revenus annuels pour être éligible à MaPrimeRénov' Bleu</td>
             <td class="jaune">Revenus annuels pour être éligible à MaPrimeRénov' Jaune</td>
             <td class="violet">Revenus annuels pour être éligible à MaPrimeRénov' Violet</td>
-            <td class="rose">Revenus annuels pour être éiligible à MaPrimeRénov' Rose</td>
+            <td class="rose">Revenus annuels pour être éligible à MaPrimeRénov' Rose</td>
         </tr>
         <tr>
           <td>1</td>
