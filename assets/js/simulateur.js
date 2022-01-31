@@ -74,7 +74,7 @@ const isolationExt = {
   "jaune" : 60,
   "violet" : 40,
   "rose" : 15,
-  "plafon" : 150
+  "plafond" : 150
 }
 const paris = ["75","77","78","91","92","93","94","95"]
 
@@ -83,11 +83,11 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
   // do something on submit of a form
   let travaux = Array.from(document.querySelectorAll(".type-travaux input")).filter(item => item.checked === true)[0].value;
   let residence = Array.from(document.querySelectorAll(".residence input")).filter(item => item.checked === true)[0].value;
-  let anciennete = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#anciennete").querySelector("input").value);
+  //let anciennete = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#anciennete").querySelector("input").value);
   let people = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#people").querySelector("input").value);
   let revenus = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#revenus").querySelector("input").value);
-  let surface = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#surface").querySelector("input").value);
-  let occupation = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#duree").querySelector("input").value);
+  //let surface = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#surface").querySelector("input").value);
+  //let occupation = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#duree").querySelector("input").value);
   let zipcode = document.getElementById("simulateur-prime-renov").querySelector("label#zipcode").querySelector("input").value;
   let localite = "";
   let entries = "";
@@ -111,10 +111,10 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
     //let entries = Object.keys(bareme[people]);
     //let result = entries.filter(key => revenus <= key)[0];
     //let color = bareme[people][result] || "rose";
-    let aides = isolationExt[color] * surface;
+    let aides = isolationExt[color];
     console.log(localite);
     console.log(color);
-    if (travaux === 'no' || residence === 'no' || anciennete < 15 || occupation < 8) {
+    if (travaux === 'no' || residence === 'no') {
       document.getElementById("results").querySelector("#color").innerHTML = "";
       document.getElementById("results").querySelector("#aides").innerText = "";
       document.getElementById("results").querySelector("#aides").innerText = "Vous n'êtes pas éligible à MaPrimeRénov'";
@@ -124,7 +124,7 @@ document.getElementById("simulateur-prime-renov").addEventListener('submit', (ev
       pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-${color}.png`;
       color = color.replace(/^\w/, (c) => c.toUpperCase());
       document.getElementById("results").querySelector("#color").innerHTML = `Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`;
-      document.getElementById("results").querySelector("#aides").innerText = `Vous avez droit à ${aides} € d'aides avec MaPrimeRénov'`;
+      document.getElementById("results").querySelector("#aides").innerHTML = `Vous avez droit à ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br> XX€/m<sup>2</sup> avec la prime CEE<br>Le total des primes est de XX€/m<sup>2</sup>`;
     }
 
     document.querySelector('#scroll-to').scrollIntoView({
