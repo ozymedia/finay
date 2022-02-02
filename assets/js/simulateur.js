@@ -77,8 +77,8 @@ const isolationExt = {
   "plafond" : 150
 }
 const cee = {
-  "murs extérieurs": 19,
-  "murs intérieurs": 19,
+  "isolation des murs par l'extérieur": 19,
+  "isolation des murs par l'intérieur": 19,
   "isolation des combles perdues par le sol": 8,
   "isolation des rampants de toiture": 8
 }

@@ -32,14 +32,33 @@ permalink: /simulateur-aide/
         <p>Ma demande concerne des travaux portant sur :</p>
         <div class="radios">
           <label class="type-travaux radio">
-            <input type="radio" name="choice-travaux" value="yes">
-            <span>Isolation extérieure</span>
+            <input type="radio" name="choice-travaux" value="isolation des murs par l'extérieur">
+            <span>Isolation des murs par l'extérieur</span>
           </label>
           <label class="type-travaux radio">
-            <input type="radio" name="choice-travaux" value="no">
-            <span>Chauffage</span>
+            <input type="radio" name="choice-travaux" value="isolation des murs par l'intérieur">
+            <span>Isolation des murs par l'intérieur</span>
+          </label>
+          <label class="type-travaux radio">
+            <input type="radio" name="choice-travaux" value="isolation des combles perdues par le sol">
+            <span>Isolation des combles perdus par le sol</span>
+          </label>
+          <label class="type-travaux radio">
+            <input type="radio" name="choice-travaux" value="isolation des rampants de toiture">
+            <span>Isolation des rampants de toiture</span>
           </label>
         </div>
+      </div>
+      <div>
+        <label for="pet-select">Ma demande concerne des travaux portant sur :</label>
+
+        <select name="pets" id="pet-select">
+          <option value="">Choisir un type de travaux</option>
+          <option value="isolation des murs par l'extérieur">isolation des murs par l'extérieur</option>
+          <option value="isolation des murs par l'intérieur">isolation des murs par l'intérieur</option>
+          <option value="isolation des combles perdues par le sol">isolation des combles perdues par le sol</option>
+          <option value="isolation des rampants de toiture">isolation des rampants de toiture</option>
+        </select>
       </div>
 
       <div>
