@@ -7,7 +7,7 @@
       <li class="progress-bar__dot"></li>
    </ul>
 
-   <div class="step step1">
+  <div class="step step1">
     <h2>Informations concernant votre foyer</h2>
     <div>
       <p>Nombre de personnes composant le ménage</p>
@@ -27,10 +27,8 @@
         <input id="zip" type="text" name="zip" pattern="[0-9]{5}" maxlength="5" minlength="5">
       </label>
     </div>
-   </div>
-   <div>
-    <p>Cette demande concerne votre résidence principale ?</p>
     <div class="radios">
+      <p>Cette demande concerne votre résidence principale ?</p>
       <label class="proprietaire radio">
         <input type="radio" name="choice-proprietaire" value="proprietaire">
         <span>Propriétaire<br>(occupant ou bailleur)</span>
@@ -40,7 +38,7 @@
         <span>Copropriétaire<br>(occupant ou bailleur)</span>
       </label>
     </div>
-  </div>
+   </div>
 
    <div class="step step2 hidden">
     <h2>Informations concernant vos travaux</h2>
@@ -70,8 +68,23 @@
    </div>
 
    <div class="step step3 hidden">
-    <div>
-      <p>Résultats</p>
+    <div id="results" class="inside">
+      <div class="">
+        <div class="presentation">
+          <img src="/assets/images/icones/finay-logo.png" alt="" class="" width="150">
+          <p>Finay, entreprise spécialisée dans l'isolation extérieure vous accompagne dans vos démarches pour que vous puissiez bénéficier de l'ensemble des aides de l'Etat dans la nénovation et l'amélioration des performances énergétiques de votre logement.</p>
+        </div>
+        <p class="verification">Vérifier que Finay est bien une entreprise avec une certification RGE vous permettant de béneficier de la prime lors de vos travaux.<br> <a href="https://france-renov.gouv.fr/fr/trouvez-un-professionnel" target="_blank" class="link">Cliquez ici !</a>
+        </p>
+        <div>
+          <a href="/contact/" class="btn">Contacter Finay</a>
+        </div>
+      </div>
+      <div id="prime-color">
+        <img src="../assets/images/icones/pictos-entreprise/prime-neutre.png" width="150">
+        <p id="color"></p>
+        <p id="aides"></p>
+      </div>
     </div>
    </div>
 
