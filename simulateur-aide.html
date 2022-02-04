@@ -12,97 +12,7 @@ permalink: /simulateur-aide/
 
   <div id="simulateur">
 
-    <form action="" id="simulateur-prime-renov">
-
-      <div>
-        <p>Cette demande concerne votre résidence principale ?</p>
-        <div class="radios">
-          <label class="proprietaire radio">
-            <input type="radio" name="choice-proprietaire" value="proprietaire">
-            <span>Propriétaire<br>(occupant ou bailleur)</span>
-          </label>
-          <label class="proprietaire radio">
-            <input type="radio" name="choice-proprietaire" value="coproprietaire">
-            <span>Copropriétaire<br>(occupant ou bailleur)</span>
-          </label>
-        </div>
-      </div>
-
-      <div>
-        <p>Ma demande concerne des travaux portant sur :</p>
-        <div class="radios">
-          <label class="type-travaux radio">
-            <input type="radio" name="choice-travaux" value="isolation des murs par l'extérieur">
-            <span>Isolation des murs par l'extérieur</span>
-          </label>
-          <label class="type-travaux radio">
-            <input type="radio" name="choice-travaux" value="isolation des murs par l'intérieur">
-            <span>Isolation des murs par l'intérieur</span>
-          </label>
-          <label class="type-travaux radio">
-            <input type="radio" name="choice-travaux" value="isolation des combles perdues par le sol">
-            <span>Isolation des combles perdus par le sol</span>
-          </label>
-          <label class="type-travaux radio">
-            <input type="radio" name="choice-travaux" value="isolation des rampants de toiture">
-            <span>Isolation des rampants de toiture</span>
-          </label>
-        </div>
-      </div>
-      <div>
-        <label for="pet-select">Ma demande concerne des travaux portant sur :</label>
-
-        <select name="pets" id="pet-select">
-          <option value="">Choisir un type de travaux</option>
-          <option value="isolation des murs par l'extérieur">isolation des murs par l'extérieur</option>
-          <option value="isolation des murs par l'intérieur">isolation des murs par l'intérieur</option>
-          <option value="isolation des combles perdues par le sol">isolation des combles perdues par le sol</option>
-          <option value="isolation des rampants de toiture">isolation des rampants de toiture</option>
-        </select>
-      </div>
-
-      <div>
-        <p>Cette demande concerne votre résidence principale ?</p>
-        <div class="radios">
-          <label class="residence radio">
-            <input type="radio" name="choice-residence" value="yes">
-            <span>Oui</span>
-          </label>
-          <label class="residence radio">
-            <input type="radio" name="choice-residence" value="no">
-            <span>Non</span>
-          </label>
-        </div>
-      </div>
-
-      <div class="long">
-        <div>
-          <p>Nombre de personnes composant le ménage</p>
-          <label for="" id="people">
-            <input type="number" min="1" max="5">
-          </label>
-        </div>
-        <div>
-          <p>Montant total des revenus fiscaux du foyer (en €)</p>
-          <label id="revenus">
-            <input type="number" name="revenus" placeholder="ex: 26563">
-          </label>
-        </div>
-      </div>
-
-      <div class="long">
-        <div>
-          <p>Code postal</p>
-          <label id="zipcode">
-            <input id="zip" type="text" name="zip" pattern="[0-9]{5}" maxlength="5" minlength="5">
-          </label>
-        </div>
-      </div>
-
-      <div id="button">
-        <button type="submit" class="btn">Simuler</button>
-      </div>
-    </form>
+    {% include simulateur.html %}
 
     <div class="faq">
       <details>
@@ -269,10 +179,6 @@ le ménage (foyer fiscal)</td>
 
 </section>
 
-
-<section class="inside">
-  {% include simulateur.html %}
-</section>
 
 
 <script src="/assets/js/simulateur2.js"></script>
