@@ -37,7 +37,48 @@
    font-family: "Raleway", sans-serif;
    color: $blue;
    border-radius: 0.2em;
-   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   border: solid 1px lightgrey;
+   //box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+  p { min-width: 50px; width: 100%; margin-top: 0; margin-bottom: 1;
+    color: black; margin-bottom: 0; }
+  label { font-family: 'ABeeZee', sans-serif; width: 100%; }
+  input {
+    width: 100%;
+    border: solid 1px lightgrey;
+    background-color: transparent;
+    //border-bottom: solid 0.5px white;
+    font-family: 'ABeeZee';
+    line-height: 4ch;
+    border-radius: 5px;
+    margin-bottom: 1em;
+  }
+  textarea {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: 'ABeeZee';
+    line-height: 4ch;
+    background-image: linear-gradient(transparent, transparent calc(4ch - 1px), #E7EFF8 0px);
+    background-size: 100% 4ch;
+  }
+  input::placeholder, textarea::placeholder {
+    color: white;
+    opacity: 70%;
+    font-family: 'ABeeZee';
+  }
+  input:focus, textarea:focus {
+    outline: none;
+  }
+  select {
+    width: 100%;
+    line-height: 4ch;
+    height: 4ch;
+    border: solid 1px lightgrey;
+    margin-bottom: 2em;
+  }
+
    .progress-bar {
       width: 100%;
       list-style-type: none;
@@ -45,28 +86,30 @@
       padding: 0;
       justify-content: center;
       margin-bottom: 3.5em;
+      align-items: center;
 
       li.progress-bar__dot {
-         display: block;
-         width: 0.6em;
-         border-radius: 1000em;
-         height: 0.6em;
-         border: 0.2em solid $orange;
-         background-color: white;
-         cursor:pointer;
-         transition: all .5s ease;
-
-         &.full {
-            background-color: $orange;
-         }
+        display: block;
+        width: 0.6em;
+        border-radius: 1000em;
+        height: 0.6em;
+        border: 0.2em solid $orange;
+        background-color: white;
+        cursor:pointer;
+        transition: all .5s ease;
+        margin: 0;
+        &.full {
+           background-color: $orange;
+        }
       }
       li.progress-bar__connector {
-         display: block;
-         width: 5em;
-         border-radius: 1000em;
-         height: 0.1em;
-         background-color: $orange;
-         margin-top: 0.45em;
+        display: block;
+        width: 5em;
+        border-radius: 1000em;
+        height: 0.1em;
+        background-color: $orange;
+        margin-top: 0.45em;
+        margin: 0;
       }
    }
    label {

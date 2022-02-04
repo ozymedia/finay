@@ -37,6 +37,14 @@
       background-size: 100% 4ch;
     }
   }
+  input::placeholder, textarea::placeholder {
+    color: white;
+    opacity: 70%;
+    font-family: 'ABeeZee';
+  }
+  input:focus, textarea:focus {
+    outline: none;
+  }
   .checkbox {
     color: white;
     font-size: 0.8em;
@@ -46,14 +54,7 @@
     display: flex;
     justify-content: flex-end;
   }
-  input::placeholder, textarea::placeholder {
-    color: white;
-    opacity: 70%;
-    font-family: 'ABeeZee';
-  }
-  input:focus, textarea:focus {
-    outline: none;
-  }
+
   //  color: white;
     //border: transparent;
   //  background-color: $blue;
