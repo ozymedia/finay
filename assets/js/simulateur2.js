@@ -234,9 +234,9 @@ let totalAides = aides + ceeAides;
     console.log(color);
       if (residence === 'no') {
         //debugger;
-        document.getElementById("results").querySelector("#color").innerHTML = "";
-        document.getElementById("results").querySelector("#aides").innerText = "";
-        document.getElementById("results").querySelector("#aides").innerText = "Vous n'êtes pas éligible à MaPrimeRénov'";
+        document.querySelector(".step.step3").querySelector("#results").querySelector("#color").innerHTML = "";
+        document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerText = "";
+        document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerText = "Vous n'êtes pas éligible à MaPrimeRénov'";
         pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-neutre.png`;
       }
       else {
