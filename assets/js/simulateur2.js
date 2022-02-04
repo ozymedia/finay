@@ -93,3 +93,4 @@ function show(elem){
 function hide(elem){
    elem.classList.add('hidden')
 }
+
