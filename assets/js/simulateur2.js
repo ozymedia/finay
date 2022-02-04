@@ -1,3 +1,5 @@
+
+console.log("simulateur 2");
 const previousButton = document.getElementById("previous")
 const nextButton = document.getElementById("next")
 const submitButton = document.getElementById('validate')
