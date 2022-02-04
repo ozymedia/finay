@@ -181,10 +181,22 @@ const cee = {
 }
 const paris = ["75","77","78","91","92","93","94","95"]
 
-document.getElementById("stepByStepForm").addEventListener('submit', (event) => {
+let btnFinal = document.getElementById("next");
+Array.from(document.querySelector(".button-group").querySelectorAll(".button")).forEach(element =>{
+  element.addEventListener("click", (event) =>{
+    alert(currentStep);
+    if (currentStep > 1) {
+      btnFinal.classList.add("final");
+      simulate();
+    }
+  });
+});
+
+function simulate() {
+  document.getElementById("stepByStepForm").querySelector(".button.final").addEventListener('click', (event) => {
   event.preventDefault();
   // do something on submit of a form
-  let travaux = Array.from(document.querySelectorAll(".type-travaux input")).filter(item => item.checked === true)[0].value;
+  //let travaux = Array.from(document.querySelectorAll(".type-travaux input")).filter(item => item.checked === true)[0].value;
   let residence = Array.from(document.querySelectorAll(".residence input")).filter(item => item.checked === true)[0].value;
   //let anciennete = parseFloat(document.getElementById("simulateur-prime-renov").querySelector("label#anciennete").querySelector("input").value);
   let people = parseFloat(document.getElementById("stepByStepForm").querySelector("label#people").querySelector("input").value);
@@ -217,26 +229,31 @@ document.getElementById("stepByStepForm").addEventListener('submit', (event) => 
     let aides = isolationExt[color];
     console.log(localite);
     console.log(color);
-    if (residence === 'no') {
-      document.getElementById("results").querySelector("#color").innerHTML = "";
-      document.getElementById("results").querySelector("#aides").innerText = "";
-      document.getElementById("results").querySelector("#aides").innerText = "Vous n'êtes pas éligible à MaPrimeRénov'";
-      pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-neutre.png`;
-    }
-    else {
-      pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-${color}.png`;
-      color = color.replace(/^\w/, (c) => c.toUpperCase());
-      document.getElementById("results").querySelector("#color").innerHTML = `Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`;
-      document.getElementById("results").querySelector("#aides").innerHTML = `Vous avez droit à ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br> XX€/m<sup>2</sup> avec la prime CEE<br>Le total des primes est de XX€/m<sup>2</sup>`;
-    }
+    debugger;
+      if (residence === 'no') {
+        debugger;
+        document.getElementById("results").querySelector("#color").innerHTML = "";
+        document.getElementById("results").querySelector("#aides").innerText = "";
+        document.getElementById("results").querySelector("#aides").innerText = "Vous n'êtes pas éligible à MaPrimeRénov'";
+        pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-neutre.png`;
+      }
+      else {
+        debugger;
+        pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-${color}.png`;
+        color = color.replace(/^\w/, (c) => c.toUpperCase());
+        document.getElementById("results").querySelector("#color").innerHTML = `Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`;
+        document.getElementById("results").querySelector("#aides").innerHTML = `Vous avez droit à ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br> XX€/m<sup>2</sup> avec la prime CEE<br>Le total des primes est de XX€/m<sup>2</sup>`;
+      }
 
     //document.querySelector('#scroll-to').scrollIntoView({
     //  behavior: 'smooth'
     //});
 
-    return color;
-  }
-);
+      return color;
+    }
+  );
+}
+
 
 Array.from(document.querySelectorAll('input[type=radio]')).forEach((element) => {
 })
