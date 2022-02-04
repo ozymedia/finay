@@ -208,7 +208,7 @@ function simulate() {
   let entries = "";
   let result = "";
   let color = "";
-  let pictoPrime = document.getElementById("prime-color").querySelector("img");
+  let pictoPrime = document.getElementById("stepByStepForm").querySelector("#prime-color").querySelector("img");
 
     //bareme[people];
     if (paris.includes(zipcode.substring(0,2))) {
@@ -231,18 +231,20 @@ function simulate() {
     console.log(color);
     debugger;
       if (residence === 'no') {
-        debugger;
+        //debugger;
         document.getElementById("results").querySelector("#color").innerHTML = "";
         document.getElementById("results").querySelector("#aides").innerText = "";
         document.getElementById("results").querySelector("#aides").innerText = "Vous n'êtes pas éligible à MaPrimeRénov'";
         pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-neutre.png`;
       }
       else {
-        debugger;
+        //debugger;
         pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-${color}.png`;
         color = color.replace(/^\w/, (c) => c.toUpperCase());
-        document.getElementById("results").querySelector("#color").innerHTML = `Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`;
-        document.getElementById("results").querySelector("#aides").innerHTML = `Vous avez droit à ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br> XX€/m<sup>2</sup> avec la prime CEE<br>Le total des primes est de XX€/m<sup>2</sup>`;
+        //alert(`Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`);
+        //alert(`Vous avez droit à ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br> XX€/m<sup>2</sup> avec la prime CEE<br>Le total des primes est de XX€/m<sup>2</sup>`);
+        document.querySelector(".step.step3").querySelector("#results").querySelector("#color").innerHTML = `Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`;
+        document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `Vous avez droit à ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br> XX€/m<sup>2</sup> avec la prime CEE<br>Le total des primes est de XX€/m<sup>2</sup>`;
       }
 
     //document.querySelector('#scroll-to').scrollIntoView({
