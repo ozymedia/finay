@@ -41,7 +41,7 @@
    //box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
   p { min-width: 50px; width: 100%; margin-top: 0; margin-bottom: 1;
-    color: black; margin-bottom: 0; }
+    color: black; margin-bottom: 5px; }
   label { font-family: 'ABeeZee', sans-serif; width: 100%; }
   input {
     width: 100%;
@@ -80,6 +80,7 @@
   }
   .radios {
     display: flex;
+    margin-bottom: 1em;
     //justify-content: space-between;
     .residence.radio {
       border: solid 1px;
@@ -89,7 +90,7 @@
       //justify-content: space-between;
       flex-flow: row-reverse;
       width: auto;
-      padding: 1em;
+      padding: 0.5em;
       padding-left: 2em;
       padding-right: 2em;
       border-radius: 5px;
