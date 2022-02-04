@@ -12,78 +12,7 @@ permalink: /simulateur-aide/
 
   <div id="simulateur">
 
-    <form action="" id="simulateur-prime-renov">
-
-      <div>
-        <p>Cette demande concerne votre résidence principale ?</p>
-        <div class="radios">
-          <label class="proprietaire radio">
-            <input type="radio" name="choice-proprietaire" value="proprietaire">
-            <span>Propriétaire<br>(occupant ou bailleur)</span>
-          </label>
-          <label class="proprietaire radio">
-            <input type="radio" name="choice-proprietaire" value="coproprietaire">
-            <span>Copropriétaire<br>(occupant ou bailleur)</span>
-          </label>
-        </div>
-      </div>
-
-      <div>
-        <p>Ma demande concerne des travaux portant sur :</p>
-        <div class="radios">
-          <label class="type-travaux radio">
-            <input type="radio" name="choice-travaux" value="yes">
-            <span>Isolation extérieure</span>
-          </label>
-          <label class="type-travaux radio">
-            <input type="radio" name="choice-travaux" value="no">
-            <span>Chauffage</span>
-          </label>
-        </div>
-      </div>
-
-      <div>
-        <p>Cette demande concerne votre résidence principale ?</p>
-        <div class="radios">
-          <label class="residence radio">
-            <input type="radio" name="choice-residence" value="yes">
-            <span>Oui</span>
-          </label>
-          <label class="residence radio">
-            <input type="radio" name="choice-residence" value="no">
-            <span>Non</span>
-          </label>
-        </div>
-      </div>
-
-      <div class="long">
-        <div>
-          <p>Nombre de personnes composant le ménage</p>
-          <label for="" id="people">
-            <input type="number" min="1" max="5">
-          </label>
-        </div>
-        <div>
-          <p>Montant total des revenus fiscaux du foyer (en €)</p>
-          <label id="revenus">
-            <input type="number" name="revenus" placeholder="ex: 26563">
-          </label>
-        </div>
-      </div>
-
-      <div class="long">
-        <div>
-          <p>Code postal</p>
-          <label id="zipcode">
-            <input id="zip" type="text" name="zip" pattern="[0-9]{5}" maxlength="5" minlength="5">
-          </label>
-        </div>
-      </div>
-
-      <div id="button">
-        <button type="submit" class="btn">Simuler</button>
-      </div>
-    </form>
+    {% include simulateur.html %}
 
     <div class="faq">
       <details>
@@ -98,25 +27,6 @@ permalink: /simulateur-aide/
         <summary>Les résidences secondaires sont-elles concernées ?</summary>
           <p>En 2022, les résidences que l'on occupe moins de 8 mois dans l'année ne sont pas concernées par MaPrimeRenov'</p>
       </details>
-    </div>
-  </div>
-  <div id="scroll-to"></div>
-  <div id="results" class="inside">
-    <div class="">
-      <div class="presentation">
-        <img src="/assets/images/icones/finay-logo.png" alt="" class="" width="150">
-        <p>Finay, entreprise spécialisée dans l'isolation extérieure vous accompagne dans vos démarches pour que vous puissiez bénéficier de l'ensemble des aides de l'Etat dans la nénovation et l'amélioration des performances énergétiques de votre logement.</p>
-      </div>
-      <p class="verification">Vérifier que Finay est bien une entreprise avec une certification RGE vous permettant de béneficier de la prime lors de vos travaux.<br> <a href="https://france-renov.gouv.fr/fr/trouvez-un-professionnel" target="_blank" class="link">Cliquez ici !</a>
-      </p>
-      <div>
-        <a href="/contact/" class="btn">Contacter Finay</a>
-      </div>
-    </div>
-    <div id="prime-color">
-      <img src="../assets/images/icones/pictos-entreprise/prime-neutre.png" width="150">
-      <p id="color"></p>
-      <p id="aides"></p>
     </div>
   </div>
 
@@ -250,7 +160,9 @@ le ménage (foyer fiscal)</td>
 
 </section>
 
-<script src="/assets/js/simulateur.js"></script>
+
+
+<script src="/assets/js/simulateur2.js"></script>
 
 <!--
 Durée d'occupation 8 mois min

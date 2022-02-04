@@ -1,32 +1,32 @@
 console.log("simulateur");
 const bareme = {
   1 :{
-    15262 : "bleu",
-    19565 : "jaune",
+    14879 : "bleu",
+    19074 : "jaune",
     29148 : "violet",
     //29149 : "rose" // >29149
   },
   2 :{
-    22320 : "bleu",
-    28614 : "jaune",
+    21760 : "bleu",
+    27896 : "jaune",
     42848 : "violet",
     //42848 : "rose" // >42848
   },
   3 :{
-    26844 : "bleu",
-    34411 : "jaune",
+    26170 : "bleu",
+    33547 : "jaune",
     51592 : "violet",
     //51592 : "rose" // >51592
   },
   4 :{
-    31359 : "bleu",
-    40201 : "jaune",
+    30572 : "bleu",
+    39192 : "jaune",
     60336 : "violet",
     //60336 : "rose" // >60336
   },
   5 :{
-    35894 : "bleu",
-    46015 : "jaune",
+    34993 : "bleu",
+    44860 : "jaune",
     69081 : "violet",
     //69081 : "rose" // >69081
   }
@@ -75,6 +75,12 @@ const isolationExt = {
   "violet" : 40,
   "rose" : 15,
   "plafond" : 150
+}
+const cee = {
+  "isolation des murs par l'extérieur": 19,
+  "isolation des murs par l'intérieur": 19,
+  "isolation des combles perdues par le sol": 8,
+  "isolation des rampants de toiture": 8
 }
 const paris = ["75","77","78","91","92","93","94","95"]
 

@@ -1,0 +1,89 @@
+<form id="stepByStepForm" class="form">
+   <ul class="progress-bar">
+      <li class="progress-bar__dot full">1</li>
+      <li class="progress-bar__connector"></li>
+      <li class="progress-bar__dot">2</li>
+      <li class="progress-bar__connector"></li>
+      <li class="progress-bar__dot">3</li>
+   </ul>
+
+  <div class="step step1">
+    <h2>Informations concernant votre foyer</h2>
+    <div>
+      <p>Nombre de personnes composant le ménage</p>
+      <label for="" id="people">
+        <input type="number" min="1" max="5">
+      </label>
+    </div>
+    <div>
+      <p>Montant total des revenus fiscaux du foyer (en €)</p>
+      <label id="revenus">
+        <input type="number" name="revenus" placeholder="ex: 26563">
+      </label>
+    </div>
+    <div>
+      <p>Code postal</p>
+      <label id="zipcode">
+        <input id="zip" type="text" name="zip" pattern="[0-9]{5}" maxlength="5" minlength="5">
+      </label>
+    </div>
+   </div>
+
+   <div class="step step2 hidden">
+    <h2>Informations concernant vos travaux</h2>
+    <p>Cette demande concerne votre résidence principale ?</p>
+    <div class="radios">
+      <label class="residence radio">
+        <input type="radio" name="choice-residence" value="yes">
+        <span>Oui</span>
+      </label>
+      <label class="residence radio">
+        <input type="radio" name="choice-residence" value="no">
+        <span>Non</span>
+      </label>
+    </div>
+
+    <div>
+      <p>Ma demande concerne des travaux portant sur :</p>
+
+      <select name="travaux-types" id="travaux-select">
+        <option value="">Choisir un type de travaux</option>
+        <option value="isolation des murs par l'extérieur">isolation des murs par l'extérieur</option>
+        <option value="isolation des murs par l'intérieur">isolation des murs par l'intérieur</option>
+        <option value="isolation des combles perdues par le sol">isolation des combles perdues par le sol</option>
+        <option value="isolation des rampants de toiture">isolation des rampants de toiture</option>
+      </select>
+    </div>
+   </div>
+
+   <div class="step step3 hidden">
+    <div id="results" class="inside">
+      <div class="">
+        <div class="presentation">
+          <img src="/assets/images/icones/finay-logo.png" alt="" class="" width="150">
+          <p>Finay, entreprise spécialisée dans l'isolation extérieure vous accompagne dans vos démarches pour que vous puissiez bénéficier de l'ensemble des aides de l'Etat dans la nénovation et l'amélioration des performances énergétiques de votre logement.</p>
+        </div>
+        <p class="verification">Vérifier que Finay est bien une entreprise avec une certification RGE vous permettant de béneficier de la prime lors de vos travaux.<br> <a href="https://france-renov.gouv.fr/fr/trouvez-un-professionnel" target="_blank" class="link">Cliquez ici !</a>
+        </p>
+        <div>
+          <a href="/contact/" class="btn">Contacter Finay</a>
+        </div>
+      </div>
+      <div id="prime-color">
+        <img src="../assets/images/icones/pictos-entreprise/prime-neutre.png" width="150">
+        <p id="color"></p>
+        <p id="aides"></p>
+      </div>
+    </div>
+   </div>
+
+   <div class="button-group">
+      <button id="previous" class="disabled button" disabled>
+         Précédent
+      </button>
+      <button id="next" class="button">
+         Continuer
+      </button>
+   </div>
+
+</form>
