@@ -80,15 +80,24 @@
   }
   .radios {
     display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
     .residence.radio {
       border: solid 1px;
       display: flex;
       align-items: center;
+      cursor: pointer;
       //justify-content: space-between;
       flex-flow: row-reverse;
-      width: 50%;
-      input {}
+      width: auto;
+      padding: 1em;
+      padding-left: 2em;
+      padding-right: 2em;
+      border-radius: 5px;
+      input {display: none;}
+      &.checked {
+        background-color: $blue;
+        color: white;
+      }
     }
   }
 

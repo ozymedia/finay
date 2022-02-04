@@ -286,6 +286,12 @@ function simulate() {
   );
 }
 
-
-Array.from(document.querySelectorAll('input[type=radio]')).forEach((element) => {
+let radioButtons = Array.from(document.getElementById("stepByStepForm").querySelectorAll(".radio"));
+radioButtons.forEach(element=>{
+  element.addEventListener("change", (event) =>{
+    radioButtons.forEach(element=>{
+      element.classList.remove("checked");
+    });
+    event.currentTarget.classList.add("checked");
+  });
 })
