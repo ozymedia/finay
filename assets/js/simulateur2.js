@@ -184,7 +184,7 @@ const paris = ["75","77","78","91","92","93","94","95"]
 let btnFinal = document.getElementById("next");
 Array.from(document.querySelector(".button-group").querySelectorAll(".button")).forEach(element =>{
   element.addEventListener("click", (event) =>{
-    alert(currentStep);
+    //alert(currentStep);
     if (currentStep > 1) {
       btnFinal.classList.add("final");
       simulate();
@@ -227,9 +227,11 @@ function simulate() {
     //let result = entries.filter(key => revenus <= key)[0];
     //let color = bareme[people][result] || "rose";
     let aides = isolationExt[color];
+    let ceeAides = cee[document.getElementById("stepByStepForm").querySelector("#travaux-select").value
+];
+let totalAides = aides + ceeAides;
     console.log(localite);
     console.log(color);
-    debugger;
       if (residence === 'no') {
         //debugger;
         document.getElementById("results").querySelector("#color").innerHTML = "";
@@ -244,7 +246,7 @@ function simulate() {
         //alert(`Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`);
         //alert(`Vous avez droit à ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br> XX€/m<sup>2</sup> avec la prime CEE<br>Le total des primes est de XX€/m<sup>2</sup>`);
         document.querySelector(".step.step3").querySelector("#results").querySelector("#color").innerHTML = `Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`;
-        document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `Vous avez droit à ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br> XX€/m<sup>2</sup> avec la prime CEE<br>Le total des primes est de XX€/m<sup>2</sup>`;
+        document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `Vous avez droit à ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br> ${ceeAides}€/m<sup>2</sup> avec la prime CEE<br>Le total des primes est de ${totalAides}€/m<sup>2</sup>`;
       }
 
     //document.querySelector('#scroll-to').scrollIntoView({
