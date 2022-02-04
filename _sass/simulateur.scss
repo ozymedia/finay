@@ -78,6 +78,19 @@
     border: solid 1px lightgrey;
     margin-bottom: 2em;
   }
+  .radios {
+    display: flex;
+    justify-content: space-between;
+    .residence.radio {
+      border: solid 1px;
+      display: flex;
+      align-items: center;
+      //justify-content: space-between;
+      flex-flow: row-reverse;
+      width: 50%;
+      input {}
+    }
+  }
 
    .progress-bar {
       width: 100%;
