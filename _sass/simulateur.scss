@@ -18,7 +18,7 @@ $green: #1A936F;
    font-weight: bold;
    font-size: 1em;
    transition: all .5s ease;
-   background-color: $orange;
+   background-color: $blue;
 
    &:hover {
       background-color: darken($orange, 15%);
@@ -31,7 +31,7 @@ $green: #1A936F;
    }
 }
 .form {
-   width: 20em;
+   width: 100%;
    margin: auto;
    margin-top:5em;
 
@@ -75,37 +75,37 @@ $green: #1A936F;
       }
    }
    label {
-      font-weight: bold;
-      font-size: 1.2em;
+      //font-weight: bold;
+      //font-size: 1.2em;
    }
    input {
-      width: 100%;
-      padding: 1.3em;
-      margin-bottom: 3em;
-      box-sizing: border-box;
-      margin-top: 1em;
-      border: none;
-      border-radius: 0.5em;
-      background-color:$lightgrey;
-      font-size:1em;
-      font-family: "Raleway", sans-serif;
-      &:focus {
-         border: none;
-      }
+      //width: 100%;
+      //padding: 1.3em;
+      //margin-bottom: 3em;
+      //box-sizing: border-box;
+      //margin-top: 1em;
+      //border: none;
+      //border-radius: 0.5em;
+      //background-color:$lightgrey;
+      //font-size:1em;
+      //font-family: "Raleway", sans-serif;
+      //&:focus {
+      //   border: none;
+      //}
    }
    .button-group {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      margin-top:50px;
+      //width: 100%;
+      //display: flex;
+      //justify-content: space-between;
+      //margin-top:50px;
    }
 
    button#validate{
-      margin:auto;
+      //margin:auto;
       background-color: $green;
-      width:12em;
-      &:hover {
-            background-color:darken($green, 10%);
-      }
+      //width:12em;
+      //&:hover {
+      //      background-color:darken($green, 10%);
+      //}
    }
 }

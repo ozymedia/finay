@@ -8,49 +8,71 @@
    </ul>
 
    <div class="step step1">
-      <div class="input-group">
-         <label for="firstname">First name</label>
-         <input type="text" placeholder="James" name="firstname" id="firstname">
-      </div>
-      <div class="input-group">
-         <label for="lastname">Last name</label>
-         <input type="text" placeholder="Smith" name="lastname" id="lastname">
-      </div>
+    <h2>Informations concernant votre foyer</h2>
+    <div>
+      <p>Nombre de personnes composant le ménage</p>
+      <label for="" id="people">
+        <input type="number" min="1" max="5">
+      </label>
+    </div>
+    <div>
+      <p>Montant total des revenus fiscaux du foyer (en €)</p>
+      <label id="revenus">
+        <input type="number" name="revenus" placeholder="ex: 26563">
+      </label>
+    </div>
+    <div>
+      <p>Code postal</p>
+      <label id="zipcode">
+        <input id="zip" type="text" name="zip" pattern="[0-9]{5}" maxlength="5" minlength="5">
+      </label>
+    </div>
    </div>
 
    <div class="step step2 hidden">
-      <div class="input-group">
-         <label for="mail">E-mail</label>
-         <input type="mail" placeholder="jamessmith@gmail.com" name="mail" id="mail">
-      </div>
-      <div class="input-group">
-         <label for="phone">Phone</label>
-         <input type="text" placeholder="06 XX XX XX XX" name="phone" id="phone">
-      </div>
+    <h2>Informations concernant vos travaux</h2>
+    <p>Cette demande concerne votre résidence principale ?</p>
+    <div class="radios">
+      <label class="residence radio">
+        <input type="radio" name="choice-residence" value="yes">
+        <span>Oui</span>
+      </label>
+      <label class="residence radio">
+        <input type="radio" name="choice-residence" value="no">
+        <span>Non</span>
+      </label>
+    </div>
+
+    <div>
+      <label for="pet-select">Ma demande concerne des travaux portant sur :</label>
+
+      <select name="pets" id="pet-select">
+        <option value="">Choisir un type de travaux</option>
+        <option value="isolation des murs par l'extérieur">isolation des murs par l'extérieur</option>
+        <option value="isolation des murs par l'intérieur">isolation des murs par l'intérieur</option>
+        <option value="isolation des combles perdues par le sol">isolation des combles perdues par le sol</option>
+        <option value="isolation des rampants de toiture">isolation des rampants de toiture</option>
+      </select>
+    </div>
    </div>
 
    <div class="step step3 hidden">
-      <div class="input-group">
-         <label for="address">Address</label>
-         <input type="text" placeholder="221B Baker Street" name="address" id="address">
-      </div>
-      <div class="input-group">
-         <label for="country">Country</label>
-         <input type="text" placeholder="United States" name="country" id="country">
-      </div>
+    <div>
+      <p>Résultats</p>
+    </div>
    </div>
 
    <div class="button-group">
       <button id="previous" class="disabled button" disabled>
-         previous
+         Précédent
       </button>
       <button id="next" class="button">
-         next
+         Continuer
       </button>
    </div>
    <div class="button-group">
       <button id="validate" type="submit" class="hidden button">
-         Submit
+         Contacter Finay
       </button>
    </div>
 
