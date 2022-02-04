@@ -173,6 +173,34 @@ const isolationExt = {
   "rose" : 15,
   "plafond" : 150
 }
+
+const aidesTravaux = {
+  "isolation des murs par l'extérieur": {
+    "bleu":75 ,
+    "jaune":60,
+    "violet":40,
+    "rose":15
+  },
+  "isolation des murs par l'intérieur": {
+    "bleu":25,
+    "jaune":20,
+    "violet":15,
+    "rose":7
+  },
+  "isolation des combles perdues par le sol": {
+    "bleu":0,
+    "jaune":0,
+    "violet":0,
+    "rose":0
+  },
+  "isolation des rampants de toiture": {
+    "bleu":25,
+    "jaune":20,
+    "violet":15,
+    "rose":7
+  }
+}
+
 const cee = {
   "isolation des murs par l'extérieur": 19,
   "isolation des murs par l'intérieur": 19,
@@ -226,10 +254,10 @@ function simulate() {
     //let entries = Object.keys(bareme[people]);
     //let result = entries.filter(key => revenus <= key)[0];
     //let color = bareme[people][result] || "rose";
-    let aides = isolationExt[color];
-    let ceeAides = cee[document.getElementById("stepByStepForm").querySelector("#travaux-select").value
-];
-let totalAides = aides + ceeAides;
+    let travauxSelect = document.getElementById("stepByStepForm").querySelector("#travaux-select").value;
+    let aides = aidesTravaux[travauxSelect][color];
+    let ceeAides = cee[travauxSelect];
+    let totalAides = aides + ceeAides;
     console.log(localite);
     console.log(color);
       if (residence === 'no') {
