@@ -30,5 +30,9 @@ Avec ses 40 années d'expérience et plus de 400 millions de mètres carré d'is
 Il existe un choix important dans les types d'isolants en fonction des performances thermiques, phoniques et de perspirance voulues.
 
 Pour en savoir plus, nous vous invitons à nous contacter afin de vous proposer une étude gratuite.
+
+<div class="inside">
+{% include comparaison.html %}
+</div>
 {% include form.html %}
 
