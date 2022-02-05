@@ -33,6 +33,17 @@ Pour en savoir plus, nous vous invitons à nous contacter afin de vous proposer 
 
 
 {% include comparaison.html %}
-
+<section class="inside">
+  <ul class="grid four">
+    <li class="item-grid"></li>
+    <li class="item-grid"></li>
+    <li class="item-grid"></li>
+    <li class="item-grid"></li>
+    <li class="item-grid"></li>
+    <li class="item-grid"></li>
+    <li class="item-grid"></li>
+    <li class="item-grid"></li>
+  </ul>
+</section>
 {% include form.html %}
 

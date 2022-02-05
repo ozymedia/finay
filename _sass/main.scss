@@ -43,6 +43,12 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+  &.four {
+    grid-template-columns: repeat(4, 1fr);
+    .item-grid {
+      height: 180px;
+    }
+  }
   .item-grid {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 0;
