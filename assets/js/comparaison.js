@@ -1,90 +1,59 @@
+// I hope this over-commenting helps. Let's do this!
+// Let's use the 'active' variable to let us know when we're using it
+let active = false;
 
+// First we'll have to set up our event listeners
+// We want to watch for clicks on our scroller
+document.querySelector('.scroller').addEventListener('mousedown',function(){
+  active = true;
+  // Add our scrolling class so the scroller has full opacity while active
+  document.querySelector('.scroller').classList.add('scrolling');
+});
+// We also want to watch the body for changes to the state,
+// like moving around and releasing the click
+// so let's set up our event listeners
+document.body.addEventListener('mouseup',function(){
+  active = false;
+  document.querySelector('.scroller').classList.remove('scrolling');
+});
+document.body.addEventListener('mouseleave',function(){
+  active = false;
+  document.querySelector('.scroller').classList.remove('scrolling');
+});
 
-  // If the comparison slider is present on the page lets initialise it, this is good you will include this in the main js to prevent the code from running when not needed
-  if (document.querySelector(".comparison-slider")[0]) {
-    let compSlider = document.querySelector(".comparison-slider");
+// Let's figure out where their mouse is at
+document.body.addEventListener('mousemove',function(e){
+  if (!active) return;
+  // Their mouse is here...
+  let x = e.pageX;
+  // but we want it relative to our wrapper
+  x -= document.querySelector('.wrapper').getBoundingClientRect().left;
+  // Okay let's change our state
+  scrollIt(x);
+});
 
-    //let's loop through the sliders and initialise each of them
-    compSlider.each(function() {
-      let compSliderWidth = document.querySelector(this).width() + "px";
-      document.querySelector(this).querySelector(".resize img").css({ width: compSliderWidth });
-      drags(document.querySelector(this).querySelector(".divider"), document.querySelector(this).querySelector(".resize"), document.querySelector(this));
-    });
-
-    //if the user resizes the windows lets update our variables and resize our images
-    document.querySelector(window).addEventListener("resize", function() {
-      let compSliderWidth = compSlider.width() + "px";
-      compSlider.querySelector(".resize img").css({ width: compSliderWidth });
-    });
-  }
-
-
-// This is where all the magic happens
-// This is a modified version of the pen from Ege Görgülü - https://codepen.io/bamf/pen/jEpxOX - and you should check it out too.
-function drags(dragElement, resizeElement, container) {
-
-  // This creates a variable that detects if the user is using touch input insted of the mouse.
-  let touched = false;
-  window.addEventListener('touchstart', function() {
-    touched = true;
-  });
-  window.addEventListener('touchend', function() {
-    touched = false;
-  });
-
-  // clicp the image and move the slider on interaction with the mouse or the touch input
-  dragElement.addEventListener("mousedown touchstart", function(e) {
-
-      //add classes to the emelents - good for css animations if you need it to
-      dragElement.classList.add("draggable");
-      resizeElement.classList.add("resizable");
-      //create vars
-      let startX = e.pageX ? e.pageX : e.originalEvent.touches[0].pageX;
-      let dragWidth = dragElement.outerWidth();
-      let posX = dragElement.offset().left + dragWidth - startX;
-      let containerOffset = container.offset().left;
-      let containerWidth = container.outerWidth();
-      let minLeft = containerOffset + 10;
-      let maxLeft = containerOffset + containerWidth - dragWidth - 10;
-
-      //add event listner on the divider emelent
-      dragElement.parents().addEventListener("mousemove touchmove", function(e) {
-
-        // if the user is not using touch input let do preventDefault to prevent the user from slecting the images as he moves the silder arround.
-        if ( touched === false ) {
-          e.preventDefault();
-        }
-
-        let moveX = e.pageX ? e.pageX : e.originalEvent.touches[0].pageX;
-        let leftValue = moveX + posX - dragWidth;
-
-        // stop the divider from going over the limits of the container
-        if (leftValue < minLeft) {
-          leftValue = minLeft;
-        } else if (leftValue > maxLeft) {
-          leftValue = maxLeft;
-        }
-
-        let widthValue = (leftValue + dragWidth / 2 - containerOffset) * 100 / containerWidth + "%";
-
-        document.querySelector(".draggable").css("left", widthValue).addEventListener("mouseup touchend touchcancel", function() {
-          document.querySelector(this).removeClass("draggable");
-          resizeElement.removeClass("resizable");
-        });
-
-        document.querySelector(".resizable").css("width", widthValue);
-
-      }).addEventListener("mouseup touchend touchcancel", function() {
-        dragElement.removeClass("draggable");
-        resizeElement.removeClass("resizable");
-
-      });
-
-    }).addEventListener("mouseup touchend touchcancel", function(e) {
-      // stop clicping the image and move the slider
-      dragElement.removeClass("draggable");
-      resizeElement.removeClass("resizable");
-
-    });
-
+// Let's use this function
+function scrollIt(x){
+    let transform = Math.max(0,(Math.min(x,document.querySelector('.wrapper').offsetWidth)));
+    document.querySelector('.after').style.width = transform+"px";
+    document.querySelector('.scroller').style.left = transform-25+"px";
 }
+
+// Let's set our opening state based off the width,
+// we want to show a bit of both images so the user can see what's going on
+scrollIt(150);
+
+// And finally let's repeat the process for touch events
+// first our middle scroller...
+document.querySelector('.scroller').addEventListener('touchstart',function(){
+  active = true;
+  document.querySelector('.scroller').classList.add('scrolling');
+});
+document.body.addEventListener('touchend',function(){
+  active = false;
+  document.querySelector('.scroller').classList.remove('scrolling');
+});
+document.body.addEventListener('touchcancel',function(){
+  active = false;
+  document.querySelector('.scroller').classList.remove('scrolling');
+});

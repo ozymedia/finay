@@ -31,8 +31,8 @@ Il existe un choix important dans les types d'isolants en fonction des performan
 
 Pour en savoir plus, nous vous invitons à nous contacter afin de vous proposer une étude gratuite.
 
-<div class="inside">
+
 {% include comparaison.html %}
-</div>
+
 {% include form.html %}
 
