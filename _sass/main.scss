@@ -175,3 +175,9 @@ tr td:first-of-type {
   margin-top: 5px;
 }
 
+@media all and (max-width: 480px) {
+  .grid.four {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
