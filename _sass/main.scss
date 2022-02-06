@@ -115,7 +115,9 @@ p {
         display: flex;
         justify-content: end;
         padding-right: 10px;
-        font-size: 0.9em;
+        padding-bottom: 5px;
+        font-size: 0.8em;
+        img {width: 20px; height: auto;}
       }
     }
   }
