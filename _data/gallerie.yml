@@ -2,96 +2,172 @@
   index: 1
   img: /realisations/maison1.jpg
   ville: Niederbronn-les-Bains
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Parker Moore
   index: 2
   img: /realisations/maison2.jpg
   ville: Mertzwiller
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 3
   img: /realisations/maison3.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 4
   img: /realisations/maison4.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 5
   img: /realisations/maison5.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 6
   img: /realisations/maison6.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 7
   img: /realisations/maison7.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 8
   img: /realisations/maison8.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 9
   img: /realisations/maison9.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 10
   img: /realisations/maison10.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 11
   img: /realisations/maison11.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 12
   img: /realisations/maison12.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 13
   img: /realisations/maison13.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 14
   img: /realisations/maison14.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 15
   img: /realisations/maison15.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 16
   img: /realisations/maison16.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 17
   img: /realisations/maison17.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 18
   img: /realisations/maison18.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 - name: Liu Fengyun
   index: 19
   img: /realisations/maison19.jpg
   ville: Haguenau
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
 
 
 
