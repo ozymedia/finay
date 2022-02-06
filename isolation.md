@@ -35,8 +35,8 @@ Pour en savoir plus, nous vous invitons à nous contacter afin de vous proposer 
 <section class="inside">
   <ul class="grid four">
     {% for real in site.data.gallerie | limit: 8 %}
-      <li class="item-grid">
-        <img src="/assets/images/{{real.img}}">
+      <li class="item-grid realisation" style="background-image: linear-gradient(0deg, rgba(2,0,36,0.3197872899159664) 0%, rgba(255,255,255,0) 100%),url(../assets/images/{{real.img}});">
+        <p>{{real.ville}}</p>
       </li>
     {% endfor %}
   </ul>

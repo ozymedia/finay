@@ -100,6 +100,24 @@ p {
         }
       }
     }
+    &.realisation {
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      display: flex;
+      flex-direction: column-reverse;
+      p {
+        color: white;
+        font-family: "Avenir";
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: end;
+        padding-right: 10px;
+        font-size: 0.9em;
+      }
+    }
   }
 }
 .reverse { flex-flow: row-reverse; }
