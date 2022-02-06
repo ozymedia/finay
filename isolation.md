@@ -34,14 +34,11 @@ Pour en savoir plus, nous vous invitons à nous contacter afin de vous proposer 
 {% include comparaison.html %}
 <section class="inside">
   <ul class="grid four">
-    <li class="item-grid"></li>
-    <li class="item-grid"></li>
-    <li class="item-grid"></li>
-    <li class="item-grid"></li>
-    <li class="item-grid"></li>
-    <li class="item-grid"></li>
-    <li class="item-grid"></li>
-    <li class="item-grid"></li>
+    {% for real in site.data.gallerie | limit: 8 %}
+      <li class="item-grid">
+        <img src="/assets/images/{{real.img}}">
+      </li>
+    {% endfor %}
   </ul>
 </section>
 {% include form.html %}
