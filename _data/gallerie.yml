@@ -163,7 +163,7 @@
   img: /realisations/maison17.jpg
   ville: Haguenau
   CP: 67500
-  ravalement: true
+  ravalement: false
   isolation: false
   toiture: false
   chauffage: false
@@ -173,7 +173,7 @@
   img: /realisations/maison18.jpg
   ville: Haguenau
   CP: 67500
-  ravalement: true
+  ravalement: false
   isolation: false
   toiture: false
   chauffage: false
@@ -183,7 +183,7 @@
   img: /realisations/maison19.jpg
   ville: Haguenau
   CP: 67500
-  ravalement: true
+  ravalement: false
   isolation: false
   toiture: false
   chauffage: false
