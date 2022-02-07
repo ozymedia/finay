@@ -57,3 +57,7 @@ document.body.addEventListener('touchcancel',function(){
   active = false;
   document.querySelector('.scroller').classList.remove('scrolling');
 });
+
+function closebox(){
+  alert("bonsoir");
+}
