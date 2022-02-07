@@ -59,5 +59,9 @@ document.body.addEventListener('touchcancel',function(){
 });
 
 function closebox(){
-  alert("bonsoir");
+  alert(event.currentTarget.dataset.image);
+  let image = event.currentTarget.dataset.image;
+
+  debugger;
+  document.querySelector(".lightbox").querySelector("img").src = `${window.location.origin}/assets/images/${image}`;
 }
