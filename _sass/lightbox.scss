@@ -1,11 +1,31 @@
 body {
   position: relative;
   .lightbox {
-    //position: fixed; top: 0px; left: 0px; z-index: 1; width: 100%; height: 100%; background: none 50% 50% / contain no-repeat rgba(0, 0, 0, 0.5);
-    img {
-      border: solid 1px white;
-      width: 500px;
-      height: 500px;
+    visibility: hidden;
+    z-index: -999;
+    display: none;
+    height: 0;
+    width: 0;
+    &.visible {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      visibility: visible;
+      position: fixed;
+      //background-color: grey;
+      background: rgba(2, 26, 48, .8);
+      img {
+        border: solid 1px white;
+        width: 50%;
+        height: auto;
+      }
     }
+    //position: fixed; top: 0px; left: 0px; z-index: 1; width: 100%; height: 100%; background: none 50% 50% / contain no-repeat rgba(0, 0, 0, 0.5);
   }
 }
