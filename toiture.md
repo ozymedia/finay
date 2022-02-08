@@ -16,3 +16,4 @@ Coloration par une peinture hydrofuge de vos tuiles
 Remplacement des tuiles
 Traitement de la zinguerie
 Pour en savoir plus, nous vous invitons à nous contacter afin de vous proposer une étude gratuite.
+{% include form.html %}
