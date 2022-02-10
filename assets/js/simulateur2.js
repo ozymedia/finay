@@ -126,7 +126,68 @@ const bareme = {
     44860 : "jaune",
     69081 : "violet",
     //69081 : "rose" // >69081
+  },
+  6 :{
+    40420 : "bleu",
+    51812 : "jaune",
+    77825 : "violet",
+    //:"rose"
+  },
+  7 :{
+    44946 : "bleu",
+    57609 : "jaune",
+    86569 : "violet",
+    //:"rose"
+  },
+  8 :{
+    49472 : "bleu",
+    63406 : "jaune",
+    95313 : "violet",
+    //:"rose"
+  },
+  9 :{
+    53998 : "bleu",
+    69203 : "jaune",
+    104057 : "violet",
+    //:"rose"
+  },
+  10 :{
+    58524 : "bleu",
+    75000 : "jaune",
+    112801 : "violet",
+    //:"rose"
+  },
+  11 :{
+    63050 : "bleu",
+    80797 : "jaune",
+    121545 : "violet",
+    //:"rose"
+  },
+  12 :{
+    67576 : "bleu",
+    86594 : "jaune",
+    130289 : "violet",
+    //:"rose"
+  },
+  13 :{
+    72102 : "bleu",
+    92391 : "jaune",
+    139033 : "violet",
+    //:"rose"
+  },
+  14 :{
+    76628 : "bleu",
+    98188 : "jaune",
+    147777 : "violet",
+    //:"rose"
+  },
+  15 :{
+    81154 : "bleu",
+    103985 : "jaune",
+    156521 : "violet",
+    //:"rose"
   }
+
 }
 const baremeParis = {
   1 :{
@@ -158,6 +219,66 @@ const baremeParis = {
     60546 : "jaune",
     90496 : "violet",
     //90496 : "rose" // >69081
+  },
+  6 :{
+    55989 : "bleu",
+    68159 : "jaune",
+    101951 : "violet",
+    //:"rose"
+  },
+  7 :{
+    62242 : "bleu",
+    75772 : "jaune",
+    113406 : "violet",
+    //:"rose"
+  },
+  8 :{
+    68495 : "bleu",
+    83385 : "jaune",
+    124861 : "violet",
+    //:"rose"
+  },
+  9 :{
+    74748 : "bleu",
+    90998 : "jaune",
+    136316 : "violet",
+    //:"rose"
+  },
+  10 :{
+    81001 : "bleu",
+    98611 : "jaune",
+    147771 : "violet",
+    //:"rose"
+  },
+  11 :{
+    87254 : "bleu",
+    106224 : "jaune",
+    159226 : "violet",
+    //:"rose"
+  },
+  12 :{
+    93507 : "bleu",
+    113837 : "jaune",
+    170681 : "violet",
+    //:"rose"
+  },
+  13 :{
+    99760 : "bleu",
+    121450 : "jaune",
+    182136 : "violet",
+    //:"rose"
+  },
+  14 :{
+    106013 : "bleu",
+    129063 : "jaune",
+    193591 : "violet",
+    //:"rose"
+  },
+  15 :{
+    112266 : "bleu",
+    136676 : "jaune",
+    205046 : "violet",
+    //:"rose"
   }
 }
 const suppColors = {
