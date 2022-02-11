@@ -60,7 +60,7 @@ document.body.addEventListener('touchcancel',function(){
 
 function closebox(){
   let image = event.currentTarget.dataset.image;
-  document.querySelector(".lightbox").querySelector("img").src = `${window.location.origin}/assets/images/${image}`;
+  document.querySelector(".lightbox").querySelector("img").src = `${window.location.origin}/assets/images/realisations/${image}`;
   document.querySelector(".lightbox").classList.add("visible");
 }
 document.querySelector(".lightbox").addEventListener("click", (event) => {
