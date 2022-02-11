@@ -57,13 +57,3 @@ document.body.addEventListener('touchcancel',function(){
   active = false;
   document.querySelector('.scroller').classList.remove('scrolling');
 });
-
-function closebox(){
-  let image = event.currentTarget.dataset.image;
-  document.querySelector(".lightbox").querySelector("img").src = `${window.location.origin}/assets/images/realisations/${image}`;
-  document.querySelector(".lightbox").classList.add("visible");
-}
-document.querySelector(".lightbox").addEventListener("click", (event) => {
-  // do something on click of an element
-  event.currentTarget.classList.remove("visible");
-});
