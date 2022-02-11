@@ -382,22 +382,24 @@ function simulate() {
     console.log(localite);
     console.log(color);
 
+    window.dataLayer = window.dataLayer || [];
+    //window.dataLayer.push('simulator': {});
+      dataLayer.push({
+      'event': 'push-simulator',
+      'simulator': {
+        'cp': localite,
+        'color': color,
+        'travaux': travauxSelect
+      } // mise en place de mon événement
+    });
+
       if (residence === 'no') {
         //debugger;
         document.querySelector(".step.step3").querySelector("#results").querySelector("#color").innerHTML = "";
         document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerText = "";
         document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerText = "Vous n'êtes pas éligible à MaPrimeRénov'";
         pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-neutre.png`;
-        window.dataLayer = window.dataLayer || [];
-        //window.dataLayer.push('simulator': {});
-        dataLayer.push({
-          'event': 'push-simulator',
-          'simulator': {
-            'cp': localite,
-            'color': color,
-            'travaux': travauxSelect
-          } // mise en place de mon événement
-        });
+
       }
       else {
         //debugger;
@@ -407,23 +409,12 @@ function simulate() {
         //alert(`Vous avez droit à ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br> XX€/m<sup>2</sup> avec la prime CEE<br>Le total des primes est de XX€/m<sup>2</sup>`);
         document.querySelector(".step.step3").querySelector("#results").querySelector("#color").innerHTML = `Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`;
         document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `<span style="text-decoration:underline;">Vous avez droit à</span> :<br>- ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br>- ${ceeAides}€/m<sup>2</sup> avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€/m<sup>2</sup></span>`;
-        window.dataLayer = window.dataLayer || [];
-        //window.dataLayer.push('simulator': {});
-          dataLayer.push({
-          'event': 'push-simulator',
-          'simulator': {
-            'cp': localite,
-            'color': color,
-            'travaux': travauxSelect
-          } // mise en place de mon événement
-        });
       }
 
     //document.querySelector('#scroll-to').scrollIntoView({
     //  behavior: 'smooth'
     //});
-
-      return color;
+    return color;
     }
   );
 }
