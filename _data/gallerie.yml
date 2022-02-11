@@ -40,7 +40,7 @@
   isolation: false
   toiture: true
   chauffage: false
-  display: true
+  display: false
 
 - name: Liu Fengyun
   index: 5
@@ -117,11 +117,11 @@
   isolation: true
   toiture: false
   chauffage: false
-  display: true
+  display: false
 
 - name:
   index: 12
-  img: travaux-isolation-exterieure-surbourg-67487
+  img: travaux-isolation-exterieure-surbourg-67487.jpg
   ville: Surbourg
   CP: 67487
   ravalement: false

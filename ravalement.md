@@ -18,10 +18,11 @@ Pour en savoir plus, nous vous invitons à nous contacter afin de vous proposer 
 {% include comparaison.html %}
 <section class="inside">
   <ul class="grid four">
-    {% assign filtered_reals = site.data.gallerie | where: 'ravalement', true %}
+    {% assign display_reals = site.data.gallerie | where: 'display', true %}
+    {% assign filtered_reals = display_reals | where: 'ravalement', true %}
     {% for real in filtered_reals | limit: 8 %}
       <li class="item-grid realisation" onclick="closebox()" style="background-image: linear-gradient(0deg, rgba(2,0,36,0.3197872899159664) 0%, rgba(255,255,255,0) 100%),url(../assets/images/realisations/{{real.img}});" data-image="{{real.img}}" data-ville="{{real.ville}}" data-cp="{{real.CP}}">
-        <img src="../assets/images/{{real.img}}" alt="travaux de rénovation de façade à {{real.ville}}" style="display: none;">
+        <img src="../assets/images/realisations/{{real.img}}" alt="travaux de rénovation de façade à {{real.ville}}" style="display: none;">
         <p><img src="../assets/images/icones/map-marker.png" width="10">{{real.ville}}, {{real.CP}}</p>
       </li>
     {% endfor %}
