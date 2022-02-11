@@ -187,3 +187,15 @@
       //}
    }
 }
+#prime-color {
+  #color { text-align: left; }
+  #aides {
+    line-height: 1.5;
+    text-align: left;
+  }
+}
+.total-aides {
+  color: $blue;
+  font-weight: bold;
+  font-size: 1.2em;
+}

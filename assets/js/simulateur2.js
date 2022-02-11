@@ -395,7 +395,7 @@ function simulate() {
         //alert(`Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`);
         //alert(`Vous avez droit à ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br> XX€/m<sup>2</sup> avec la prime CEE<br>Le total des primes est de XX€/m<sup>2</sup>`);
         document.querySelector(".step.step3").querySelector("#results").querySelector("#color").innerHTML = `Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`;
-        document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `Vous avez droit à ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br> ${ceeAides}€/m<sup>2</sup> avec la prime CEE<br>Le total des primes est de ${totalAides}€/m<sup>2</sup>`;
+        document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `<span style="text-decoration:underline;">Vous avez droit à</span> :<br>- ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br>- ${ceeAides}€/m<sup>2</sup> avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€/m<sup>2</sup></span>`;
       }
 
     //document.querySelector('#scroll-to').scrollIntoView({
