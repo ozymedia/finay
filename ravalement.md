@@ -28,4 +28,5 @@ Pour en savoir plus, nous vous invitons à nous contacter afin de vous proposer 
     {% endfor %}
   </ul>
 </section>
+{% include zones.html %}
 {% include form.html %}
