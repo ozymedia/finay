@@ -1,6 +1,6 @@
 - name:
   index: 1
-  img: façade-et-zinguerie-baerenthal-57230.jpg
+  img: facade-et-zinguerie-baerenthal-57230.jpg
   ville: Baerenthal
   CP: 57230
   ravalement: true
@@ -22,7 +22,7 @@
 
 - name:
   index: 3
-  img: travaux-de-ravalement-de-façade-duppigheim-67120.jpg
+  img: travaux-de-ravalement-de-facade-duppigheim-67120.jpg
   ville: Duppigheim
   CP: 67120
   ravalement: true
@@ -33,7 +33,7 @@
 
 - name:
   index: 4
-  img: travaux-de-ravalement-de-façade-et-zinguerie-baerenthal-57230-avant-travaux.jpg
+  img: travaux-de-ravalement-de-facade-et-zinguerie-baerenthal-57230-avant-travaux.jpg
   ville: Baerenthal
   CP: 57230
   ravalement: true
@@ -209,7 +209,7 @@
 
 - name:
   index: 20
-  img: travaux-ravalement-de-façade-meisenthal-lorraine-moselle-57960.jpg
+  img: travaux-ravalement-de-facade-meisenthal-lorraine-moselle-57960.jpg
   ville: Meisenthal
   CP: 57960
   ravalement: true
@@ -220,7 +220,7 @@
 
 - name:
   index: 21
-  img: travaux-ravalement-de-façade-meisenthal-lorraine-moselle-57960-avant-travaux.jpg
+  img: travaux-ravalement-de-facade-meisenthal-lorraine-moselle-57960-avant-travaux.jpg
   ville: Meisenthal
   CP: 57960
   ravalement: true
