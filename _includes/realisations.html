@@ -19,14 +19,14 @@
   <i class="fas fa-arrow-circle-right" id="nextbutton"><img src="/assets/images/icones/arrow-right.png" alt=""></i>
   <i class="fas fa-arrow-circle-left" id="prevbutton"><img src="/assets/images/icones/arrow-left.png" alt=""></i>
   <div class="carousel-slide">
-
-    {% for chantier in site.data.gallerie %}
+    {% assign chantiers_select = site.data.gallerie | where: 'display', true %}
+    {% for chantier in chantiers_select %}
       {% if chantier.index == 0 %}
-        <img src="/assets/images/{{ site.data.gallerie.first.img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" id="lastClone" class="gallery-img">
+        <img src="/assets/images/realisations/{{ site.data.gallerie.first.img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" id="lastClone" class="gallery-img">
       {% elsif chantier.index != 1 or chantier.index != chantier.size %}
-        <img src="/assets/images/{{ chantier.img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="gallery-img">
+        <img src="/assets/images/realisations/{{ chantier.img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="gallery-img">
       {% elsif chantier.index == site.data.gallerie.size %}
-        <img src="/assets/images/{{ site.data.gallerie[19].img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" id="firstClone" class="gallery-img">
+        <img src="/assets/images/realisations/{{ site.data.gallerie[19].img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" id="firstClone" class="gallery-img">
       {% endif %}
     {% endfor %}
   </div>

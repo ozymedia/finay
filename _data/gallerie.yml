@@ -1,193 +1,266 @@
-- name: Eric Mill
+- name:
   index: 1
-  img: /realisations/maison1.jpg
-  ville: Niederbronn-les-Bains
-  CP: 67110
+  img: façade-et-zinguerie-baerenthal-57230.jpg
+  ville: Baerenthal
+  CP: 57230
   ravalement: true
   isolation: false
-  toiture: false
+  toiture: true
   chauffage: false
+  display: true
 
-- name: Parker Moore
+- name:
   index: 2
-  img: /realisations/maison2.jpg
+  img: travaux-de-ravalement-de-facade-niederbronn-les-bains-67110.jpg
   ville: Niederbronn-les-Bains
   CP: 67110
   ravalement: true
   isolation: false
   toiture: false
   chauffage: false
+  display: true
 
-- name: Liu Fengyun
+- name:
   index: 3
-  img: /realisations/maison3.jpg
-  ville: Haguenau
-  CP: 67500
+  img: travaux-de-ravalement-de-façade-duppigheim-67120.jpg
+  ville: Duppigheim
+  CP: 67120
   ravalement: true
   isolation: false
   toiture: false
   chauffage: false
+  display: true
 
-- name: Liu Fengyun
+- name:
   index: 4
-  img: /realisations/maison4.jpg
-  ville: Haguenau
-  CP: 67500
+  img: travaux-de-ravalement-de-façade-et-zinguerie-baerenthal-57230-avant-travaux.jpg
+  ville: Baerenthal
+  CP: 57230
   ravalement: true
   isolation: false
-  toiture: false
+  toiture: true
   chauffage: false
+  display: false
 
 - name: Liu Fengyun
   index: 5
-  img: /realisations/maison5.jpg
-  ville: Haguenau
-  CP: 67500
-  ravalement: true
-  isolation: false
+  img: travaux-isolation-exterieure-beinheim-67.jpg
+  ville: Beinheim
+  CP: 67
+  ravalement: false
+  isolation: true
   toiture: false
   chauffage: false
+  display: true
 
 - name: Liu Fengyun
   index: 6
-  img: /realisations/maison6.jpg
-  ville: Haguenau
-  CP: 67500
-  ravalement: true
-  isolation: false
+  img: travaux-isolation-exterieure-hesse-57400.jpg
+  ville: Hesse
+  CP: 57400
+  ravalement: false
+  isolation: true
   toiture: false
   chauffage: false
+  display: true
 
-- name: Liu Fengyun
+- name:
   index: 7
-  img: /realisations/maison7.jpg
-  ville: Haguenau
-  CP: 67500
-  ravalement: true
-  isolation: false
+  img: travaux-isolation-exterieure-hoerdt-alsace-67720.jpg
+  ville: Hoerdt
+  CP: 67720
+  ravalement: false
+  isolation: true
   toiture: false
   chauffage: false
+  display: true
 
-- name: Liu Fengyun
+- name:
   index: 8
-  img: /realisations/maison8.jpg
-  ville: Haguenau
-  CP: 67500
-  ravalement: true
-  isolation: false
+  img: travaux-isolation-exterieure-oberhausbergen-67205.jpg
+  ville: Oberhausbergen
+  CP: 67205
+  ravalement: false
+  isolation: true
   toiture: false
   chauffage: false
+  display: true
 
-- name: Liu Fengyun
+- name:
   index: 9
-  img: /realisations/maison9.jpg
-  ville: Haguenau
-  CP: 67500
-  ravalement: true
-  isolation: false
+  img: travaux-isolation-exterieure-riedseltz-67.jpg
+  ville: Riedseltz
+  CP: 67
+  ravalement: false
+  isolation: true
   toiture: false
   chauffage: false
+  display: true
 
-- name: Liu Fengyun
+- name:
   index: 10
-  img: /realisations/maison10.jpg
-  ville: Haguenau
-  CP: 67500
-  ravalement: true
-  isolation: false
+  img: travaux-isolation-exterieure-sarrebourg-57400.jpg
+  ville: Sarrebourg
+  CP: 57400
+  ravalement: false
+  isolation: true
   toiture: false
   chauffage: false
+  display: true
 
-- name: Liu Fengyun
+- name:
   index: 11
-  img: /realisations/maison11.jpg
-  ville: Haguenau
-  CP: 67500
-  ravalement: true
-  isolation: false
+  img: travaux-isolation-exterieure-sarrebourg-avant-travaux-57400.jpg
+  ville: Sarrebourg
+  CP: 57400
+  ravalement: false
+  isolation: true
   toiture: false
   chauffage: false
+  display: false
 
-- name: Liu Fengyun
+- name:
   index: 12
-  img: /realisations/maison12.jpg
-  ville: Haguenau
-  CP: 67500
-  ravalement: true
-  isolation: false
+  img: travaux-isolation-exterieure-surbourg-67487.jpg
+  ville: Surbourg
+  CP: 67487
+  ravalement: false
+  isolation: true
   toiture: false
   chauffage: false
+  display: true
 
-- name: Liu Fengyun
+- name:
   index: 13
-  img: /realisations/maison13.jpg
-  ville: Haguenau
-  CP: 67500
-  ravalement: true
-  isolation: false
+  img: travaux-isolation-exterieure-walscheid-57.jpg
+  ville: Waldscheid
+  CP: 57870
+  ravalement: false
+  isolation: true
   toiture: false
   chauffage: false
+  display: true
 
-- name: Liu Fengyun
+- name:
   index: 14
-  img: /realisations/maison14.jpg
-  ville: Haguenau
-  CP: 67500
-  ravalement: true
-  isolation: false
+  img: travaux-isolation-exterieure-walscheidt-alsace-57870.jpg
+  ville: Waldscheid
+  CP: 57870
+  ravalement: false
+  isolation: true
   toiture: false
   chauffage: false
+  display: true
 
-- name: Liu Fengyun
+- name:
   index: 15
-  img: /realisations/maison15.jpg
-  ville: Haguenau
-  CP: 67500
-  ravalement: true
-  isolation: false
+  img: travaux-isolation-exterieure-walscheidt-alsace-57870-avant-renovation.jpg
+  ville: Waldscheid
+  CP: 57870
+  ravalement: false
+  isolation: true
   toiture: false
   chauffage: false
+  display: false
 
-- name: Liu Fengyun
+- name:
   index: 16
-  img: /realisations/maison16.jpg
-  ville: Haguenau
-  CP: 67500
-  ravalement: true
-  isolation: false
+  img: travaux-isolation-exterieure-woerth-67360-alsace.jpg
+  ville: Woerth
+  CP: 67360
+  ravalement: false
+  isolation: true
   toiture: false
   chauffage: false
+  display: true
 
-- name: Liu Fengyun
+- name:
   index: 17
-  img: /realisations/maison17.jpg
-  ville: Haguenau
-  CP: 67500
+  img: travaux-isolation-exterieure-woerth-67360-alsace-avant-travaux.jpg
+  ville: Woerth
+  CP: 67360
   ravalement: false
-  isolation: false
+  isolation: true
   toiture: false
   chauffage: false
+  display: false
 
-- name: Liu Fengyun
+- name:
   index: 18
-  img: /realisations/maison18.jpg
-  ville: Haguenau
-  CP: 67500
+  img: travaux-isolation-exterieure-wolfisheim-67202.jpg
+  ville: wolfisheim
+  CP: 67202
   ravalement: false
-  isolation: false
+  isolation: true
   toiture: false
   chauffage: false
+  display: true
 
 - name: Liu Fengyun
   index: 19
-  img: /realisations/maison19.jpg
-  ville: Haguenau
-  CP: 67500
+  img: travaux-isolation-exterireure-hesse-57.jpg
+  ville: Hesse
+  CP: 57
   ravalement: false
   isolation: false
   toiture: false
   chauffage: false
+  display: true
 
+- name:
+  index: 20
+  img: travaux-ravalement-de-façade-meisenthal-lorraine-moselle-57960.jpg
+  ville: Meisenthal
+  CP: 57960
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
+  display: true
+
+- name:
+  index: 21
+  img: travaux-ravalement-de-façade-meisenthal-lorraine-moselle-57960-avant-travaux.jpg
+  ville: Meisenthal
+  CP: 57960
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
+  display: false
+
+- name:
+  index: 22
+  img: travaux-ravalement-facade-achen-57.jpg
+  ville: Achen
+  CP: 57
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
+  display: true
+
+- name:
+  index: 23
+  img: travaux-ravalement-facade-niederbronn-les-bains-67.jpg
+  ville: Niederbronn-les-Bains
+  CP: 67110
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
+  display: true
+
+- name:
+  index: 24
+  img: travaux-ravalement-facade-niederbronn-les-bains-67110.jpg
+  ville: Niederbronn-les-Bains
+  CP: 67110
+  ravalement: true
+  isolation: false
+  toiture: false
+  chauffage: false
+  display: true
 
 
 
