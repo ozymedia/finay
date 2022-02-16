@@ -66,4 +66,12 @@
     li { line-height: 25px !important; }
   }
 }
+@media only screen and (max-width: 40em) {
+  .actus {
+    flex-direction: column;
+    div:first-of-type, img { width: 100%; }
+    div:first-of-type { padding-bottom: 1em; }
+    li { line-height: 25px !important; }
+  }
+}
 

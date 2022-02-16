@@ -174,12 +174,29 @@ tr td:first-of-type {
   font-weight: 500;
   margin-top: 5px;
 }
+
 video {
   box-sizing: content-box;
   max-width: 100%;
 }
 
+.villes {
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    border: solid 1px grey;
+    margin: 0 !important;
+  }
+
+}
+
 @media all and (max-width: 480px) {
+  .grid.four {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 40em) {
   .grid.four {
     grid-template-columns: repeat(1, 1fr);
   }

@@ -13,3 +13,9 @@
     .glider-next { right: 10px; }
   }
 }
+@media only screen and (max-width: 40em) {
+  .glider-contain {
+    .glider-prev { left: 10px; }
+    .glider-next { right: 10px; }
+  }
+}

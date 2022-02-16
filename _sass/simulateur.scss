@@ -106,7 +106,7 @@
         border: solid $yellow;
       }
     }
-    .residence.radio:first-of-type {
+    .residence.radio {
       margin-right: 10px;
     }
   }
@@ -187,3 +187,46 @@
       //}
    }
 }
+#prime-color {
+  #color { text-align: left; }
+  #aides {
+    line-height: 1.5;
+    text-align: left;
+  }
+}
+.total-aides {
+  color: $blue;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+@media all and (max-width: 480px) {
+  #simulateur {
+    .radios {
+      flex-wrap: wrap;
+      label {
+        margin: 0;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 0.5em;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 40em) {
+  #simulateur {
+    .radios {
+      flex-wrap: wrap;
+      label {
+        margin: 0;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 0.5em;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+

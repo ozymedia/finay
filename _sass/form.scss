@@ -165,7 +165,7 @@
     display: flex;
     flex-direction: column;
     img { margin: auto;}
-    p { font-family: "ABeeZee"; text-align: center; }
+    p { font-family: "ABeeZee"; text-align: left; }
     #color  {
       span {
         &.Jaune {color: $yellow;}
@@ -200,4 +200,20 @@
   #results {
     flex-direction: column-reverse;
   }
+}
+
+@media only screen and (max-width: 40em) {
+#simulateur {
+  flex-direction: column;
+  #simulateur-prime-renov {
+    div.long {
+      flex-direction: column;
+      div { width: 100%; }
+    }
+  }
+  .faq { width: 100%; margin-top: 1em; }
+}
+#results {
+  flex-direction: column-reverse;
+}
 }
