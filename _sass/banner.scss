@@ -4,6 +4,7 @@
   min-height: 540px;
   //padding: 175px 0;
   padding: 10em 0;
+  position: relative;
   //height: 500px;
   //background: rgba(31, 90, 138, 0.55);
   //background-image: url(../assets/images/banner.png);
@@ -15,22 +16,32 @@
     font-family: 'ABeeZee', sans-serif;
   }
   h1 { color: white; }
-}
-.animation {
-  border: solid 2px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  z-index: 100;
-  background-color: white;
-  animation-duration: 3s;
-  animation-name: glissement;
-  margin-left: 50%;
-  //animation-iteration-count: infinite;
+  .animation {
+    position: absolute;
+    top: 35%;
+    border: solid 6px $yellow;
+    border-style: double;
+    color: $yellow;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 100;
+    background-color: fade(#FFFFFF, 20%);
+    animation-duration: 3s;
+    animation-name: glissement;
+    margin-left: 60%;
+    transform: rotate(345deg);
+    background: rgba(255, 255, 255, 0.15);
+    p {
+      font-size: 1.3em;
+      text-shadow: 1px 1px 2px #6c6969;
+    }
+    //animation-iteration-count: infinite;
+  }
 }
 @keyframes glissement {
   from {
@@ -39,7 +50,7 @@
   }
 
   to {
-    margin-left: 50%;
+    margin-left: 60%;
     //width: 100%;
   }
 }
