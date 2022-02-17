@@ -55,3 +55,19 @@
     //width: 100%;
   }
 }
+
+@media all and (max-width: 480px) {
+  .banner {
+    .animation {
+      top: 55%;
+    }
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  .banner {
+    .animation {
+      top: 55%;
+    }
+  }
+}
