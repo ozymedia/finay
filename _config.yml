@@ -46,18 +46,20 @@ collections:
 
 
 pages_mentions:
-  adresse_site: https://www.bernardcook.fr
-  raison_sociale: Bernard Cron SARL
-  nom_entreprise: Bernard Cook
+  adresse_site: https://www.finay.fr
+  raison_sociale: Finay
+  nom_entreprise: Finay
   responsable_donnees_personnelles: XXX
-  capital_social: XX
-  tva_intra: XX
-  adresse_entreprise: XX rue de XXX
-  zip_code_entreprise: 67500
-  ville_entreprise: Haguenau
-  tel_entreprise: +333XXXXXXX
-  mail_entreprise: ....@bernardcook.fr
-  directeur_publication:
+  capital_social: 50 000€
+  tva_intra: FR42445323421
+  siren: 445323421
+  adresse_entreprise: 5 place des thermes
+  zip_code_entreprise: 67110
+  ville_entreprise: Niederbronn-les-Bains
+  tel_entreprise: +33388909763
+  mail_entreprise: contact@finay.fr
+  nom_site: finay.fr
+  directeur_publication: Finay
   hebergeur_name: netlify
   hebergeur_site : https://www.netlify.com
   hebergeur_adresse: sise 610 22nd Street, Suite 315 – CA 94107 San Francisco +1 (844) 899-7312
