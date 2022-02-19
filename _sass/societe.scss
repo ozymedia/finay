@@ -77,7 +77,56 @@
   a { text-decoration: none; color: black; }
 }
 @media all and (max-width: 480px) {
+  .engagements {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .coordinates {
+    flex-direction: column;
+    max-width: 100%;
+    .map {
+      max-width: 100%;
+    }
+  }
+  .societe-presentation {
+    flex-direction: column;
+    img {
+      max-width: 100%;
+    }
+    .hachures {
+      //position: unset;
+      display: none;
+    }
+    div {
+      //width: 100%;
+      max-width: 100%;
+    }
+  }
 }
-@media only screen and (max-width: 40em) {}
+@media only screen and (max-width: 40em) {
+  .engagements {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .coordinates {
+    flex-direction: column;
+    max-width: 100%;
+    .map {
+      max-width: 100%;
+    }
+  }
+  .societe-presentation {
+    flex-direction: column;
+    img {
+      max-width: 100%;
+    }
+    .hachures {
+      //position: unset;
+      display: none;
+    }
+    div {
+      //width: 100%;
+      max-width: 100%;
+    }
+  }
+}
 
 
