@@ -198,11 +198,13 @@ video {
   .grid.four {
     grid-template-columns: repeat(1, 1fr);
   }
+  h2 { text-align: center !important; }
 }
 
 @media only screen and (max-width: 40em) {
   .grid.four {
     grid-template-columns: repeat(1, 1fr);
   }
+  h2 { text-align: center !important; }
 }
 

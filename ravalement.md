@@ -29,4 +29,5 @@ Pour en savoir plus, nous vous invitons à nous contacter afin de vous proposer 
   </ul>
 </section>
 {% include zones.html %}
+<h2 class="left">Nous contacter</h2>
 {% include form.html %}
