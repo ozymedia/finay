@@ -28,8 +28,12 @@
       }
       li:last-child {
         border: solid 1.5px $yellow;
-        padding: 5px;
+        padding: 0px;
         border-radius: 3px;
+        a {
+          padding: 5px;
+          display: flex;
+        }
         //border-style: double;
         &:hover {
           background-color: $yellow;
