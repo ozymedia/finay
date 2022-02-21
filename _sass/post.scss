@@ -58,6 +58,11 @@
     }
   }
 }
+#posts-index {
+  li {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+}
 @media all and (max-width: 480px) {
   .actus {
     flex-direction: column;
