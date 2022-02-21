@@ -60,7 +60,10 @@
 }
 #posts-index {
   li {
+    width: 100%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-bottom: solid 2px $yellow;
+    //border-style: none none double;
   }
 }
 @media all and (max-width: 480px) {
