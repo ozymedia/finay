@@ -58,17 +58,30 @@
     }
   }
 }
+#posts-page {
+  display: flex;
+  all: initial;
+  * {
+    all: unset;
+  }
+  display: flex;
+  h2, h3 {
+    font-family: 'ABeeZee', sans-serif;
+  }
+}
 #posts-index {
   //border: solid 1px;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom:0;
+  padding-bottom: 0;
   li {
     margin: 0px;
     padding: 0px;
     width: 100%;
     min-width: 100%;
     height: 3em;
-    margin-bottom: 1em;
+    //margin-bottom: 1em;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     h2 {
       text-align: left;
@@ -76,6 +89,15 @@
     }
     //border-bottom: solid 2px $yellow;
     //border-style: none none double;
+  }
+}
+#posts-recent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  h2 {
+     font-size: 1em;
   }
 }
 .banner.post {

@@ -4,11 +4,26 @@ titre: Actualités
 title: Les dernières actualités en isolation et bâtiment | Finay
 permalink: /actualites/
 ---
-<ul id="posts-index" class="">
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-    </li>
-  {% endfor %}
-</ul>
+<div id="posts-page">
+  <ul id="posts-index" class="">
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">
+          <h2>{{ post.title }}</h2>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  <div id="posts-recent">
+    <h2>Articles récents</h2>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
 
