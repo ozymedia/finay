@@ -75,20 +75,26 @@
   flex-wrap: wrap;
   margin-bottom:0;
   padding-bottom: 0;
-  li {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    min-width: 100%;
-    height: 3em;
-    //margin-bottom: 1em;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    h2 {
-      text-align: left;
-      font-size: 1.2em;
+  a {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      min-width: 100%;
+      height: 3em;
+      //margin-bottom: 1em;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      h2 {
+        text-align: left;
+        font-size: 1.2em;
+      }
+      //border-bottom: solid 2px $yellow;
+      //border-style: none none double;
     }
-    //border-bottom: solid 2px $yellow;
-    //border-style: none none double;
   }
 }
 #posts-recent {
