@@ -66,6 +66,23 @@
     //border-style: none none double;
   }
 }
+.banner.post {
+  height:50vh;
+  h1 {
+    max-width: 920px;
+    margin: auto;
+  }
+}
+.post-template {
+  .inside {
+    max-width: 920px;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    p {
+      line-height: 1.8em;
+    }
+  }
+}
 @media all and (max-width: 480px) {
   .actus {
     flex-direction: column;

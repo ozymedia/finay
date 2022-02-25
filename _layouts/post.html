@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr-fr">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5GJPVTL');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- For styles with static names... -->
+    <link href="{{ 'assets/css/styles.css' | relative_url }}" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/image/favicon.png">
+    <link href="{{ 'assets/images/favicon.png' | relative_url }}" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://finay-dev.netlify.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Finay | Isolation extérieure et rénovations">
+    <meta property="og:description" content="Finay vous accompagne dans vos travaux depuis 20 ans">
+    <meta property="og:image" content="https://finay-dev.netlify.app/assets/images/opengraph.jpeg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="finay-dev.netlify.app">
+    <meta property="twitter:url" content="https://finay-dev.netlify.app/">
+    <meta name="twitter:title" content="Finay | Isolation extérieure et rénovations">
+    <meta name="twitter:description" content="Finay vous accompagne dans vos travaux depuis 20 ans">
+    <meta name="twitter:image" content="https://finay-dev.netlify.app/assets/images/opengraph.jpeg">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    <meta name="robots" content="noindex">
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GJPVTL"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="layout-page">
+      {% include navigation.html %}
+      {% if page.url == "/" %}
+        <div class="banner post" style="background-image: url(../assets/images/finay-banner.jpeg);">
+          <div class="inside">
+            <p class="slogan">Isolez votre maison<br>
+              Faites des économies d'énergie
+            </p>
+            <a class="btn" href="#">Contact & Devis</a>
+          </div>
+        </div>
+      {% elsif page.url == "/isolation-extérieure/" %}
+        <div class="banner post" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.4990589985994398) 0%, rgba(255,255,255,0) 100%), url(https://as2.ftcdn.net/v2/jpg/01/75/45/95/1000_F_175459527_PfrVzwp6JgSItS618To9uXbWIIeRloJ1.jpg);">
+          <div class="inside">
+            <h1>{{page.title}}</h1>
+          </div>
+        </div>
+      {% elsif page.url == "/ravalement-de-façade/" %}
+        <div class="banner post" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.4990589985994398) 0%, rgba(255,255,255,0) 100%), url(https://as1.ftcdn.net/v2/jpg/00/41/31/24/1000_F_41312485_9QAo7aR786QUjdAAspZqg8czYIjztnit.jpg);">
+          <div class="inside">
+            <h1>{{page.titre}}</h1>
+          </div>
+        </div>
+      {% elsif page.url == "/toiture-zinguerie/" %}
+        <div class="banner post" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.4990589985994398) 0%, rgba(255,255,255,0) 100%), url(https://as2.ftcdn.net/v2/jpg/03/79/71/45/1000_F_379714536_B4cJ6begM9jlwYDjc8tpQ7n7JpxG9WeA.jpg);">
+          <div class="inside">
+            <h1>{{page.titre}}</h1>
+          </div>
+        </div>
+      {% else %}
+        <div class="banner post" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.4990589985994398) 0%, rgba(255,255,255,0) 100%), url(/assets/images/finay-banner.jpeg);">
+          <div class="inside">
+            <h1>{{page.title}}</h1>
+          </div>
+        </div>
+      {% endif %}
+    </header>
+
+    <main>
+      <article class="post-template">
+        <section class="inside">
+          {{ content }}
+        </section>
+      </article>
+    </main>
+    {% include footer.html %}
+    {% include boutons.html %}
+    <div style="position: fixed; top: 0px; left: 0px; z-index: 1; width: 100%; height: 100%; background: none 50% 50% / contain no-repeat rgba(0, 0, 0, 0.5); display: none;"></div>
+    <div class="lightbox">
+      <img src="" alt="">
+    </div>
+  </body>
+  <script src="/assets/js/nav.js"></script>
+  <script src="/assets/js/comparaison.js"></script>
+</html>
