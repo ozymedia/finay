@@ -58,12 +58,82 @@
     }
   }
 }
+#posts-page {
+  display: flex;
+  all: initial;
+  * {
+    all: unset;
+  }
+  display: flex;
+  h2, h3 {
+    font-family: 'ABeeZee', sans-serif;
+  }
+}
 #posts-index {
-  li {
+  //border: solid 1px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom:0;
+  padding-bottom: 0;
+  a {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
     width: 100%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 1em;
+    padding: 5px;
+    //box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    line-height: 3em;
+    border-radius: 3px;
     border-bottom: solid 2px $yellow;
-    //border-style: none none double;
+    li {
+      //margin-bottom: 1em;
+      h2 {
+        text-align: left;
+        font-size: 1.2em;
+      }
+      //border-bottom: solid 2px $yellow;
+      //border-style: none none double;
+    }
+  }
+}
+#posts-recent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  h2 {
+     font-size: 1.5em;
+     margin-bottom: 0.5em;
+  }
+  a {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1em;
+    //padding: 5px;
+    //box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    //line-height: 3em;
+    //border-radius: 3px;
+    //border-bottom: solid 2px $yellow;
+  }
+}
+.banner.post {
+  height:50vh;
+  h1 {
+    max-width: 920px;
+    margin: auto;
+  }
+}
+.post-template {
+  .inside {
+    max-width: 920px;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    p {
+      line-height: 1.8em;
+    }
   }
 }
 @media all and (max-width: 480px) {
@@ -73,6 +143,15 @@
     div:first-of-type { padding-bottom: 1em; }
     li { line-height: 25px !important; }
   }
+  #posts-page {
+    flex-direction: column;
+  }
+  #posts-recent {
+    margin-left: 0px;
+    width: 100%;
+    h2 { text-align: center; margin-top: 1em; margin-bottom: 1em; flex-wrap: wrap; }
+    a {line-height: 3em;}
+  }
 }
 @media only screen and (max-width: 40em) {
   .actus {
@@ -80,6 +159,15 @@
     div:first-of-type, img { width: 100%; }
     div:first-of-type { padding-bottom: 1em; }
     li { line-height: 25px !important; }
+  }
+  #posts-page {
+    flex-direction: column;
+  }
+  #posts-recent {
+    margin-left: 0px;
+    width: 100%;
+    h2 { text-align: center; margin-top: 1em; margin-bottom: 1em; flex-wrap: wrap; }
+    a {line-height: 3em;}
   }
 }
 
