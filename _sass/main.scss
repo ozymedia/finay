@@ -193,6 +193,19 @@ video {
   }
 
 }
+#etapes {
+  ul {
+    li {
+      border: solid 1px;
+      margin: 0px;
+      img {
+      }
+      p {
+
+      }
+    }
+  }
+}
 
 @media all and (max-width: 480px) {
   .grid.four {
