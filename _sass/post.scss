@@ -82,9 +82,10 @@
     width: 100%;
     margin-bottom: 1em;
     padding: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    //box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     line-height: 3em;
     border-radius: 3px;
+    border-bottom: solid 2px $yellow;
     li {
       //margin-bottom: 1em;
       h2 {
@@ -100,9 +101,22 @@
   width: 50%;
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
+  margin-left: 20px;
   h2 {
-     font-size: 1em;
+     font-size: 1.5em;
+     margin-bottom: 0.5em;
+  }
+  a {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1em;
+    //padding: 5px;
+    //box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    //line-height: 3em;
+    //border-radius: 3px;
+    //border-bottom: solid 2px $yellow;
   }
 }
 .banner.post {

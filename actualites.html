@@ -18,9 +18,11 @@ permalink: /actualites/
     <h2>Articles récents</h2>
     <ul>
       {% for post in site.posts %}
+      <a href="{{ post.url }}">
         <li>
-          <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+          <h3>{{ post.title }}</h3>
         </li>
+      </a>
       {% endfor %}
     </ul>
   </div>
