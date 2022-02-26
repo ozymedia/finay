@@ -198,10 +198,17 @@ video {
     li {
       border: solid 1px;
       margin: 0px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding:0px;
+      padding: 2px;
+      margin: 0px;
       img {
       }
       p {
-
+        text-align: center;
+        margin: 0px;
       }
     }
   }
