@@ -46,8 +46,8 @@
   index: 5
   img: travaux-isolation-exterieure-beinheim-67.jpg
   ville: Beinheim
-  CP: 67
-  ravalement: false
+  CP: 67930
+  ravalement: true
   isolation: true
   toiture: false
   chauffage: false
@@ -124,7 +124,7 @@
   img: travaux-isolation-exterieure-surbourg-67487.jpg
   ville: Surbourg
   CP: 67487
-  ravalement: false
+  ravalement: true
   isolation: true
   toiture: false
   chauffage: false
@@ -260,7 +260,7 @@
   isolation: false
   toiture: false
   chauffage: false
-  display: true
+  display: false
 
 
 
