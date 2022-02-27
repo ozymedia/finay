@@ -192,6 +192,7 @@ video {
 .villes {
   display: flex !important;
   flex-wrap: wrap;
+  list-style: none !important;
   li {
     border: solid 1px grey;
     margin: 0 !important;

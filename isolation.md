@@ -26,11 +26,13 @@ Entamer des travaux d’isolation par l’extérieur vous apportent de nombreux 
 - Un rafraîchissement de vos façades : Faire des travaux d’I.T.E est la bonne occasion de refaire ses façades et de rafraîchir vos murs extérieurs qui ont été bien éprouvés avec le temps.
 
 ## Des aides de l’Etat réduisant fortement le coût de vos travaux
-Dans ses efforts pour lutter contre le réchauffement climatique, l’Etat contribue de plus en plus à la réduction du coût des travaux pour les ménages. Son but est de supprimer les passoires thermiques, réduire la consommation énergétique et les dépenses énergétiques des plus précaires.
-Parmi les aides les plus connues, il y a la Prime Renov’ ouverte à tous les foyers et dont les aides dépendent de la composition et de la situation financière de votre ménage.
-A cette aide, s’ajoute  la prime CEE qui vient en plus alléger le coût de vos travaux.
-L’entreprise Finay a conçu un simulateur simple qui vous permet de visualiser rapidement et simplement les aides auxquels vous auriez droit.
-[Faire une simulation](https://www.example.com)
+Dans ses efforts pour lutter contre le réchauffement climatique, l’Etat contribue de plus en plus à la réduction du coût des travaux pour les ménages. Son but est de supprimer les passoires thermiques, réduire la consommation énergétique et les dépenses énergétiques des plus précaires.\
+\
+Parmi les aides les plus connues, il y a la Prime Renov’ ouverte à tous les foyers et dont les aides dépendent de la composition et de la situation financière de votre ménage.\
+A cette aide, s’ajoute  la prime CEE qui vient en plus alléger le coût de vos travaux.\
+L’entreprise Finay a conçu un simulateur simple qui vous permet de visualiser rapidement et simplement les aides auxquels vous auriez droit.\
+
+[Faire une simulation](https://www.example.com){}
 
 ## Finay, votre entreprise experte dans les travaux d'isolation extérieure
 Depuis bientôt 20 ans, Finay s’emploi à améliorer le confort et la réduction des coûts énergétiques de ses clients. Travaillant en Alsace et Moselle, Finay conseille et suit ses clients pour obtenir des aides de l’Etat, la réalisation des devis et chantiers.
