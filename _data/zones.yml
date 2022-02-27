@@ -97,3 +97,28 @@
   dp: 57
   cp: 67110
   region: Lorraine
+
+- ville: Schiltigheim
+  dp: 67
+  cp:
+  region:
+
+- ville: Lingolsheim
+  dp:
+  cp:
+  region:
+
+- ville: Weitbruch
+  dp:
+  cp:
+  region:
+
+- ville: Reichshoffen
+  dp:
+  cp:
+  region:
+
+- ville: Hochfelden
+  dp:
+  cp:
+  region:
