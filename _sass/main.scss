@@ -200,9 +200,11 @@ video {
 
 }
 #etapes {
+  max-width: 1280px;
+  margin: auto;
   ul {
     li {
-      border: solid 1px;
+      //border: solid 1px;
       margin: 0px;
       width: 100%;
       display: flex;
@@ -210,7 +212,13 @@ video {
       padding:0px;
       padding: 2px;
       margin: 0px;
+      justify-content: center;
+      min-width: 100px;
+      margin-left:10px;
+      margin-right:10px;
       img {
+        margin: auto;
+        width: 5em;
       }
       p {
         text-align: center;
@@ -224,6 +232,13 @@ video {
     grid-template-columns: repeat(1, 1fr) !important;
   }
   h2 { text-align: center !important; }
+  #etapes {
+    ul {
+      li {
+        min-width: 200px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 40em) {
@@ -231,5 +246,12 @@ video {
     grid-template-columns: repeat(1, 1fr) !important;
   }
   h2 { text-align: center !important; }
+  #etapes {
+    ul {
+      li {
+        min-width: 200px;
+      }
+    }
+  }
 }
 
