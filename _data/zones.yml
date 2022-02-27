@@ -97,3 +97,43 @@
   dp: 57
   cp: 67110
   region: Lorraine
+
+- ville: Schiltigheim
+  dp: 67
+  cp: 67300
+  region: Alsace
+
+- ville: Lingolsheim
+  dp: 67
+  cp: 67380
+  region: Alsace
+
+- ville: Weitbruch
+  dp: 67
+  cp: 67500
+  region: Alsace
+
+- ville: Saint-Avold
+  dp: 57
+  cp: 57500
+  region: Lorraine
+
+- ville: Freyming-Merlabach
+  dp: 57
+  cp: 57800
+  region: Lorraine
+
+- ville: Forbach
+  dp: 57
+  cp: 57600
+  region: Lorraine
+
+- ville: Marmoutier
+  dp: 67
+  cp: 67440
+  region: Lorraine
+
+- ville: Marlenheim
+  dp: 67
+  cp: 67520
+  region: Alsace
