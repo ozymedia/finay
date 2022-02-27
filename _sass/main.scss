@@ -201,6 +201,7 @@ video {
 }
 #etapes {
   max-width: 1280px;
+  width: 100%;
   margin: auto;
   ul {
     li {
@@ -210,7 +211,7 @@ video {
       display: flex;
       flex-direction: column;
       padding:0px;
-      padding: 2px;
+      //padding: 2px;
       margin: 0px;
       justify-content: center;
       min-width: 100px;
