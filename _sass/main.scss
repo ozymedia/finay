@@ -39,7 +39,7 @@ p {
   font-family: 'Avenir', sans-serif;
 }
 .grid {
-  display: grid;
+  display: grid !important;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
@@ -183,6 +183,11 @@ video {
   min-width: 100%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+.main-page > article + .section {
+  ul {
+    display: initial !important;
+  }
+}
 
 .villes {
   display: flex;
@@ -213,17 +218,16 @@ video {
     }
   }
 }
-
 @media all and (max-width: 480px) {
   .grid.four {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr) !important;
   }
   h2 { text-align: center !important; }
 }
 
 @media only screen and (max-width: 40em) {
   .grid.four {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr) !important;
   }
   h2 { text-align: center !important; }
 }
