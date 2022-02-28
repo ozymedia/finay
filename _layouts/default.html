@@ -72,4 +72,40 @@
     {% include boutons.html %}
   </body>
   <script src="/assets/js/nav.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "HomeAndConstructionBusiness",
+    "provider": {
+      "@type": "GeneralContractor",
+      "name": "Finay",
+      "location": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": "48.9595205",
+            "longitude": "7.642957"
+          },
+          "geoRadius": "70000"
+        }
+      }
+    },
+    "providerMobility": "dynamic",
+    "@type" : "Organization",
+    "url" : "https://www.finay.fr",
+    "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Niederbronn-les-Bains",
+    "addressRegion": "FR",
+    "postalCode": "67110",
+    "streetAddress": "5 rue claude pagnier"
+    }
+    "contactPoint" : [
+      { "@type" : "ContactPoint",
+        "telephone" : "+33388909763",
+        "contactType" : "customer service"
+      } ] }
+  }</script>
 </html>
