@@ -1,7 +1,7 @@
 ---
 layout: page
 banner-img:
-title: Isolation Extérieure | Finay
+title: Entreprise d'isolation thermique extérieure en Alsace | Finay
 titre: Isolation Thermique par l'Extérieur
 permalink: /isolation-extérieure/
 ---
