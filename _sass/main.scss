@@ -228,6 +228,9 @@ video {
     }
   }
 }
+.no-flex {
+  display: inherit;
+}
 @media all and (max-width: 480px) {
   .grid.four {
     grid-template-columns: repeat(1, 1fr) !important;
