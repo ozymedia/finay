@@ -44,6 +44,8 @@ image:
 collections:
   reviews:
     output: true
+  posts:
+    permalink: /:title:slug
 
 
 pages_mentions:
