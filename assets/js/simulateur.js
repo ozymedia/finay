@@ -382,17 +382,6 @@ function simulate() {
     console.log(localite);
     console.log(color);
 
-    window.dataLayer = window.dataLayer || [];
-    //window.dataLayer.push('simulator': {});
-      dataLayer.push({
-      'event': 'push-simulator',
-      'simulator': {
-        'cp': localite,
-        'color': color,
-        'travaux': travauxSelect
-      } // mise en place de mon événement
-    });
-
       if (residence === 'no') {
         //debugger;
         totalAides = ceeAides + 0;
@@ -418,6 +407,17 @@ function simulate() {
     return color;
     }
   );
+
+  window.dataLayer = window.dataLayer || [];
+    //window.dataLayer.push('simulator': {});
+      dataLayer.push({
+      'event': 'push-simulator',
+      'simulator': {
+        'cp': localite,
+        'color': color,
+        'travaux': travauxSelect
+      } // mise en place de mon événement
+  });
 }
 
 let radioButtons = Array.from(document.getElementById("stepByStepForm").querySelectorAll(".radio"));
