@@ -408,21 +408,16 @@ function simulate() {
     }
   );
 
-  let buttonFinal = document.querySelector.(".button.final")element.addEventListener("change", (event) =>{
-    window.dataLayer = window.dataLayer || [];
-      //window.dataLayer.push('simulator': {});
-        dataLayer.push({
-        'event': 'push-simulator',
-        'simulator': {
-          'cp': localite,
-          'color': color,
-          'travaux': travauxSelect
-        } // mise en place de mon événement
-      });
+  window.dataLayer = window.dataLayer || [];
+    //window.dataLayer.push('simulator': {});
+      dataLayer.push({
+      'event': 'push-simulator',
+      'simulator': {
+        'cp': localite,
+        'color': color,
+        'travaux': travauxSelect
+      } // mise en place de mon événement
   });
-
-
-
 }
 
 let radioButtons = Array.from(document.getElementById("stepByStepForm").querySelectorAll(".radio"));
@@ -434,4 +429,3 @@ radioButtons.forEach(element=>{
     event.currentTarget.classList.add("checked");
   });
 })
-
