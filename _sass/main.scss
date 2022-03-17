@@ -173,6 +173,10 @@ tr td:first-of-type {
   color: lightgrey;
   font-weight: 500;
   margin-top: 5px;
+   a {
+    text-decoration: none;
+    color: lightgrey;
+   }
 }
 
 video {
