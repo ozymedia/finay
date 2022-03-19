@@ -2,6 +2,7 @@
 layout: page
 banner-img:
 title: Entreprise d'isolation thermique extérieure en Alsace | Finay
+description: Notre entreprise en isolation thermique par l'extérieure intervient sur tout le territoire du Bas-Rhin et de la Moselle
 titre: Isolation Thermique par l'Extérieur
 permalink: /isolation-extérieure/
 ---
