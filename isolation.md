@@ -37,7 +37,7 @@ L’entreprise Finay a conçu un simulateur simple qui vous permet de visualiser
 [Faire une simulation](/simulateur-aide/){: .btn}
 
 
-## Finay, votre entreprise experte dans les travaux d'isolation extérieure
+## Finay, votre entreprise RGE experte dans les travaux d'isolation extérieure
 Depuis bientôt 20 ans, Finay s’emploi à améliorer le confort et la réduction des coûts énergétiques de ses clients. Travaillant en Alsace et Moselle, Finay conseille et suit ses clients pour obtenir des aides de l’Etat, la réalisation des devis et chantiers.\
 En 20 ans, l’entreprise obtient une très grande satisfaction de ses clients et continue à les satisfaire en cherchant toujours à s’améliorer.
 
