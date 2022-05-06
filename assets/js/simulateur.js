@@ -319,6 +319,50 @@ const aidesTravaux = {
     "jaune":20,
     "violet":15,
     "rose":7
+  },
+  "pompe à chaleur air/eau": {
+    "bleu":5000,
+    "jaune":4000,
+    "violet":3000,
+    "rose":0
+  },
+  "pompe à chaleur air/air": {
+    "bleu":,
+    "jaune":,
+    "violet":,
+    "rose":
+  },
+  "ballon thermodynamique":{
+    //chauffe-eau thermodynamique
+    "bleu":1200,
+    "jaune":800,
+    "violet":400,
+    "rose":0
+  },
+  "poele à bois":{
+    "bleu":2500,
+    "jaune":2000,
+    "violet":1000,
+    "rose":0
+  },
+  "poele à granulés":{
+    "bleu":3000,
+    "jaune":2500,
+    "violet":1500,
+    "rose":0
+  },
+  "chaudiere à granulés":{
+    "bleu":11000,
+    "jaune":9000,
+    "violet":5000,
+    "rose":0
+  },
+  "panneaux solaires":{
+    //système solaire combiné
+    "bleu":11000,
+    "jaune":9000,
+    "violet":5000,
+    "rose":0
   }
 }
 
