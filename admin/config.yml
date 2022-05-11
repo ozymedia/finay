@@ -40,12 +40,12 @@ collections:
                 widget: select
                 options: ["Link", "Button"]
 
-  - label: "Avis clients"
-    name: "reviews"
-    folder: "_reviews/"
+  - name: "reviews"
+    label: "Avis clients"
+    folder: "_reviews"
     create: true
     fields:
-      - {label: 'Nom du client', name: 'auteur', widget: 'string' }
+      - {label: "Nom du client", name: "author", widget: "string" }
       - {label: "Contenu texte", name: "body", widget: "markdown"}
 
   - label: "Autres suggestions - Plats"
