@@ -346,19 +346,21 @@ const aidesTravaux = {
     "rose":0
   },
   "poele a granules":{
+    //ok
     "bleu":3000,
     "jaune":2500,
     "violet":1500,
     "rose":0
   },
   "chaudiere a granules":{
+    //OK
     "bleu":11000,
     "jaune":9000,
     "violet":5000,
     "rose":0
   },
   "panneaux solaires":{
-    //système solaire combiné
+    //système solaire combiné OK
     "bleu":11000,
     "jaune":9000,
     "violet":5000,
@@ -367,8 +369,8 @@ const aidesTravaux = {
 }
 
 const cee = {
-  "isolation des murs par l'extérieur": 19,
-  "isolation des murs par l'intérieur": 19,
+  "isolation des murs par l'extérieur": 8,
+  "isolation des murs par l'intérieur": 8,
   "isolation des combles perdues par le sol": 8,
   "isolation des rampants de toiture": 8,
   "pompe a chaleur air/eau": 0,
