@@ -46,6 +46,7 @@ collections:
     create: true
     fields:
       - {label: "Nom du client", name: "author", widget: "string" }
+      - {label: "Note de l'avis", name: "author", widget: "number", default: 5, value_type: "int", min: 1, max: 5, step: 1 }
       - {label: "Contenu texte", name: "body", widget: "markdown"}
 
   - label: "Autres suggestions - Plats"
