@@ -49,6 +49,19 @@ collections:
       - {label: "Note de l'avis", name: "note", widget: "number", default: 5, value_type: "int", min: 1, max: 5, step: 1 }
       - {label: "Contenu texte", name: "body", widget: "markdown"}
 
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'Page de test'
+        name: 'test'
+        file: 'test.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string'}
+          - { label: 'Titre', name: 'titre', widget: 'string'}
+          - { label: 'Body', name: 'body', widget: 'markdown'}
+
   - label: "Autres suggestions - Plats"
     name: "plats"
     folder: "_plats/"
