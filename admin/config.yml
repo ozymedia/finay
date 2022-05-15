@@ -61,6 +61,13 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string'}
           - { label: 'Titre', name: 'titre', widget: 'string'}
           - { label: 'Body', name: 'body', widget: 'markdown'}
+      - label: 'Page Isolation extérieure'
+        name: 'isolation extétérieure'
+        file: 'isolation.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string'}
+          - { label: 'Titre', name: 'titre', widget: 'string'}
+          - { label: 'Body', name: 'body', widget: 'markdown'}
 
   - label: "Autres suggestions - Plats"
     name: "plats"
