@@ -9,6 +9,30 @@ backend:
 media_folder: "assets/images"
 
 collections:
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'Page Isolation extérieure'
+        name: 'isolation extétérieure'
+        file: 'isolation.md'
+        fields:
+          - { label: 'Titre', name: 'titre', widget: 'string'}
+          - { label: 'Body', name: 'body', widget: 'markdown'}
+      - label: 'Page Ravalement de façade'
+        name: 'ravalement façade'
+        file: 'ravalement.md'
+        fields:
+          - { label: 'Titre', name: 'titre', widget: 'string'}
+          - { label: 'Body', name: 'body', widget: 'markdown'}
+      - label: 'Page Travaux de toiture'
+        name: 'toiture'
+        file: 'toiture.md'
+        fields:
+          - { label: 'Titre', name: 'titre', widget: 'string'}
+          - { label: 'Body', name: 'body', widget: 'markdown'}
+
   - name: "Articles"
     label: "Articles"
     folder: "_posts"
@@ -18,6 +42,15 @@ collections:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Texte", name: "body", widget: "markdown"}
+
+  - name: "reviews"
+    label: "Avis clients"
+    folder: "_reviews"
+    create: true
+    fields:
+      - {label: "Nom du client", name: "author", widget: "string" }
+      - {label: "Note de l'avis", name: "note", widget: "number", default: 5, value_type: "int", min: 1, max: 5, step: 1 }
+      - {label: "Contenu texte", name: "body", widget: "markdown"}
 
   - label: "Sitewide Options"
     name: options
@@ -39,35 +72,6 @@ collections:
                 name: itemType
                 widget: select
                 options: ["Link", "Button"]
-
-  - name: "reviews"
-    label: "Avis clients"
-    folder: "_reviews"
-    create: true
-    fields:
-      - {label: "Nom du client", name: "author", widget: "string" }
-      - {label: "Note de l'avis", name: "note", widget: "number", default: 5, value_type: "int", min: 1, max: 5, step: 1 }
-      - {label: "Contenu texte", name: "body", widget: "markdown"}
-
-  - name: 'pages'
-    label: 'Pages'
-    editor:
-      preview: false
-    files:
-      - label: 'Page de test'
-        name: 'test'
-        file: 'test.md'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string'}
-          - { label: 'Titre', name: 'titre', widget: 'string'}
-          - { label: 'Body', name: 'body', widget: 'markdown'}
-      - label: 'Page Isolation extérieure'
-        name: 'isolation extétérieure'
-        file: 'isolation.md'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string'}
-          - { label: 'Titre', name: 'titre', widget: 'string'}
-          - { label: 'Body', name: 'body', widget: 'markdown'}
 
   - label: "Autres suggestions - Plats"
     name: "plats"
