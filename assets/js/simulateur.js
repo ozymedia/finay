@@ -359,26 +359,94 @@ const aidesTravaux = {
     "violet":5000,
     "rose":0
   },
-  "panneaux solaires":{
+  "systeme solaire combine":{
     //système solaire combiné OK
     "bleu":11000,
     "jaune":9000,
     "violet":5000,
     "rose":0
+  },
+  "chauffe eau solaire":{
+    "bleu":4000,
+    "jaune":3000,
+    "violet":2000,
+    "rose":0
   }
 }
 
 const cee = {
-  "isolation des murs par l'extérieur": 8,
-  "isolation des murs par l'intérieur": 8,
-  "isolation des combles perdues par le sol": 8,
-  "isolation des rampants de toiture": 8,
-  "pompe a chaleur air/eau": 0,
-  "pompe a chaleur air/air": 0,
-  "ballon thermodynamique": 0,
-  "poele a bois": 0,
-  "poele a granules": 0,
-  "panneaux solaires": 0
+  "isolation des murs par l'extérieur":{
+    "bleu":8,
+    "jaune":8,
+    "violet":8,
+    "rose":8
+  },
+  "isolation des murs par l'intérieur":{
+    "bleu":8,
+    "jaune":8,
+    "violet":8,
+    "rose":8
+  },
+  "isolation des combles perdues par le sol":{
+    "bleu":8,
+    "jaune":8,
+    "violet":8,
+    "rose":8
+  },
+  "isolation des rampants de toiture":{
+    "bleu":8,
+    "jaune":8,
+    "violet":8,
+    "rose":8
+  },
+  "pompe a chaleur air/eau":{
+    "bleu":4000,
+    "jaune":4000,
+    "violet":2500,
+    "rose":2500
+  },
+  "pompe a chaleur air/air":{
+    "bleu":100,
+    "jaune":100,
+    "violet":100,
+    "rose":100
+  },
+  "ballon thermodynamique":{
+    "bleu":80,
+    "jaune":80,
+    "violet":80,
+    "rose":80
+  },
+  "poele a bois":{
+    "bleu":800,
+    "jaune":800,
+    "violet":500,
+    "rose":500
+  },
+  "poele a granules":{
+    "bleu":800,
+    "jaune":800,
+    "violet":500,
+    "rose":500
+  },
+  "chaudiere a granules":{
+    "bleu":4000,
+    "jaune":4000,
+    "violet":2500,
+    "rose":2500
+  },
+  "systeme solaire combine":{
+    "bleu":3000,
+    "jaune":3000,
+    "violet":2000,
+    "rose":2000
+  },
+  "chauffe eau solaire": {
+    "bleu":100,
+    "jaune":100,
+    "violet":100,
+    "rose":100
+  }
 }
 const paris = ["75","77","78","91","92","93","94","95"]
 
@@ -429,7 +497,7 @@ function simulate() {
     //let color = bareme[people][result] || "rose";
     let travauxSelect = document.getElementById("stepByStepForm").querySelector("#travaux-select").value;
     let aides = aidesTravaux[travauxSelect][color];
-    let ceeAides = cee[travauxSelect];
+    let ceeAides = cee[travauxSelect][color];
     let totalAides = aides + ceeAides;
     console.log(localite);
     console.log(color);
