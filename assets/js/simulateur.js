@@ -511,7 +511,7 @@ function simulate() {
           document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `Mais vous bénéficiez de ${ceeAides}€/m<sup>2</sup> avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€/m<sup>2</sup></span>`;
         }
         else {
-          document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `Mais vous bénéficiez de ${ceeAides}€ avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€/m<sup>2</sup></span>`;
+          document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `Mais vous bénéficiez de ${ceeAides}€ avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€</span>`;
         }
 
         pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-neutre.png`;
