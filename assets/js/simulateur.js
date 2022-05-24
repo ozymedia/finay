@@ -507,7 +507,13 @@ function simulate() {
         totalAides = ceeAides + 0;
         document.querySelector(".step.step3").querySelector("#results").querySelector("#color").innerHTML = "Vous n'êtes pas éligible à MaPrimeRénov'";
         document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerText = "";
-        document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `Mais vous bénéficiez de ${ceeAides}€/m<sup>2</sup> avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€/m<sup>2</sup></span>`;
+        if (travauxSelect.includes('isolation')) {
+          document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `Mais vous bénéficiez de ${ceeAides}€/m<sup>2</sup> avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€/m<sup>2</sup></span>`;
+        }
+        else {
+          document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `Mais vous bénéficiez de ${ceeAides}€ avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€/m<sup>2</sup></span>`;
+        }
+
         pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-neutre.png`;
 
       }
