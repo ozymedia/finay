@@ -60,7 +60,7 @@ p {
     padding: 0;
     margin: 0;
     border-radius: 5px;
-    padding: 1em;
+    padding: 10px;
     //height: 250px;
     .item-2-img {
       display: flex;
@@ -70,7 +70,7 @@ p {
       img.second {visibility: hidden; width: 0; height: 0;}
     }
     .item-2-titre {text-align: center;}
-    .item-2-text { margin-bottom: 2em; font-size: 1em;}
+    .item-2-text { margin-bottom: 2em; font-size: 1em; text-align:center;}
     span.btn {
       margin: auto;
     }
