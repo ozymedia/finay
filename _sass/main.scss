@@ -53,7 +53,31 @@ p {
     }
   }
   .item-grid-2 {
-    border: solid 1px;
+    text-decoration: none;
+    color: black;
+    //border: solid 1px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    padding: 1em;
+    //height: 250px;
+    .item-2-img {
+      display: flex;
+      justify-content: center;
+      img {width: 60px; height: auto;}
+      img.first {}
+      img.second {visibility: hidden; width: 0; height: 0;}
+    }
+    .item-2-titre {text-align: center;}
+    .item-2-text { margin-bottom: 2em; font-size: 1em;}
+    span.btn {
+      margin: auto;
+    }
+    &:hover {
+      img.first {visibility: hidden; width: 0; height: 0;}
+      img.second {visibility: visible;width: 60px; height: auto;}
+    }
   }
   .item-grid {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
