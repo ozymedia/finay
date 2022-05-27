@@ -69,6 +69,7 @@ p {
     .item-2-img {
       display: flex;
       justify-content: center;
+      padding-top: 1.5em;
       img {width: 60px; height: auto;}
       img.first {}
       img.second {visibility: hidden; width: 0; height: 0;}
@@ -283,6 +284,9 @@ video {
 @media all and (max-width: 480px) {
   .grid.four, .grid.four-bis {
     grid-template-columns: repeat(1, 1fr) !important;
+    .item-2-text {
+      min-height: auto;
+    }
   }
   h2 { text-align: center !important; }
   #etapes {
@@ -297,6 +301,9 @@ video {
 @media only screen and (max-width: 40em) {
   .grid.four, .grid.four-bis {
     grid-template-columns: repeat(1, 1fr) !important;
+    .item-2-text {
+      min-height: auto;
+    }
   }
   h2 { text-align: center !important; }
   #etapes {
