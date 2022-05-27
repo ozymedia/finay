@@ -61,6 +61,10 @@ p {
     margin: 0;
     border-radius: 5px;
     padding: 10px;
+    li {
+      padding: 0;
+      padding-bottom: 10px;
+    }
     //height: 250px;
     .item-2-img {
       display: flex;
@@ -70,7 +74,7 @@ p {
       img.second {visibility: hidden; width: 0; height: 0;}
     }
     .item-2-titre {text-align: center;}
-    .item-2-text { margin-bottom: 2em; font-size: 1em; text-align:center; min-height: 8.5em;}
+    .item-2-text { margin-bottom: 2em; font-size: 1em; text-align:center; min-height: 8.5em; padding-left: 10px; padding-right: 10px;}
     span.btn {
       margin: auto;
     }
