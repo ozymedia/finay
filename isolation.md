@@ -58,4 +58,5 @@ En 20 ans, l’entreprise obtient une très grande satisfaction de ses clients e
 {% include zones.html %}
 <h2 class="left">Nous contacter</h2>
 {% include form.html %}
+{% include reviewsummary.html %}
 
