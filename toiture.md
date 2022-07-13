@@ -1,7 +1,7 @@
 ---
 layout: page
 titre: Travaux de toiture & Zinguerie
-title: Travaux de toiture et zinguerie - Entreprise de rénovation et nettoyage | Finay
+title: Travaux de toiture et zinguerie - Entreprise de rénovation et nettoyage en Alsace Moselle | Finay
 permalink: /toiture-zinguerie/
 ---
 Les toitures subissent eux aussi les effets du temps. Les mousses, algues, lichens fixent l'humidité et rendent poreux les matériaux.

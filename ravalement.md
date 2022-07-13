@@ -1,7 +1,7 @@
 ---
 layout: page
 titre: Ravalement des façades
-title: Entreprise de ravalement de façade en Alsace | Finay
+title: Entreprise de ravalement de façade en Alsace Moselle | Finay
 description: Notre entreprise en ravalement de façade opère sur tout le territoire du Bas-Rhin et de la Moselle
 permalink: /ravalement-de-façade/
 ---
