@@ -1,0 +1,22 @@
+---
+layout: default
+title: Nos avis client | Finay
+titre: Nos avis client
+permalink: /avis-client
+---
+<section id="avis-client" class="inside">
+	{% assign reviews = site.reviews | where: "published",true %}
+    {% for review in reviews  %}
+    <div itemprop="review" itemscope itemtype="https://schema.org/Review"></div>
+    <h3 class="review-author"><span itemprop="author">{{ review.author | capitalize }}</span>  - <span itemprop="ratingValue">{{ review.note }}</span> / <span itemprop="bestRating">5</span></h3>
+        <span class="stars">
+          {% assign num = review.note %}
+          {% assign range = (1..num) %}
+          {% for i in range %}
+            <img src="../assets/images/icones/star-yellow.jpg" width="20">
+          {% endfor %}
+        </span>
+        <div class="review-text" itemprop="reviewBody">{{ review.content }}</div>
+    {% endfor %}
+	
+</section>
