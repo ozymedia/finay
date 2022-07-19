@@ -234,10 +234,13 @@ video {
   display: flex !important;
   flex-wrap: wrap;
   list-style: none !important;
-  li {
+  li, h3 {
     border: solid 1px grey;
     margin: 0 !important;
+    font-size: 1em;
+    font-weight: normal;
   }
+  h3 { border: none;}
 
 }
 #etapes {
