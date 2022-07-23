@@ -4,19 +4,36 @@ title: Nos avis client | Finay
 titre: Nos avis client
 permalink: /avis-client
 ---
-<section id="avis-client" class="inside">
+<section id="avis-client" class="inside" itemscope itemtype="https://schema.org/Organization">
+  <meta itemprop="name" content="Finay">
+  <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+    <meta itemprop="ratingValue" content="3.5">
+    <meta itemprop="reviewCount" content="11">
+  </div>
 	{% assign reviews = site.reviews | where: "published",true %}
     {% for review in reviews  %}
-    <div itemprop="review" itemscope itemtype="https://schema.org/Review"></div>
-    <h3 class="review-author"><span itemprop="author">{{ review.author | capitalize }}</span>  - <span itemprop="ratingValue">{{ review.note }}</span> / <span itemprop="bestRating">5</span></h3>
-        <span class="stars">
-          {% assign num = review.note %}
-          {% assign range = (1..num) %}
-          {% for i in range %}
-            <img src="../assets/images/icones/star-yellow.jpg" width="20">
-          {% endfor %}
-        </span>
-        <div class="review-text" itemprop="reviewBody">{{ review.content }}</div>
+    <div itemprop="review" itemscope itemtype="https://schema.org/Review" class="">
+      
+      <h3 class="review-author" itemprop="author">
+        {{ review.author | capitalize }}
+      </h3>
+      <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating" class="rating-stars">
+        <div style="margin-right:10px;">
+          <meta itemprop="worstRating" content = "1">
+          <span itemprop="ratingValue">{{ review.note }}</span> /
+          <span itemprop="bestRating">5</span>
+        </div>
+        <div>
+          <span class="stars">
+            {% assign num = review.note %}
+            {% assign range = (1..num) %}
+            {% for i in range %}
+              <img src="../assets/images/icones/star-yellow.jpg" width="20">
+            {% endfor %}
+          </span>
+        </div>
+      </div>
+      <div class="review-text" itemprop="reviewBody">{{ review.content }}</div>
+    </div>
     {% endfor %}
-	
 </section>
