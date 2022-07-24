@@ -47,6 +47,8 @@ collections:
     output: true
   posts:
     permalink: /:title:slug
+  realisations:
+    output: true
 
 
 pages_mentions:
