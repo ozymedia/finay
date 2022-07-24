@@ -286,6 +286,14 @@ video {
     margin: auto;
   }
 }
+.list-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  //columns: 3;
+  li {
+    margin: 0px !important;
+  }
+}
 @media all and (max-width: 480px) {
   .grid.four, .grid.four-bis {
     grid-template-columns: repeat(1, 1fr) !important;

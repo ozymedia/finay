@@ -5,97 +5,97 @@
 
 - ville: Haguenau
   dp: 67
-  cp: 67110
+  cp: 67500
   region: Alsace
 
 - ville: Strasbourg
   dp: 67
-  cp: 67110
+  cp: 67000
   region: Alsace
 
 - ville: Brumath
   dp: 67
-  cp: 67110
+  cp: 67170
   region: Alsace
 
 - ville: Saverne
   dp: 67
-  cp: 67110
+  cp: 67700
   region: Alsace
 
 - ville: Wissembourg
   dp: 67
-  cp: 67110
+  cp: 67160
   region: Alsace
 
 - ville: Lauterbourg
   dp: 67
-  cp: 67110
+  cp: 67630
   region: Alsace
 
 - ville: Beinheim
   dp: 67
-  cp: 67110
+  cp: 67930
   region: Alsace
 
 - ville: Seltz
   dp: 67
-  cp: 67110
+  cp: 67470
   region: Alsace
 
 - ville: Bitche
-  dp: 67
-  cp: 67110
+  dp: 57
+  cp: 57230
   region: Lorraine
 
 - ville: Lemberg
   dp: 57
-  cp: 67110
+  cp: 57620
   region: Lorraine
 
 - ville: Sarreguemines
   dp: 57
-  cp: 67110
+  cp: 67200
   region: Lorraine
 
 - ville: Achen
   dp: 57
-  cp: 67110
+  cp: 57412
   region: Lorraine
 
 - ville: Rohrbach-les-Bitche
   dp: 57
-  cp: 67110
+  cp: 57410
   region: Lorraine
 
 - ville: Sarrebourg
   dp: 57
-  cp: 67110
+  cp: 57400
   region: Lorraine
 
 - ville: Sarre-Union
-  dp: 57
-  cp: 67110
+  dp: 67
+  cp: 67260
   region: Lorraine
 
 - ville: Phalsbourg
   dp: 57
-  cp: 67110
+  cp: 57370
   region: Lorraine
 
 - ville: Drulingen
   dp: 57
-  cp: 67110
+  cp: 67320
   region: Lorraine
 
 - ville: Mommenheim
   dp: 67
-  cp: 67110
+  cp: 67670
   region: Alsace
 
 - ville: Moussey
   dp: 57
-  cp: 67110
+  cp: 57770
   region: Lorraine
 
 - ville: Schiltigheim

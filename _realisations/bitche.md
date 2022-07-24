@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  Travaux de rénovation énergétique à Bitche et aux alentours
+title:  Travaux d'isolation par l'extérieur et rénovation à Bitche et aux alentours
 titre: Mentions légales
 permalink: /travaux-sur-bitche
 ---
-Notre entreprise intervient sur une partie de la Moselle, incluant la communauté des communes du Pays de Bitche. 
-Notre entreprise propose d'intervenir sur divers travaux de rénovation énergétique avec l'isolation extérieure de vos murs, des travaux de chauffage avec le changement de votre système actuel pour un système de chauffage plus performant, moins coûteux et plus respectueux de l'environnement.
+Notre entreprise intervient sur une partie de la Moselle, incluant la communauté des communes du <strong>Pays de Bitche</strong>. 
+Notre entreprise propose d'intervenir sur divers travaux de rénovation énergétique avec l'<strong>isolation extérieure de vos murs</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système de chauffage plus performant, moins coûteux et plus respectueux de l'environnement. Nous intervenons également dans les travaux de rénovation au niveau esthétique avec le ravalement de façade qui vient compléter des <strong>travaux d'isolation par l'extérieur.</strong>
 ## Les villes du Pays de Bitche où nous intervenons
+
+{:.list-columns}
 - Bitche
 - Baerenthal
 - Schorbach
@@ -21,7 +23,6 @@ Notre entreprise propose d'intervenir sur divers travaux de rénovation énergé
 - Liederschiedt
 
 ### Nos derniers travaux d'isolation par l'extérieur
-<section class="inside">
   <ul class="grid four">
   	{% assign reals = site.data.gallerie | where:"CP","57230" %}
     {% assign display_reals = reals | where: 'display', true %}
@@ -33,9 +34,7 @@ Notre entreprise propose d'intervenir sur divers travaux de rénovation énergé
       </li>
     {% endfor %}
   </ul>
-</section>
-### Nos derniers travaux de rénovation de façade
-<section class="inside">
+### Nos derniers travaux de ravalement de façade
   <ul class="grid four">
   	{% assign reals = site.data.gallerie | where:"CP","57230" %}
     {% assign display_reals = reals | where: 'display', true %}
@@ -47,4 +46,7 @@ Notre entreprise propose d'intervenir sur divers travaux de rénovation énergé
       </li>
     {% endfor %}
   </ul>
-</section>
+## Nos réalisations dans le reste de la Lorraine
+## Nous contacter
+{:.left}
+{% include form.html %}
