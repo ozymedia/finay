@@ -234,6 +234,7 @@ video {
   display: flex !important;
   flex-wrap: wrap;
   list-style: none !important;
+  a { color: black; text-decoration: none; }
   li, h3 {
     border: solid 1px grey;
     margin: 0 !important;
