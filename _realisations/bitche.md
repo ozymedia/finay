@@ -4,7 +4,9 @@ title:  Travaux de rénovation énergétique à Bitche et aux alentours
 titre: Mentions légales
 permalink: /travaux-sur-bitche
 ---
-## La collectivité du Pays de Bitche
+Notre entreprise intervient sur une partie de la Moselle, incluant la communauté des communes du Pays de Bitche. 
+Notre entreprise propose d'intervenir sur divers travaux de rénovation énergétique avec l'isolation extérieure de vos murs, des travaux de chauffage avec le changement de votre système actuel pour un système de chauffage plus performant, moins coûteux et plus respectueux de l'environnement.
+## Les villes du Pays de Bitche où nous intervenons
 - Bitche
 - Baerenthal
 - Schorbach
