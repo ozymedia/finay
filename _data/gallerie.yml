@@ -90,7 +90,7 @@
   index: 9
   img: travaux-isolation-exterieure-riedseltz-67.jpg
   ville: Riedseltz
-  CP: 67
+  CP: 67160
   ravalement: false
   isolation: true
   toiture: false
@@ -200,7 +200,7 @@
   index: 19
   img: travaux-isolation-exterireure-hesse-57.jpg
   ville: Hesse
-  CP: 57
+  CP: 57400
   ravalement: false
   isolation: false
   toiture: false
@@ -233,7 +233,7 @@
   index: 22
   img: travaux-ravalement-facade-achen-57.jpg
   ville: Achen
-  CP: 57
+  CP: 57412
   ravalement: true
   isolation: false
   toiture: false
