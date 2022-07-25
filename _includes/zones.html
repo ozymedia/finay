@@ -8,6 +8,8 @@
         <li><h3>{{ville.ville}}</h3></li>
       {% elsif ville.ville == "Bitche" %}
         <a href="/travaux-energetique-sur-bitche"><li>{{ville.ville}}</li></a>
+      {% elsif ville.ville == "Sarreguemines" %}
+        <a href="/travaux-energetique-sur-sarreguemines"><li>{{ville.ville}}</li></a>
       {% else %}
         <li>{{ville.ville}}</li>
       {% endif %}

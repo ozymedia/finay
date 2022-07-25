@@ -1,30 +1,56 @@
 ---
 layout: post
-title: Travaux d'isolation par l'extérieur et rénovation à Bitche et aux alentours
-titre: Travaux d'isolation par l'extérieur et rénovation à Bitche et aux alentours
-permalink: /travaux-energetique-sur-bitche
+title: Travaux de rénovation & d'isolation par l'extérieur à Sarreguemines et aux alentours
+titre: Travaux de rénovation & d'isolation par l'extérieur à Sarreguemines et aux alentours
+permalink: /travaux-energetique-sur-sarreguemines
 ---
-Notre entreprise spécialisée dans l'[isolation extérieure intervient en Moselle](/isolation-extérieure/), incluant la communauté des communes du <strong>Pays de Bitche (57230)</strong>. 
-Nos artisans proposent comme services divers travaux de rénovation énergétique avec l'<strong>isolation extérieure de vos murs</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système de chauffage plus performant, moins coûteux et plus respectueux de l'environnement. Nous intervenons également dans les travaux de rénovation au niveau esthétique avec le ravalement de façade qui vient compléter des <strong>travaux d'isolation par l'extérieur.</strong>
-## Les villes du Pays de Bitche où nous intervenons
+Notre entreprise spécialisée dans l'[isolation extérieure intervient en Moselle](/isolation-extérieure/), incluant le canton <strong>Sarraguemines (57230)</strong>. 
+Notre entreprise spécialisée dans les travaux de rénovation énergétique vous propose diverses prestations, tel que des travaux d'<strong>isolation par l'extérieure</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système de chauffage bien plus performant, moins coûteux et plus écologique. Nous intervenons également dans les travaux de rénovation d'un point de vue esthétique avec des travaux de ravalement de façade qui viennent compléter des <strong>travaux d'isolation par l'extérieur.</strong>
+## Les villes du canton de Sarreguemines où nous intervenons
 
 {:.list-columns}
-- Bitche
-- Baerenthal
-- Schorbach
-- Philippsbourg
-- Reyersviller
-- Eguelshardt
-- Haspelscheidt
-- Sturzelbronn
-- Hanviller
-- Bousseviller
-- Roppeviller
-- Liederschiedt
+- Sarreguemines
+- Blies-Ebersing
+- Blies-Guersviller
+- Bliesbruck
+- Ernestviller
+- Frauenberg
+- Grosbliederstroff
+- Grundviller
+- Guebenhouse
+- Hambach
+- Hazembourg
+- Hilsprich
+- Holving
+- Hundling
+- Ippling
+- Kalhausen
+- Kappelkinger
+- Kirviller
+- Lixing-lès-Rouhling
+- Loupershouse
+- Nelling
+- Neufgrange
+- Puttelange-aux-Lacs
+- Rémelfing
+- Rémering-lès-Puttelange
+- Richeling
+- Rouhling
+- Saint-Jean-Rohrbach
+- Sarralbe
+- Sarreinsming
+- Siltzheim
+- Val-de-Guéblange
+- Wiesviller
+- Willerwald
+- Wittring
+- Woelfling-lès-Sarreguemines
+- Woustviller
+- Zetting
 
 ### Nos derniers travaux d'isolation par l'extérieur
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"CP","57230" %}
+  	{% assign reals = site.data.gallerie | where:"CP","57200" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'isolation', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -36,7 +62,7 @@ Nos artisans proposent comme services divers travaux de rénovation énergétiqu
   </ul>
 ### Nos derniers travaux de ravalement de façade
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"CP","57230" %}
+  	{% assign reals = site.data.gallerie | where:"CP","57200" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'ravalement', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -47,7 +73,7 @@ Nos artisans proposent comme services divers travaux de rénovation énergétiqu
     {% endfor %}
   </ul>
 ## Nos réalisations dans le reste de la Lorraine
-[Nos travaux dans le canton de Sarreguemines](/travaux-energetique-sur-sarreguemines)
+[Nos travaux dans le canton de Bitche](/travaux-energetique-sur-bitche)
 ## Nous contacter
 {:.left}
 {% include form.html %}
