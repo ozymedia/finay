@@ -3,6 +3,7 @@
   img: facade-et-zinguerie-baerenthal-57230.jpg
   ville: Baerenthal
   CP: 57230
+  Comm: Bitche
   ravalement: true
   isolation: false
   toiture: true
@@ -14,6 +15,7 @@
   img: travaux-de-ravalement-de-facade-niederbronn-les-bains-67110.jpg
   ville: Niederbronn-les-Bains
   CP: 67110
+  Comm: Niederbronn-les-Bains
   ravalement: true
   isolation: false
   toiture: false
@@ -36,6 +38,7 @@
   img: travaux-de-ravalement-de-facade-et-zinguerie-baerenthal-57230-avant-travaux.jpg
   ville: Baerenthal
   CP: 57230
+  Comm: Bitche
   ravalement: true
   isolation: false
   toiture: true
@@ -212,6 +215,7 @@
   img: travaux-ravalement-de-facade-meisenthal-lorraine-moselle-57960.jpg
   ville: Meisenthal
   CP: 57960
+  Comm: Bitche
   ravalement: true
   isolation: false
   toiture: false
@@ -223,6 +227,7 @@
   img: travaux-ravalement-de-facade-meisenthal-lorraine-moselle-57960-avant-travaux.jpg
   ville: Meisenthal
   CP: 57960
+  Comm: Bitche
   ravalement: true
   isolation: false
   toiture: false
@@ -234,6 +239,7 @@
   img: travaux-ravalement-facade-achen-57.jpg
   ville: Achen
   CP: 57412
+  Comm: Bitche
   ravalement: true
   isolation: false
   toiture: false
@@ -245,6 +251,7 @@
   img: travaux-ravalement-facade-niederbronn-les-bains-67.jpg
   ville: Niederbronn-les-Bains
   CP: 67110
+  Comm: Niederbronn-les-Bains
   ravalement: true
   isolation: false
   toiture: false
@@ -255,6 +262,7 @@
   index: 24
   img: travaux-ravalement-facade-niederbronn-les-bains-67110.jpg
   ville: Niederbronn-les-Bains
+  Comm: Niederbronn-les-Bains
   CP: 67110
   ravalement: true
   isolation: false

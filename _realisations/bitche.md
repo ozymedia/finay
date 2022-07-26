@@ -10,21 +10,55 @@ Nos artisans proposent comme services divers travaux de rénovation énergétiqu
 
 {:.list-columns}
 - Bitche
+- Achen
 - Baerenthal
-- Schorbach
-- Philippsbourg
-- Reyersviller
-- Eguelshardt
-- Haspelscheidt
-- Sturzelbronn
-- Hanviller
+- Bettviller
+- Bining
 - Bousseviller
-- Roppeviller
+- Breidenbach
+- Eguelshardt
+- Enchenberg
+- Epping
+- Erching
+- Etting
+- Goetzenbruck
+- Gros-Réderching
+- Hanviller
+- Haspelscheidt
+- Hottviller
+- Lambach
+- Lemberg
+- Lengelsheim
 - Liederschiedt
+- Loutzviller
+- Meisenthal
+- Montbronn
+- Mouterhouse
+- Nousseviller-lès-Bitche
+- Obergailbach
+- Ormersviller
+- Petit-Réderching
+- Philippsbourg
+- Rahling
+- Reyersviller
+- Rimling
+- Rohrbach-lès-Bitche
+- Rolbing
+- Roppeviller
+- Saint-Louis-lès-Bitche
+- Schmittviller
+- Schorbach
+- Schweyen
+- Siersthal
+- Soucht
+- Sturzelbronn
+- Volmunster
+- Waldhouse
+- Walschbronn
 
 ### Nos derniers travaux d'isolation par l'extérieur
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"CP","57230" %}
+  	{% assign reals = site.data.gallerie | where:"Comm","Bitche" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'isolation', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -36,7 +70,7 @@ Nos artisans proposent comme services divers travaux de rénovation énergétiqu
   </ul>
 ### Nos derniers travaux de ravalement de façade
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"CP","57230" %}
+  	{% assign reals = site.data.gallerie | where:"Comm","Bitche" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'ravalement', true %}
     {% for real in filtered_reals | limit: 8 %}
