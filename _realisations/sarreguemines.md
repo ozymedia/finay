@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Travaux de rénovation & d'isolation par l'extérieur à Sarreguemines et aux alentours
+title: Travaux d'isolation extérieure à Sarreguemines et aux alentours
 titre: Travaux de rénovation & d'isolation par l'extérieur à Sarreguemines et aux alentours
 permalink: /travaux-energetique-sur-sarreguemines
 ---
