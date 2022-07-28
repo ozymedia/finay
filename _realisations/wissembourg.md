@@ -1,56 +1,37 @@
 ---
 layout: post
-title: Travaux d'isolation par l'extérieur & rénovation à Haguenau et aux alentours
-titre: Travaux d'isolation par l'extérieur & rénovation à Haguenau et aux alentours
-permalink: /travaux-energetique-sur-haguenau
+title: Travaux d'isolation extérieur & rénovation sur Wissembourg et aux alentours
+titre: Travaux d'isolation extérieur & rénovation sur Wissembourg et aux alentours
+permalink: /travaux-energetique-sur-wissembourg
 ---
-Notre entreprise spécialisée dans l'[isolation extérieure intervient sur tout le Bas-Rhin](/isolation-extérieure/), incluant l'ensemble de la communauté des communes de <strong>Haguenau (67500)</strong>. 
+Notre entreprise spécialisée dans l'[isolation extérieure intervient sur tout le Bas-Rhin](/isolation-extérieure/), incluant l'ensemble de la communauté des communes de <strong>Wissembourg (67500)</strong>. 
 Notre entreprise vous propose la réalisation de divers travaux dans la rénovation énergétique, subventionnés par de nombreuses aides de l'Etat.
-Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos murs</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système de chauffage plus performant, moins coûteux et écologique. Nous intervenons également dans les travaux de rénovation au niveau esthétique avec le ravalement de façade qui viendrait compléter des <strong>travaux d'isolation par l'extérieur.</strong>
-## Les villes du canton de Haguenau où nous intervenons
+Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos murs</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système plus performant, moins coûteux et écologique (ballon thermodynamique, chaudière à pellets,...). Egalement façadier de métier, nous vous proposons le ravalement de façade de votre maison qui viendrait éventuellement compléter des <strong>travaux d'isolation par l'extérieur</strong> de votre logement.
+## Les villes du canton de Wissembourg où nous intervenons
 
 {:.list-columns}
-- Haguenau
-- Batzendorf
-- Bernolsheim
-- Berstheim
-- Bilwisheim
-- Bischwiller
-- Bitschhoffen
-- Brumath
-- Dauendorf
-- Donnenheim
-- Engwiller
-- Hochstett
-- Huttendorf
-- Kaltenhouse
-- Kindwiller
-- Krautwiller
-- Kriegsheim
-- Mittelschaeffolsheim
-- Mommenheim
-- Morschwiller
-- Niedermodern
-- Niederschaeffolsheim
-- Oberhoffen-sur-Moder
-- Ohlungen
-- Olwisheim
-- Rohrwiller
-- Rottelsheim
-- Schirrhein
-- Schirrhoffen
-- Schweighouse-sur-Moder
-- Uhlwiller
-- Uhrwiller
-- Val-de-Moder
-- Wahlenheim
-- Wintershouse
-- Wittersheim
+- Wissembourg
+- Cleebourg
+- Bremmelbach
+- Climbach
+- Drachenbronn
+- Birlenbach
+- Hunspach
+- Ingolsheim
+- Oberhoffen-les-Wissembourg
+- Riedseltz
+- Rott
+- Schleithal
+- Seebach
+- Niederseebach
+- Steinseltz
+- Altenstadt
+
 
 
 ### Nos derniers travaux d'isolation par l'extérieur
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"Comm","Haguenau" %}
+  	{% assign reals = site.data.gallerie | where:"Comm","Wissembourg" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'isolation', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -62,7 +43,7 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
   </ul>
 ### Nos derniers travaux de ravalement de façade
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"Comm","Haguenau" %}
+  	{% assign reals = site.data.gallerie | where:"Comm","Wissembourg" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'ravalement', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -73,7 +54,7 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
     {% endfor %}
   </ul>
 ## Nos réalisations dans le reste du Bas-Rhin
-[Nos travaux dans le canton de Wissembourg](/travaux-energetique-sur-wissembourg)
+[Nos travaux dans le canton de Haguenau](/travaux-energetique-sur-haguenau)
 ## Nous contacter
 {:.left}
 {% include form.html %}
