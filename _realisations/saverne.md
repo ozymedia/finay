@@ -1,37 +1,56 @@
 ---
 layout: post
-title: Travaux d'isolation extérieur & rénovation sur Wissembourg et aux alentours
-titre: Travaux d'isolation extérieur & rénovation sur Wissembourg et aux alentours
-permalink: /travaux-energetique-sur-wissembourg
+title: Travaux d'isolation extérieur & rénovation sur Saverne et aux alentours
+titre: Travaux d'isolation extérieur & rénovation sur Saverne et aux alentours
+permalink: /travaux-energetique-sur-saverne
 ---
-Notre entreprise spécialisée dans l'[isolation extérieure intervient sur tout le Bas-Rhin](/isolation-extérieure/), incluant l'ensemble de la communauté des communes de <strong>Wissembourg (67160)</strong>. 
+Notre entreprise spécialisée dans l'[isolation extérieure intervient sur tout le Bas-Rhin](/isolation-extérieure/), incluant l'ensemble du pays de <strong>Saverne (67700)</strong>. 
 Notre entreprise vous propose la réalisation de divers travaux dans la rénovation énergétique, subventionnés par de nombreuses aides de l'Etat.
-Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos murs</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système plus performant, moins coûteux et écologique (ballon thermodynamique, chaudière à pellets,...). Egalement façadier de métier, nous vous proposons le ravalement de façade de votre maison qui viendrait éventuellement compléter des <strong>travaux d'isolation par l'extérieur</strong> de votre logement.
-## Les villes du canton de Wissembourg où nous intervenons
+Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos murs</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système plus performant, moins coûteux et écologique (ballon thermodynamique, chaudière à pellets,...). Egalement façadier de métier, nous vous proposons le ravalement de façade de votre logement qui viendrait éventuellement compléter des <strong>travaux d'isolation par l'extérieur</strong>.
+## Les villes du canton de Saverne où nous intervenons
 
 {:.list-columns}
-- Wissembourg
-- Cleebourg
-- Bremmelbach
-- Climbach
-- Drachenbronn
-- Birlenbach
-- Hunspach
-- Ingolsheim
-- Oberhoffen-les-Wissembourg
-- Riedseltz
-- Rott
-- Schleithal
-- Seebach
-- Niederseebach
-- Steinseltz
-- Altenstadt
+- Saverne
+- Altenheim
+- Dettwiller
+- Dimbsthal
+- Eckartswiller
+- Ernolsheim-les-saverne
+- Friedolsheim
+- Furchhausen
+- Gottenhouse
+- Gottesheim
+- Haegen
+- Hattmatt
+- Hengwiller
+- Kleingoeft
+- Landersheim
+- Littenheim
+- Lochwiller
+- Lupstein
+- Maennolsheim
+- Marmoutier
+- Monswiller
+- Otterswiller
+- Ottersthal
+- Printzheim
+- Reinhardsmunster
+- Reutenbourg
+- Saessolsheim
+- Sain-jean-saverne
+- Schwenheim
+- Sommerau
+- Steinbourg
+- Thal-marmoutier
+- Waldolwisheim
+- Westhouse-marmoutier
+- Wolschheim
 
 
 
 ### Nos derniers travaux d'isolation par l'extérieur
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"Comm","Wissembourg" %}
+        {% assign reals = site.data.gallerie | where:"Comm","Saverne" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'isolation', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -43,7 +62,7 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
   </ul>
 ### Nos derniers travaux de ravalement de façade
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"Comm","Wissembourg" %}
+        {% assign reals = site.data.gallerie | where:"Comm","Saverne" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'ravalement', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -55,7 +74,7 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
   </ul>
 ## Nos réalisations dans le reste du Bas-Rhin
 [Nos travaux dans le canton de Haguenau](/travaux-energetique-sur-haguenau)
-[Nos travaux dans le pays de Saverne](/travaux-energetique-sur-saverne)
+[Nos travaux dans le canton de Wissembourg](/travaux-energetique-sur-wissembourg)
 ## Nous contacter
 {:.left}
 {% include form.html %}
