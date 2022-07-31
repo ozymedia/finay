@@ -1,49 +1,31 @@
 ---
 layout: post
-title: Travaux d'isolation extérieur & rénovation sur Erstein et aux alentours
-titre: Travaux d'isolation extérieur & rénovation sur Erstein et aux alentours
-permalink: /travaux-energetique-sur-erstein
+title: Travaux d'isolation extérieur & rénovation sur Hoenheim et aux alentours
+titre: Travaux d'isolation extérieur & rénovation sur Hoenheim et aux alentours
+permalink: /travaux-energetique-sur-hoenheim
 ---
-Notre entreprise spécialisée dans l'[isolation extérieure intervient sur tout le Bas-Rhin](/isolation-extérieure/), incluant l'ensemble du canton de <strong>Erstein (67150)</strong>. 
+Notre entreprise spécialisée dans l'[isolation extérieure intervient sur tout le Bas-Rhin](/isolation-extérieure/), incluant l'ensemble des communes du canton de <strong>Hoenheim (67800)</strong>. 
 Notre entreprise vous propose la réalisation de divers travaux dans la rénovation énergétique, subventionnés par de nombreuses aides de l'Etat.
 Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos murs</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système plus performant, moins coûteux et écologique (ballon thermodynamique, chaudière à pellets,...). Egalement façadier de métier, nous vous proposons le ravalement de façade de votre maison qui viendrait éventuellement compléter des <strong>travaux d'isolation par l'extérieur</strong> de votre logement.
 
-## Les villes du canton de Erstein où nous intervenons
+## Les villes du canton de Hoenheim où nous intervenons
 
 {:.list-columns}
-- Erstein
-- Benfeld
-- Bolsenheim
-- Boofzheim
-- Daubensand
-- Diebolsheim
-- Friesenheim
-- Gerstheim
-- Herbsheim
-- Hindisheim
-- Hipsheim
-- Huttenheim
-- Ichtratzheim
-- Kertzfeld
-- Kogenheim
-- Limersheim
-- Matzenheim
-- Nordhouse
-- Obenheim
-- Osthouse
-- Rhinau
-- Rossfeld
-- Sand
-- Schaeffersheim
-- Sermersheim
-- Uttenheim
-- Westhouse
-- Witternheim
+- Hoenheim
+- Eckbolsheim
+- Lampertheim
+- Mittelhausbergen
+- Mundolsheim
+- Niederhausbergen
+- Oberhausbergen
+- Reichstett
+- Souffelweyersheim
+- Wolfisheim
 
 
 ### Nos derniers travaux d'isolation par l'extérieur
   <ul class="grid four">
-    {% assign reals = site.data.gallerie | where:"Comm","Erstein" %}
+    {% assign reals = site.data.gallerie | where:"Comm","Hoenheim" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'isolation', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -56,7 +38,7 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
 
 ### Nos derniers travaux de ravalement de façade
   <ul class="grid four">
-    {% assign reals = site.data.gallerie | where:"Comm","Erstein" %}
+    {% assign reals = site.data.gallerie | where:"Comm","Hoenheim" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'ravalement', true %}
     {% for real in filtered_reals | limit: 8 %}
