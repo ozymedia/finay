@@ -4,48 +4,27 @@ title: Travaux d'isolation par l'extérieur & rénovation à Haguenau et aux ale
 titre: Travaux d'isolation par l'extérieur & rénovation à Haguenau et aux alentours
 permalink: /travaux-energetique-sur-haguenau
 ---
-Notre entreprise spécialisée dans l'[isolation extérieure intervient sur tout le Bas-Rhin](/isolation-extérieure/), incluant l'ensemble de la communauté des communes de <strong>Haguenau (67500)</strong>. 
+Notre entreprise spécialisée dans l'[isolation extérieure intervient sur tout le Bas-Rhin](/isolation-extérieure/), incluant l'ensemble des communes du canton de <strong>Haguenau (67500)</strong>. 
 Notre entreprise vous propose la réalisation de divers travaux dans la rénovation énergétique, subventionnés par de nombreuses aides de l'Etat.
 Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos murs</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système de chauffage plus performant, moins coûteux et écologique. Nous intervenons également dans les travaux de rénovation au niveau esthétique avec le ravalement de façade qui viendrait compléter des <strong>travaux d'isolation par l'extérieur.</strong>
+
 ## Les villes du canton de Haguenau où nous intervenons
 
 {:.list-columns}
 - Haguenau
 - Batzendorf
-- Bernolsheim
-- Berstheim
-- Bilwisheim
-- Bischwiller
-- Bitschhoffen
-- Brumath
+- Bertstheim
 - Dauendorf
-- Donnenheim
-- Engwiller
 - Hochstett
 - Huttendorf
-- Kaltenhouse
-- Kindwiller
-- Krautwiller
-- Kriegsheim
-- Mittelschaeffolsheim
-- Mommenheim
 - Morschwiller
-- Niedermodern
 - Niederschaeffolsheim
-- Oberhoffen-sur-Moder
 - Ohlungen
-- Olwisheim
-- Rohrwiller
-- Rottelsheim
-- Schirrhein
-- Schirrhoffen
 - Schweighouse-sur-Moder
 - Uhlwiller
-- Uhrwiller
-- Val-de-Moder
 - Wahlenheim
 - Wintershouse
-- Wittersheim
+- Wittesheim
 
 
 ### Nos derniers travaux d'isolation par l'extérieur
