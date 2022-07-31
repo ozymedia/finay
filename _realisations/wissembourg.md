@@ -71,6 +71,7 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
       </li>
     {% endfor %}
   </ul>
+
 ### Nos derniers travaux de ravalement de façade
   <ul class="grid four">
   	{% assign reals = site.data.gallerie | where:"Comm","Wissembourg" %}
@@ -83,6 +84,7 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
       </li>
     {% endfor %}
   </ul>
+  
 ## Nos réalisations dans le reste du Bas-Rhin
 [Nos travaux dans le canton de Haguenau](/travaux-energetique-sur-haguenau)
 [Nos travaux dans le pays de Saverne](/travaux-energetique-sur-saverne)
