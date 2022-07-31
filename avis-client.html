@@ -14,8 +14,8 @@ permalink: /avis-client
     {% for review in reviews  %}
     <div itemprop="review" itemscope itemtype="https://schema.org/Review" class="">
       
-      <h3 class="review-author" itemprop="author">
-        {{ review.author | capitalize }}
+      <h3 class="review-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">{{ review.author | capitalize }}</span>
       </h3>
       <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating" class="rating-stars">
         <div style="margin-right:10px;">
