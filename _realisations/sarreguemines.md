@@ -72,6 +72,7 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
       </li>
     {% endfor %}
   </ul>
+  
 ## Nos réalisations dans le reste de la Lorraine
 [Nos travaux dans le canton de Bitche](/travaux-energetique-sur-bitche)
 ## Nous contacter
