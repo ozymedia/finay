@@ -1,35 +1,25 @@
 ---
 layout: post
-title: Travaux d'isolation par l'extérieur & rénovation à Haguenau et aux alentours
-titre: Travaux d'isolation par l'extérieur & rénovation à Haguenau et aux alentours
-permalink: /travaux-energetique-sur-haguenau
+title: Travaux d'isolation extérieur & rénovation sur Illkich-Graffenstaden et aux alentours
+titre: Travaux d'isolation extérieur & rénovation sur Illkich-Graffenstaden et aux alentours
+permalink: /travaux-energetique-sur-illkich-graffenstaden
 ---
-Notre entreprise spécialisée dans l'[isolation extérieure intervient sur tout le Bas-Rhin](/isolation-extérieure/), incluant l'ensemble des communes du canton de <strong>Haguenau (67500)</strong>. 
+Notre entreprise spécialisée dans l'[isolation extérieure intervient sur tout le Bas-Rhin](/isolation-extérieure/), incluant l'ensemble du canton de <strong>Illkich-Graffenstaden (67218)</strong>. 
 Notre entreprise vous propose la réalisation de divers travaux dans la rénovation énergétique, subventionnés par de nombreuses aides de l'Etat.
-Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos murs</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système de chauffage plus performant, moins coûteux et écologique. Nous intervenons également dans les travaux de rénovation au niveau esthétique avec le ravalement de façade qui viendrait compléter des <strong>travaux d'isolation par l'extérieur.</strong>
+Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos murs</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système plus performant, moins coûteux et écologique (ballon thermodynamique, chaudière à pellets,...). Egalement façadier de métier, nous vous proposons le ravalement de façade de votre maison qui viendrait éventuellement compléter des <strong>travaux d'isolation par l'extérieur</strong> de votre logement.
 
-## Les villes du canton de Haguenau où nous intervenons
+## Les villes du canton de Illkich-Graffenstaden où nous intervenons
 
 {:.list-columns}
-- Haguenau
-- Batzendorf
-- Bertstheim
-- Dauendorf
-- Hochstett
-- Huttendorf
-- Morschwiller
-- Niederschaeffolsheim
-- Ohlungen
-- Schweighouse-sur-Moder
-- Uhlwiller
-- Wahlenheim
-- Wintershouse
-- Wittersheim
+- Eschau (67131) 
+- Illkirch-Graffenstaden (67218) 
+- Ostwald (67365) 
+- Plobsheim (67378)  
 
 
 ### Nos derniers travaux d'isolation par l'extérieur
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"Comm","Haguenau" %}
+    {% assign reals = site.data.gallerie | where:"Comm","Illkich" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'isolation', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -42,7 +32,7 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
 
 ### Nos derniers travaux de ravalement de façade
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"Comm","Haguenau" %}
+    {% assign reals = site.data.gallerie | where:"Comm","Illkich" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'ravalement', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -54,7 +44,7 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
   </ul>
 
 ## Nos réalisations dans le reste du Bas-Rhin
-[Nos travaux dans le canton de Wissembourg](/travaux-energetique-sur-wissembourg)
+[Nos travaux dans le canton de Haguenau](/travaux-energetique-sur-haguenau)
 [Nos travaux dans le pays de Saverne](/travaux-energetique-sur-saverne)
 ## Nous contacter
 {:.left}
