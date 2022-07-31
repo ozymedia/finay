@@ -55,7 +55,7 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
 
 ### Nos derniers travaux d'isolation par l'extérieur
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"CP","57200" %}
+  	{% assign reals = site.data.gallerie | where:"Comm","Reichshoffen" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'isolation', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -68,7 +68,7 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
 
 ### Nos derniers travaux de ravalement de façade
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"CP","57200" %}
+  	{% assign reals = site.data.gallerie | where:"Comm","Reichshoffen" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'ravalement', true %}
     {% for real in filtered_reals | limit: 8 %}

@@ -50,7 +50,7 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
 
 ### Nos derniers travaux d'isolation par l'extérieur
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"CP","57200" %}
+  	{% assign reals = site.data.gallerie | where:"Comm","Sarreguemines" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'isolation', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -62,7 +62,7 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
   </ul>
 ### Nos derniers travaux de ravalement de façade
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"CP","57200" %}
+  	{% assign reals = site.data.gallerie | where:"Comm","Sarreguemines" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'ravalement', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -72,7 +72,7 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
       </li>
     {% endfor %}
   </ul>
-  
+
 ## Nos réalisations dans le reste de la Lorraine
 [Nos travaux dans le canton de Bitche](/travaux-energetique-sur-bitche)
 ## Nous contacter

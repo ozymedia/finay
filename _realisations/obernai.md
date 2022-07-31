@@ -1,44 +1,47 @@
 ---
 layout: post
-title: Travaux d'isolation par l'extérieur & rénovation à Brumath et aux alentours
-titre: Travaux d'isolation par l'extérieur & rénovation à Brumath et aux alentours
-permalink: /travaux-energetique-sur-brumath
+title: Travaux d'isolation extérieur & rénovation sur Obernai et aux alentours
+titre: Travaux d'isolation extérieur & rénovation sur Obernai et aux alentours
+permalink: /travaux-energetique-sur-obernai
 ---
-Notre entreprise spécialisée dans l'[isolation extérieure intervient sur tout le Bas-Rhin](/isolation-extérieure/), incluant l'ensemble des communes du canton de <strong>Brumath (67170)</strong>. 
+Notre entreprise spécialisée dans l'[isolation extérieure intervient sur tout le Bas-Rhin](/isolation-extérieure/), incluant l'ensemble des communes du canton de <strong>Obernai</strong>. 
 Notre entreprise vous propose la réalisation de divers travaux dans la rénovation énergétique, subventionnés par de nombreuses aides de l'Etat.
-Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos murs</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système de chauffage plus performant, moins coûteux et écologique. Nous intervenons également dans les travaux de rénovation au niveau esthétique avec le ravalement de façade qui viendrait compléter des <strong>travaux d'isolation par l'extérieur.</strong>
+Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos murs</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système plus performant, moins coûteux et écologique (ballon thermodynamique, chaudière à pellets,...). Egalement façadier de métier, nous vous proposons le ravalement de façade de votre maison qui viendrait éventuellement compléter des <strong>travaux d'isolation par l'extérieur</strong> de votre logement.
 
-## Les villes du canton de Brumath où nous intervenons
+## Les villes du canton de Obernai où nous intervenons
 
 {:.list-columns}
-- Brumath
-- Bernolsheim
-- Bietlenheim
-- Bilwisheim
-- Brumath
-- Donnenheim
-- Eckwersheim
-- Gambsheim
-- Geudertheim
-- Gries
-- Hoerdt
-- Kilstett
-- Krautwiller
-- Kriegsheim
-- Kurtzenhouse
-- Mittelschaeffolsheim
-- Mommenheim
-- Olwisheim
-- Rottelsheim
-- Vendenheim
-- La Wantzenau
-- Weitbruch
-- Weyersheim
+- Andlau 
+- Barr 
+- Bernardswiller 
+- Bernardvillé 
+- Blienschwiller 
+- Bourgheim 
+- Dambach-la-Ville 
+- Eichhoffen 
+- Epfig 
+- Gertwiller 
+- Goxwiller 
+- Heiligenstein 
+- Le Hohwald 
+- Itterswiller 
+- Krautergersheim 
+- Meistratzheim 
+- Mittelbergheim 
+- Niedernai 
+- Nothalten 
+- Obernai 
+- Reichsfeld 
+- Saint-Pierre 
+- Stotzheim 
+- Valff 
+- Zellwiller  
+
 
 
 ### Nos derniers travaux d'isolation par l'extérieur
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"Comm","Brumath" %}
+  	{% assign reals = site.data.gallerie | where:"Comm","Obernai" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'isolation', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -51,7 +54,7 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
 
 ### Nos derniers travaux de ravalement de façade
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"Comm","Brumath" %}
+  	{% assign reals = site.data.gallerie | where:"Comm","Obernai" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'ravalement', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -63,10 +66,8 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
   </ul>
 
 ## Nos réalisations dans le reste du Bas-Rhin
-[Nos travaux dans le canton de Bischwiller](/travaux-energetique-sur-bischwiller)
 [Nos travaux dans le canton de Haguenau](/travaux-energetique-sur-haguenau)
-[Nos travaux dans le canton de Strasbourg](/travaux-energetique-sur-strasbourg)
-[Nos travaux dans le canton de Saverhe](/travaux-energetique-sur-saverne)
+[Nos travaux dans le pays de Saverne](/travaux-energetique-sur-saverne)
 ## Nous contacter
 {:.left}
 {% include form.html %}
