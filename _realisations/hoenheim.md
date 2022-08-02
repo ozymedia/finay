@@ -51,10 +51,10 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
 
 ## Nos réalisations dans le reste du Bas-Rhin
 [Nos travaux dans le canton de Bischwiller](/travaux-energetique-sur-bischwiller)
-[Nos travaux dans le pays de Bouxwiller](/travaux-energetique-sur-bouxwiller)
-[Nos travaux dans le pays de Erstein](/travaux-energetique-sur-erstein)
-[Nos travaux dans le pays de Ingwiller](/travaux-energetique-sur-ingwiller)
-[Nos travaux dans le pays de Mutzig](/travaux-energetique-sur-mutzig)
+[Nos travaux dans le canton de Bouxwiller](/travaux-energetique-sur-bouxwiller)
+[Nos travaux dans le canton de Erstein](/travaux-energetique-sur-erstein)
+[Nos travaux dans le canton de Ingwiller](/travaux-energetique-sur-ingwiller)
+[Nos travaux dans le canton de Mutzig](/travaux-energetique-sur-mutzig)
 ## Nous contacter
 {:.left}
 {% include form.html %}

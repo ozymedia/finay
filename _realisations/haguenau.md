@@ -55,10 +55,10 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
 
 ## Nos réalisations dans le reste du Bas-Rhin
 [Nos travaux dans le canton de Brumath](/travaux-energetique-sur-brumath)
-[Nos travaux dans le pays de Reichshoffen](/travaux-energetique-sur-reichshoffen)
-[Nos travaux dans le pays de Saverne](/travaux-energetique-sur-saverne)
-[Nos travaux dans le pays de Strasbourg](/travaux-energetique-sur-strasbourg)
-[Nos travaux dans le pays de Wissembourg](/travaux-energetique-sur-wissembourg)
+[Nos travaux dans le canton de Reichshoffen](/travaux-energetique-sur-reichshoffen)
+[Nos travaux dans le canton de Saverne](/travaux-energetique-sur-saverne)
+[Nos travaux dans le canton de Strasbourg](/travaux-energetique-sur-strasbourg)
+[Nos travaux dans le canton de Wissembourg](/travaux-energetique-sur-wissembourg)
 ## Nous contacter
 {:.left}
 {% include form.html %}

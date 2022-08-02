@@ -116,10 +116,10 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
 
 ## Nos réalisations dans le reste du Bas-Rhin
 [Nos travaux dans le canton de Bouxwiller](/travaux-energetique-sur-bouxwiller)
-[Nos travaux dans le pays de Brumath](/travaux-energetique-sur-brumath)
-[Nos travaux dans le pays de Hoenheim](/travaux-energetique-sur-hoenheim)
-[Nos travaux dans le pays de Reichshoffen](/travaux-energetique-sur-reichshoffen)
-[Nos travaux dans le pays de Selestat](/travaux-energetique-sur-selestat)
+[Nos travaux dans le canton de Brumath](/travaux-energetique-sur-brumath)
+[Nos travaux dans le canton de Hoenheim](/travaux-energetique-sur-hoenheim)
+[Nos travaux dans le canton de Reichshoffen](/travaux-energetique-sur-reichshoffen)
+[Nos travaux dans le canton de Selestat](/travaux-energetique-sur-selestat)
 
 ## Nous contacter
 {:.left}

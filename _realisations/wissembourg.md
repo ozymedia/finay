@@ -86,7 +86,7 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
 
 ## Nos réalisations dans le reste du Bas-Rhin
 [Nos travaux dans le canton de Haguenau](/travaux-energetique-sur-haguenau)
-[Nos travaux dans le pays de Bischwiller](/travaux-energetique-sur-bischwiller)
+[Nos travaux dans le canton de Bischwiller](/travaux-energetique-sur-bischwiller)
 [Nos travaux dans le canton de Reichshoffen](/travaux-energetique-sur-reichshoffen)
 [Nos travaux dans le canton de Saverne](/travaux-energetique-sur-saverne)
 [Nos travaux dans le canton de Schiltigheim](/travaux-energetique-sur-schiltigheim)
