@@ -15,7 +15,7 @@
   img: travaux-de-ravalement-de-facade-niederbronn-les-bains-67110.jpg
   ville: Niederbronn-les-Bains
   CP: 67110
-  Comm: Niederbronn-les-Bains
+  Comm: Reichshoffen
   ravalement: true
   isolation: false
   toiture: false
@@ -26,6 +26,7 @@
   index: 3
   img: travaux-de-ravalement-de-facade-duppigheim-67120.jpg
   ville: Duppigheim
+  Comm: Molsheim
   CP: 67120
   ravalement: true
   isolation: false
@@ -49,6 +50,7 @@
   index: 5
   img: travaux-isolation-exterieure-beinheim-67.jpg
   ville: Beinheim
+  Comm: Wissembourg
   CP: 67930
   ravalement: true
   isolation: true
@@ -71,6 +73,7 @@
   index: 7
   img: travaux-isolation-exterieure-hoerdt-alsace-67720.jpg
   ville: Hoerdt
+  Comm: Brumath
   CP: 67720
   ravalement: false
   isolation: true
@@ -82,6 +85,7 @@
   index: 8
   img: travaux-isolation-exterieure-oberhausbergen-67205.jpg
   ville: Oberhausbergen
+  Comm: Hoenheim
   CP: 67205
   ravalement: false
   isolation: true
@@ -93,6 +97,7 @@
   index: 9
   img: travaux-isolation-exterieure-riedseltz-67.jpg
   ville: Riedseltz
+  Comm: Wissembourg
   CP: 67160
   ravalement: false
   isolation: true
@@ -126,6 +131,7 @@
   index: 12
   img: travaux-isolation-exterieure-surbourg-67487.jpg
   ville: Surbourg
+  Comm: Wissembourg
   CP: 67487
   ravalement: true
   isolation: true
@@ -170,6 +176,7 @@
   index: 16
   img: travaux-isolation-exterieure-woerth-67360-alsace.jpg
   ville: Woerth
+  Comm: Reichshoffen
   CP: 67360
   ravalement: false
   isolation: true
@@ -181,6 +188,7 @@
   index: 17
   img: travaux-isolation-exterieure-woerth-67360-alsace-avant-travaux.jpg
   ville: Woerth
+  Comm: Reichshoffen
   CP: 67360
   ravalement: false
   isolation: true
@@ -192,6 +200,7 @@
   index: 18
   img: travaux-isolation-exterieure-wolfisheim-67202.jpg
   ville: wolfisheim
+  Comm: Hoenheim
   CP: 67202
   ravalement: false
   isolation: true
@@ -251,7 +260,7 @@
   img: travaux-ravalement-facade-niederbronn-les-bains-67.jpg
   ville: Niederbronn-les-Bains
   CP: 67110
-  Comm: Niederbronn-les-Bains
+  Comm: Reichshoffen
   ravalement: true
   isolation: false
   toiture: false
@@ -262,7 +271,7 @@
   index: 24
   img: travaux-ravalement-facade-niederbronn-les-bains-67110.jpg
   ville: Niederbronn-les-Bains
-  Comm: Niederbronn-les-Bains
+  Comm: Reichshoffen
   CP: 67110
   ravalement: true
   isolation: false
