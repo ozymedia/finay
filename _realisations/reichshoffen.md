@@ -79,7 +79,7 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
     {% endfor %}
   </ul>
   
-## Nos réalisations dans le reste de la Lorraine
+## Nos réalisations dans le reste du Bas-Rhin
 [Nos travaux dans le canton de Haguenau](/travaux-energetique-sur-haguenau)
 [Nos travaux dans le canton de Ingwiller](/travaux-energetique-sur-ingwiller)
 [Nos travaux dans le canton de Saverne](/travaux-energetique-sur-saverne)

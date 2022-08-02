@@ -66,7 +66,7 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
     {% endfor %}
   </ul>
 
-## Nos réalisations dans le reste de la Lorraine
+## Nos réalisations dans le reste du Bas-Rhin
 [Nos travaux dans le canton de Bouxwiller](/travaux-energetique-sur-bouxwiller)
 [Nos travaux dans le canton de Illkirch-Graffenstaden](/travaux-energetique-sur-illkirch-graffenstaden)
 [Nos travaux dans le canton de Lingolsheim](/travaux-energetique-sur-lingolsheim)

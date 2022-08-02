@@ -86,7 +86,7 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
     {% endfor %}
   </ul>
 
-## Nos réalisations dans le reste de la Lorraine
+## Nos réalisations dans le reste du Bas-Rhin
 [Nos travaux dans le canton de Erstein](/travaux-energetique-sur-erstein)
 [Nos travaux dans le canton de Hoenheim](/travaux-energetique-sur-hoenheim)
 [Nos travaux dans le canton de Molsheim](/travaux-energetique-sur-molsheim)
