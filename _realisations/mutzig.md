@@ -87,7 +87,11 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
   </ul>
 
 ## Nos réalisations dans le reste de la Lorraine
-[Nos travaux dans le canton de Bitche](/travaux-energetique-sur-bitche)
+[Nos travaux dans le pays de Erstein](/travaux-energetique-sur-erstein)
+[Nos travaux dans le pays de Hoenheim](/travaux-energetique-sur-hoenheim)
+[Nos travaux dans le pays de Molsheim](/travaux-energetique-sur-molsheim)
+[Nos travaux dans le pays de Saverne](/travaux-energetique-sur-saverne)
+[Nos travaux dans le pays de Selestat](/travaux-energetique-sur-selestat)
 
 ## Nous contacter
 {:.left}

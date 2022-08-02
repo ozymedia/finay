@@ -53,8 +53,11 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
   </ul>
 
 ## Nos réalisations dans le reste du Bas-Rhin
-[Nos travaux dans le canton de Haguenau](/travaux-energetique-sur-haguenau)
-[Nos travaux dans le pays de Saverne](/travaux-energetique-sur-saverne)
+[Nos travaux dans le canton de Erstein](/travaux-energetique-sur-erstein)
+[Nos travaux dans le pays de Illkirch-Graffenstaden](/travaux-energetique-sur-illkirch-graffenstaden)
+[Nos travaux dans le pays de Molsheim](/travaux-energetique-sur-molsheim)
+[Nos travaux dans le pays de Obernai](/travaux-energetique-sur-obernai)
+[Nos travaux dans le pays de Selestat](/travaux-energetique-sur-selestat)
 ## Nous contacter
 {:.left}
 {% include form.html %}

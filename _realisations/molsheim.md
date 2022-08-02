@@ -67,7 +67,12 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
   </ul>
 
 ## Nos réalisations dans le reste de la Lorraine
-[Nos travaux dans le canton de Bitche](/travaux-energetique-sur-bitche)
+[Nos travaux dans le pays de Bouxwiller](/travaux-energetique-sur-bouxwiller)
+[Nos travaux dans le pays de Illkirch-Graffenstaden](/travaux-energetique-sur-illkirch-graffenstaden)
+[Nos travaux dans le pays de Lingolsheim](/travaux-energetique-sur-lingolsheim)
+[Nos travaux dans le pays de Mutzig](/travaux-energetique-sur-mutzig)
+[Nos travaux dans le pays de Obernai](/travaux-energetique-sur-obernai)
+
 ## Nous contacter
 {:.left}
 {% include form.html %}

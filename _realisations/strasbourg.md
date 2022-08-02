@@ -35,11 +35,11 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
   </ul>
 
 ## Nos réalisations dans le reste du Bas-Rhin
-[Nos travaux dans le canton de Brumath](/travaux-energetique-sur-brumath)
 [Nos travaux dans le canton de Haguenau](/travaux-energetique-sur-haguenau)
-[Nos travaux dans le canton de Illkirch-Graffenstaden](/travaux-energetique-sur-illkirch)
-[Nos travaux dans le canton de Saverhe](/travaux-energetique-sur-saverne)
-[Nos travaux dans le canton de Schiltigheim](/travaux-energetique-sur-schiltigheim)
+[Nos travaux dans le canton de Illkirch-Graffenstaden](/travaux-energetique-sur-illkirch-graffenstaden)
+[Nos travaux dans le canton de Obernai](/travaux-energetique-sur-obernai)
+[Nos travaux dans le canton de Reichshoffen](/travaux-energetique-sur-reichshoffen)
+[Nos travaux dans le canton de Selestat](/travaux-energetique-sur-selestat)
 ## Nous contacter
 {:.left}
 {% include form.html %}

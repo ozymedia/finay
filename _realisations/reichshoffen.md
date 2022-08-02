@@ -80,7 +80,11 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
   </ul>
   
 ## Nos réalisations dans le reste de la Lorraine
-[Nos travaux dans le canton de Bitche](/travaux-energetique-sur-bitche)
+[Nos travaux dans le pays de Haguenau](/travaux-energetique-sur-haguenau)
+[Nos travaux dans le pays de Ingwiller](/travaux-energetique-sur-ingwiller)
+[Nos travaux dans le pays de Saverne](/travaux-energetique-sur-saverne)
+[Nos travaux dans le pays de Strasbourg](/travaux-energetique-sur-strasbourg)
+[Nos travaux dans le pays de Wissembourg](/travaux-energetique-sur-wissembourg)
 ## Nous contacter
 {:.left}
 {% include form.html %}
