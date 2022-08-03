@@ -140,80 +140,80 @@ const bareme = {
   6 :{
     //40420 : "bleu",
     //51812 : "jaune",
-    39420 : "bleu",
-    51812 : "jaune",
+    39405 : "bleu",
+    50511 : "jaune",
     77825 : "violet",
     //:"rose"
   },
   7 :{
     //44946 : "bleu",
     //57609 : "jaune",
-    43946 : "bleu",
-    57609 : "jaune",
+    43817 : "bleu",
+    56162 : "jaune",
     86569 : "violet",
     //:"rose"
   },
   8 :{
     //49472 : "bleu",
     //63406 : "jaune",
-    48472 : "bleu",
-    63406 : "jaune",
+    48229 : "bleu",
+    61813 : "jaune",
     95313 : "violet",
     //:"rose"
   },
   9 :{
     //53998 : "bleu",
     //69203 : "jaune",
-    52998 : "bleu",
-    69203 : "jaune",
+    52641 : "bleu",
+    67464 : "jaune",
     104057 : "violet",
     //:"rose"
   },
   10 :{
     //58524 : "bleu",
     //75000 : "jaune",
-    57524 : "bleu",
-    75000 : "jaune",
+    57053 : "bleu",
+    73115 : "jaune",
     112801 : "violet",
     //:"rose"
   },
   11 :{
     //63050 : "bleu",
     //80797 : "jaune",
-    62050 : "bleu",
-    80797 : "jaune",
+    61465 : "bleu",
+    78766 : "jaune",
     121545 : "violet",
     //:"rose"
   },
   12 :{
     //67576 : "bleu",
     //86594 : "jaune",
-    66576 : "bleu",
-    86594 : "jaune",
+    65877 : "bleu",
+    84417 : "jaune",
     130289 : "violet",
     //:"rose"
   },
   13 :{
     //72102 : "bleu",
     //92391 : "jaune",
-    72102 : "bleu",
-    92391 : "jaune",
+    70289 : "bleu",
+    90068 : "jaune",
     139033 : "violet",
     //:"rose"
   },
   14 :{
     //76628 : "bleu",
     //98188 : "jaune",
-    76628 : "bleu",
-    98188 : "jaune",
+    74701 : "bleu",
+    95719 : "jaune",
     147777 : "violet",
     //:"rose"
   },
   15 :{
     //81154 : "bleu",
     //103985 : "jaune",
-    81154 : "bleu",
-    103985 : "jaune",
+    79113 : "bleu",
+    101370 : "jaune",
     156521 : "violet",
     //:"rose"
   }
@@ -261,62 +261,62 @@ const baremeParis = {
     //90496 : "rose" // >69081
   },
   6 :{
-    55989 : "bleu",
-    68159 : "jaune",
+    54584 : "bleu",
+    66448 : "jaune",
     101951 : "violet",
     //:"rose"
   },
   7 :{
-    62242 : "bleu",
-    75772 : "jaune",
+    60680 : "bleu",
+    73870 : "jaune",
     113406 : "violet",
     //:"rose"
   },
   8 :{
-    68495 : "bleu",
-    83385 : "jaune",
+    66776 : "bleu",
+    81292 : "jaune",
     124861 : "violet",
     //:"rose"
   },
   9 :{
-    74748 : "bleu",
-    90998 : "jaune",
+    72872 : "bleu",
+    88714 : "jaune",
     136316 : "violet",
     //:"rose"
   },
   10 :{
-    81001 : "bleu",
-    98611 : "jaune",
+    78968 : "bleu",
+    96136 : "jaune",
     147771 : "violet",
     //:"rose"
   },
   11 :{
-    87254 : "bleu",
-    106224 : "jaune",
+    85064 : "bleu",
+    103558 : "jaune",
     159226 : "violet",
     //:"rose"
   },
   12 :{
-    93507 : "bleu",
-    113837 : "jaune",
+    91160 : "bleu",
+    110980 : "jaune",
     170681 : "violet",
     //:"rose"
   },
   13 :{
-    99760 : "bleu",
-    121450 : "jaune",
+    97256 : "bleu",
+    118402 : "jaune",
     182136 : "violet",
     //:"rose"
   },
   14 :{
-    106013 : "bleu",
-    129063 : "jaune",
+    103352 : "bleu",
+    125824 : "jaune",
     193591 : "violet",
     //:"rose"
   },
   15 :{
-    112266 : "bleu",
-    136676 : "jaune",
+    109448 : "bleu",
+    133246 : "jaune",
     205046 : "violet",
     //:"rose"
   }
