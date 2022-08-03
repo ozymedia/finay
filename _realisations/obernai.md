@@ -72,6 +72,7 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
 [Nos travaux dans le canton de Schiltigheim](/travaux-energetique-sur-schiltigheim)
 [Nos travaux dans le canton de Strasbourg](/travaux-energetique-sur-strasbourg)
 [Nos travaux dans le canton de Bouxwiller](/travaux-energetique-sur-bouxwiller)
+[Nos travaux dans le canton de Wissembourg](/travaux-energetique-sur-wissembourg)
 ## Nous contacter
 {:.left}
 {% include form.html %}

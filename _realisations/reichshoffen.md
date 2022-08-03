@@ -85,6 +85,7 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
 [Nos travaux dans le canton de Saverne](/travaux-energetique-sur-saverne)
 [Nos travaux dans le canton de Strasbourg](/travaux-energetique-sur-strasbourg)
 [Nos travaux dans le canton de Wissembourg](/travaux-energetique-sur-wissembourg)
+[Nos travaux dans le canton de Schiltigheim](/travaux-energetique-sur-schiltigheim)
 ## Nous contacter
 {:.left}
 {% include form.html %}

@@ -120,6 +120,7 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
 [Nos travaux dans le canton de Hoenheim](/travaux-energetique-sur-hoenheim)
 [Nos travaux dans le canton de Reichshoffen](/travaux-energetique-sur-reichshoffen)
 [Nos travaux dans le canton de Selestat](/travaux-energetique-sur-selestat)
+[Nos travaux dans le canton de Haguenau](/travaux-energetique-sur-haguenau)
 
 ## Nous contacter
 {:.left}

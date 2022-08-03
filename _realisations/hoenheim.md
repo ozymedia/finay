@@ -55,6 +55,7 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
 [Nos travaux dans le canton de Erstein](/travaux-energetique-sur-erstein)
 [Nos travaux dans le canton de Ingwiller](/travaux-energetique-sur-ingwiller)
 [Nos travaux dans le canton de Mutzig](/travaux-energetique-sur-mutzig)
+[Nos travaux dans le canton de Illkirch-Graffenstaden](/travaux-energetique-sur-illkirch-graffenstaden)
 ## Nous contacter
 {:.left}
 {% include form.html %}
