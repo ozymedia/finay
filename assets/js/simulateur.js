@@ -98,48 +98,64 @@ function hide(elem){
 console.log("simulateur");
 const bareme = {
   1 :{
-    14879 : "bleu",
-    19074 : "jaune",
+    //14879 : "bleu",
+    15262 : "bleu",
+    //19074 : "jaune",
+    19565 : "jaune",
     29148 : "violet",
     //29149 : "rose" // >29149
   },
   2 :{
-    21760 : "bleu",
-    27896 : "jaune",
+    //21760 : "bleu",
+    22320 : "bleu",
+    //27896 : "jaune",
+    28614 : "jaune",
     42848 : "violet",
     //42848 : "rose" // >42848
   },
   3 :{
-    26170 : "bleu",
-    33547 : "jaune",
+    //26170 : "bleu",
+    26844 : "bleu",
+    //33547 : "jaune",
+    34411 : "jaune",
     51592 : "violet",
     //51592 : "rose" // >51592
   },
   4 :{
-    30572 : "bleu",
-    39192 : "jaune",
+    //30572 : "bleu",
+    31359 : "bleu",
+    //39192 : "jaune",
+    40201 : "jaune",
     60336 : "violet",
     //60336 : "rose" // >60336
   },
   5 :{
-    34993 : "bleu",
-    44860 : "jaune",
+    //34993 : "bleu",
+    //44860 : "jaune",
+    34894 : "bleu",
+    46015 : "jaune",
     69081 : "violet",
     //69081 : "rose" // >69081
   },
   6 :{
+    //40420 : "bleu",
+    //51812 : "jaune",
     40420 : "bleu",
     51812 : "jaune",
     77825 : "violet",
     //:"rose"
   },
   7 :{
+    //44946 : "bleu",
+    //57609 : "jaune",
     44946 : "bleu",
     57609 : "jaune",
     86569 : "violet",
     //:"rose"
   },
   8 :{
+    //49472 : "bleu",
+    //63406 : "jaune",
     49472 : "bleu",
     63406 : "jaune",
     95313 : "violet",
@@ -148,40 +164,54 @@ const bareme = {
   9 :{
     53998 : "bleu",
     69203 : "jaune",
+    //53998 : "bleu",
+    //69203 : "jaune",
     104057 : "violet",
     //:"rose"
   },
   10 :{
+    //58524 : "bleu",
+    //75000 : "jaune",
     58524 : "bleu",
     75000 : "jaune",
     112801 : "violet",
     //:"rose"
   },
   11 :{
+    //63050 : "bleu",
+    //80797 : "jaune",
     63050 : "bleu",
     80797 : "jaune",
     121545 : "violet",
     //:"rose"
   },
   12 :{
+    //67576 : "bleu",
+    //86594 : "jaune",
     67576 : "bleu",
     86594 : "jaune",
     130289 : "violet",
     //:"rose"
   },
   13 :{
+    //72102 : "bleu",
+    //92391 : "jaune",
     72102 : "bleu",
     92391 : "jaune",
     139033 : "violet",
     //:"rose"
   },
   14 :{
+    //76628 : "bleu",
+    //98188 : "jaune",
     76628 : "bleu",
     98188 : "jaune",
     147777 : "violet",
     //:"rose"
   },
   15 :{
+    //81154 : "bleu",
+    //103985 : "jaune",
     81154 : "bleu",
     103985 : "jaune",
     156521 : "violet",
