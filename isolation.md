@@ -56,7 +56,7 @@ En 20 ans, l’entreprise obtient une très grande satisfaction de ses clients e
   </ul>
 </section>
 {% include zones.html %}
-<h2 class="left">Nous contacter</h2>
+<h2 class="left">Nous contacter pour un devis ou une estimation de vos aides</h2>
 {% include form.html %}
 {% include reviewsummary.html %}
 
