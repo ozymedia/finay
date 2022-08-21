@@ -80,8 +80,10 @@ Nos artisans proposent comme services divers travaux de rénovation énergétiqu
       </li>
     {% endfor %}
   </ul>
+  
 ## Nos réalisations dans le reste de la Lorraine
 [Nos travaux dans le canton de Sarreguemines](/travaux-energetique-sur-sarreguemines)
+
 ## Nous contacter
 {:.left}
 {% include form.html %}

@@ -68,6 +68,5 @@ Parmi les travaux élligibles, il y a l'<strong>isolation extérieure de vos mur
 [Nos travaux dans le canton de Strasbourg](/travaux-energetique-sur-strasbourg)
 
 ## Nous contacter
-## Nous contacter
 {:.left}
 {% include form.html %}
