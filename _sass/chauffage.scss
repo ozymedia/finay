@@ -1,6 +1,7 @@
 #chauffage {
     details {
         //border: solid 1px;
+        cursor: pointer;
         summary {
             h4 {
                 margin: 0;
@@ -8,6 +9,13 @@
                 display: inline;
             }
         }
+    }
+    details > summary {
+        list-style-type: '';
+    }
+    
+    details[open] > summary {
+        list-style-type: '';
     }
 }
 .nav-chauffage {
@@ -49,12 +57,18 @@
     padding: 1em;
     width: 60%;
     details {
-        border: solid 1px $yellow;
+        //border: solid 1px $yellow;
         border-radius: 3px;
         padding: 0.5em;
-        margin-bottom: 5px;
+        margin-bottom: 8px;
         font-family: "Avenir";
         font-weight: 200;
+        &:hover {
+            border: solid 1px $yellow;
+        }
+    }
+    details[open] {
+        border: solid 1px $yellow;
     }
 }
 .chauffage-questions {
@@ -65,4 +79,7 @@
 }
 .box-shadow {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    &.light {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
 }
