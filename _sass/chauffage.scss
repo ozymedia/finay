@@ -1,0 +1,14 @@
+.nav-chauffage {
+    display: flex;
+    ul {
+        display: flex !important;
+        list-style: none !important;
+        a { text-decoration: none;
+            border: solid 1px;
+            border-radius: 20px;
+            li {
+
+            }
+        }
+    }
+}
