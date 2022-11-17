@@ -26,6 +26,7 @@
         a { text-decoration: none;
             border: solid 1px;
             border-radius: 20px;
+            margin-right: 10px;
             li {
 
             }
@@ -72,13 +73,16 @@
     }
 }
 .chauffage-questions {
+    padding: 1em;
     details { 
         padding: 1em;
         margin-bottom: 10px;
+        font-family: "Avenir";
     }
 }
 .box-shadow {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 1em;
     &.light {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     }
