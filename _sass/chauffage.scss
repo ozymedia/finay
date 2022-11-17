@@ -29,16 +29,15 @@
     p { margin: 0 !important;}
 }
 .chauffage-item {
-    border: solid 1px;
     display: flex;
     flex-direction: row-reverse;
+    border-radius: 3px;
     .chauffage-titre {
         margin:0;
     }
 }
 .chauffage-photo {
-    padding: 0.5em;
-    border: solid red 1px;
+    padding: 1em;
     width: 40%;
     img {
         width: 100%;
@@ -46,11 +45,10 @@
     }
 }
 .chauffage-text {
-    padding: 0.5em;
-    border: solid blue 1px;
+    padding: 1em;
     width: 60%;
     details {
-        border: solid 1px $lightblue;
+        border: solid 1px $yellow;
         border-radius: 3px;
         padding: 0.5em;
         margin-bottom: 5px;
