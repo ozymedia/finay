@@ -1,3 +1,15 @@
+#chauffage {
+    details {
+        border: solid 1px;
+        summary {
+            h4 {
+                margin: 0;
+                padding: 0;
+                display: inline;
+            }
+        }
+    }
+}
 .nav-chauffage {
     display: flex;
     ul {
@@ -12,3 +24,26 @@
         }
     }
 }
+.chauffage-presentation {
+    h2 {margin: 0 !important; float: left;}
+    p { margin: 0 !important;}
+}
+.chauffage-item {
+    border: solid 1px;
+    display: flex;
+    flex-direction: row-reverse;
+    .chauffage-titre {
+        margin:0;
+    }
+}
+.chauffage-photo {
+    padding: 0.5em;
+    border: solid red 1px;
+    width: 40%;
+}
+.chauffage-text {
+    padding: 0.5em;
+    border: solid blue 1px;
+    width: 60%;
+}
+.chauffage-questions {}
