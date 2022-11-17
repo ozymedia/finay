@@ -71,6 +71,11 @@
     details[open] {
         border: solid 1px $yellow;
     }
+    .chauffage-btn {
+        margin-top: 1.5em;
+        display: flex;
+        justify-content: end;
+    }
 }
 .chauffage-questions {
     padding: 1em;
