@@ -40,6 +40,10 @@
     padding: 0.5em;
     border: solid red 1px;
     width: 40%;
+    img {
+        width: 100%;
+        object-fit: fill;
+    }
 }
 .chauffage-text {
     padding: 0.5em;
