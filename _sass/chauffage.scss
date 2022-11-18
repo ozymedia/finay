@@ -25,6 +25,7 @@
         list-style: none !important;
         padding-bottom: 2em;
         padding-top: 1em;
+        overflow-x: scroll;
         a { text-decoration: none;
             border: solid 1px;
             border-radius: 20px;
@@ -34,6 +35,10 @@
             font-size: 0.9em;
             background: linear-gradient(90deg, #6DC0A1 0%, #7BCBDB 100%);
             color: white;
+            display: flex;
+            flex-wrap: nowrap;
+            min-width: 150px;
+            text-align: center;
             li {
 
             }
