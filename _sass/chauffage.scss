@@ -49,9 +49,14 @@
 .chauffage-photo {
     padding: 1em;
     width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     img {
         width: 100%;
-        object-fit: fill;
+        max-height: 200px;
+        height: 200px;
+        object-fit: contain;
     }
 }
 .chauffage-text {
