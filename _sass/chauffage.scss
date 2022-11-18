@@ -1,0 +1,112 @@
+#chauffage {
+    details {
+        //border: solid 1px;
+        cursor: pointer;
+        summary {
+            h4 {
+                margin: 0;
+                padding: 0;
+                display: inline;
+            }
+        }
+    }
+    details > summary {
+        list-style-type: '';
+    }
+    
+    details[open] > summary {
+        list-style-type: '';
+    }
+}
+.nav-chauffage {
+    display: flex;
+    ul {
+        display: flex !important;
+        list-style: none !important;
+        padding-bottom: 2em;
+        padding-top: 1em;
+        overflow-x: scroll;
+        a { text-decoration: none;
+            border: solid 1px;
+            border-radius: 20px;
+            margin-right: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 0.9em;
+            background: linear-gradient(90deg, #6DC0A1 0%, #7BCBDB 100%);
+            color: white;
+            display: flex;
+            flex-wrap: nowrap;
+            min-width: 150px;
+            text-align: center;
+            li {
+
+            }
+        }
+    }
+}
+
+.chauffage-presentation {
+    h2 {margin: 0 !important; float: left;}
+    p { margin: 0 !important;}
+}
+.chauffage-item {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 3px;
+    .chauffage-titre {
+        margin:0;
+        margin-top: 0.5em;
+    }
+}
+.chauffage-photo {
+    padding: 1em;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 100%;
+        max-height: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+}
+.chauffage-text {
+    padding: 1em;
+    width: 60%;
+    details {
+        //border: solid 1px $yellow;
+        border-radius: 3px;
+        padding: 0.5em;
+        margin-bottom: 8px;
+        font-family: "Avenir";
+        font-weight: 200;
+        &:hover {
+            border: solid 1px $yellow;
+        }
+    }
+    details[open] {
+        border: solid 1px $yellow;
+    }
+    .chauffage-btn {
+        margin-top: 1.5em;
+        display: flex;
+        justify-content: end;
+    }
+}
+.chauffage-questions {
+    padding: 1em;
+    details { 
+        padding: 1em;
+        margin-bottom: 10px;
+        font-family: "Avenir";
+    }
+}
+.box-shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 1em;
+    &.light {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+}

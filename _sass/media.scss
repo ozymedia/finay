@@ -222,6 +222,12 @@
   .review-author-abbr {
     display: none !important;
   }
+  .chauffage-item {
+    flex-wrap: wrap;
+    flex-direction: column-reverse !important;
+    .chauffage-text { width: 100%;}
+    .chauffage-photo { width: 100%;}
+  }
 }
 
 /* Medium screens - TABLET */
