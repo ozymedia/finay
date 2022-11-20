@@ -5,6 +5,8 @@
         //border: solid 1px;
         cursor: pointer;
         summary {
+            display: flex;
+            justify-content: space-between;
             h3, h4 {
                 margin: 0;
                 padding: 0;
@@ -15,11 +17,14 @@
         }
     }
     details > summary {
-        list-style-type: '';
+        list-style-type: none;
     }
     
     details[open] > summary {
-        list-style-type: '';
+        list-style-type: none;
+        svg {
+            transform: rotate(180deg);
+          }
     }
     hr {
         margin: 0em 1em;
