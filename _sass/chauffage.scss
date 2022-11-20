@@ -5,10 +5,12 @@
         //border: solid 1px;
         cursor: pointer;
         summary {
-            h4 {
+            h3, h4 {
                 margin: 0;
                 padding: 0;
                 display: inline;
+                font-size: 1em;
+                font-weight: 400;
             }
         }
     }
