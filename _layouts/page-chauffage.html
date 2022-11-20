@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="fr-fr">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5GJPVTL');</script>
+    <!-- End Google Tag Manager -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10900423524"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-10900423524');
+    </script>
+
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{page.description}}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+    <!-- For styles with static names... -->
+    <link href="{{ 'assets/css/styles.css' | relative_url }}" rel="stylesheet">
+    <link rel="shortcut icon" href="../../../assets/image/favicon2.png">
+    <link href="{{ 'assets/images/favicon2.png' | relative_url }}" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.finay.fr">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Finay | Isolation extérieure et rénovations">
+    <meta property="og:description" content="Finay vous accompagne dans vos travaux depuis 20 ans">
+    <meta property="og:image" content="https://www.finay.fr/assets/images/opengraph.jpeg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="https://www.finay.fr">
+    <meta property="twitter:url" content="https://www.finay.fr">
+    <meta name="twitter:title" content="Finay | Isolation extérieure et rénovations">
+    <meta name="twitter:description" content="Finay vous accompagne dans vos travaux depuis 20 ans">
+    <meta name="twitter:image" content="https://www.finay.fr/assets/images/opengraph.jpeg">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    <meta name="robots" content="index,follow">
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GJPVTL"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="layout-page">
+      {% include navigation.html %}
+      {% if page.url == "/" %}
+        <div class="banner" style="background-image: url(../assets/images/finay-banner.jpeg);">
+          <div class="inside">
+            <p class="slogan">Isolez votre maison<br>
+              Faites des économies d'énergie
+            </p>
+            <a class="btn" href="#">Contact & Devis</a>
+          </div>
+        </div>
+      {% elsif page.url == "/isolation-extérieure/" %}
+        <div class="banner" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.4990589985994398) 0%, rgba(255,255,255,0) 100%), url(../assets/images/travaux-isolation-exterieur.jpeg);">
+          <div class="inside">
+            <h1>{{page.titre}}</h1>
+            <a href="#form" class="btn large">Contact & Devis</a>
+          </div>
+        </div>
+      {% elsif page.url == "/ravalement-de-façade/" %}
+        <div class="banner" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.4990589985994398) 0%, rgba(255,255,255,0) 100%), url(/assets/images/facade-1.jpeg);">
+          <div class="inside">
+            <h1>{{page.titre}}</h1>
+          </div>
+        </div>
+      {% elsif page.url == "/toiture-zinguerie/" %}
+        <div class="banner" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.4990589985994398) 0%, rgba(255,255,255,0) 100%), url(/assets/images/travaux-nettoyage-toiture.jpeg);">
+          <div class="inside">
+            <h1>{{page.titre}}</h1>
+          </div>
+        </div>
+      {% elsif page.url == "/chauffage/" %}
+        <div class="banner" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.4990589985994398) 0%, rgba(255,255,255,0) 100%), url(/assets/images/travaux-chauffage.jpeg);">
+          <div class="inside">
+            <h1>{{page.titre}}</h1>
+          </div>
+        </div>
+      {% else %}
+        <div class="banner" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.4990589985994398) 0%, rgba(255,255,255,0) 100%), url(../assets/images/finay-banner.jpeg);">
+          <div class="inside">
+            <h1>{{page.titre}}</h1>
+          </div>
+        </div>
+      {% endif %}
+    </header>
+
+    <main class="main-page">
+      <article class="inside">
+          {{ content }}
+      </article>
+    </main>
+    {% include footer.html %}
+    {% include boutons.html %}
+    <div style="position: fixed; top: 0px; left: 0px; z-index: 1; width: 100%; height: 100%; background: none 50% 50% / contain no-repeat rgba(0, 0, 0, 0.5); display: none;"></div>
+    <div class="lightbox">
+      <img src="" alt="">
+    </div>
+  </body>
+  <script src="/assets/js/nav.js"></script>
+  <script src="/assets/js/comparaison.js"></script>
+  {% if page.url == "/ravalement-de-façade/" %}
+  <script type="application/ld+json">
+     {
+    "@context": "https://schema.org/",
+    "@type": "LocalBusiness",
+      "name": "Finay",
+      "image": "https://www.finay.fr/assets/images/icones/finay-logo.png",
+      "location": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": "48.9595205",
+            "longitude": "7.642957"
+          },
+          "geoRadius": "70000"
+        }
+    },
+    "url" : "https://www.finay.fr",
+    "telephone": "+33388909763",
+    "priceRange": "€€",
+    "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Niederbronn-les-Bains",
+    "addressRegion": "FR",
+    "postalCode": "67110",
+    "streetAddress": "5 rue claude pagnier"
+    },
+    "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "41"
+  },
+  "openingHours": [
+    "Mo-Fr 09:00-12:00",
+    "Fr 13:30-17:00",
+    "Mo-Th 13:30-17:30",
+    "Fr-Sa 17:00-22:00",
+    "Sa 10:00-12:00"
+  ],
+    "contactPoint" : [
+      { "@type" : "ContactPoint",
+        "telephone" : "+33388909763",
+        "email": "mailto:contact@finay.fr",
+        "contactType" : "customer service"
+      } ] }
+  }</script>
+  {% else %}
+  <script type="application/ld+json">
+     {
+    "@context": "https://schema.org/",
+    "@type": "HomeAndConstructionBusiness",
+      "name": "Finay",
+      "image": "https://www.finay.fr/assets/images/icones/finay-logo.png",
+      "location": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": "48.9595205",
+            "longitude": "7.642957"
+          },
+          "geoRadius": "70000"
+        }
+    },
+    "url" : "https://www.finay.fr",
+    "telephone": "+33388909763",
+    "priceRange": "€€",
+    "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Niederbronn-les-Bains",
+    "addressRegion": "FR",
+    "postalCode": "67110",
+    "streetAddress": "5 rue claude pagnier"
+    },
+    "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "worstRating": "1",
+    "bestRating": "5",
+    "reviewCount": "44"
+  },
+  "openingHours": [
+    "Mo-Fr 09:00-12:00",
+    "Fr 13:30-17:00",
+    "Mo-Th 13:30-17:30",
+    "Fr-Sa 17:00-22:00",
+    "Sa 10:00-12:00"
+  ],
+    "contactPoint" : [
+      { "@type" : "ContactPoint",
+        "telephone" : "+33388909763",
+        "email": "mailto:contact@finay.fr",
+        "contactType" : "customer service"
+      } ] }
+  }</script>
+  {% endif %}
+</html>
