@@ -42,6 +42,11 @@
             tr { font-weight: 100;}
             border-collapse: collapse;
             border-spacing: 0;
+            thead { 
+                border: solid 1px;
+                background-color: grey;
+                color: white;
+            }
         }
         
     }
