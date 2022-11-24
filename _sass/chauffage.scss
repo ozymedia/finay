@@ -39,17 +39,26 @@
         table {
             font-size: 0.9em;
             font-family: 'Avenir';
-            th { font-size: 0.9em; background-color: grey; font-family: 'Avenir';}
-            tr { font-weight: 100;}
+            color: black;
+            th { font-size: 0.9em; background-color: white; font-family: 'Avenir'; color: black;
+                
+            }
+            tr { font-weight: 100;
+                &.line-color {background-color: #6DC0A1; color: white;}
+            }
             border-collapse: collapse;
             border-spacing: 0;
             td {
                 border: solid 1px black;
+                &.bleu { background-color: $lightblue;}
+                &.jaune { background-color: $yellow;}
+                &.rose { background-color: $rose;}
+                &.violet { background-color: $purple;}
             }
             thead { 
                 border: solid 1px black;
-                background-color: grey;
-                color: white;
+                background-color: white;
+                //color: white;
             }
             table-layout: fixed;
             
