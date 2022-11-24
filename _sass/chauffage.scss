@@ -35,6 +35,7 @@
         height: 0;
     }
     details {
+        overflow-x: scroll;
         table {
             font-size: 0.9em;
             font-family: 'Avenir';
@@ -42,12 +43,16 @@
             tr { font-weight: 100;}
             border-collapse: collapse;
             border-spacing: 0;
+            td {
+                border: solid 1px black;
+            }
             thead { 
-                border: solid 1px;
+                border: solid 1px black;
                 background-color: grey;
                 color: white;
             }
             table-layout: fixed;
+            
         }
         
     }
