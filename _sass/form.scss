@@ -17,7 +17,7 @@
   }
   p { min-width: 50px; width: 100%; margin-top: 0; margin-bottom: 1;
     label { font-family: 'ABeeZee', sans-serif; width: 100%; }
-    input {
+    input, select, option {
       width: 100%;
       border: none;
       background-color: transparent;
@@ -25,6 +25,10 @@
       border-bottom: solid 0.5px white;
       font-family: 'ABeeZee';
       line-height: 4ch;
+    }
+    select, option {
+      opacity: 80%;
+      height: 4ch;
     }
     textarea {
       width: 100%;
@@ -37,9 +41,9 @@
       background-size: 100% 4ch;
     }
   }
-  input::placeholder, textarea::placeholder {
-    color: lightgrey;
-    opacity: 70%;
+  input::placeholder, textarea::placeholder, select::placeholder, option::placeholder {
+    color: white;
+    opacity: 80%;
     font-family: 'ABeeZee';
   }
   input:focus, textarea:focus {
