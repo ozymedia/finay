@@ -137,7 +137,9 @@
   }
   h2 { text-align: left; }
   ul {
-    display: normal;
+    display: list-item !important;
+    list-style: disc;
+    list-style-position: inside;
   }
 }
 @media all and (max-width: 480px) {
