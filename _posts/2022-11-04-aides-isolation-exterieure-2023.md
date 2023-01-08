@@ -15,6 +15,12 @@ MaPrimeRenov’ permet selon le revenu fiscal de référence du propriétaire de
 * 40€/m2 pour les ménages ressources intermédiaires (Violet)
 * 15€/m2 pour les ménages aux ressources supérieures (Rose)
 
+| 4 | 4 |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
 ### Quelles sont les conditions de MaPrimeRénov’ pour l’isolation extérieure ?
 Afin de bénéficier des aides de MaPrimeRénov', il faut respecter les conditions suivantes : 
 #### Pour un propriétaire occupant :
