@@ -8,7 +8,7 @@ permalink: /isolation-extérieure/
 ---
 L’isolation thermique par l’extérieure ou I.T.E est une protection thermique appliquée en façade d’une habitation ayant pour but d’améliorer les performances énergétiques de celle-ci.
 
-La méthode la plus courante et la plus performante est l’ajout de plaque de polystyrène expansé dont les performances dans l’isolation thermique ne sont plus à prouvées.
+La méthode la plus courante et la plus performante est l’ajout de plaque de polystyrène expansée dont les performances dans l’isolation thermique ne sont plus à prouver.
 
 Les travaux d’isolation par l’extérieure est la seule solution technique d’isolation des murs capable de traiter les façades, les ponts thermiques et les parties enterrées en une seule et même opération.
 
