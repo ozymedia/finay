@@ -68,6 +68,38 @@
     //border: none !important;
     //border-color: transparent;
 }
+#popup {
+  border: solid 1px lightgrey;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 1.5em;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 7px 5px 10px 0px #00000040;
+  input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+  }
+  button {
+    width: 100%;
+  }
+  .checkbox {
+    label {
+      display: flex;
+      input {
+        width: fit-content;
+      }
+    }
+  }
+}
 #simulateur {
   display: flex;
   justify-content: space-between;
