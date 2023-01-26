@@ -3,6 +3,7 @@ layout: post
 title:  "Quelles sont les aides pour l’isolation extérieure en 2023 ?"
 date:   2022-11-04 13:30:00 +0100
 categories: jekyll update
+permalink: /quelles-aides-isolation-exterieure-2023/
 ---
 
 Afin d’améliorer le confort thermique et de réduire les factures énergétiques de son logement, **isolation des murs extérieurs** s’avère être un choix judicieux pour améliorer les performances énergétiques de son habitation. Responsable de 20 à 25% des pertes en chaleur, l’isolation des murs est un des chantiers prioritaires pour faire des économies considérables sur ses futures factures énergétiques que ce soit pour se chauffer ou se rafraîchir.
@@ -27,16 +28,18 @@ Afin de bénéficier des aides de MaPrimeRénov', il faut respecter les conditio
 * Le logement pour lequel on fait la demande doit avoir au moins 15 ans.
 * La durée minimale d’occupation du logement est d’au moins 8 mois.
 * Le propriétaire s’engage à occuper son logement à titre de résidence principale dans un délai d’un an à compter de la demande de solde.
+
 #### Pour les propriétaires bailleurs : 
 * Un encadrement du loyer tenant compte du montant de la prime.
 information du locataire sur les travaux et sur l’éventuelle réevaluation du loyer
 mise en location minimale de 5 ans à compter du paiement de la prime.
-#### Pour les copropriétés : 
 
+#### Pour les copropriétés : 
 A noter qu’afin de faciliter la rénovation des immeubles et autres copropriétés, le gouvernement prévoit des réformes dans ce sens. Il prévoit que seul la moitié des copropriétaires, soit 50% des voix soient nécessaires pour voter des travaux de rénovation énergétique contre les ⅔ aujourd’hui nécessaire.Toujours pour faciliter la prise de décision pour entamer ce type de travaux, les assemblés générales extraordinaires pourront se tenir à distance.
 
 Dans l'ensemble, quelque soit la nature du propriétaire, les travaux doivent être réalisés par des professionnels reconnu garant de l’environnement (RGE). Les professionnels doivent également fournir le matériel, ceci est une autre condition pour être éligible et au versement de MaPrimeRénov’.
 La surface de murs à isoler est limitée à 100m2
+
 ### Comment demander cette subvention ?
 Demander des devis à des professionnels qualifiés RGE.
 Créer un compte sur le site maprimerenov.gouv.fr et y déposer les pièces demandées( état civil, dates de naissance des membres du foyer, dernier avis d’impôt sur les revenus, adresse mail, devis d’un professionnel RGE, montant des autres aides et subventions que vous percevez pour ces travaux. Attention, la création de ce compte ne peut être accomplie que par le particulier demandant la prime.
