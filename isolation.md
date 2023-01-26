@@ -36,6 +36,10 @@ L’entreprise Finay a conçu un simulateur simple qui vous permet de visualiser
 
 [Faire une simulation](/simulateur-aide/){: .btn}
 
+## Comment bénéficier d'aides supplémentaires pour ses travaux ?
+Des aides supplémentaires peuvent être débloquées au niveau national et local dès lors que les notes du DPE, Diagnostic de la Performance Energétique s'améliore pour le logement à rénover.
+Le meilleur moyen d'améliorer cette note est de procéder à un bouquet de travaux afin de réduire la consommation énergétique de son logement. A titre d'exemple des travaux d'isolation couplés avec l'installation d'une pompe à chaleur permet de chauffer moins, mieux et pour moins cher.
+
 
 ## Finay, votre entreprise RGE experte dans les travaux d'isolation extérieure
 Depuis bientôt 20 ans, Finay s’emploi à améliorer le confort et la réduction des coûts énergétiques de ses clients. Travaillant en Alsace et Moselle, Finay conseille et suit ses clients pour obtenir des aides de l’Etat, la réalisation des devis et chantiers.\
