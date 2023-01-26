@@ -1,0 +1,36 @@
+<div id="popupbg">
+<form id="popup" name="contact" action="/send" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+  <div class="cross">
+    <i class="fa-regular fa-circle-xmark fa-2xl"></i>
+  </div>
+    <h2>Demander un devis gratuit</h2>
+    <p><label><input type="email" name="email" required="true" placeholder="Email*" /></label></p>
+    <p><label><input type="tel" name="tel" required="true" placeholder="Tel*"></label></p>
+    <div>
+        <p>
+          
+            
+            <select name="objet" required="true" placeholder="Objet*">
+              <option value="">Type de demande*</option>
+              <option value="Isolation extérieure">Pompe à chaleur</option>
+              <option value="Travaux de chauffage">Ballon thermodynamique</option>
+              <option value="Ravalement de façade">Poêle à bois</option>
+              <option value="Toiture et zinguerie">Poêle à pellets</option>
+              <option value="Questions sur les aides">Questions sur les aides</option>
+              <option value="Bouquet de travaux">Bouquet de travaux (plusieurs travaux)</option>
+              <option value="Autre">Autre demande</option>
+          </select>
+        
+        </p>
+      </div>
+      <div class="checkbox">
+        <label for="">
+          <input type="checkbox" name="RGPD" value="J'accepte que mes données soient transmises dans le cadre de ma demande" required="true">
+          J'accepte que mes données soient transmises dans le cadre de ma demande*
+        </label>
+      </div>
+      <div id="button">
+        <button type="submit" class="btn">Envoyer</button>
+      </div>
+</form>
+</div>

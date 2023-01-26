@@ -68,6 +68,58 @@
     //border: none !important;
     //border-color: transparent;
 }
+#popupbg {
+  //background-color: red;
+}
+#popup {
+  border: solid 1px lightgrey;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 1.5em;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+  background-color: white;
+  box-shadow: 7px 5px 10px 0px #00000040;
+  font-family: 'Avenir', sans-serif;
+  .cross {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    i {
+      cursor: pointer;
+    }
+  }
+  input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    font-family: 'Avenir', sans-serif;
+    color: grey;
+  }
+  button {
+    width: 100%;
+  }
+  .checkbox {
+    label {
+      display: flex;
+      margin-bottom: 20px;
+      font-size: 0.9em;
+      input {
+        height: fit-content;
+        width: fit-content;
+      }
+    }
+  }
+}
 #simulateur {
   display: flex;
   justify-content: space-between;
