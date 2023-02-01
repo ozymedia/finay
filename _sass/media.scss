@@ -228,6 +228,9 @@
     .chauffage-text { width: 100%;}
     .chauffage-photo { width: 100%;}
   }
+  .chauffage-presentation.bis {
+    flex-direction: column;
+  }
 }
 
 /* Medium screens - TABLET */
