@@ -109,6 +109,10 @@
     h2 {margin: 0 !important; text-align: left; margin-bottom: 0.5em !important;}
     p { margin: 0 !important;}
     padding: 2em;
+    &.bis {
+        display: flex;
+        img { object-fit: contain; width: 300px; height: auto;}
+    }
 }
 .chauffage-item {
     display: flex;
