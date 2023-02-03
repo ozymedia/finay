@@ -6,15 +6,17 @@ categories: jekyll update
 permalink: /quelles-aides-isolation-exterieure-2023/
 ---
 
-Afin d’améliorer le confort thermique et de réduire les factures énergétiques de son logement, **isolation des murs extérieurs** s’avère être un choix judicieux pour améliorer les performances énergétiques de son habitation. Responsable de 20 à 25% des pertes en chaleur, l’isolation des murs est un des chantiers prioritaires pour faire des économies considérables sur ses futures factures énergétiques que ce soit pour se chauffer ou se rafraîchir.
-Des travaux d’isolation des murs par l’extérieur bénéficient de nombreuses aides mises en place par l’Etat en fonction des revenus des ménages afin d’alléger au maximum le coût des travaux. Ces **aides pour l’isolation extérieure en 2023** reprennent quasiment l’ensemble de celles de 2022 avec quelques évolutions entre temps.
+Afin d’améliorer le confort thermique et de réduire les factures énergétiques de son logement, l’isolation des murs extérieurs s’avère être un choix judicieux pour améliorer les performances énergétiques de son habitation. Responsable de 20 à 25% des pertes en chaleur, l’isolation des murs est sans doute l’un des chantiers prioritaires pour faire des économies considérables sur ses futures factures énergétiques, que ce soit pour se chauffer ou rester au frais durant lors des périodes chaudes.
+Des travaux d’isolation des murs par l’extérieur bénéficient de nombreuses aides mises en place par l’Etat en fonction des revenus des ménages afin d’alléger au maximum le coût des travaux. Ces aides pour l’isolation extérieure en 2023 reprennent quasiment l’ensemble de celles de 2022 avec pourtant quelques évolutions entre temps.
 
 ## MaPrimeRenov’
-MaPrimeRenov’ permet selon le revenu fiscal de référence du propriétaire de bénéficier d’un aide par m2 de ses façades.
+Aide de l’Etat la plus connue et dont l’obtention permet de débloquer bon nombre d’autres aides, MaPrimeRenov’ permet selon le revenu fiscal de référence du propriétaire de bénéficier d’un aide par m2 de l’isolation de ses murs.
 * 75€/m2 pour les ménages aux ressources très modestes (Bleu)
 * 60€/m2 pour les ménages aux ressources modestes (Jaune)
 * 40€/m2 pour les ménages ressources intermédiaires (Violet)
 * 15€/m2 pour les ménages aux ressources supérieures (Rose)
+
+Vous trouverez ci-joint les tableaux vous indiquant à quelle catégorie vous correspondez en fonction de votre revenu fiscal.
 
 ### Tableau 2023 du revenu fiscal hors Ile-de-France
 {% include aides_regions.html %}
@@ -33,23 +35,62 @@ Afin de bénéficier des aides de MaPrimeRénov', il faut respecter les conditio
 * Un encadrement du loyer tenant compte du montant de la prime.
 information du locataire sur les travaux et sur l’éventuelle réevaluation du loyer
 mise en location minimale de 5 ans à compter du paiement de la prime.
+* à louer son logement en tant que résidence principale pour une durée égale ou supérieure à cinq ans (durée calculée à compter du jour du versement de la prime à la rénovation)
+* à informer le locataire de la réalisation de travaux financés par la prime
+* en cas de réévaluation du loyer, à déduire le montant de la prime du montant total des travaux justifiant cette réévaluation et en informer votre locataire.
 
-#### Pour les copropriétés : 
-Afin de faciliter la rénovation des immeubles et autres copropriétés, le gouvernement prévoit des réformes dans ce sens. Il prévoit que seul la moitié des copropriétaires, soit 50% des voix soient nécessaires pour voter des travaux de rénovation énergétique contre les ⅔ aujourd’hui nécessaire.Toujours pour faciliter la prise de décision pour entamer ce type de travaux, les assemblés générales extraordinaires pourront se tenir à distance.
 
-Dans l'ensemble, quelque soit la nature du propriétaire, les travaux doivent être réalisés par des professionnels reconnu garant de l’environnement (RGE). Les professionnels doivent également fournir le matériel, ceci est une autre condition pour être éligible et au versement de MaPrimeRénov’.
-La surface de murs à isoler est limitée à 100m2
+#### MaPrimeRénov’ Copropriété 
+Concernant les copropriétés, une aide spécifique existe, MaPrimeRénov’ Copropriétés.
+Cette aide permet de prendre en charge 25% du montant des travaux, dans la limite de 25 000€ par logement à partir du 1er février 2023 (auparavant 15 000€), multiplié par le nombre de logements en copropriété. Des bonus peuvent venir s’ajouter à MaPrimeRénov’ Copropriétés tel que le “bonus pour les travaux permettant de sortir du statut de passoire énergétique”(F ou G), le “bonus bâtiment basse consommation”, des primes individuelles pour les propriétés de la copropriétés en fonction de leur revenu, une prime pour les copropriétés fragiles, des primes CEE.
+Pour être éligible à cette aide spécifique, la copropriété doit :
+
+* être à minima être composée à 75% de résidences principales (ou à défaut de tantièmes d’habitations principales)
+* L’immeuble/la maison en copropriété doit être immatriculée au registre national des copropriétés
+* La copropriété doit avoir été construite depuis plus de 15 ans.
+* Les travaux menés doivent permettre d’obtenir un gain de 35% minimum.
+* Les travaux doivent être réalisés par des artisans RGE. Ces derniers doivent également fournir le matériel.
+* La copropriété doit être impérativement accompagnée par une assistance à maîtrise d’ouvrage (AMO).
+* Les travaux doivent être réalisés par des professionnels reconnu, garant de l’environnement (RGE). Les professionnels doivent également fournir le matériel, ceci est une autre condition pour être éligible et au versement de MaPrimeRénov’.
+* La prime est plafonnée à 100m2. Au-delà vous ne recevez pas plus de subvention avec MaPrimeRénov’.
+
+A noter que dans l’optique de faciliter la rénovation des immeubles et autres copropriétés, le gouvernement prévoit des réformes dans ce sens. Il prévoit que pour approuver des travaux de rénovation énergétique, seul la moitié des copropriétaires, soit 50% des voix soient nécessaires pour voter l’appel d’artisans pour mener des travaux contre les ⅔ aujourd’hui nécessaires.Toujours pour faciliter la prise de décision pour entamer ce type de travaux, les assemblés générales extraordinaires pourront se tenir à distance.
+source: https://www.ecologie.gouv.fr/sites/default/files/19164_maPrimeRenovCopro_2_A4.pdf
+
 
 ### Comment demander cette subvention ?
-Demander des devis à des professionnels qualifiés RGE.
-Créer un compte sur le site maprimerenov.gouv.fr et y déposer les pièces demandées( état civil, dates de naissance des membres du foyer, dernier avis d’impôt sur les revenus, adresse mail, devis d’un professionnel RGE, montant des autres aides et subventions que vous percevez pour ces travaux. Attention, la création de ce compte ne peut être accomplie que par le particulier demandant la prime.
 
+Pour s’assurer de bénéficier des aides MaPrimeRénov’ ou MaPrimeRénov’ Copropriété, il faut s’assurer de respecter les différentes démarches ci-dessous avant d’entamer les travaux. En effet, les différents organismes en charge de la délivérabilité des aides doivent donner leur accord avant l’entame des travaux. Sans leur accord, les potentielles aides seront définitivement perdues.
+
+* Demander des devis à des professionnels qualifiés RGE.
+* Créer un compte sur le site maprimerenov.gouv.fr et y déposer les pièces demandées( état civil, dates de naissance des membres du foyer, dernier avis d’impôt sur les revenus, adresse mail, devis d’un professionnel RGE, montant des autres aides et subventions que vous percevez pour ces travaux. Attention, la création de ce compte ne peut être accomplie que par le particulier demandant la prime.
 Attention : la création et la demande de cette aide doivent être faite avant le début des travaux. Sous certaines conditions, la simple création du compte est possible pour entamer des travaux d’urgence même si l’on a pas renseigné l’ensemble des pièces justificatives demandées.
-Après instruction du dossier par l’Anah, une notification est envoyée avec le montant de la subvention.
-A la fin des travaux, il faudra transmettre la facture via le compte en ligne créé au préalable pour effectuer la demande de paiement de la prime.
+* Après instruction du dossier par l’Anah, une notification est envoyée avec le montant de la subvention.
+* A la fin des travaux, il faudra transmettre la facture via le compte en ligne créé au préalable pour effectuer la demande de paiement de la prime.
 
-Quelles qualifications pour quels travaux ? https://librairie.ademe.fr/cadic/7182/fiche-qualifications-certifications-rge-renovation-2022.pdf
-## CEE
+### Quelles sont les qualifications que doit posséder l’artisan pour effectuer ce type de travaux et toucher les différentes aides MaPrimeRénov’ ?
+Pour bénéficier des aides, il faut faire appel à un artisan qualifié RGE. Pour la pose d’une isolation extérieure il faudra s’assurer également qu’il possède en plus le code approprié pour effectuer ce type de travaux.
+Il faudra donc s’assurer que l’artisan effectuant les travaux d’isolation extérieur possède la qualification RGE avec un des codes ci-dessous : 
+• 2111 • 2112 • 2113 • 2114 • 2121 • 2132 • 2141 • 2142 • 2212 • 2213 • 2214 • 2301 • 2302 • 2303 • 2312 • 2313 • 2314 • 2342 • 2343 • 2344 • 2351 • 2352 • 2361 • 2362 • 2363 • 2371 • 2372 • 2381 • 2382 • 3101 • 3111 • 3113 • 3121 • 3123 • 3132 • 3133 • 3152 • 3153 • 3162 • 3163 • 3171 • 3172 • 3173 • 3181 • 3412 • 3413 • 3421 • 3422 • 3423 • 3424 • 3712 • 3721 • 3722 • 3811 • 3813 • 4411 • 4412 • 4413 • 6111 • 6112 • 6121 • 6313 • 6343 • 7131 • 7132 • 7133 • 7142 • 7143 • 7212 • 7213
+
+La liste complète des qualifiacations : https://librairie.ademe.fr/cadic/7182/fiche-qualifications-certifications-rge-renovation-2022.pdf
+
+## CEE - Les aides à la rénovation énergétique délivrée par les énergéticiens
+Les CEE pour Certificats d’Economies d’Energies, également appelées primes énergie, sont des aides à la rénovation délivrées pour les énergéticiens. Ces primes sont cumulables avec les subventions publiques tel que MaPrimeRénov’. Pour des travaux d’isolation extérieure, ces aides ne sont pas plafonnées par la surface des travaux. Elle est donc proportionnelle à la surface des façades à isoler.
+Enfin leur montant varie des énergéticiens. Pour des travaux d’isolation par l’extérieur, le montant du CEE varie entre et …
+
+### Qui peut bénéficier des CEE ?
+La prime énergie CEE n’est pas comme MaPrimeRénov’, accordée selon le revenu fiscal de référence. Tout le monde touche la même chose en fonction des travaux entrepris.
+Il y a pourtant des conditions à remplir et à éviter pour être sûr d’en bénéficier.
+Pour bénéficier de cette aide, il y a beaucoup moins de restrictions que pour les autres, ainsi, les conditions pour en bénéficier sont les suivantes :
+* Etre propriétaire (occupant ou bailleur), occupant à titre grtatuit, locataire lançant des travaux dans une maison ou un appartement ayant été achevé il y a plus de deux ans.
+* Peut concerner une résidence principale ou secondaire
+* Aucun plafond de revenu pour en bénéficier. Le montant reste le même quelquesoit sont niveau de revenu.
+* Les travaux doivent concerner l’isolation, le remplacement d’un système de chauffage, le remplacement d’un conduit d’évacuation des fumées
+* La rénovation globale et performante d’un logement après réalisation d’un audit.
+
+--- ---- ---
+
 ## Ma prime rénov sérénité
 
 ### Forfait rénovation globale
