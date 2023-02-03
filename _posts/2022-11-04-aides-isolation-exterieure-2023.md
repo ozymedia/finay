@@ -16,11 +16,11 @@ MaPrimeRenov’ permet selon le revenu fiscal de référence du propriétaire de
 * 40€/m2 pour les ménages ressources intermédiaires (Violet)
 * 15€/m2 pour les ménages aux ressources supérieures (Rose)
 
-| 4 | 4 |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+### Tableau 2023 du revenu fiscal hors Ile-de-France
+{% include aides_regions.html %}
+
+### Tableau 2023 du revenu fiscal en Ile-de-France
+{% include aides_paris.html %}
 
 ### Quelles sont les conditions de MaPrimeRénov’ pour l’isolation extérieure ?
 Afin de bénéficier des aides de MaPrimeRénov', il faut respecter les conditions suivantes : 
@@ -35,7 +35,7 @@ information du locataire sur les travaux et sur l’éventuelle réevaluation du
 mise en location minimale de 5 ans à compter du paiement de la prime.
 
 #### Pour les copropriétés : 
-A noter qu’afin de faciliter la rénovation des immeubles et autres copropriétés, le gouvernement prévoit des réformes dans ce sens. Il prévoit que seul la moitié des copropriétaires, soit 50% des voix soient nécessaires pour voter des travaux de rénovation énergétique contre les ⅔ aujourd’hui nécessaire.Toujours pour faciliter la prise de décision pour entamer ce type de travaux, les assemblés générales extraordinaires pourront se tenir à distance.
+Afin de faciliter la rénovation des immeubles et autres copropriétés, le gouvernement prévoit des réformes dans ce sens. Il prévoit que seul la moitié des copropriétaires, soit 50% des voix soient nécessaires pour voter des travaux de rénovation énergétique contre les ⅔ aujourd’hui nécessaire.Toujours pour faciliter la prise de décision pour entamer ce type de travaux, les assemblés générales extraordinaires pourront se tenir à distance.
 
 Dans l'ensemble, quelque soit la nature du propriétaire, les travaux doivent être réalisés par des professionnels reconnu garant de l’environnement (RGE). Les professionnels doivent également fournir le matériel, ceci est une autre condition pour être éligible et au versement de MaPrimeRénov’.
 La surface de murs à isoler est limitée à 100m2
