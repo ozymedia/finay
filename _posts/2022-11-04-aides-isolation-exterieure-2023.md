@@ -76,8 +76,7 @@ Il faudra donc s’assurer que l’artisan effectuant les travaux d’isolation 
 La liste complète des qualifiacations : https://librairie.ademe.fr/cadic/7182/fiche-qualifications-certifications-rge-renovation-2022.pdf
 
 ## CEE - Les aides à la rénovation énergétique délivrée par les énergéticiens
-Les CEE pour Certificats d’Economies d’Energies, également appelées primes énergie, sont des aides à la rénovation délivrées pour les énergéticiens. Ces primes sont cumulables avec les subventions publiques tel que MaPrimeRénov’. Pour des travaux d’isolation extérieure, ces aides ne sont pas plafonnées par la surface des travaux. Elle est donc proportionnelle à la surface des façades à isoler.
-Enfin leur montant varie des énergéticiens. Pour des travaux d’isolation par l’extérieur, le montant du CEE varie entre et …
+Les CEE pour Certificats d’Economies d’Energies, également appelées **primes énergie**, sont des aides à la rénovation délivrées pour les énergéticiens. Ces primes sont cumulables avec les subventions publiques tel que MaPrimeRénov’. Pour des **travaux d’isolation extérieure**, ces aides ne sont pas plafonnées par la surface des travaux. Elle est donc proportionnelle à la surface des façades à isoler et en fonction de la redevance des énergéticiens.
 
 ### Qui peut bénéficier des CEE ?
 La prime énergie CEE n’est pas comme MaPrimeRénov’, accordée selon le revenu fiscal de référence. Tout le monde touche la même chose en fonction des travaux entrepris.
@@ -92,7 +91,7 @@ Pour bénéficier de cette aide, il y a beaucoup moins de restrictions que pour 
 --- ---- ---
 
 ## Ma prime rénov sérénité
-
+????
 ### Forfait rénovation globale
 - Très modeste : ???
 - Modestes : ???
@@ -128,6 +127,7 @@ Pour en bénéficier, il est intéressant de contacter l’organisme en charge d
 
 ## Y-a-t-il des changements entre 2023 et 2022 au niveau des aides ?
 
+Face à la lent
 Prolongement du forfait rénovation globale(MaPrimeRénov’ rénovation globale) qui était jusqu’à fin 2022 d’un montant de 7000€ pour les bouquets de travaux à destination des classes moyennes. Ce forfait passera en 2023 à 10500€.
 
 Le forfait CEE passe de 4000 à 5000€ pour les ménages modestes et très modestes.
