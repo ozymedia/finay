@@ -58,6 +58,7 @@
     }
   }
 }
+
 #posts-page {
   display: flex;
   all: initial;
@@ -131,13 +132,24 @@
     max-width: 920px;
     margin-top: 3em;
     margin-bottom: 2em;
-    p {
+    p, li {
       line-height: 1.8em;
+      font-family: 'Avenir', sans-serif;
+    }
+    h4, h5, h6 {
+      font-family: 'Avenir', sans-serif;
+      margin-bottom: 0;
+    }
+    ul::marker {
+      color: transparent;
     }
   }
   h2 { text-align: left; }
   ul {
-    display: normal;
+    display: list-item !important;
+    list-style: disc;
+    list-style-position: unset;
+    padding-left: 1em;
   }
 }
 @media all and (max-width: 480px) {
