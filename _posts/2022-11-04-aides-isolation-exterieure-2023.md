@@ -127,3 +127,6 @@ Il passe de 2500 à 4000€ pour les autres ménages.
 * A partir de septembre 2023, un accompagnateur Rénov’ sera obligatoire.
 
 
+Afin d’améliorer significativement la performance énergétique des bâtiments, de nouveaux plafonds de revenus, de nouvelles aides et d’anciennes ont été modifiées en 2023 afin de faciliter le financement des travaux pour son habitation. L’isolation extérieure étant l’un des principaux chantiers pour améliorer l’efficacité énergétique et faire des économies d’énergies, les **travaux d’isolation extérieure bénéficient de nombreuses aides de l’Etat en 2023**. Mais celles-ci sont souvent conditionnés en 2023 à des bouquets de travaux pour faire des gains énergétiques significatifs.
+
+
