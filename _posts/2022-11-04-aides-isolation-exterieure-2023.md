@@ -9,18 +9,20 @@ permalink: /quelles-aides-isolation-exterieure-2023
 Afin d’améliorer le confort thermique et de réduire les factures énergétiques de son logement, l’**isolation des murs extérieurs** s’avère être un choix judicieux pour améliorer les performances énergétiques de son habitation. Responsable de 20 à 25% des pertes en chaleur, l’isolation des murs est sans doute l’un des chantiers prioritaires pour faire des économies considérables sur ses futures factures énergétiques, que ce soit pour se chauffer ou rester au frais durant lors des périodes chaudes.
 Des travaux d’isolation des murs par l’extérieur bénéficient de nombreuses aides mises en place par l’Etat en fonction des revenus des ménages afin d’alléger au maximum le coût des travaux. Ces **aides pour l’isolation extérieure en 2023** reprennent quasiment l’ensemble de celles de 2022 avec pourtant quelques évolutions entre temps.
 
-
-Sommaire:
-
-* [MaPrimeRenov'](#ma-prime-renov){: .summary}
-* [CEE](#cee){: .summary}
-* [MaPrimeRénov’ Sérénité](#prime-serenite){: .summary}
-* [Eco-PTZ](#eco-ptz){: .summary}
-* [Prêt Travaux amélioration](#travaux-amelioration){: .summary}
-* [TVA Réduite](#travaux-amelioration){: .summary}
-* [Autres aides de l'Etat](#autres-aides){: .summary}
-* [Les aides locales](#aides-locales){: .summary}
-* [Les changements entre 2022 et 2023](#changements-2023){: .summary}
+<div class="sommaire-blog">
+<p><span class="sommaire-titre">Sommaire:</span></p>
+<ul>
+<li><a href="#ma-prime-renov">MaPrimeRénov'</a></li>
+<li><a href="#cee">La prime CEE</a></li>
+<li><a href="#prime-serenite">MaPrimeRénov’ Sérénité</a></li>
+<li><a href="#eco-ptz">L'Eco-PTZ</a></li>
+<li><a href="#travaux-amelioration">Le Prêt Travaux amélioration</a></li>
+<li><a href="#tva">TVA Réduite</a></li>
+<li><a href="#autres-aides">Autres aides de l'Etat</a></li>
+<li><a href="#aides-locales">Les aides locales</a></li>
+<li><a href="#changements-2023">Les changements entre 2022 et 2023</a></li>
+</ul>
+</div>
 
 ## MaPrimeRenov’ {#ma-prime-renov}
 Aide de l’Etat la plus connue et dont l’obtention permet de débloquer bon nombre d’autres aides, MaPrimeRenov’ permet selon le revenu fiscal de référence du propriétaire de bénéficier d’un aide par m2 de l’isolation de ses murs.
