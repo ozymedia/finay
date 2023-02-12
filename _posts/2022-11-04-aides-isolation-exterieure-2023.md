@@ -6,8 +6,8 @@ categories: jekyll update
 permalink: /quelles-aides-isolation-exterieure-2023
 ---
 
-Afin d’améliorer le confort thermique et de réduire les factures énergétiques de son logement, l’**isolation des murs extérieurs** s’avère être un choix judicieux pour améliorer les performances énergétiques de son habitation. Responsable de 20 à 25% des pertes en chaleur, l’isolation des murs est sans doute l’un des chantiers prioritaires pour faire des économies considérables sur ses futures factures énergétiques, que ce soit pour se chauffer ou rester au frais durant lors des périodes chaudes.
-Des travaux d’isolation des murs par l’extérieur bénéficient de nombreuses aides mises en place par l’Etat en fonction des revenus des ménages afin d’alléger au maximum le coût des travaux. Ces **aides pour l’isolation extérieure en 2023** reprennent quasiment l’ensemble de celles de 2022 avec pourtant quelques évolutions entre temps.
+Afin d’améliorer le confort thermique et de réduire les factures énergétiques de son logement, l’**isolation des murs extérieurs** s’avère être un choix judicieux pour améliorer les performances énergétiques de son habitation. Responsable de 20 à 25% des pertes en chaleur, l’isolation des murs extérieurs est sans doute l’un des chantiers prioritaires pour faire des économies considérables sur ses futures factures énergétiques, que ce soit pour se chauffer ou rester au frais durant lors des périodes chaudes.
+Des **travaux d’isolation des murs par l’extérieur bénéficient de nombreuses aides** mises en place par l’Etat en fonction des revenus des ménages afin d’alléger au maximum le coût des travaux. Ces **aides pour l’isolation extérieure en 2023** reprennent quasiment l’ensemble de celles de 2022 avec pourtant quelques évolutions entre temps.
 
 <div class="sommaire-blog">
 <p><span class="sommaire-titre">Sommaire:</span></p>
@@ -69,7 +69,7 @@ Pour être éligible à cette aide spécifique, la copropriété doit :
 * Les travaux doivent être réalisés par des professionnels reconnu, garant de l’environnement (RGE). Les professionnels doivent également fournir le matériel, ceci est une autre condition pour être éligible et au versement de MaPrimeRénov’.
 * La prime est plafonnée à 100m2. Au-delà vous ne recevez pas plus de subvention avec MaPrimeRénov’.
 
-A noter que dans l’optique de faciliter la rénovation des immeubles et autres copropriétés, le gouvernement prévoit des réformes dans ce sens. Il prévoit que pour approuver des **travaux de rénovation énergétique**, seul la moitié des copropriétaires, soit 50% des voix soient nécessaires pour voter l’appel d’artisans pour mener des travaux contre les ⅔ aujourd’hui nécessaires.Toujours pour faciliter la prise de décision pour entamer ce type de travaux, les assemblés générales extraordinaires pourront se tenir à distance.
+A noter que dans l’optique de faciliter la rénovation des immeubles et autres copropriétés, le gouvernement prévoit des réformes dans ce sens. Il prévoit que pour approuver des **travaux de rénovation énergétique**, seul la moitié des copropriétaires, soit 50% des voix soient nécessaires pour voter l’appel d’artisans pour mener des travaux contre les ⅔ aujourd’hui nécessaires. Toujours pour faciliter la prise de décision pour entamer ce type de travaux, les assemblés générales extraordinaires pourront se tenir à distance.
 
 source: [MaPrimeRenov' Copropriétés](https://www.ecologie.gouv.fr/sites/default/files/19164_maPrimeRenovCopro_2_A4.pdf)
 
@@ -77,10 +77,10 @@ source: [MaPrimeRenov' Copropriétés](https://www.ecologie.gouv.fr/sites/defaul
 
 
 ## CEE - Les aides à la rénovation énergétique délivrée par les énergéticiens {#cee}
-Les CEE pour Certificats d’Economies d’Energies, également appelées primes énergie, sont des aides à la rénovation délivrées pour les énergéticiens. Ces primes sont cumulables avec les subventions publiques tel que **MaPrimeRénov’**. Pour des **travaux d’isolation extérieure**, ces aides ne sont pas plafonnées par la surface des travaux. Elle est donc proportionnelle à la surface des façades à isoler et en fonction de la redevance des énergéticiens. Cette aide comporte beaucoup moins de restrictions que les autres, car elle ne dépend pas du revenu fiscal de référence. Tout le monde touche la même chose en fonction des travaux entrepris.
+Les CEE pour Certificats d’Economies d’Energies, également appelées primes énergie, sont des aides à la rénovation délivrées pour les énergéticiens. Ces primes sont cumulables avec les subventions publiques tel que **MaPrimeRénov’**. Pour des **travaux d’isolation extérieure**, ces aides ne sont pas plafonnées par la surface des travaux. Cette subvention est donc proportionnelle à la surface des façades à isoler et en fonction de la redevance des énergéticiens. Cette aide comporte beaucoup moins de restrictions que les autres, car elle ne dépend pas du revenu fiscal de référence. Tout le monde touche la même chose en fonction des travaux entrepris.
 
 ## MaPrimeRénov’ Sérénité {#prime-serenite}
-MaPrimeRénov’ Sérénité finance les bouquets de travaux, bouquets pouvant comporter l’isolation des façades extérieures. Cette aide est octroyée pour les travaux permettant un gain énergétique d’au moins 35% et depuis mi 2022, le logement devra être au moins classé en catégorie E après travaux. 
+MaPrimeRénov’ Sérénité finance les bouquets de travaux, bouquets pouvant comporter l’**isolation des façades extérieures**. Cette aide est octroyée pour les travaux permettant un gain énergétique d’au moins 35% et depuis mi 2022, le logement devra être au moins classé en catégorie E après travaux. 
 Cette aide est réservée aux résidences principales achevées depuis plus de 15 ans. 
 Pour bénéficier de cette aide, il faudra également occuper le logement au moins trois ans après la fin des travaux et ne pas avoir bénéficier d’un prêt à taux zéro dans les 5 dernières années.
 
@@ -100,7 +100,7 @@ Les travaux d’isolation extérieur sont éligibles à l’Eco-PTZ, ce prêt à
 Ce prêt accordé par Action Logement pour les salariés du privé non agricole et à condition d’être propriétaire occupant et d’être sous les plafonds de ressource demandés, permet de bénéficier d’une emprunt bonifié avec un taux avantageux indéxé sur celui du livret A de l’année N-1. Le “prêt travaux d’amélioration” permet de financer jusqu’à 10 000€ de travaux remboursables sur 10 ans.
 
 ## Réductions de TVA {#tva}
-Les travaux d’isolation thermique par l’extérieur permet de bénéficier d’une TVA à 5,5% pour ce type de travaux qui relèvent de travaux de rénovation énergétique. Pour en bénéficier, il faut que les travaux soient facturés par une entreprise. Dans le cas contraire, les matériaux seraient soumis à une TVA à 20%.
+Les **travaux d’isolation thermique par l’extérieur** permet de bénéficier d’une TVA réduite à 5,5% pour ce type de travaux qui relèvent de travaux de rénovation énergétique. Pour en bénéficier, il faut que les travaux soient facturés par une entreprise. Dans le cas contraire, les matériaux seraient soumis à une TVA à 20%.
 
 ## Des aides de l’Etat et forfaits en complément {#autres-aides}
 
@@ -114,11 +114,11 @@ Parmi ces aides, il y a :
 ## Diverses aides locales au niveau du territoire {#aides-locales}
 Les collectivités sont de plus en plus nombreuses à contribuer à la rénovation énergétique des bâtiments en créant des aides supplémentaires à destination des habitants de leur agglomération.
 La ville de Mulhouse par exemple, accorde une aide de 1000€ supplémentaires aux propriétaires occupant pour des travaux apportant un gain énergétique de 50% et plus.
-Pour en bénéficier, il est intéressant de contacter l’organisme en charge de la transition énergétique au niveau local afin que ce dernier puisse récupérer ce genre d’aides ainsi que les nombreuses autres disponibles.
+Pour en bénéficier, il est intéressant de contacter l’organisme en charge de la transition énergétique au niveau local afin que ce dernier puisse récupérer ce genre d’aides ainsi et les nombreuses autres disponibles.
 
 ## Y-a-t-il des changements entre 2023 et 2022 au niveau des aides ? {#changements-2023}
 
-Face à la lenteur du nombre de logements rénovés et à la complexité que peuvent rencontrer certaines ménages, le gouvernement a mis en place des changements pour cette année. 
+Face à la lenteur du nombre de logements rénovés et à la complexité que peuvent rencontrer certains ménages, le gouvernement a mis en place des changements pour cette année. 
 Voici les divers changements pour 2023 : 
 * Augmentation du budget MaPrimeRénov’ en hausse en 2023. Il passe de 2,4 milliards à 2,5 milliards d’euros.
 * Prolongement du forfait rénovation globale(MaPrimeRénov’ rénovation globale) qui était jusqu’à fin 2022 d’un montant de 7000€ pour les bouquets de travaux à destination des classes moyennes. Ce forfait passera en 2023 à 10500€.
@@ -129,6 +129,6 @@ Il passe de 2500 à 4000€ pour les autres ménages.
 * A partir de septembre 2023, un accompagnateur Rénov’ sera obligatoire.
 
 
-Afin d’améliorer significativement la performance énergétique des bâtiments, de nouveaux plafonds de revenus, de nouvelles aides et d’anciennes ont été modifiées en 2023 afin de faciliter le financement des travaux pour son habitation. L’isolation extérieure étant l’un des principaux chantiers pour améliorer l’efficacité énergétique et faire des économies d’énergies, les **travaux d’isolation extérieure bénéficient de nombreuses aides de l’Etat en 2023**. Mais celles-ci sont souvent conditionnés en 2023 à des bouquets de travaux pour faire des gains énergétiques significatifs.
+Afin d’améliorer significativement la performance énergétique des bâtiments, de nouveaux plafonds de revenus, de **nouvelles et d’anciennes aides ont été modifiées en 2023** afin de faciliter le financement des travaux pour son habitation. L’isolation extérieure étant l’un des principaux chantiers pour améliorer l’efficacité énergétique et faire des économies d’énergies, les **travaux d’isolation extérieure bénéficient de nombreuses aides de l’Etat en 2023**. Mais celles-ci sont souvent conditionnés en 2023 à des bouquets de travaux pour faire des gains énergétiques significatifs.
 
 
