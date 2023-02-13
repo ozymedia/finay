@@ -31,6 +31,8 @@ Aide de l’Etat la plus connue et dont l’obtention permet de débloquer bon n
 * 40€/m2 pour les ménages ressources intermédiaires (Violet)
 * 15€/m2 pour les ménages aux ressources supérieures (Rose)
 
+La prime est plafonnée à 100m2. Au-delà vous ne recevez pas plus de subvention avec MaPrimeRénov’.
+
 Vous trouverez ci-joint les tableaux vous indiquant à quelle catégorie vous correspondez en fonction de votre revenu fiscal.
 
 ### Tableau 2023 du revenu fiscal hors Ile-de-France
@@ -67,7 +69,6 @@ Pour être éligible à cette aide spécifique, la copropriété doit :
 * Les travaux doivent être réalisés par des artisans RGE. Ces derniers doivent également fournir le matériel.
 * La copropriété doit être impérativement accompagnée par une assistance à maîtrise d’ouvrage (AMO).
 * Les travaux doivent être réalisés par des professionnels reconnu, garant de l’environnement (RGE). Les professionnels doivent également fournir le matériel, ceci est une autre condition pour être éligible et au versement de MaPrimeRénov’.
-* La prime est plafonnée à 100m2. Au-delà vous ne recevez pas plus de subvention avec MaPrimeRénov’.
 
 A noter que dans l’optique de faciliter la rénovation des immeubles et autres copropriétés, le gouvernement prévoit des réformes dans ce sens. Il prévoit que pour approuver des **travaux de rénovation énergétique**, seul la moitié des copropriétaires, soit 50% des voix soient nécessaires pour voter l’appel d’artisans pour mener des travaux contre les ⅔ aujourd’hui nécessaires. Toujours pour faciliter la prise de décision pour entamer ce type de travaux, les assemblés générales extraordinaires pourront se tenir à distance.
 
@@ -127,6 +128,7 @@ Voici les divers changements pour 2023 :
 * Le forfait CEE passe de 4000 à 5000€ pour les ménages modestes et très modestes.
 Il passe de 2500 à 4000€ pour les autres ménages.
 * A partir de septembre 2023, un accompagnateur Rénov’ sera obligatoire.
+
 
 
 Afin d’améliorer significativement la performance énergétique des bâtiments, de nouveaux plafonds de revenus, de **nouvelles et d’anciennes aides ont été modifiées en 2023** afin de faciliter le financement des travaux pour son habitation. L’isolation extérieure étant l’un des principaux chantiers pour améliorer l’efficacité énergétique et faire des économies d’énergies, les **travaux d’isolation extérieure bénéficient de nombreuses aides de l’Etat en 2023**. Mais celles-ci sont souvent conditionnés en 2023 à des bouquets de travaux pour faire des gains énergétiques significatifs.
