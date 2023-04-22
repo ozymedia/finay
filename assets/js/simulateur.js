@@ -410,7 +410,7 @@ const aidesTravaux = {
     "rose":0
   },
   "poele a bois":{
-    "bleu":2500,
+    "bleu":4000,
     "jaune":2000,
     "violet":1000,
     "rose":0
@@ -446,28 +446,32 @@ const aidesTravaux = {
 
 const cee = {
   "isolation des murs par l'extérieur":{
-    "bleu":8,
-    "jaune":8,
-    "violet":8,
-    "rose":8
+    //toutes couleurs : 8
+    "bleu":10,
+    "jaune":10,
+    "violet":10,
+    "rose":10
   },
   "isolation des murs par l'intérieur":{
-    "bleu":8,
-    "jaune":8,
-    "violet":8,
-    "rose":8
+    //toutes couleurs : 8
+    "bleu":10,
+    "jaune":10,
+    "violet":10,
+    "rose":10
   },
   "isolation des combles perdues par le sol":{
-    "bleu":8,
-    "jaune":8,
-    "violet":8,
-    "rose":8
+    //toutes couleurs : 8
+    "bleu":10,
+    "jaune":10,
+    "violet":10,
+    "rose":10
   },
   "isolation des rampants de toiture":{
-    "bleu":8,
-    "jaune":8,
-    "violet":8,
-    "rose":8
+    //toutes couleurs : 8
+    "bleu":10,
+    "jaune":10,
+    "violet":10,
+    "rose":10
   },
   "pompe a chaleur air/eau":{
     "bleu":4000,
