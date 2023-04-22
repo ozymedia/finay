@@ -391,9 +391,9 @@ const aidesTravaux = {
     "rose":7
   },
   "pompe a chaleur air/eau": {
-    "bleu":5000,
-    "jaune":4000,
-    "violet":3000,
+    "bleu":4000,
+    "jaune":3000,
+    "violet":2000,
     "rose":0
   },
   "pompe a chaleur air/air": {
