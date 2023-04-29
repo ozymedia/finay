@@ -2,7 +2,7 @@
 layout: page
 banner-img:
 title: Entreprise d'isolation extérieure pour copropriété | Finay
-description: Isolez l'ensemble de votre copropriété ainsi que d'aides pour vos travaux
+description: Isolez l'ensemble de votre copropriété et bénéficiez d'aides pour vos travaux
 titre: Isolation Extérieure pour les copropriétés & bâtiments collectifs
 permalink: /isolation-exterieure-copropriete
 ---
