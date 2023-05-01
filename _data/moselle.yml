@@ -208,7 +208,7 @@
     - Marienau
     - Neufvillage
     - Nousseviller-Saint-Nabor
-Copy code
+
 - canton: Metzervisse
   dp: 57420
   villes:
@@ -323,7 +323,7 @@ Copy code
     - Gavisse
     - Hagen
     - Kirsch-lès-Sierck
-
+    
 - canton: Thionville
   dp: 57100
   villes:
@@ -344,7 +344,3 @@ Copy code
     - Thionville
     - Terville
     - Yutz
-
-- canton: Metz
-  dp: 5700000
-  villes:

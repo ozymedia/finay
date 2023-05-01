@@ -75,6 +75,18 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
 
 ## Nos réalisations dans le reste de la Lorraine
 [Nos travaux dans le canton de Bitche](/travaux-energetique-sur-bitche)
+
+{% for item in site.data.moselle | where: 'canton','Boulay-Moselle' %}
+<h3>{{item.canton}}</h3>
+<ul>
+{% for entry in item.villes %}
+<li>{{entry}}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+
+
 ## Nous contacter
 {:.left}
 {% include form.html %}
