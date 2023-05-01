@@ -1,35 +1,350 @@
-- Algrange 
-  dp: 5701
-  villes :
-    -
-    -
-- Bitche 
-  dp: 5702
-  villes :
-    -
-    -
-Boulay-Moselle (5703)
-Bouzonville (5704)
-Les Coteaux de Moselle (5705)
-Fameck (5706)
-Faulquemont (5707)
-Forbach (5708)
-Freyming-Merlebach (5709)
-Hayange (5710)
-Metz-1 (5711)
-Metz-2 (5712)
-Metz-3 (5713)
-Metzervisse (5714)
-Montigny-lès-Metz (5715)
-Le Pays Messin (5716)
-Phalsbourg (5717)
-Rombas (5718)
-Saint-Avold (5719)
-Sarralbe (5720)
-Sarrebourg (5721)
-Sarreguemines (5722)
-Le Saulnois (5723)
-Le Sillon Mosellan (5724)
-Stiring-Wendel (5725)
-Thionville (5726)
-Yutz (5727)
+- canton: Algrange
+  dp: 57440
+  villes:
+    - Algrange
+    - Angevillers
+    - Auboué
+    - Boulange
+    - Fameck
+    - Florange
+    - Fontoy
+    - Hayange
+    - Homécourt
+    - Neufchef
+    - Nilvange
+    - Ranguevaux
+    - Rosselange
+    - Serémange-Erzange
+    - Uckange
+
+- canton: Boulay-Moselle
+  dp: 57220
+  villes:
+    - Adaincourt
+    - Ajoncourt
+    - Bébing
+    - Berviller-en-Moselle
+    - Beyren-lès-Sierck
+    - Bioncourt
+    - Boulay-Moselle
+    - Brettnach
+    - Brouck
+    - Chémery-les-Deux
+    - Conthil
+    - Coume
+    - Denting
+    - Éblange
+    - Évendorff
+    - Falck
+    - Guinkirchen
+    - Gomelange
+    - Guerting
+    - Halling-lès-Boulay
+    - Hampont
+    - Hanviller
+    - Helstroff
+    - Hinckange
+    - Holacourt
+    - Hunting
+    - Laudrefang
+    - Lemoncourt
+    - Lessy
+    - Lixing-lès-Rouhling
+    - Mégange
+    - Momerstroff
+    - Narbéfontaine
+    - Niedervisse
+    - Oudrenne
+    - Piblange
+    - Puttelange-lès-Thionville
+    - Rémering-lès-Puttelange
+    - Rémelfang
+    - Retonfey
+    - Roussy-le-Village
+    - Rustroff
+    - Sainte-Barbe
+    - Saint-Jean-Rohrbach
+    - Téterchen
+    - Théding
+    - Thonville
+    - Volmerange-lès-Boulay
+
+- canton: Bouzonville
+  dp: 57320
+  villes:
+    - Berviller-en-Moselle
+    - Bisten-en-Lorraine
+    - Boucheporn
+    - Bouzonville
+    - Brouck
+    - Chémery-les-Deux
+    - Cattenom
+    - Colmen
+    - Éblange
+    - Faulbach
+    - Guerstling
+    - Ham-sous-Varsberg
+    - Hanviller
+    - Helstroff
+    - Hestroff
+    - Hunting
+    - Laudrefang
+    - Mégange
+    - Neunkirchen-lès-Bouzonville
+    - Ottonville
+    - Petite-Rosselle
+    - Racrange
+    - Rémeling
+    - Rustroff
+    - Saint-François-Lacroix
+    - Tritteling-Redlach
+    - Valmunster
+
+- canton: Coteaux de Moselle
+  dp: 57160
+  villes:
+    - Ars-Laquenexy
+    - Augny
+    - Chailly-lès-Ennery
+    - Coin-lès-Cuvry
+    - Corny-sur-Moselle
+    - Cuvry
+    - Gorze
+    - Gravelotte
+    - Jussy
+    - Lorry-Mardigny
+    - Marieulles
+    - Marly
+    - Montoy-Flanville
+    - Nouilly
+    - Plappeville
+    - Pournoy-la-Chétive
+    - Roncourt
+    - Rozérieulles
+    - Sainte-Ruffine
+    - Saulny
+    - Scy-Chazelles
+    - Vany
+    - Vaux
+    - Verny
+    - Vigneulles-lès-Hattonchâtel
+
+- canton: Faulquemont
+  dp: 57216
+  villes:
+    - Altviller
+    - Bettviller
+    - Biding
+    - Bousbach
+    - Boust
+    - Brettnach
+    - Bronvaux
+    - Béning-lès-Saint-Avold
+    - Carling
+    - Cocheren
+    - Farschviller
+    - Faulquemont
+    - Guerting
+    - Ham-sous-Varsberg
+    - Hellering-lès-Fénétrange
+    - Hombourg-Haut
+    - Hundling
+    - Lixing-lès-Saint-Avold
+    - Longeville-lès-Saint-Avold
+    - Macheren
+    - Morhange
+    - Nousseviller-Saint-Nabor
+    - Porcelette
+    - Rosbruck
+    - Saint-Avold
+    - Seingbouse
+    - Teting-sur-Nied
+    - Valmont
+    - Varize
+    - Varsberg
+    - Vatimont
+    - Wuisse
+
+- canton: Forbach
+  dp: 57220
+  villes:
+    - Behren-lès-Forbach
+    - Bousbach
+    - Cocheren
+    - Diebling
+    - Farschviller
+    - Folkling
+    - Forbach
+    - Morsbach
+    - Nousseviller-Saint-Nabor
+    - Oeting
+    - Petite-Rosselle
+    - Rosbruck
+    - Schoeneck
+    - Stiring-Wendel
+    - Tenteling
+    - Théding
+
+- canton: Freyming-Merlebach
+  dp: 57242
+  villes:
+    - Alsting
+    - Bambiderstroff
+    - Bertring
+    - Betting
+    - Cocheren
+    - Creutzwald
+    - Diesen
+    - Freyming-Merlebach
+    - Ham-sous-Varsberg
+    - Hargarten-aux-Mines
+    - Henriville
+    - Hombourg-Haut
+    - L'Hôpital
+    - Lachambre
+    - Lixing-lès-Rouhling
+    - Longeville-lès-Saint-Avold
+    - Macheren
+    - Marienau
+    - Neufvillage
+    - Nousseviller-Saint-Nabor
+Copy code
+- canton: Metzervisse
+  dp: 57420
+  villes:
+    - Metzervisse
+    - Basse-Ham
+    - Kuntzig
+    - Terville
+
+- canton: Montigny-lès-Metz
+  dp: 57950
+  villes:
+    - Montigny-lès-Metz
+    - Ars-sur-Moselle
+    - Jussy
+    - Le Ban-Saint-Martin
+    - Lessy
+    - Longeville-lès-Metz
+    - Scy-Chazelles
+
+- canton: Moyeuvre-Grande
+  dp: 57250
+  villes:
+    - Moyeuvre-Grande
+    - Moyeuvre-Petite
+    - Norroy-le-Veneur
+    - Rombas
+    - Rosselange
+
+- canton: Phalsbourg
+  dp: 57370
+  villes:
+    - Phalsbourg
+    - Brouviller
+    - Fénétrange
+    - Lixheim
+    - Réchicourt-le-Château
+    - Troisfontaines
+
+- canton: Saint-Avold
+  dp: 57500
+  villes:
+    - Saint-Avold
+    - Altviller
+    - Carling
+    - Diesen
+    - Folschviller
+    - L'Hôpital
+    - Longeville-lès-Saint-Avold
+    - Macheren
+    - Porcelette
+
+- canton: Sarralbe
+  dp: 57430
+  villes:
+    - Sarralbe
+    - Bettviller
+    - Frauenberg
+    - Guebenhouse
+    - Hambach
+    - Hermelange
+    - Hilsprich
+    - Ippling
+    - Lixing-lès-Rouhling
+    - Loupershouse
+    - Puttelange-lès-Thionville
+    - Rémering
+    - Roupeldange
+    - Teting-sur-Nied
+
+- canton: Sarrebourg
+  dp: 57400
+  villes:
+    - Sarrebourg
+    - Buhl-Lorraine
+    - Domptail-en-l'Air
+    - Foulcrey
+    - Hesse
+    - Imling
+    - Maizières-lès-Vic
+    - Niderhoff
+    - Réchicourt-le-Mas
+    - Réding
+    - Vieux-Lixheim
+
+- canton: Sarreguemines
+  dp: 57200
+  villes:
+    - Sarreguemines
+    - Bliesbruck
+    - Blies-Ébersing
+    - Blies-Guersviller
+    - Grosbliederstroff
+    - Hanviller
+    - Hundling
+    - Ippling
+    - Kalhausen
+    - Neufgrange
+    - Rimling
+    - Roppeviller
+    - Siltzheim
+    - Waldhouse
+
+- canton: Sierck-les-Bains
+  dp: 57480
+  villes:
+    - Sierck-les-Bains
+    - Beyren-lès-Sierck
+    - Boust
+    - Cattenom
+    - Contz-les-Bains
+    - Fixem
+    - Gavisse
+    - Hagen
+    - Kirsch-lès-Sierck
+
+- canton: Thionville
+  dp: 57100
+  villes:
+    - Bertrange
+    - Boust
+    - Fameck
+    - Florange
+    - Fontoy
+    - Hayange
+    - Illange
+    - Knutange
+    - Kuntzig
+    - Lommerange
+    - Manom
+    - Nilvange
+    - Richemont
+    - Rochonvillers
+    - Thionville
+    - Terville
+    - Yutz
+
+- canton: Metz
+  dp: 5700000
+  villes:
