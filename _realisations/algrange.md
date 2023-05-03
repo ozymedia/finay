@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Travaux d'isolation par l'extérieur & rénovation à Bitche et aux alentours
-titre: Travaux d'isolation par l'extérieur & rénovation à Bitche et aux alentours
+title: Travaux d'isolation par l'extérieur & rénovation à BAlgrange et aux alentours
+titre: Travaux d'isolation par l'extérieur & rénovation à Algrange et aux alentours
 permalink: /travaux-energetique-sur-algrange
 town: algrange
 ---

@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Travaux d'isolation par l'extérieur & rénovation à Bitche et aux alentours
-titre: Travaux d'isolation par l'extérieur & rénovation à Bitche et aux alentours
-permalink: /travaux-energetique-sur-bitche
+title: Travaux d'isolation par l'extérieur & rénovation à Metzervisse et aux alentours
+titre: Travaux d'isolation par l'extérieur & rénovation à Metzervisse et aux alentours
+permalink: /travaux-energetique-sur-metzervisse
+town: Metzervisse
 ---
 Notre entreprise spécialisée dans l'[isolation extérieure intervient en Moselle](/isolation-extérieure/), incluant la communauté des communes du Pays de <strong>Bitche (57230)</strong>. 
 Nos artisans proposent comme services divers travaux de rénovation énergétique avec l'<strong>isolation extérieure de vos murs</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système de chauffage plus performant, moins coûteux et plus respectueux de l'environnement. Nous intervenons également dans les travaux de rénovation au niveau esthétique avec le ravalement de façade qui vient compléter des <strong>travaux d'isolation par l'extérieur.</strong>
