@@ -86,15 +86,7 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
   {% endif %}
 {% endfor %}
 </ul>
-<hr>
-{% for item in site.data.moselle | where: 'canton','Boulay-Moselle' %}
-<h3>{{item.canton}}</h3>
-<ul>
-{% for entry in item.villes %}
-<li>{{entry}}</li>
-{% endfor %}
-</ul>
-{% endfor %}
+
 
 
 
