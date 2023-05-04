@@ -2,7 +2,7 @@
 layout: post
 title: Travaux d'isolation par l'extérieur & rénovation à Bouzonville et aux alentours
 titre: Travaux d'isolation par l'extérieur & rénovation à Bouzonville et aux alentours
-permalink: /travaux-energetique-sur-bitche
+permalink: /travaux-energetique-sur-bouzonville
 town: Bouzonville
 ---
 Notre entreprise spécialisée dans l'[isolation extérieure intervient en Moselle](/isolation-extérieure/), incluant la communauté des communes du Pays de <strong>Bitche (57230)</strong>. 
