@@ -76,19 +76,6 @@ Notre entreprise spécialisée dans les travaux de rénovation énergétique vou
 ## Nos réalisations dans le reste de la Lorraine
 [Nos travaux dans le canton de Bitche](/travaux-energetique-sur-bitche)
 
-<ul>
-{% assign canton = 'Forbach' %}
-{% for item in site.data.moselle %}
-  {% if item.canton == canton %}
-    {% for ville in item.villes %}
-      <li>{{ ville }}</li>
-    {% endfor %}
-  {% endif %}
-{% endfor %}
-</ul>
-
-
-
 
 ## Nous contacter
 {:.left}

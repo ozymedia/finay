@@ -5,9 +5,9 @@ titre: Travaux d'isolation par l'extérieur & rénovation à Forbach et aux alen
 permalink: /travaux-energetique-sur-forbach
 town: Forbach
 ---
-Notre entreprise spécialisée dans l'[isolation extérieure intervient en Moselle](/isolation-extérieure/), incluant la communauté des communes du Pays de <strong>Bitche (57230)</strong>. 
+Notre entreprise spécialisée dans l'[isolation extérieure intervient en Moselle](/isolation-extérieure/), incluant la communauté des communes du Pays de <strong>{{page.town}}</strong>. 
 Nos artisans proposent comme services divers travaux de rénovation énergétique avec l'<strong>isolation extérieure de vos murs</strong>, des travaux de chauffage avec le changement de votre système actuel pour un système de chauffage plus performant, moins coûteux et plus respectueux de l'environnement. Nous intervenons également dans les travaux de rénovation au niveau esthétique avec le ravalement de façade qui vient compléter des <strong>travaux d'isolation par l'extérieur.</strong>
-## Les villes du Pays de Bitche où nous intervenons
+## Les villes du Pays de Forbach où nous intervenons
 
 <ul>
 {% assign canton = 'Forbach' %}
@@ -22,7 +22,7 @@ Nos artisans proposent comme services divers travaux de rénovation énergétiqu
 
 ### Nos derniers travaux d'isolation par l'extérieur
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"Comm","Bitche" %}
+  	{% assign reals = site.data.gallerie | where:"Comm","Forbach" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'isolation', true %}
     {% for real in filtered_reals | limit: 8 %}
@@ -34,7 +34,7 @@ Nos artisans proposent comme services divers travaux de rénovation énergétiqu
   </ul>
 ### Nos derniers travaux de ravalement de façade
   <ul class="grid four">
-  	{% assign reals = site.data.gallerie | where:"Comm","Bitche" %}
+  	{% assign reals = site.data.gallerie | where:"Comm","Forbach" %}
     {% assign display_reals = reals | where: 'display', true %}
     {% assign filtered_reals = display_reals | where: 'ravalement', true %}
     {% for real in filtered_reals | limit: 8 %}
