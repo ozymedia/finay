@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Travaux d'isolation par l'extérieur & rénovation à Bitche et aux alentours
-titre: Travaux d'isolation par l'extérieur & rénovation à Bitche et aux alentours
+title: Entreprise d'isolation par l'extérieure & rénovation à Bitche et aux alentours
+titre: Entreprise d'isolation par l'extérieure & rénovation à Bitche et aux alentours
 permalink: /travaux-energetique-sur-bitche
 ---
 Notre entreprise spécialisée dans l'[isolation extérieure intervient en Moselle](/isolation-extérieure/), incluant la communauté des communes du Pays de <strong>Bitche (57230)</strong>. 
