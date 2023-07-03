@@ -47,6 +47,7 @@ p {
     grid-template-columns: repeat(4, 1fr);
   }
   &.four {
+    display: grid !important;
     grid-template-columns: repeat(4, 1fr);
     .item-grid {
       height: 180px;

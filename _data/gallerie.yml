@@ -279,6 +279,101 @@
   chauffage: false
   display: false
 
+- name:
+  index: 25
+  img: isolation-exterieure-haguenau-bas-rhin.jpeg
+  ville: Haguenau
+  Comm: Haguenau
+  CP: 67500
+  ravalement: false
+  isolation: true
+  toiture: false
+  chauffage: false
+  display: true
+
+- name:
+  index: 26
+  img: isolation-exterieure-hatten-bas-rhin.jpeg
+  ville: Hatten
+  Comm: Wissembourg
+  CP: 67690
+  ravalement: false
+  isolation: true
+  toiture: false
+  chauffage: false
+  display: true
+
+- name:
+  index: 27
+  img: isolation-exterieure-gumbrechtshoffen.jpeg
+  ville: Gumbrechtshoffen
+  Comm: Reichshoffen
+  CP: 67110
+  ravalement: false
+  isolation: true
+  toiture: false
+  chauffage: false
+  display: true
+
+- name:
+  index: 28
+  img: travaux-pompe-a-chaleur-haguenau.jpeg
+  ville: Haguenau
+  Comm: Haguenau
+  CP: 67500
+  ravalement: false
+  isolation: false
+  toiture: false
+  chauffage: true
+  display: true
+
+- name:
+  index: 29
+  img: isolation-exterieure-puttelange-aux-lacs.jpeg
+  ville: Puttelange aux lacs
+  Comm: Sarreguemines
+  CP: 57510
+  ravalement: false
+  isolation: true
+  toiture: false
+  chauffage: false
+  display: true
+
+- name:
+  index: 30
+  img: ballon-thermodynamique-haguenau-bas-rhin.jpeg
+  ville: Haguenau
+  Comm: Haguenau 
+  CP: 67500
+  ravalement: false
+  isolation: false
+  toiture: false
+  chauffage: true
+  display: true
+
+- name:
+  index: 31
+  img: pompe-a-chaleur-haguenau.jpeg
+  ville: Haguenau
+  Comm: Haguenau 
+  CP: 67500
+  ravalement: false
+  isolation: false
+  toiture: false
+  chauffage: true
+  display: true
+
+- name:
+  index: 32
+  img: isolation-exterieure-philippsbourg.jpeg
+  ville: Philippsbourg
+  Comm: Bitche 
+  CP: 57230
+  ravalement: false
+  isolation: true
+  toiture: false
+  chauffage: true
+  display: true
 
 
 
