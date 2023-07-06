@@ -40,6 +40,18 @@ Etant qualifié RGE, vous serez éligible à toucher les différentes aides pour
 </div>
 {% include reviewsummary.html %}
 
+## Nos derniers travaux d'isolation par l'extérieur de copropriétés
+  <ul class="grid four">
+  	{% assign display_reals = site.data.gallerie | where: 'display', true %}
+    {% assign filtered_reals = display_reals | where: 'copro', true %}
+    {% for real in filtered_reals | limit: 8 %}
+      <li class="item-grid realisation" onclick="closebox()" style="background-image: linear-gradient(0deg, rgba(2,0,36,0.3197872899159664) 0%, rgba(255,255,255,0) 100%),url(../assets/images/realisations/{{real.img}});" data-image="{{real.img}}" data-ville="{{real.ville}}" data-cp="{{real.CP}}">
+        <img src="../assets/images/realisations/{{real.img}}" alt="travaux isolation exterieure copropriete {{real.ville}}" style="display: none;">
+        <p><img src="../assets/images/icones/map-marker.png" width="10">{{real.ville}}, {{real.CP}}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
 {% include zones.html %}
 <h2 class="left">Nous contacter pour un devis ou une question sur votre projet</h2>
 {% include form.html %}

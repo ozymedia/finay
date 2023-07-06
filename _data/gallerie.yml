@@ -375,6 +375,18 @@
   chauffage: false
   display: true
 
+- name:
+  index: 33
+  img: copropriete-isolation-exterieure-petit-rederching.jpeg
+  ville: Petit-Réderching
+  Comm: Bitche
+  CP: 57410
+  ravalement: false
+  isolation: true
+  toiture: false
+  chauffage: false
+  copro: true
+  display: true
 
 
 

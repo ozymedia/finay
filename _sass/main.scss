@@ -296,6 +296,17 @@ video {
     margin: 0px !important;
   }
 }
+
+.copro {
+  display : flex;
+  img { width: 300px;}
+  div {
+    text-align: left;
+    padding-left: 1em;
+    h2, p {text-align: left;}
+  }
+}
+
 @media all and (max-width: 480px) {
   .grid.four, .grid.four-bis {
     grid-template-columns: repeat(1, 1fr) !important;
@@ -310,6 +321,10 @@ video {
         min-width: 200px;
       }
     }
+  }
+  .copro {
+    flex-wrap: wrap;
+    img { width: 100%;}
   }
 }
 
@@ -327,6 +342,10 @@ video {
         min-width: 200px;
       }
     }
+  }
+  .copro {
+    flex-wrap: wrap;
+    img { width: 100%;}
   }
 }
 
