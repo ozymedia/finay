@@ -40,6 +40,18 @@ L’entreprise Finay a conçu un simulateur simple qui vous permet de visualiser
 Des aides supplémentaires peuvent être débloquées au niveau national et local dès lors que les notes du DPE, Diagnostic de la Performance Energétique s'améliore pour le logement à rénover.
 Le meilleur moyen d'améliorer cette note est de procéder à un bouquet de travaux afin de réduire la consommation énergétique de son logement. A titre d'exemple des travaux d'isolation couplés avec l'installation d'une pompe à chaleur permet de chauffer moins, mieux et pour moins cher.
 
+<section class="copro">
+<img src="/assets/images/realisations/copropriete-isolation-exterieure-petit-rederching.jpeg" width="600">
+<div>
+  <h2>Vous souhaitez réaliser une isolation par l'extérieur pour votre immeuble ou votre copropriété ?</h2>
+  <p>
+  Vous êtes en charge de votre copropriété ? Ou avec vos voisins vous cherchez à améliorer votre confort ou simplement vous mettre en règle vis-à-vis des règles de mise en location de votre bien ?<br><br>
+  Notre équipe, riche en expérience dans ce type de travaux et dans la recherche d'aides pour les copropriétés et habitats collectifs, saura vous accompagner dans vos différentes démarches.
+  <br><br>
+  <a class="btn" href="/isolation-exterieure-copropriete">En savoir plus</a>
+  </p>
+</div>
+</section>
 
 ## Finay, votre entreprise RGE experte dans les travaux d'isolation extérieure
 Depuis bientôt 20 ans, Finay s’emploi à améliorer le confort et la réduction des coûts énergétiques de ses clients. Travaillant en Alsace et Moselle, Finay conseille et suit ses clients pour obtenir des aides de l’Etat, la réalisation des devis et chantiers.\
