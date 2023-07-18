@@ -20,7 +20,7 @@ Des **travaux d’isolation des murs par l’extérieur bénéficient de nombreu
 <li><a href="#tva">TVA Réduite</a></li>
 <li><a href="#autres-aides">Autres aides de l'Etat</a></li>
 <li><a href="#aides-locales">Les aides locales</a></li>
-<li><a href="#denormandie">Le dispositif fiscal Denormandie</li>
+<li><a href="#denormandie">Le dispositif fiscal Denormandie</a></li>
 <li><a href="#changements-2023">Les changements entre 2022 et 2023</a></li>
 </ul>
 </div>
