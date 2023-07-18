@@ -20,6 +20,7 @@ Des **travaux d’isolation des murs par l’extérieur bénéficient de nombreu
 <li><a href="#tva">TVA Réduite</a></li>
 <li><a href="#autres-aides">Autres aides de l'Etat</a></li>
 <li><a href="#aides-locales">Les aides locales</a></li>
+<li><a href="#denormandie">Le dispositif fiscal Denormandie</li>
 <li><a href="#changements-2023">Les changements entre 2022 et 2023</a></li>
 </ul>
 </div>
@@ -116,6 +117,17 @@ Parmi ces aides, il y a :
 Les collectivités sont de plus en plus nombreuses à contribuer à la rénovation énergétique des bâtiments en créant des aides supplémentaires à destination des habitants de leur agglomération.
 La ville de Mulhouse par exemple, accorde une aide de 1000€ supplémentaires aux propriétaires occupant pour des travaux apportant un gain énergétique de 50% et plus.
 Pour en bénéficier, il est intéressant de contacter l’organisme en charge de la transition énergétique au niveau local afin que ce dernier puisse récupérer ce genre d’aides ainsi et les nombreuses autres disponibles.
+
+## Le dispositif fiscal Denormandie {#denormandie}
+Le dispositif d’incitation fiscale dit « Denormandie » vise les opérations réalisées entre le 1er janvier 2019 et le 31 décembre 2023, en incitant les investisseurs à acheter des logements anciens et à réaliser des travaux  pour améliorer la performance énergétique des ces logements de manière significatif. Ce dispositif comprend les mêmes avantages que le dispositif Pinel mais étendus aux investissements locatifs dans l’ancien avec travaux.
+
+### Les avantages de ce dispositif fiscal
+Les avantages du dispositif « Denormandie » se traduisent par une réduction d’impôt, plafonnée à un investissement maximal de 300 000€ et calculée selon la durée de mise en location du logement.
+Cette réduction d’impôt varie de 12 à 21% selon si il est loué entre 6 et 12 ans.
+Selon la durée de location, vous pourriez bénéficier des réductions suivantes :
+* Pour 6 ans de location : Une réduction d’impôt de 12% du prix du bien.
+* Pour 9 ans de location : Une réduction d’impôt de 18% du prix du bien.
+* Pour 12 ans de location : Une réduction d’impôt de 21% du prix du bien.
 
 ## Y-a-t-il des changements entre 2023 et 2022 au niveau des aides ? {#changements-2023}
 
