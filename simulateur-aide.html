@@ -177,6 +177,19 @@ Parmi les aides pour <strong>isoler vos murs par l’extérieur</strong> il y a 
   </p>
 </section>
 
+<script>
+  // Sélection de l'élément à faire défiler
+  const el = document.querySelector('#simulateur');
+
+  // Options de défilement : aligner en haut, défilement en douceur
+  const scrollOptions = {
+    behavior: 'smooth',
+    block: 'start'
+  };
+
+  // Faire défiler l'élément jusqu'à ce qu'il soit visible à l'écran en utilisant les options spécifiées
+  el.scrollIntoView(scrollOptions);
+</script>
 <script src="/assets/js/simulateur.js"></script>
 
 
