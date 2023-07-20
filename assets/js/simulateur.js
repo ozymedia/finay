@@ -391,9 +391,9 @@ const aidesTravaux = {
     "rose":7
   },
   "pompe a chaleur air/eau": {
-    "bleu":4000,
-    "jaune":3000,
-    "violet":2000,
+    "bleu":5000,
+    "jaune":4000,
+    "violet":3000,
     "rose":0
   },
   "pompe a chaleur air/air": {
@@ -410,7 +410,7 @@ const aidesTravaux = {
     "rose":0
   },
   "poele a bois":{
-    "bleu":4000,
+    "bleu":2500,
     "jaune":2000,
     "violet":1000,
     "rose":0
@@ -446,33 +446,28 @@ const aidesTravaux = {
 
 const cee = {
   "isolation des murs par l'extérieur":{
-    //toutes couleurs : 8
-    "bleu":10,
-    "jaune":10,
-    "violet":10,
-    "rose":10
+    "bleu":8,
+    "jaune":8,
+    "violet":8,
+    "rose":8
   },
   "isolation des murs par l'intérieur":{
-    //toutes couleurs : 8
-    "bleu":10,
-    "jaune":10,
-    "violet":10,
-    "rose":10
+    "bleu":8,
+    "jaune":8,
+    "violet":8,
+    "rose":8
   },
   "isolation des combles perdues par le sol":{
-    //toutes couleurs : 8
-    "bleu":10,
-    "jaune":10,
-    "violet":10,
-    "rose":10
+    "bleu":8,
+    "jaune":8,
+    "violet":8,
+    "rose":8
   },
   "isolation des rampants de toiture":{
-    //toutes couleurs : 8
-    //test
-    "bleu":10,
-    "jaune":10,
-    "violet":10,
-    "rose":10
+    "bleu":8,
+    "jaune":8,
+    "violet":8,
+    "rose":8
   },
   "pompe a chaleur air/eau":{
     "bleu":4000,
@@ -598,18 +593,13 @@ function simulate() {
         //alert(`Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`);
         //alert(`Vous avez droit à ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br> XX€/m<sup>2</sup> avec la prime CEE<br>Le total des primes est de XX€/m<sup>2</sup>`);
         document.querySelector(".step.step3").querySelector("#results").querySelector("#color").innerHTML = `Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`;
-        if (travauxSelect.includes('isolation') && travauxSelect !== "isolation des murs par l'extérieur") {
+        if (travauxSelect.includes('isolation')) {
           document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `<span style="text-decoration:underline;">Vous avez droit à</span> :<br>- ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br>- ${ceeAides}€/m<sup>2</sup> avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€/m<sup>2</sup></span>`;
-        }
-        else if (travauxSelect === "isolation des murs par l'extérieur") {
-          //debugger;
-          document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `Mais vous bénéficiez de ${ceeAides}€/m<sup>2</sup> avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€/m<sup>2</sup></span><br><br><a href="/quelles-aides-isolation-exterieure-2023">Voir les aides supplémentaires pour vos travaux d'isolation</a>`;
         }
         else {
           document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `<span style="text-decoration:underline;">Vous avez droit à</span> :<br>- ${aides}€ pour vos travaux<br>- ${ceeAides}€ supplémentaires avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€ </span>`;
         }
       }
-      
 
     //document.querySelector('#scroll-to').scrollIntoView({
     //  behavior: 'smooth'
