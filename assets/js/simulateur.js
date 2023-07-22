@@ -630,8 +630,12 @@ radioButtons.forEach(element=>{
   });
 })
 
-let invisible = document.querySelector(".step.step3");
-if(invisible.classList.value === "step step3"){
-}
-else {
-}
+
+document.addEventListener("visibilitychange", () => {
+  let xxx = document.querySelector(".step.step3");
+  if (xxx === "visible") {
+    alert("xxx");
+  } else {
+    alert("yyy");
+  }
+});
