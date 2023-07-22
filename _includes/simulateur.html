@@ -1,4 +1,4 @@
-<form id="stepByStepForm" class="form">
+<div id="stepByStepForm" class="form">
   <h2 class="simulateur-titre">Simulateur d'aides</h2>
    <ul class="progress-bar">
       <li class="progress-bar__dot full">1</li>
@@ -73,6 +73,7 @@
 
    <div class="step step3 hidden">
     <h2>Vos coordonnées</h2>
+    {% include form_ajax.html %}
    </div>
 
    <div class="step step4 hidden">
@@ -104,4 +105,4 @@
       </button>
    </div>
 
-</form>
+  </div>

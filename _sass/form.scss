@@ -68,6 +68,20 @@
     //border: none !important;
     //border-color: transparent;
 }
+#form-ajax {
+  label {}
+  input { padding: 5px; }
+  input::placeholder {color: black;}
+  .long {
+  }
+  .checkbox {
+    label { 
+      display: flex;
+      input { width: auto;}
+    }
+  }
+}
+
 #popupbg {
   //background-color: red;
 }
