@@ -571,6 +571,22 @@ function simulate() {
     let totalAides = aides + ceeAides;
     console.log(localite);
     console.log(color);
+    sessionStorage.setItem('travauxSelect', travauxSelect);
+    sessionStorage.setItem('aides', aides);
+    sessionStorage.setItem('ceeAides', ceeAides);
+    sessionStorage.setItem('totalAides', totalAides);
+    sessionStorage.setItem('zipcode', zipcode);
+    sessionStorage.setItem('residence',residence);
+    let resultSimulation = {
+      'travaux':travauxSelect,
+      'aides': aides,
+      'ceeAides':ceeAides,
+      'totalAides':totalAides,
+      'zipcode':zipcode,
+      'residence':residence
+    };
+    sessionStorage.setItem('resultSimulation', JSON.stringify(resultSimulation));
+
 
       if (residence === 'no') {
         //debugger;
@@ -631,11 +647,4 @@ radioButtons.forEach(element=>{
 })
 
 
-document.addEventListener("visibilitychange", () => {
-  let xxx = document.querySelector(".step.step3");
-  if (xxx === "visible") {
-    alert("xxx");
-  } else {
-    alert("yyy");
-  }
-});
+sessionStorage.setItem('test', 1);
