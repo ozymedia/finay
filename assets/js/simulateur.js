@@ -629,3 +629,9 @@ radioButtons.forEach(element=>{
     event.currentTarget.classList.add("checked");
   });
 })
+
+let invisible = document.querySelector(".step.step3");
+if(invisible.classList.value === "step step3"){
+}
+else {
+}
