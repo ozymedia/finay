@@ -5,7 +5,7 @@ const nextButton = document.getElementById("next")
 const submitButton = document.getElementById('validate')
 const form = document.getElementById('stepByStepForm')
 const dots = document.getElementsByClassName('progress-bar__dot')
-const numberOfSteps = 4
+const numberOfSteps = 3
 let currentStep = 1
 
 for(let i = 0 ; i < dots.length ; ++i){
@@ -60,6 +60,7 @@ function goToStep(stepNumber){
       enable(previousButton)
       disable(nextButton)
       show(submitButton)
+      //document.querySelector(".button-group").querySelector("#next").style.visibility = "hidden";
    }
 
    //else if first step
@@ -68,6 +69,7 @@ function goToStep(stepNumber){
       enable(next)
       hide(submitButton)
    }
+  
 
    else {
       enable(previousButton)
@@ -526,12 +528,16 @@ Array.from(document.querySelector(".button-group").querySelectorAll(".button")).
     //alert(currentStep);
     if (currentStep > 1) {
       btnFinal.classList.add("final");
+      //simulate();
+    }
+    else if (currentStep > 2) {
       simulate();
     }
   });
 });
 
 function simulate() {
+  debugger;
   document.getElementById("stepByStepForm").querySelector(".button.final").addEventListener('click', (event) => {
   event.preventDefault();
   // do something on submit of a form
@@ -586,18 +592,18 @@ function simulate() {
       'residence':residence
     };
     sessionStorage.setItem('resultSimulation', JSON.stringify(resultSimulation));
-
+    debugger;
 
       if (residence === 'no') {
         //debugger;
         totalAides = ceeAides + 0;
-        document.querySelector(".step.step4").querySelector("#results").querySelector("#color").innerHTML = "Vous n'êtes pas éligible à MaPrimeRénov'";
-        document.querySelector(".step.step4").querySelector("#results").querySelector("#aides").innerText = "";
+        document.querySelector(".step.step3").querySelector("#results").querySelector("#color").innerHTML = "Vous n'êtes pas éligible à MaPrimeRénov'";
+        document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerText = "";
         if (travauxSelect.includes('isolation')) {
-          document.querySelector(".step.step4").querySelector("#results").querySelector("#aides").innerHTML = `Mais vous bénéficiez de ${ceeAides}€/m<sup>2</sup> avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€/m<sup>2</sup></span>`;
+          document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `Mais vous bénéficiez de ${ceeAides}€/m<sup>2</sup> avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€/m<sup>2</sup></span>`;
         }
         else {
-          document.querySelector(".step.step4").querySelector("#results").querySelector("#aides").innerHTML = `Mais vous bénéficiez de ${ceeAides}€ avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€</span>`;
+          document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `Mais vous bénéficiez de ${ceeAides}€ avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€</span>`;
         }
 
         pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-neutre.png`;
@@ -608,12 +614,12 @@ function simulate() {
         color = color.replace(/^\w/, (c) => c.toUpperCase());
         //alert(`Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`);
         //alert(`Vous avez droit à ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br> XX€/m<sup>2</sup> avec la prime CEE<br>Le total des primes est de XX€/m<sup>2</sup>`);
-        document.querySelector(".step.step4").querySelector("#results").querySelector("#color").innerHTML = `Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`;
+        document.querySelector(".step.step3").querySelector("#results").querySelector("#color").innerHTML = `Vous êtes éligible à <span class=${color}>MaPrimeRénov ${color}</span>`;
         if (travauxSelect.includes('isolation')) {
-          document.querySelector(".step.step4").querySelector("#results").querySelector("#aides").innerHTML = `<span style="text-decoration:underline;">Vous avez droit à</span> :<br>- ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br>- ${ceeAides}€/m<sup>2</sup> avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€/m<sup>2</sup></span>`;
+          document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `<span style="text-decoration:underline;">Vous avez droit à</span> :<br>- ${aides}€/m<sup>2</sup> avec MaPrimeRénov'<br>- ${ceeAides}€/m<sup>2</sup> avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€/m<sup>2</sup></span>`;
         }
         else {
-          document.querySelector(".step.step4").querySelector("#results").querySelector("#aides").innerHTML = `<span style="text-decoration:underline;">Vous avez droit à</span> :<br>- ${aides}€ pour vos travaux<br>- ${ceeAides}€ supplémentaires avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€ </span>`;
+          document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `<span style="text-decoration:underline;">Vous avez droit à</span> :<br>- ${aides}€ pour vos travaux<br>- ${ceeAides}€ supplémentaires avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€ </span>`;
         }
       }
 
