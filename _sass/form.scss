@@ -244,6 +244,15 @@
     margin-bottom: 1em;
   }
 }
+.form-result {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  input::placeholder {color: black;}
+  .long {
+    display: flex;
+  }
+}
 
 @media all and (max-width: 480px) {
   #simulateur {
