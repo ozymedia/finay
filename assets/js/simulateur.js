@@ -610,7 +610,8 @@ function simulate() {
           document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `<span style="text-decoration:underline;">Vous avez droit à</span> :<br>- ${aides}€ pour vos travaux<br>- ${ceeAides}€ supplémentaires avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€ </span>`;
         }
       }
-      */
+    */
+
     //document.querySelector('#scroll-to').scrollIntoView({
     //  behavior: 'smooth'
     //});
