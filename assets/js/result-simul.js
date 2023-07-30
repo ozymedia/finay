@@ -1,5 +1,6 @@
 console.log("result");
 let resultat  = JSON.parse(sessionStorage.resultSimulation);
+document.querySelector("#color").innerHTML = `<p>${resultat.color}</p>`;
 //document.querySelector("#elligibilite").querySelector(".primaire").innerHTML = "Vous n'êtes pas éligible à MaPrimeRénov'";
 
 if (resultat.residence === 'no') {

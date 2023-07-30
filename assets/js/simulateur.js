@@ -572,13 +572,28 @@ function simulate() {
     console.log(localite);
     console.log(color);
 
+    if(sessionStorage.resultSimulation !== ""){
+      let dataToDelete  = JSON.parse(sessionStorage.resultSimulation);
+      delete dataToDelete.travaux;
+      delete dataToDelete.aides;
+      delete dataToDelete.ceeAides;
+      delete dataToDelete.totalAides;
+      delete dataToDelete.zipcode;
+      delete dataToDelete.residence;
+      delete dataToDelete.color;
+    }
+    else {
+      //
+    }
+
     let resultSimulation = {
       'travaux':travauxSelect,
       'aides': aides,
       'ceeAides':ceeAides,
       'totalAides':totalAides,
       'zipcode':zipcode,
-      'residence':residence
+      'residence':residence,
+      'color': color
     };
     sessionStorage.setItem('resultSimulation', JSON.stringify(resultSimulation));
     /*
