@@ -69,8 +69,9 @@
    </div>
 
    <div class="step step3 hidden">
+    <h2>Vos coordonnées</h2>
     <div id="results" class="inside form-result">
-      <h2>Vos coordonnées</h2>
+      
       <form id="" name="contact" action="/resultat" method="POST" netlify-honeypot="bot-field" data-netlify="true">
         <div class="long">
           <p><label><input type="text" name="lastname" required="true" placeholder="Nom*" /></label></p>
@@ -79,6 +80,12 @@
         <div class="long">
           <p><label><input type="email" name="email" required="true" placeholder="Email*" /></label></p>
           <p><label><input type="tel" name="tel" required="true" placeholder="Tel*"></label></p>
+        </div>
+        <div class="checkbox">
+          <label for="">
+            <input type="checkbox" name="RGPD" value="J'accepte que mes données soient transmises dans le cadre de ma demande" required="true">
+            J'accepte que mes données soient transmises dans le cadre de ma demande*
+          </label>
         </div>
         <div id="button">
           <button type="submit" class="btn">Envoyer</button>
