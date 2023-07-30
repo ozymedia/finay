@@ -573,6 +573,9 @@ function simulate() {
     console.log(color);
 
     if(sessionStorage.resultSimulation !== ""){
+      sessionStorage.resultSimulation = "";
+      delete sessionStorage.resultSimulation;
+      /*
       let dataToDelete  = JSON.parse(sessionStorage.resultSimulation);
       delete dataToDelete.travaux;
       delete dataToDelete.aides;
@@ -581,11 +584,12 @@ function simulate() {
       delete dataToDelete.zipcode;
       delete dataToDelete.residence;
       delete dataToDelete.color;
+      */
     }
     else {
       //
     }
-
+    debugger;
     let resultSimulation = {
       'travaux':travauxSelect,
       'aides': aides,
