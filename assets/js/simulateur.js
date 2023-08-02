@@ -572,6 +572,35 @@ function simulate() {
     console.log(localite);
     console.log(color);
 
+    if(sessionStorage.resultSimulation !== ""){
+      sessionStorage.resultSimulation = "";
+      delete sessionStorage.resultSimulation;
+      /*
+      let dataToDelete  = JSON.parse(sessionStorage.resultSimulation);
+      delete dataToDelete.travaux;
+      delete dataToDelete.aides;
+      delete dataToDelete.ceeAides;
+      delete dataToDelete.totalAides;
+      delete dataToDelete.zipcode;
+      delete dataToDelete.residence;
+      delete dataToDelete.color;
+      */
+    }
+    else {
+      //
+    }
+    debugger;
+    let resultSimulation = {
+      'travaux':travauxSelect,
+      'aides': aides,
+      'ceeAides':ceeAides,
+      'totalAides':totalAides,
+      'zipcode':zipcode,
+      'residence':residence,
+      'color': color
+    };
+    sessionStorage.setItem('resultSimulation', JSON.stringify(resultSimulation));
+    /*
       if (residence === 'no') {
         //debugger;
         totalAides = ceeAides + 0;
@@ -600,6 +629,7 @@ function simulate() {
           document.querySelector(".step.step3").querySelector("#results").querySelector("#aides").innerHTML = `<span style="text-decoration:underline;">Vous avez droit à</span> :<br>- ${aides}€ pour vos travaux<br>- ${ceeAides}€ supplémentaires avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€ </span>`;
         }
       }
+    */
 
     //document.querySelector('#scroll-to').scrollIntoView({
     //  behavior: 'smooth'

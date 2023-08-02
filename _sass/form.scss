@@ -244,6 +244,27 @@
     margin-bottom: 1em;
   }
 }
+.form-result {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  label {}
+  input::placeholder, label {color: grey !important;}
+  .long {
+    display: flex;
+    justify-content: space-between;
+    input { width: 98% !important;}
+  }
+  .checkbox {
+    label { 
+      display: flex;
+      input {width: auto;}
+    }
+  }
+}
+#resultat-page {
+  text-align: center;
+}
 
 @media all and (max-width: 480px) {
   #simulateur {
@@ -257,7 +278,15 @@
     .faq { width: 100%; margin-top: 1em; }
   }
   #results {
-    flex-direction: column-reverse;
+    flex-direction: column !important;
+  }
+  .form-result {
+    .long {
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: column;
+      input { width: 100% !important;}
+    }
   }
 }
 
@@ -273,6 +302,14 @@
   .faq { width: 100%; margin-top: 1em; }
 }
 #results {
-  flex-direction: column-reverse;
+  flex-direction: column !important;
+}
+.form-result {
+  .long {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    input { width: 100% !important;}
+  }
 }
 }

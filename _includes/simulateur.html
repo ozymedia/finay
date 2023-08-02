@@ -1,4 +1,4 @@
-<form id="stepByStepForm" class="form">
+<div id="stepByStepForm" class="form">
   <h2 class="simulateur-titre">Simulateur d'aides</h2>
    <ul class="progress-bar">
       <li class="progress-bar__dot full">1</li>
@@ -69,19 +69,38 @@
    </div>
 
    <div class="step step3 hidden">
-    <div id="results" class="inside">
+    <h2>Vos coordonnées</h2>
+    <div id="results" class="inside form-result">
+      
+      <form id="" name="simulateur-form" action="/resultat" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+        <div class="long">
+          <p><label><input type="text" name="lastname" required="true" placeholder="Nom*" /></label></p>
+          <p><label><input type="text" name="firstname" required="true" placeholder="Prénom*" /></label></p>
+        </div>
+        <div class="long">
+          <p><label><input type="email" name="email" required="true" placeholder="Email*" /></label></p>
+          <p><label><input type="tel" name="tel" required="true" placeholder="Tel*"></label></p>
+        </div>
+        <div class="checkbox">
+          <label for="">
+            <input type="checkbox" name="RGPD" value="J'accepte que mes données soient transmises dans le cadre de ma demande" required="true">
+            J'accepte que mes données soient transmises dans le cadre de ma demande*
+          </label>
+        </div>
+        <div id="button">
+          <button type="submit" class="btn">Envoyer</button>
+        </div>
+      </form>
       <div class="">
         <div class="presentation">
-          <img src="/assets/images/icones/finay-logo.png" alt="" class="" width="150">
-          <p>Finay, spécialisée dans l'isolation et la performance énergétique vous accompagne dans vos démarches pour bénéficier des aides de l'Etat dans la rénovation de votre logement.</p>
+          
         </div>
         <br>
         <div>
-          <a href="/contact/" class="btn">Contacter Finay</a>
+          
         </div>
       </div>
       <div id="prime-color">
-        <img src="../assets/images/icones/pictos-entreprise/prime-neutre.png" width="150">
         <p id="color"></p>
         <p id="aides"></p>
       </div>
@@ -97,4 +116,4 @@
       </button>
    </div>
 
-</form>
+  </div>
