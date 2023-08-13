@@ -32,6 +32,6 @@ if (resultat.residence === 'no') {
       document.querySelector("#elligibilite").querySelector(".secondaire").innerHTML = `<span style="text-decoration:underline;">Vous pouvez bénéficier des aides suivantes</span> :<br><ul><li>${resultat.aides}€/m<sup>2</sup> avec MaPrimeRénov'</li><li>${resultat.ceeAides}€/m<sup>2</sup> avec la prime CEE</li></ul><br><br><span class="total-aides">Le total de vos primes s'élève pour le moment à ${totalAides}€/m<sup>2</sup></span>`;
     }
     else {
-      document.querySelector("#elligibilite").querySelector(".secondaire").innerHTML = `<span style="text-decoration:underline;">pouvez bénéficier des aides suivantes</span> :<br><ul></li>${resultat.aides}€ pour vos travaux</li><li>${resultat.ceeAides}€ supplémentaires avec la prime CEE</li></ul><br><span class="total-aides">Le total de vos primes s'élève pour le moment à ${totalAides}€ </span>`;
+      document.querySelector("#elligibilite").querySelector(".secondaire").innerHTML = `<span style="text-decoration:underline;">Vous pouvez bénéficier des aides suivantes</span> :<br><ul><li>${resultat.aides}€ pour vos travaux</li><li>${resultat.ceeAides}€ supplémentaires avec la prime CEE</li></ul><br><br><span class="total-aides">Le total de vos primes s'élève pour le moment à ${totalAides}€ </span>`;
     }
   }
