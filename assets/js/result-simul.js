@@ -29,9 +29,9 @@ if (resultat.residence === 'no') {
     document.querySelector("#color").querySelector(".primaire").innerHTML = `Vous êtes éligible à <span class="">MaPrimeRénov ${color}</span>`;
     pictoPrime.src = `${window.location.origin}/assets/images/icones/pictos-entreprise/prime-renov-${color}.png`;
     if (resultat.travaux.includes('isolation')) {
-      document.querySelector("#elligibilite").querySelector(".secondaire").innerHTML = `<span style="text-decoration:underline;">Vous pouvez bénéficier des aides suivantes</span> :<br><ul><li>${resultat.aides}€/m<sup>2</sup> avec MaPrimeRénov'</li><li>${resultat.ceeAides}€/m<sup>2</sup> avec la prime CEE</ul><br><br><span class="total-aides">Le total de vos primes s'élève pour le moment à ${totalAides}€/m<sup>2</sup></span>`;
+      document.querySelector("#elligibilite").querySelector(".secondaire").innerHTML = `<span style="text-decoration:underline;">Vous pouvez bénéficier des aides suivantes</span> :<br><ul><li>${resultat.aides}€/m<sup>2</sup> avec MaPrimeRénov'</li><li>${resultat.ceeAides}€/m<sup>2</sup> avec la prime CEE</li></ul><br><br><span class="total-aides">Le total de vos primes s'élève pour le moment à ${totalAides}€/m<sup>2</sup></span>`;
     }
     else {
-      document.querySelector("#elligibilite").querySelector(".secondaire").innerHTML = `<span style="text-decoration:underline;">Vous avez droit à</span> :<br>- ${resultat.aides}€ pour vos travaux<br>- ${resultat.ceeAides}€ supplémentaires avec la prime CEE<br><span class="total-aides">Le total des primes est de ${totalAides}€ </span>`;
+      document.querySelector("#elligibilite").querySelector(".secondaire").innerHTML = `<span style="text-decoration:underline;">pouvez bénéficier des aides suivantes</span> :<br><ul></li>${resultat.aides}€ pour vos travaux</li><li>${resultat.ceeAides}€ supplémentaires avec la prime CEE</li></ul><br><span class="total-aides">Le total de vos primes s'élève pour le moment à ${totalAides}€ </span>`;
     }
   }
