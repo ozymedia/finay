@@ -188,7 +188,7 @@
    }
 }
 #prime-color {
-  #color { text-align: left; }
+  #color { text-align: left;}
   #aides {
     line-height: 1.5;
     text-align: left;
@@ -198,6 +198,22 @@
   color: $blue;
   font-weight: bold;
   font-size: 1.2em;
+}
+#color {
+  .primaire {text-align: center; font-weight: bold; font-size: 1.2em; margin-bottom: 2em;}
+}
+#elligibilite {
+  text-align: left;
+  ul {
+    list-style-position: inside;
+  }
+}
+#text-simul-result {
+  text-align: left;
+  line-height: 1.8em;
+}
+#result-page {
+  margin-top: 3em;
 }
 
 .hidden-result {
