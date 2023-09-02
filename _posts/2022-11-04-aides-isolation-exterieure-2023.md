@@ -6,7 +6,7 @@ categories: jekyll update
 permalink: /quelles-aides-isolation-exterieure-2023
 ---
 
-Afin d’améliorer le confort thermique et de réduire les factures énergétiques de son logement, l’**isolation des murs extérieurs** s’avère être un choix judicieux pour améliorer les performances énergétiques de son habitation. Responsable de 20 à 25% des pertes en chaleur, l’isolation des murs extérieurs est avec le fait d'isoler ses combles ou la toiture de sa maison, est sans doute l’un des chantiers prioritaires pour faire des économies considérables sur ses futures factures énergétiques, que ce soit pour se chauffer ou rester au frais durant lors des périodes chaudes.
+Afin d’améliorer le confort thermique et de réduire les factures énergétiques de son logement, l’**isolation des murs extérieurs** ou ITE, s’avère être un choix judicieux pour améliorer les performances énergétiques de son habitation. Responsable de 20 à 25% des pertes en chaleur, l’isolation des murs extérieurs est avec le fait d'isoler ses combles ou la toiture de sa maison, est sans doute l’un des chantiers prioritaires pour faire des économies considérables sur ses futures factures énergétiques, que ce soit pour se chauffer ou rester au frais durant lors des périodes chaudes.
 Des **travaux d’isolation des murs par l’extérieur bénéficient de nombreuses aides financières** mises en place par l’Etat en fonction des revenus des ménages afin d’alléger au maximum le coût des travaux. Ces **aides pour l’isolation extérieure en 2023** reprennent quasiment l’ensemble de celles de 2022 avec pourtant quelques évolutions entre temps.
 
 <div class="sommaire-blog">
@@ -43,7 +43,7 @@ Vous trouverez ci-joint les tableaux vous indiquant à quelle catégorie vous co
 {% include aides_paris.html %}
 
 ### Quelles sont les conditions de MaPrimeRénov’ pour l’isolation extérieure ?
-Afin de bénéficier de cette aide, il faut que les travaux soit réalisés par une entreprise ou artisan certifié RGE et de respecter selon le cas les conditions suivantes : 
+Afin de bénéficier de cette aide, il faut que les travaux soit réalisés par un professionnel, une entreprise ou un artisan certifié RGE et de respecter selon le cas les conditions suivantes : 
 #### Pour un propriétaire occupant :
 * Le logement pour lequel on fait la demande doit avoir au moins 15 ans.
 * La durée minimale d’occupation du logement est d’au moins 8 mois.
