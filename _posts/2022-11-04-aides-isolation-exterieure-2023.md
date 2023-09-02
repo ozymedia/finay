@@ -6,7 +6,7 @@ categories: jekyll update
 permalink: /quelles-aides-isolation-exterieure-2023
 ---
 
-Afin d’améliorer le confort thermique et de réduire les factures énergétiques de son logement, l’**isolation des murs extérieurs** s’avère être un choix judicieux pour améliorer les performances énergétiques de son habitation. Responsable de 20 à 25% des pertes en chaleur, l’isolation des murs extérieurs est sans doute l’un des chantiers prioritaires pour faire des économies considérables sur ses futures factures énergétiques, que ce soit pour se chauffer ou rester au frais durant lors des périodes chaudes.
+Afin d’améliorer le confort thermique et de réduire les factures énergétiques de son logement, l’**isolation des murs extérieurs** s’avère être un choix judicieux pour améliorer les performances énergétiques de son habitation. Responsable de 20 à 25% des pertes en chaleur, l’isolation des murs extérieurs est avec le fait d'isoler ses combles ou la toiture de sa maison, est sans doute l’un des chantiers prioritaires pour faire des économies considérables sur ses futures factures énergétiques, que ce soit pour se chauffer ou rester au frais durant lors des périodes chaudes.
 Des **travaux d’isolation des murs par l’extérieur bénéficient de nombreuses aides** mises en place par l’Etat en fonction des revenus des ménages afin d’alléger au maximum le coût des travaux. Ces **aides pour l’isolation extérieure en 2023** reprennent quasiment l’ensemble de celles de 2022 avec pourtant quelques évolutions entre temps.
 
 <div class="sommaire-blog">
@@ -26,7 +26,7 @@ Des **travaux d’isolation des murs par l’extérieur bénéficient de nombreu
 </div>
 
 ## MaPrimeRenov’ {#ma-prime-renov}
-Aide de l’Etat la plus connue et dont l’obtention permet de débloquer bon nombre d’autres aides, MaPrimeRenov’ permet selon le revenu fiscal de référence du propriétaire de bénéficier d’un aide par m2 de l’isolation de ses murs.
+Dispositif financier qui remplace l'ancien crédit d'impôt pour la transition énergétique (CITE), est sans doute l'aide de l’Etat la plus connue et dont l’obtention permet de débloquer bon nombre d’autres aides, MaPrimeRenov’ permet selon le revenu fiscal de référence du propriétaire de bénéficier d’un aide par m2 de l’isolation de ses murs.
 * 75€/m2 pour les ménages aux ressources très modestes (Bleu)
 * 60€/m2 pour les ménages aux ressources modestes (Jaune)
 * 40€/m2 pour les ménages ressources intermédiaires (Violet)
