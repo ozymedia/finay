@@ -28,13 +28,13 @@ La Foire Européene se situe à l'avenue Herrenschmidt, 67000 Strasbourg, dans l
 * Sortie Wacken
 
 ### Parkings visiteurs 
-Parking Rue du Wacken (payant)
-Parking Coubertin (payant)
-Parking Relais-Tram Rives de L’Aar (payant – prix CTS)
-Parking Parc des Expositions, rue Fritz Kieffer (gratuit)
+* Parking Rue du Wacken (payant)
+* Parking Coubertin (payant)
+* Parking Relais-Tram Rives de L’Aar (payant – prix CTS)
+* Parking Parc des Expositions, rue Fritz Kieffer (gratuit)
 
 ### Parkings Relais-Tram
-Retrouvez la liste des parkings sur le site de la CTS
-Pour connaître la disponibilité en temps réel des parkings strasbourgeois, consultez Strasmap
+Retrouvez la liste des parkings sur le site de la CTS.
+Pour connaître la disponibilité en temps réel des parkings strasbourgeois, consultez Strasmap.
 
 En savoir plus : [infos sur la foire européenne](https://www.foireurop.com/)
