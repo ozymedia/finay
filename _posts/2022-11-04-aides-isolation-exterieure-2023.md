@@ -139,7 +139,9 @@ Voici les divers changements pour 2023 :
 * Pour MaPrimeRénov’ Sérénité, le plafond passe de 30 000€ à 35 000€ pour les travaux permettant un gain énergétique de 35%.
 * Le forfait CEE passe de 4000 à 5000€ pour les ménages modestes et très modestes.
 Il passe de 2500 à 4000€ pour les autres ménages.
-* A partir de septembre 2023, un accompagnateur Rénov’ sera obligatoire.
+* A partir de septembre 2023, un accompagnateur Rénov’ sera obligatoire pour toute demande de prime concernant des travaux de rénovation énergétique globale dépassant 5000€ TTC.
+* A partir du 1er octobre 2023, le plafond de financement de MaPrimeRénov' Sérénité octrocoyée par l'Anah permet de financer pour les ménages très modestes(en bleu) jusqu'à 65% des travaux contre 50% actuellement. Le montant de l'aide maximum en euros, passe donc 15 000€ à +15%
+Pour les ménages modestes(en jaune), le plafond passe de 35% à 50% du montant des travaux. Le plafond de l'aide maximum passe pour cette catégorie de ménage de 10 500€ à +15%.
 
 
 
