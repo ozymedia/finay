@@ -129,7 +129,7 @@ Selon la durée de location, vous pourriez bénéficier des réductions suivante
 * Pour 9 ans de location : Une réduction d’impôt de 18% du prix du bien.
 * Pour 12 ans de location : Une réduction d’impôt de 21% du prix du bien.
 
-## Y-a-t-il des changements entre 2023 et 2022 au niveau des aides ? {#changements-2023}
+## Les derniers changements entre 2023 et 2022 au niveau des aides {#changements-2023}
 
 Face à la lenteur du nombre de logements rénovés et à la complexité que peuvent rencontrer certains ménages, le gouvernement a mis en place des changements pour cette année. 
 Voici les divers changements pour 2023 : 
