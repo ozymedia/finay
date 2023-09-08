@@ -86,13 +86,13 @@ MaPrimeRénov’ Sérénité finance les bouquets de travaux, bouquets pouvant c
 Cette aide est réservée aux résidences principales achevées depuis plus de 15 ans. 
 Pour bénéficier de cette aide, il faudra également occuper le logement au moins trois ans après la fin des travaux et ne pas avoir bénéficier d’un prêt à taux zéro dans les 5 dernières années.
 
-Cette aide est proportionnelle aux montants des travaux et ne peut dépasser 30 000€ HT.
+Cette aide est proportionnelle aux montants des travaux et ne peut dépasser 35 000€ HT.
 
 Pour les ménages aux ressources très modestes(bleu) : 50% du montant total des travaux hors taxes sont finançables, sans pouvoir excéder 15 000€.
 
 Pour les ménages aux ressources modestes(jaune) : 35% du montant total des travaux hors taxes sont finançabes dans une limite de 10 500€.
 
-A noter qu’il est maintenant possible de cumuler cette aide peut être complétée des CEE et d’autres bonus tel que le forfait rénovation globale, le bonus sortie de passoire énergétique,...
+A noter qu’il est maintenant possible de cumuler cette aide avec d'autres comme les CEE et d’autres bonus tel que le forfait rénovation globale, le bonus sortie de passoire énergétique,...
 
 ## Eco-PTZ {#eco-ptz}
 
