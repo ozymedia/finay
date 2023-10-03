@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Quelles sont les aides pour l’isolation extérieure en 2023 ?"
+description: "Pour vous aider dans vos travaux d'isolation extérieure, de nombreuses aides et dispositifs existent. Petit tour de l'ensemble des aides."
 date:   2022-11-04 13:30:00 +0100
 categories: jekyll update
 permalink: /quelles-aides-isolation-exterieure-2023
