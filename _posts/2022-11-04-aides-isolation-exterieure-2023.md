@@ -22,6 +22,7 @@ Des **travaux d’isolation des murs par l’extérieur bénéficient de nombreu
 <li><a href="#autres-aides">Autres aides de l'Etat</a></li>
 <li><a href="#aides-locales">Les aides locales</a></li>
 <li><a href="#denormandie">Le dispositif fiscal Denormandie</a></li>
+<li><a href="#deficit-foncier">Baisser ses impôts avec le déficit foncier</a></li>
 <li><a href="#changements-2023">Les changements entre 2022 et 2023</a></li>
 </ul>
 </div>
@@ -130,6 +131,9 @@ Selon la durée de location, vous pourriez bénéficier des réductions suivante
 * Pour 9 ans de location : Une réduction d’impôt de 18% du prix du bien.
 * Pour 12 ans de location : Une réduction d’impôt de 21% du prix du bien.
 
+## Réduction des impôts en réalisant du déficit foncier {#deficit-foncier}
+Depuis avril 2023, il est possible de doubler son déficit foncier en réalisant des travaux entre 2023 et 2025 qui permettent d'améliorer les très mauvaises notes de son DPE pour atteindre une note minimale de D pour les logements mis en location nue. En réalisant des travaux tel que l'isolation extérieure ou des combles du logement mis en location, il est possible de déduire ce type de travaux de son revenu global et de générer un déficit foncier venant alléger ses impôts. La particularité de ce dispositif est qu'il permet d'ajouter 10 700€ de frais supplémentaires pouvant être déduit de son revenu global. Le plafond du déficit foncier est donc porté dans ce cadre à 21 400€. Les propriétaires bailleurs peuvent ainsi espérer un allègement de leurs impôts de 1000€ à 5000€ en fonction de leur taux d'imposition.
+
 ## Les derniers changements entre 2023 et 2022 au niveau des aides {#changements-2023}
 
 Face à la lenteur du nombre de logements rénovés et à la complexité que peuvent rencontrer certains ménages, le gouvernement a mis en place des changements pour cette année. 
@@ -140,6 +144,7 @@ Voici les divers changements pour 2023 :
 * Pour MaPrimeRénov’ Sérénité, le plafond passe de 30 000€ à 35 000€ pour les travaux permettant un gain énergétique de 35%.
 * Le forfait CEE passe de 4000 à 5000€ pour les ménages modestes et très modestes.
 Il passe de 2500 à 4000€ pour les autres ménages.
+* Depuis avril 2023, le déficit foncier peut être doublé pour les propriétaires bailleurs effectuant des travaux de rénovation énergétique entre 2023 et 2025.
 * A partir de septembre 2023, un accompagnateur Rénov’ sera obligatoire pour toute demande de prime concernant des travaux de rénovation énergétique globale dépassant 5000€ TTC.
 * A partir du 1er octobre 2023, le plafond de financement de MaPrimeRénov' Sérénité octrocoyée par l'Anah permet de financer pour les ménages très modestes(en bleu) jusqu'à 65% des travaux contre 50% actuellement. Le montant de l'aide maximum en euros, passe donc 15 000€ à une subvention moyenne de 18 600€.
 Pour les ménages modestes(en jaune), le plafond passe de 35% à 50% du montant des travaux. Le plafond de l'aide maximum passe pour cette catégorie de ménage de 10 500€ à 14 500€ en moyenne.
