@@ -2,7 +2,7 @@
 layout: post
 title:  "Doublement du déficit foncier suite à des travaux de rénovation énergétique"
 description: "Il est maintenant possible de doubler son déficit foncier et d'alléger ses impôts suite à la réalisation de travaux énergétique pour les biens locatifs"
-date:   2023-10-03 09:30:00 +0100
+date:   2023-10-03 01:30:00 +0100
 categories: jekyll update
 permalink: /doublement-deficit-foncier-renovation-energetique
 ---
