@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Entreprise d'isolation par l'extérieure & rénovation à Haguenau et aux alentours
-titre: Entreprise d'isolation par l'extérieure & rénovation à Haguenau et aux alentours
+title: Entreprise d'isolation par l'extérieur & rénovation à Haguenau et aux alentours
+titre: Entreprise d'isolation par l'extérieur & rénovation à Haguenau et aux alentours
 permalink: /travaux-energetique-sur-haguenau
 ---
 Notre entreprise spécialisée dans l'[isolation extérieure intervient sur tout le Bas-Rhin](/isolation-extérieure/), incluant l'ensemble des communes du canton de <strong>Haguenau (67500)</strong>. 
