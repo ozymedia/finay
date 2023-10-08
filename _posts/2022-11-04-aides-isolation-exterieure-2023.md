@@ -23,7 +23,7 @@ Des **travaux d’isolation des murs par l’extérieur bénéficient de nombreu
 <li><a href="#aides-locales">Les aides locales</a></li>
 <li><a href="#denormandie">Le dispositif fiscal Denormandie</a></li>
 <li><a href="#deficit-foncier">Baisser ses impôts avec le déficit foncier</a></li>
-<li><a href="#taxe-fonciere"></a>Suppression ou réduction de la taxe foncière</li>
+<li><a href="#taxe-fonciere">Suppression ou réduction de la taxe foncière</a></li>
 <li><a href="#changements-2023">Les changements entre 2022 et 2023</a></li>
 </ul>
 </div>
