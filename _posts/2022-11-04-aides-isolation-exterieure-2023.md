@@ -23,6 +23,7 @@ Des **travaux d’isolation des murs par l’extérieur bénéficient de nombreu
 <li><a href="#aides-locales">Les aides locales</a></li>
 <li><a href="#denormandie">Le dispositif fiscal Denormandie</a></li>
 <li><a href="#deficit-foncier">Baisser ses impôts avec le déficit foncier</a></li>
+<li><a href="#taxe-fonciere"></a>Suppression ou réduction de la taxe foncière</li>
 <li><a href="#changements-2023">Les changements entre 2022 et 2023</a></li>
 </ul>
 </div>
@@ -134,6 +135,9 @@ Selon la durée de location, vous pourriez bénéficier des réductions suivante
 ## Réduction des impôts en réalisant du déficit foncier {#deficit-foncier}
 Depuis avril 2023, il est possible de doubler son déficit foncier en réalisant des travaux entre 2023 et 2025 qui permettent d'améliorer les très mauvaises notes de son DPE pour atteindre une note minimale de D pour les logements mis en location nue. En réalisant des travaux tel que l'isolation extérieure ou des combles du logement mis en location, il est possible de déduire ce type de travaux de son revenu global et de générer un déficit foncier venant alléger ses impôts. La particularité de ce dispositif est qu'il permet d'ajouter 10 700€ de frais supplémentaires pouvant être déduit de son revenu global. Le plafond du déficit foncier est donc porté dans ce cadre à 21 400€. Les propriétaires bailleurs peuvent ainsi espérer un allègement de leurs impôts de 1000€ à 5000€ en fonction de leur taux d'imposition.
 
+## Suppression ou baisse de la taxe foncière {#taxe-fonciere}
+Certains travaux de rénovation énergétique permettent dans certaines communes de payer entre 50% et 100% de sa taxe foncière. Les travaux d'isolation par l'extérieur font parti des travaux élligibles. Pour pouvoir bénéficier de cete avantage fiscal, il faut que la commune où se trouve le logement ait voté cette exonération; que les logements anciens ait été achevé avant 1989 et avant 2009 pour les logements neufs ou bien avoir été labellisés "bâtiment basse consommation énergétique, BBC 2005" pour ces derniers; les propriétaires doivent avoir déboursé au moins 10 000€ TTC hors main-d'oeuvre oiur l'année précédant la première année d'application de l'exonération ou 15 000€ au cours des 3 dernières années la précédant. Enfin, dans les deux cas, une déclaration doit être déposée au service des impôts par le propriétaire avant le 1er janvier de la première année d'application de l'exonération.
+
 ## Les derniers changements entre 2023 et 2022 au niveau des aides {#changements-2023}
 
 Face à la lenteur du nombre de logements rénovés et à la complexité que peuvent rencontrer certains ménages, le gouvernement a mis en place des changements pour cette année. 
@@ -151,6 +155,6 @@ Pour les ménages modestes(en jaune), le plafond passe de 35% à 50% du montant 
 
 
 
-Afin d’améliorer significativement la performance énergétique des bâtiments, de nouveaux plafonds de revenus, de **nouvelles et d’anciennes aides ont été modifiées en 2023** afin de faciliter le financement des travaux pour son habitation. L’isolation extérieure étant l’un des principaux chantiers pour améliorer l’efficacité énergétique et faire des économies d’énergies, les **travaux d’isolation extérieure bénéficient de nombreuses aides de l’Etat en 2023**. Mais celles-ci sont souvent conditionnés en 2023 à des bouquets de travaux pour faire des gains énergétiques significatifs.
+Afin d’améliorer significativement la performance énergétique des bâtiments, de nouveaux plafonds de revenus, de **nouvelles et d’anciennes aides ont été modifiées en 2023** afin de faciliter le financement des travaux pour son habitation. L’isolation extérieure étant l’un des principaux chantiers pour améliorer l’efficacité énergétique et faire des économies d’énergies, les **travaux d’isolation extérieure bénéficient de nombreuses aides de l’Etat en 2023**. Mais celles-ci sont souvent conditionnés à des bouquets de travaux pour faire des gains énergétiques significatifs.
 
 
