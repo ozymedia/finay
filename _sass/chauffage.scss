@@ -196,5 +196,12 @@
 }
 .flex-inline {
     display: flex;
-    img {width: 300; height: auto;}
+}
+.panneau-img {
+    min-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    img {width: 180px !important; height: auto; object-fit: contain;}
 }
