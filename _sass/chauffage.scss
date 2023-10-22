@@ -194,3 +194,16 @@
 }
 .solaire {
 }
+.flex-inline-solaire {
+    display: flex;
+    flex-wrap: nowrap;
+    img { object-fit: contain;}
+}
+.panneau-img {
+    min-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    img {width: 180px !important; height: auto; object-fit: contain;}
+}

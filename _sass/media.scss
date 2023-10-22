@@ -231,6 +231,10 @@
   .chauffage-presentation.bis {
     flex-direction: column;
   }
+  .flex-inline-solaire {
+    flex-direction: column;
+    img { width: 100%; margin: auto; padding: 0 2em;}
+  }
 }
 
 /* Medium screens - TABLET */
