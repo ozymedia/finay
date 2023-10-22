@@ -194,8 +194,10 @@
 }
 .solaire {
 }
-.flex-inline {
+.flex-inline-solaire {
     display: flex;
+    flex-wrap: nowrap;
+    img { object-fit: contain;}
 }
 .panneau-img {
     min-width: 30%;
