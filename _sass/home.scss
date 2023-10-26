@@ -52,3 +52,31 @@
     }
   }
 }
+.new-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(100px, auto);
+  height: 300px;
+  //margin: 0 4em;
+  .new-card {
+    text-decoration: none;
+    color: black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0;
+    margin: 0;
+    border-radius: 3px;
+    padding: 10px;
+    //background-image: url("/assets/images/travaux-isolation-exterieur.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &.one {background-image: url("/assets/images/travaux-isolation-exterieur.jpeg");}
+    &.two {background-image: url("/assets/images/facade-1.jpeg");}
+    &.three{background-image: url("/assets/images/travaux-chauffage.jpeg");}
+    &.four{background-image: url("/assets/images/solaire/maison-panneaux-solaires-min.jpeg");}
+    &.five{background-image: url("/assets/images/travaux-nettoyage-toiture.jpeg");}
+    li {
+    }
+  }
+}
