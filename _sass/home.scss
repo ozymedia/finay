@@ -52,3 +52,61 @@
     }
   }
 }
+.new-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  //grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(300px, auto);
+
+  //margin: 0 4em;
+  .new-card {
+    text-decoration: none;
+    color: black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0;
+    margin: 0;
+    border-radius: 3px;
+    padding: 10px;
+    //background-image: url("/assets/images/travaux-isolation-exterieur.jpeg");
+    background: linear-gradient(0deg, #000000 -19.66%, rgba(91, 91, 91, 0.582825) 53.05%, rgba(151, 151, 151, 0.302648) 82%, rgba(217, 217, 217, 0) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    &.one {background-image: url("/assets/images/travaux-isolation-exterieur.jpeg");}
+    &.two {background-image: url("/assets/images/facade-1.jpeg");}
+    &.three{background-image: url("/assets/images/chauffage/pompe-chaleur-bosch-ext.webp");}
+    &.four{background-image: url("/assets/images/solaire/maison-panneaux-solaires-min.jpeg");}
+    &.five{background-image: url("/assets/images/travaux-nettoyage-toiture.jpeg");}
+    .gradient {
+      background: linear-gradient(0.01deg, #000000 -19.89%, rgba(91, 91, 91, 0.582825) 24.1%, rgba(151, 151, 151, 0.302648) 43.25%, rgba(217, 217, 217, 0) 99.99%);
+      /* Rectangle 27 */
+      /* Rectangle 27 */
+
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 3px;
+      z-index: 1;
+    }
+    li {
+      z-index: 2;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      div {
+        height: 30%;
+        h3 {color: white; text-align: center;}
+      }
+    }
+  }
+}

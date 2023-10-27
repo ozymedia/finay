@@ -92,9 +92,13 @@
     width: 100px;
     filter: none;
   }
-  .grid {
+  .grid, .new-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .new-grid {
+    grid-gap: 10px;
+  }
+
   .inside {
     padding: 10px;
   }
@@ -175,8 +179,11 @@
     width: 100px;
     filter: none;
   }
-  .grid {
+  .grid, .new-grid {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .new-grid {
+    grid-gap: 10px;
   }
   .inside {
     padding: 10px;
