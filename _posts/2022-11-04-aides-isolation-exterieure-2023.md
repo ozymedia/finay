@@ -24,7 +24,8 @@ Des **travaux d’isolation des murs par l’extérieur bénéficient de nombreu
 <li><a href="#denormandie">Le dispositif fiscal Denormandie</a></li>
 <li><a href="#deficit-foncier">Baisser ses impôts avec le déficit foncier</a></li>
 <li><a href="#taxe-fonciere">Suppression ou réduction de la taxe foncière</a></li>
-<li><a href="#changements-2023">Les changements entre 2022 et 2023</a></li>
+<li><a href="#pah">Le prêt à l'amélioration de l'habitat</a></li>
+<li><a href="#changements">Les derniers changements au niveau des aides</a></li>
 </ul>
 </div>
 
@@ -138,7 +139,14 @@ Depuis avril 2023, il est possible de doubler son déficit foncier en réalisant
 ## Suppression ou baisse de la taxe foncière {#taxe-fonciere}
 Certains travaux de rénovation énergétique permettent dans certaines communes de payer entre 50% et 100% de sa taxe foncière. Les travaux d'isolation par l'extérieur font parti des travaux élligibles. Pour pouvoir bénéficier de cete avantage fiscal, il faut que la commune où se trouve le logement ait voté cette exonération; que les logements anciens ait été achevé avant 1989 et avant 2009 pour les logements neufs ou bien avoir été labellisés "bâtiment basse consommation énergétique, BBC 2005" pour ces derniers; les propriétaires doivent avoir déboursé au moins 10 000€ TTC hors main-d'oeuvre oiur l'année précédant la première année d'application de l'exonération ou 15 000€ au cours des 3 dernières années la précédant. Enfin, dans les deux cas, une déclaration doit être déposée au service des impôts par le propriétaire avant le 1er janvier de la première année d'application de l'exonération.
 
-## Les derniers changements entre 2023 et 2022 au niveau des aides {#changements-2023}
+## Le prêt à l'Amélioration de l'habitat (Pah) {#pah}
+
+Le prêt à l'amélioration de l'habitat (Pah) permet de contribuer à financer les travaux d'amélioration ou de rénovation de sa résidence principale.
+Parmi les travaux éligibles à ce dispositif se trouve l'isolation thermique.
+Il permet de financer 80% des dépenses engagées pour ce type de travaux dans la limite de 1 067,14 euros avec un taux d'intérêt de 1%.
+Pour pouvoir demander cette aide, il faut bénéficier de prestations familliales pour au moins un enfant à charge, être locataire ou propriétaire et ne pas être dans une situation de surrendettement. Pour pouvoir prétendre à ce dispositif, il faudra égalment faire attention si l'on perçoit des types d'aides spécifiques.
+
+## Les derniers changements au niveau des aides {#changements}
 
 Face à la lenteur du nombre de logements rénovés et à la complexité que peuvent rencontrer certains ménages, le gouvernement a mis en place des changements pour cette année. 
 Voici les divers changements pour 2023 : 
