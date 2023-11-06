@@ -45,7 +45,7 @@
     <!-- Meta Tags Generated via https://www.opengraph.xyz -->
     <meta name="robots" content="index,follow">
   </head>
-  <body>
+  <body itemscope itemtype="https://schema.org/BlogPosting">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GJPVTL"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -88,15 +88,15 @@
       {% else %}
         <div class="banner post" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.4990589985994398) 0%, rgba(255,255,255,0) 100%), url(/assets/images/finay-banner.jpeg);">
           <div class="inside">
-            <h1>{{page.title}}</h1>
+            <h1 itemprop="name">{{page.title}}</h1>
           </div>
         </div>
       {% endif %}
     </header>
 
     <main>
-      <article class="post-template">
-        <section class="inside">
+      <article class="post-template" itemprop="datePublished" datetime={{page.date}} >
+        <section class="inside" itemprop="articleBody">
           {{ content }}
         </section>
       </article>
