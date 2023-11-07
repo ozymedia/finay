@@ -4,7 +4,10 @@ title:  "Quelles sont les aides pour l’isolation extérieure en 2023 ?"
 description: "Pour vous aider dans vos travaux d'isolation extérieure, de nombreuses aides et dispositifs existent. Petit tour de l'ensemble des aides."
 date:   2022-11-04 13:30:00 +0100
 categories: jekyll update
-permalink: /quelles-aides-isolation-exterieure-2023
+permalink: /quelles-aides-isolation-exterieure
+redirect_from:
+  - /quelles-aides-isolation-exterieure-2023
+  - /quelles-aides-isolation-exterieure
 ---
 
 Afin d’améliorer le confort thermique et de réduire les factures énergétiques de son logement, l’**isolation des murs extérieurs** ou ITE, s’avère être un choix judicieux pour améliorer les performances énergétiques de son habitation. Responsable de 20 à 25% des pertes en chaleur, l’isolation des murs extérieurs est avec le fait d'isoler ses combles ou la toiture de sa maison, est sans doute l’un des chantiers prioritaires pour faire des économies considérables sur ses futures factures énergétiques, que ce soit pour se chauffer ou rester au frais durant lors des périodes chaudes.
