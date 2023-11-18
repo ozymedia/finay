@@ -306,7 +306,15 @@ video {
     h2, p {text-align: left;}
   }
 }
-
+.main-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  max-width: 100%!important;
+  height: auto;
+  img {max-width: 100%;}
+}
 @media all and (max-width: 480px) {
   .grid.four, .grid.four-bis {
     grid-template-columns: repeat(1, 1fr) !important;

@@ -25,6 +25,10 @@ Entamer des travaux d’isolation par l’extérieur vous apportent de nombreux 
 - Conservation de votre surface habitable : contrairement à l’isolation par l’intérieur, l ‘I.T.E conserve votre surface habitable. En effet avec des travaux d’isolation intérieur, la perte de surface est estimée entre 5% et 8%. Une isolation faite à l’extérieure sera donc nulle.
 - Des travaux faciles et peu dérangeant : les occupants peuvent rester dans leur habitation pendant les travaux sans aucune gêne. Le quotidien n’est pas du tout affecté.
 - Un rafraîchissement de vos façades : Faire des travaux d’I.T.E est la bonne occasion de refaire ses façades et de rafraîchir vos murs extérieurs qui ont été bien éprouvés avec le temps.
+<div class="image-page">
+<img src="/assets/images/schema-perte-chaleur-maison-isolation-exterieure.jpeg" class="" width="1000" alt="schema pertes de chaleur maison isolation">
+</div>
+
 
 ## Des aides de l’Etat réduisant fortement le coût de vos travaux
 Dans ses efforts pour lutter contre le réchauffement climatique, l’Etat contribue de plus en plus à la réduction du coût des travaux pour les ménages. Son but est de supprimer les passoires thermiques, réduire la consommation énergétique et les dépenses énergétiques des plus précaires.\
