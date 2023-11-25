@@ -1,0 +1,29 @@
+
+<section class="inside">
+  <h2>Zone d'intervention</h2>
+  <p>Nos artisans certifiés RGE se déplacent dans l'ensemble du Bas-Rhin (67) et dans une partie de la Moselle (57) pour réaliser vos travaux. Vous trouverez ci-dessous quelques communes et zones de la région Alsace-Lorraine dans lesquelles nous nous déplaçons déjà.</p>
+  <ul class="villes">
+    {% for ville in site.data.zones %}
+      {% if ville.ville == "Bas-Rhin" or ville.ville == "Alsace" or ville.ville == "Lorraine" or ville.ville == "Moselle" %}
+        <li><h3>{{ville.ville}}</h3></li>
+      {% elsif ville.ville == "Haguenau" %}
+      <a href="#"><li>{{ville.ville}}</li></a>
+      {% elsif ville.ville == "Bitche" %}
+        <a href="#"><li>{{ville.ville}}</li></a>
+      {% elsif ville.ville == "Sarreguemines" %}
+        <a href="#"><li>{{ville.ville}}</li></a>
+      {% elsif ville.ville == "Wissembourg" %}
+        <a href="#"><li>{{ville.ville}}</li></a>
+      {% elsif ville.ville == "Saverne" %}
+        <a href="#"><li>{{ville.ville}}</li></a>
+      {% elsif ville.ville == "Brumath" %}
+        <a href="#"><li>{{ville.ville}}</li></a>
+      {% elsif ville.ville == "Strasbourg" %}
+        <a href="#"><li>{{ville.ville}}</li></a>
+      {% else %}
+        <li>{{ville.ville}}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+
