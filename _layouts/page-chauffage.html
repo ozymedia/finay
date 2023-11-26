@@ -45,7 +45,7 @@
     <!-- Meta Tags Generated via https://www.opengraph.xyz -->
     <meta name="robots" content="{{ page.robots | index,follow }}">
   </head>
-  <body>
+  <body itemscope itemtype="https://schema.org/Service">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GJPVTL"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -67,26 +67,26 @@
       {% elsif page.url == "/isolation-extérieure/" %}
         <div class="banner" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.4990589985994398) 0%, rgba(255,255,255,0) 100%), url(../assets/images/travaux-isolation-exterieur.jpeg);">
           <div class="inside">
-            <h1>{{page.titre}}</h1>
+            <h1 itemprop="description">{{page.titre}}</h1>
             <a href="#form" class="btn large">Contact & Devis</a>
           </div>
         </div>
       {% elsif page.url == "/ravalement-de-façade/" %}
         <div class="banner" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.4990589985994398) 0%, rgba(255,255,255,0) 100%), url(/assets/images/facade-1.jpeg);">
           <div class="inside">
-            <h1>{{page.titre}}</h1>
+            <h1 itemprop="description">{{page.titre}}</h1>
           </div>
         </div>
       {% elsif page.url == "/toiture-zinguerie/" %}
         <div class="banner" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.4990589985994398) 0%, rgba(255,255,255,0) 100%), url(/assets/images/travaux-nettoyage-toiture.jpeg);">
           <div class="inside">
-            <h1>{{page.titre}}</h1>
+            <h1 itemprop="description">{{page.titre}}</h1>
           </div>
         </div>
       {% elsif page.url == "/chauffage/" %}
         <div class="banner" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.4990589985994398) 0%, rgba(255,255,255,0) 100%), url(/assets/images/travaux-chauffage.jpeg);">
           <div class="inside">
-            <h1>{{page.titre}}</h1>
+            <h1 itemprop="description">{{page.titre}}</h1>
             <a href="#form" class="btn large">Contact & Devis</a>
           </div>
         </div>
