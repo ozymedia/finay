@@ -42,7 +42,7 @@ Dispositif financier qui remplace l'ancien crédit d'impôt pour la transition �
 
 La prime est plafonnée à 100m2. Au-delà vous ne recevez pas plus de subvention avec MaPrimeRénov’.
 
-Attention, le dispositif MaPrimeRénov' va évoluer à partir de 2024, en se structurant en deux pilliers. Le premier **MaPrimeRénov' Efficacité**, permettant de poursuivre les aides pour les changements de chaudière et les petits bouquets de travaux combinant isolation et équipement de chauffage. Le second **MaPrimeRénov' Performance**, servira à financer les rénovations globales.
+<u>Attention</u>, le dispositif MaPrimeRénov' va évoluer à partir de 2024, en se structurant en deux pilliers. Le premier **MaPrimeRénov' Efficacité**, permettant de poursuivre les aides pour les changements de chaudière et les petits bouquets de travaux combinant isolation et équipement de chauffage. Le second **MaPrimeRénov' Performance**, servira à financer les rénovations globales.
 
 Vous trouverez ci-joint les tableaux vous indiquant à quelle catégorie vous correspondez en fonction de votre revenu fiscal.
 
@@ -104,6 +104,8 @@ Pour les ménages aux ressources modestes(jaune) : 35% du montant total des trav
 
 A noter qu’il est maintenant possible de cumuler cette aide avec d'autres comme les CEE et d’autres bonus tel que le forfait rénovation globale, le bonus sortie de passoire énergétique,...
 
+<u>Important </u>: En 2024, MaPrimeRénov' Sérénité sera remplacée par MaPrimeRénov' Performance.
+
 ## Eco-PTZ {#eco-ptz}
 
 Les travaux d’isolation extérieur sont éligibles à l’Eco-PTZ, ce prêt à taux zéro permet de financer jusqu’à 50 000€ pour toutes les demandes émises depuis le 1er janvier 2022 et en fonction du nombre de travaux éligibles à financer. A noter que cette aide est cumulable avec les autres.
@@ -160,7 +162,8 @@ Loc'Avantages est un dispositif fiscal qui permet à un propriétaire bailleur d
 
 Face à la lenteur du nombre de logements rénovés et à la complexité que peuvent rencontrer certains ménages, le gouvernement a mis en place des changements pour cette année. 
 Voici les divers changements pour 2023 et 2024 :
-* A partir du 1er janvier 2024, MaPrimeRénov' se structure en deux systèmes d'aides : MaPrimeRénov' Efficacité et MaPrimeRénov' Performance. Le dispositif se voit renforcer de 1,6 milliards d'euros, portant son budget à 5 milliard d'euros. 
+* A partir du 1er janvier 2024, MaPrimeRénov' se structure en deux systèmes d'aides : MaPrimeRénov' Efficacité et MaPrimeRénov' Performance. Le dispositif se voit renforcer de 1,6 milliards d'euros, portant son budget à 5 milliard d'euros.
+MaPrimeRénov' Sérénité sera remplacée par MaPrimeRénov' Performance.
 * Augmentation du budget MaPrimeRénov’ en hausse en 2023. Il passe de 2,4 milliards à 2,5 milliards d’euros.
 * Prolongement du forfait rénovation globale(MaPrimeRénov’ rénovation globale) qui était jusqu’à fin 2022 d’un montant de 7000€ pour les bouquets de travaux à destination des classes moyennes. Ce forfait passera en 2023 à 10500€.
 * Pour MaPrimeRénov’ Copropriétés, le plafond des aides passent de 15 000€ à 25 000€
