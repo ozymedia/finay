@@ -8,7 +8,7 @@ Vous avez besoin d'améliorer l'isolation de votre logement ? De diminuer votre 
 ## MaPrimeRénov'
 ### C'est quoi ?
 
-MaPrimeRénov' remplace le crédit d'impôt transition énergétique et les aides de l’Agence nationale de l’Habitat (Anah) « Habiter mieux agilité ». Dans le cadre du plan de relance de l'économie, le dispositif a été renforcé depuis le 1er octobre 2020. **MaPrimeRénov est reconduite en 2022**.
+MaPrimeRénov' remplace le crédit d'impôt transition énergétique et les aides de l’Agence nationale de l’Habitat (Anah) « Habiter mieux agilité ». Dans le cadre du plan de relance de l'économie, le dispositif a été renforcé depuis le 1er octobre 2020. **MaPrimeRénov est reconduite en 2022**. 
 
 ### Pour qui ?
 

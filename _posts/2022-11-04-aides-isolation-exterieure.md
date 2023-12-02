@@ -41,6 +41,8 @@ Dispositif financier qui remplace l'ancien crédit d'impôt pour la transition �
 
 La prime est plafonnée à 100m2. Au-delà vous ne recevez pas plus de subvention avec MaPrimeRénov’.
 
+Attention, le dispositif MaPrimeRénov' va évoluer à partir de 2024, en se structurant en deux pilliers. Le premier **MaPrimeRénov' Efficacité**, permettant de poursuivre les aides pour les changements de chaudière et les petits bouquets de travaux combinant isolation et équipement de chauffage. Le second **MaPrimeRénov' Performance**, servira à financer les rénovations globales.
+
 Vous trouverez ci-joint les tableaux vous indiquant à quelle catégorie vous correspondez en fonction de votre revenu fiscal.
 
 ### Tableau 2023 du revenu fiscal hors Ile-de-France
@@ -152,7 +154,8 @@ Pour pouvoir demander cette aide, il faut bénéficier de prestations familliale
 ## Les derniers changements au niveau des aides {#changements}
 
 Face à la lenteur du nombre de logements rénovés et à la complexité que peuvent rencontrer certains ménages, le gouvernement a mis en place des changements pour cette année. 
-Voici les divers changements pour 2023 : 
+Voici les divers changements pour 2023 et 2024 :
+* A partir du 1er janvier 2024, MaPrimeRénov' se structure en deux systèmes d'aides : MaPrimeRénov' Efficacité et MaPrimeRénov' Performance. Le dispositif se voit renforcer de 1,6 milliards d'euros, portant son budget à 5 milliard d'euros. 
 * Augmentation du budget MaPrimeRénov’ en hausse en 2023. Il passe de 2,4 milliards à 2,5 milliards d’euros.
 * Prolongement du forfait rénovation globale(MaPrimeRénov’ rénovation globale) qui était jusqu’à fin 2022 d’un montant de 7000€ pour les bouquets de travaux à destination des classes moyennes. Ce forfait passera en 2023 à 10500€.
 * Pour MaPrimeRénov’ Copropriétés, le plafond des aides passent de 15 000€ à 25 000€
