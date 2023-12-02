@@ -28,6 +28,7 @@ Des **travaux d’isolation des murs par l’extérieur bénéficient de nombreu
 <li><a href="#deficit-foncier">Baisser ses impôts avec le déficit foncier</a></li>
 <li><a href="#taxe-fonciere">Suppression ou réduction de la taxe foncière</a></li>
 <li><a href="#pah">Le prêt à l'amélioration de l'habitat</a></li>
+<li><a href="#locavantages">Loc' Avantages</a></li>
 <li><a href="#changements">Les derniers changements au niveau des aides</a></li>
 </ul>
 </div>
@@ -150,6 +151,10 @@ Le prêt à l'amélioration de l'habitat (Pah) permet de contribuer à financer 
 Parmi les travaux éligibles à ce dispositif se trouve l'isolation thermique.
 Il permet de financer 80% des dépenses engagées pour ce type de travaux dans la limite de 1 067,14 euros avec un taux d'intérêt de 1%.
 Pour pouvoir demander cette aide, il faut bénéficier de prestations familliales pour au moins un enfant à charge, être locataire ou propriétaire et ne pas être dans une situation de surrendettement. Pour pouvoir prétendre à ce dispositif, il faudra égalment faire attention si l'on perçoit des types d'aides spécifiques.
+
+## Loc'Avantages {#locavantages}
+
+Loc'Avantages est un dispositif fiscal qui permet à un propriétaire bailleur de réduire ses impôts de 15% à 65% en fonction du montant des revenus bruts générés par le logement et des critères du dispositif appliqués au logement. Pour bénéficier de ce dispositif, le propriétaire bailleur doit s'engager à louer vide son logement à des personnes dont les ressources financières ne dépassent pas un certain plafond; et à applique un loyer minorés pendant au moins 6 ans. De plus, il est nécessaire de signer une convention avec l'Anah. A noter que le dispositif Loc'Avantages peut être combiné au choix avec MaPrimeRénov' ou aux aides de l'Anah en fonction des travaux de rénovation envisagés. A noter que les aides locales peuvent venir apporter une aide financière supplémentaire dans ce dispositif fiscal.
 
 ## Les derniers changements au niveau des aides {#changements}
 
