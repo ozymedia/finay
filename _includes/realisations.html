@@ -22,11 +22,11 @@
     {% assign chantiers_select = site.data.gallerie | where: 'display', true %}
     {% for chantier in chantiers_select %}
       {% if chantier.index == 0 %}
-        <img src="/assets/images/realisations/{{ site.data.gallerie.first.img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" id="lastClone" class="gallery-img" width="450" loading="lazy">
+        <img src="/assets/images/realisations/{{ site.data.gallerie.first.img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" id="lastClone" class="gallery-img" width="450" loading="lazy" alt="travaux isolation extérieure">
       {% elsif chantier.index != 1 or chantier.index != chantier.size %}
-        <img src="/assets/images/realisations/{{ chantier.img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="gallery-img" width="450" loading="lazy">
+        <img src="/assets/images/realisations/{{ chantier.img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="gallery-img" width="450" loading="lazy" alt="travaux isolation extérieure">
       {% elsif chantier.index == site.data.gallerie.size %}
-        <img src="/assets/images/realisations/{{ site.data.gallerie[19].img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" id="firstClone" class="gallery-img" width="450" loading="lazy">
+        <img src="/assets/images/realisations/{{ site.data.gallerie[19].img }}?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" id="firstClone" class="gallery-img" width="450" loading="lazy" alt="travaux isolation extérieure">
       {% endif %}
     {% endfor %}
   </div>
