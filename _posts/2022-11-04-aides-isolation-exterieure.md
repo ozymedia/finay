@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "L'ensemble des aides pour l’isolation extérieure en 2023 2024"
+title:  "L'ensemble des aides pour l’isolation extérieure en 2024"
 description: "Pour vous aider dans vos travaux d'isolation extérieure, de nombreuses aides et dispositifs existent. Petit tour de l'ensemble de ces aides."
 date:   2022-11-04 13:30:00 +0100
 categories: jekyll update
@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 Afin d’améliorer le confort thermique et de réduire les factures énergétiques de son logement, l’**isolation des murs extérieurs** ou ITE, s’avère être un choix judicieux pour améliorer les performances énergétiques de son habitation. Responsable de 20 à 25% des pertes en chaleur, l’isolation des murs extérieurs est avec le fait d'isoler ses combles ou la toiture de sa maison, est sans doute l’un des chantiers prioritaires pour faire des économies considérables sur ses futures factures énergétiques, que ce soit pour se chauffer ou rester au frais durant lors des périodes chaudes.
-Des **travaux d’isolation des murs par l’extérieur bénéficient de nombreuses aides financières** mises en place par l’Etat en fonction des revenus des ménages afin d’alléger au maximum le coût des travaux. Ces **aides pour l’isolation extérieure en 2023** reprennent quasiment l’ensemble de celles de 2022 avec pourtant quelques évolutions entre temps.
+Des **travaux d’isolation des murs par l’extérieur bénéficient de nombreuses aides financières** mises en place par l’Etat en fonction des revenus des ménages afin d’alléger au maximum le coût des travaux. Ces **aides pour l’isolation extérieure en 2024** reprennent quasiment l’ensemble de celles de 2023 avec pourtant quelques évolutions entre temps.
 
 <div class="sommaire-blog">
 <p><span class="sommaire-titre">Sommaire:</span></p>
@@ -161,7 +161,7 @@ Loc'Avantages est un dispositif fiscal qui permet à un propriétaire bailleur d
 ## Les derniers changements au niveau des aides {#changements}
 
 Face à la lenteur du nombre de logements rénovés et à la complexité que peuvent rencontrer certains ménages, le gouvernement a mis en place des changements pour cette année. 
-Voici les divers changements pour 2023 et 2024 :
+Voici les divers changements pour 2024 :
 * A partir du 1er janvier 2024, MaPrimeRénov' se structure en deux systèmes d'aides : MaPrimeRénov' Efficacité et MaPrimeRénov' Performance. Le dispositif se voit renforcer de 1,6 milliards d'euros, portant son budget à 5 milliard d'euros.
 MaPrimeRénov' Sérénité sera remplacée par MaPrimeRénov' Performance.
 * Augmentation du budget MaPrimeRénov’ en hausse en 2023. Il passe de 2,4 milliards à 2,5 milliards d’euros.
@@ -177,6 +177,6 @@ Pour les ménages modestes(en jaune), le plafond passe de 35% à 50% du montant 
 
 
 
-Afin d’améliorer significativement la performance énergétique des bâtiments, de nouveaux plafonds de revenus, de **nouvelles et d’anciennes aides ont été modifiées en 2023** afin de faciliter le financement des travaux pour son habitation. L’isolation extérieure étant l’un des principaux chantiers pour améliorer l’efficacité énergétique et faire des économies d’énergies, les **travaux d’isolation extérieure bénéficient de nombreuses aides de l’Etat en 2023**. Mais celles-ci sont souvent conditionnés à des bouquets de travaux pour faire des gains énergétiques significatifs.
+Afin d’améliorer significativement la performance énergétique des bâtiments, de nouveaux plafonds de revenus, de **nouvelles et d’anciennes aides ont été modifiées en 2024** afin de faciliter le financement des travaux pour son habitation. L’isolation extérieure étant l’un des principaux chantiers pour améliorer l’efficacité énergétique et faire des économies d’énergies, les **travaux d’isolation extérieure bénéficient de nombreuses aides de l’Etat en 2024**. Mais celles-ci sont souvent conditionnés à des bouquets de travaux pour faire des gains énergétiques significatifs.
 
 
