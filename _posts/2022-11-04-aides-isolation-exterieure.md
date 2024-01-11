@@ -46,10 +46,10 @@ La prime est plafonnée à 100m2. Au-delà vous ne recevez pas plus de subventio
 
 Vous trouverez ci-joint les tableaux vous indiquant à quelle catégorie vous correspondez en fonction de votre revenu fiscal.
 
-### Tableau 2023 du revenu fiscal hors Ile-de-France
+### Tableau 2024 du revenu fiscal hors Ile-de-France
 {% include aides_regions.html %}
 
-### Tableau 2023 du revenu fiscal en Ile-de-France
+### Tableau 2024 du revenu fiscal en Ile-de-France
 {% include aides_paris.html %}
 
 ### Quelles sont les conditions de MaPrimeRénov’ pour l’isolation extérieure ?
@@ -67,6 +67,7 @@ mise en location minimale de 5 ans à compter du paiement de la prime.
 * à informer le locataire de la réalisation de travaux financés par la prime
 * en cas de réévaluation du loyer, à déduire le montant de la prime du montant total des travaux justifiant cette réévaluation et en informer votre locataire.
 
+[Faire une simulation des aides](/simulateur-aide/){: .btn}
 
 #### MaPrimeRénov’ Copropriété 
 Concernant les copropriétés, une aide spécifique existe, MaPrimeRénov’ Copropriétés.
