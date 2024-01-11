@@ -67,7 +67,7 @@ mise en location minimale de 5 ans à compter du paiement de la prime.
 * à informer le locataire de la réalisation de travaux financés par la prime
 * en cas de réévaluation du loyer, à déduire le montant de la prime du montant total des travaux justifiant cette réévaluation et en informer votre locataire.
 
-[Faire une simulation des aides](/simulateur-aide/){: .btn}
+[Faire une simulation](/simulateur-aide/){: .btn}
 
 #### MaPrimeRénov’ Copropriété 
 Concernant les copropriétés, une aide spécifique existe, MaPrimeRénov’ Copropriétés.
